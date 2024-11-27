@@ -1,0 +1,60 @@
+{
+	"flex-layout.row#mobile-carousel-banner": {
+		"title": "Mobile Carousel Banner",
+		"children": ["list-context.image-list#mobile-carousel-banner"],
+		"props": {
+			"blockClass": "mobile-carousel-banner",
+			"paddingTop": 3,
+			"paddingBottom": 3
+		}
+	},
+	"list-context.image-list#mobile-carousel-banner": {
+		"title": "Lista de Imagens",
+		"children": ["slider-layout#mobile-carousel-banner"],
+		"props": {
+			"preload": true,
+			"images": [
+				{
+					"image": "assets/banners/carousel-banner/mobile_carousel_banner_1.gif",
+					"mobileImage": "assets/banners/carousel-banner/mobile_carousel_banner_1.gif",
+					"link": { "openNewTab": false, "title": "Link", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banner/mobile_carousel_banner_2.png",
+					"mobileImage": "assets/banners/carousel-banner/mobile_carousel_banner_2.png",
+					"link": { "openNewTab": false, "title": "Link", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banner/mobile_carousel_banner_3.png",
+					"mobileImage": "assets/banners/carousel-banner/mobile_carousel_banner_3.png",
+					"link": { "openNewTab": false, "title": "Link", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banner/mobile_carousel_banner_4.png",
+					"mobileImage": "assets/banners/carousel-banner/mobile_carousel_banner_4.png",
+					"link": { "openNewTab": false, "title": "Link", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banner/mobile_carousel_banner_5.png",
+					"mobileImage": "assets/banners/carousel-banner/mobile_carousel_banner_5.png",
+					"link": { "openNewTab": false, "title": "Link", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#mobile-carousel-banner": {
+		"title": "Slider Layout",
+		"props": {
+			"blockClass": "mobile-carousel-banner",
+			"fullWidth": true,
+			"infinite": true,
+			"autoplay": {
+				"timeout": 5000,
+				"stopOnHover": true
+			},
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

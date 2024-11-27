@@ -1,0 +1,9 @@
+.imageElementLink--mobile-carousel-banner {
+	width: 100%;
+	display: inline-flex;
+}
+
+.imageElement--mobile-carousel-banner {
+	border-radius: var(--sl-radius-3);
+	max-height: fit-content !important;
+}

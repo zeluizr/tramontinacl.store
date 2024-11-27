@@ -1,0 +1,8 @@
+{
+	"store.home": {
+		"blocks": ["responsive-layout.mobile"]
+	},
+	"responsive-layout.mobile": {
+		"children": ["flex-layout.row#mobile-carousel-banner"]
+	}
+}
