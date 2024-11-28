@@ -1,3 +1,40 @@
+.sliderArrows {
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background-color: white !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+}
+
+.sliderRightArrow {
+	right: var(--sl-space-4);
+}
+
+.sliderLeftArrow {
+	left: var(--sl-space-4);
+}
+
+.caretIcon {
+	width: 1rem;
+	height: 1rem;
+}
+
+.paginationDot--carousel-banner {
+	width: 60px !important;
+	height: 2px !important;
+	border-radius: 0px !important;
+	padding: 0 !important;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.paginationDot--carousel-banner--isActive {
+	background-color: white !important;
+}
+
 .paginationDotsContainer--carousel-banner {
-	bottom: var(--sl-space-4);
+	bottom: var(--sl-space-5);
 }

@@ -20,8 +20,8 @@
 		"children": ["rich-text#departamento-title"],
 		"props": {
 			"blockClass": "departamento-title",
-			"paddingTop": 4,
-			"paddingBottom": 4
+			"marginTop": 6,
+			"marginBottom": 6
 		}
 	},
 	"rich-text#departamento-title": {
@@ -30,7 +30,7 @@
 			"text": "Conheça os departamentos que fazem bonito",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"font": "t-heading-3",
+			"font": "t-heading-2",
 			"htmlId": "departamento-title",
 			"preventVerticalStretch": true,
 			"textColor": "c-action-secondary"
@@ -39,7 +39,8 @@
 	"flex-layout.row#departamento-list": {
 		"children": ["list-context.image-list#departamento-list"],
 		"props": {
-			"blockClass": "departamento-list"
+			"blockClass": "departamento-list",
+			"paddingBottom": 8
 		}
 	},
 	"list-context.image-list#departamento-list": {
@@ -137,7 +138,7 @@
 	"slider-layout#departamento-list": {
 		"props": {
 			"itemsPerPage": {
-				"desktop": 6,
+				"desktop": 8,
 				"tablet": 4,
 				"phone": 2
 			}
