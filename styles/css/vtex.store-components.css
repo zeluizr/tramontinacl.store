@@ -1,9 +1,13 @@
-.imageElementLink--mobile-carousel-banner {
+:global(.vtex-store-components-3-x-container) {
+	padding-left: var(--sl-radius-3);
+	padding-right: var(--sl-radius-3);
+}
+.imageElementLink--carousel-banner {
 	width: 100%;
 	display: inline-flex;
 }
 
-.imageElement--mobile-carousel-banner {
+.imageElement--carousel-banner {
 	border-radius: var(--sl-radius-3);
 	max-height: fit-content !important;
 }
