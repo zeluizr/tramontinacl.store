@@ -1,25 +1,4 @@
 @font-face {
-	font-family: "Tramontina";
-	src: url("assets/fonts/TramontinaSmCdTitulos-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Tramontina";
-	src: url("assets/fonts/TramontinaSmCdTitulos-Thin.ttf") format("truetype");
-	font-weight: 100;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Tramontina";
-	src: url("assets/fonts/TramontinaSmCdTitulos-XBold.ttf") format("truetype");
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: "Tramontina Textos";
 	src: url("assets/fonts/TramontinaTextos-Bold.ttf") format("truetype");
 	font-weight: bold;
