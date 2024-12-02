@@ -1,0 +1,17 @@
+{
+	"image#tramontina-logo": {
+		"props": {
+			"blockClass": "tramontina-logo",
+			"src": "assets/brands/tramontina.svg",
+			"link": { "title": "Tramontina", "url": "/" }
+		}
+	},
+	"rich-text#welcome": {
+		"props": {
+			"blockClass": "welcome",
+			"text": "Bem-vindo à Loja Oficial",
+			"font": "t-mini",
+			"textColor": "c-black-100"
+		}
+	}
+}
