@@ -1,0 +1,26 @@
+.flexRow--top-header {
+	background-color: transparent;
+}
+
+.flexRow--top-header::after {
+	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+}
+
+.flexColChild--welcome {
+	display: flex;
+}
+
+.flexCol--welcome {
+	flex-direction: row;
+	gap: 1rem;
+}
+
+@media (min-width: 1026px) {
+	.flexRow--top-header {
+		background-color: #f7f7f7;
+	}
+}

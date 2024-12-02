@@ -9,6 +9,7 @@
 		{ "xl": { "value": 80, "minWidth": true } }
 	],
 	"colors": {
+		"black-100": "rgba(0,0,0,1)",
 		"black-90": "rgba(0,0,0,.9)",
 		"black-80": "rgba(0,0,0,.8)",
 		"black-70": "rgba(0,0,0,.7)",
@@ -52,7 +53,7 @@
 			"muted-2": "#979899",
 			"muted-3": "#cacbcc",
 			"muted-4": "#e3e4e6",
-			"muted-5": "#f2f4f5"
+			"muted-5": "#f7f7f7"
 		},
 		"hover-background": {
 			"action-primary": "#072c75",
@@ -234,84 +235,84 @@
 		"measure": [30, 34, 20],
 		"styles": {
 			"heading-1": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "3rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-2": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "2.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-3": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "1.75rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-4": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.5rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-5": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-6": {
-				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"body": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"small": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "0.875rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"mini": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-				"fontWeight": "normal",
+				"fontFamily": "Tramontina Textos, sans-serif",
+				"fontWeight": "400",
 				"fontSize": "0.75rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"action": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "1rem",
 				"textTransform": "uppercase",
 				"letterSpacing": "0"
 			},
 			"action--small": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "0.875rem",
 				"textTransform": "uppercase",
 				"letterSpacing": "0"
 			},
 			"action--large": {
-				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "1.25rem",
 				"textTransform": "uppercase",

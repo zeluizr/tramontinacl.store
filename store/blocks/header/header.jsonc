@@ -1,0 +1,52 @@
+{
+	"header": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header.full": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header-layout.desktop": {
+		"children": []
+	},
+	"header-layout.mobile": {
+		"children": ["flex-layout.row#top-header-mobile"]
+	},
+	"flex-layout.row#top-header-mobile": {
+		"children": ["flex-layout.col#welcome"],
+		"props": {
+			"blockClass": "top-header",
+			"fullWidth": false,
+			"paddingTop": 4,
+			"paddingBottom": 4,
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#welcome": {
+		"children": ["rich-text#welcome", "image#tramontina-logo"],
+		"props": {
+			"blockClass": "welcome",
+			"width": "grow",
+			"verticalAlign": "middle",
+			"horizontalAlign": "center",
+			"preventVerticalStretch": true
+		}
+	},
+	"rich-text#welcome": {
+		"props": {
+			"blockClass": "welcome",
+			"text": "Bem-vindo à Loja Oficial",
+			"font": "t-mini",
+			"textColor": "c-black-100"
+		}
+	},
+	"image#tramontina-logo": {
+		"props": {
+			"blockClass": "tramontina-logo",
+			"src": "assets/brands/tramontina.svg",
+			"link": { "title": "Tramontina", "url": "/" },
+			"maxHeight": 16.45
+		}
+	}
+}
