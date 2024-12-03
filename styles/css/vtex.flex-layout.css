@@ -12,6 +12,7 @@
 
 .flexColChild--welcome {
 	display: flex;
+	align-items: center;
 }
 
 .flexCol--welcome {
