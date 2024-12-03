@@ -20,6 +20,9 @@
 }
 
 @media (min-width: 1026px) {
+	.flexCol--welcome {
+		justify-content: flex-start;
+	}
 	.flexRow--top-header {
 		background-color: #f7f7f7;
 	}

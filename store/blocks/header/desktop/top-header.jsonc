@@ -1,24 +1,109 @@
 {
 	"flex-layout.row#top-header-desktop": {
-		"children": ["flex-layout.col#welcome-desktop"],
+		"children": ["flex-layout.col#welcome-desktop", "flex-layout.col#top-header-menu"],
 		"props": {
 			"blockClass": "top-header",
 			"fullWidth": false,
 			"paddingTop": 4,
 			"paddingBottom": 4,
-			"preserveLayoutOndesktop": true,
-			"preventHorizontalStretch": true,
-			"preventVerticalStretch": true
+			"horizontalAlign": "between"
 		}
 	},
 	"flex-layout.col#welcome-desktop": {
 		"children": ["rich-text#welcome", "image#tramontina-logo"],
 		"props": {
 			"blockClass": "welcome",
-			"width": "grow",
 			"verticalAlign": "middle",
 			"horizontalAlign": "center",
 			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#top-header-menu": {
+		"children": ["vtex.menu@2.x:menu#top-header"],
+		"props": {
+			"blockClass": "top-header-menu",
+			"verticalAlign": "middle",
+			"horizontalAlign": "right",
+			"preventVerticalStretch": true
+		}
+	},
+	"vtex.menu@2.x:menu#top-header": {
+		"props": {
+			"blockClass": ["top-header-menu"],
+			"items": [
+				{
+					"id": "menu-item-atendimento",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Atendimento",
+						"text": "Atendimento"
+					}
+				},
+				{
+					"id": "menu-item-nossas-lojas",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Nossas Lojas",
+						"text": "Nossas Lojas"
+					}
+				},
+				{
+					"id": "menu-item-sobre-a-tramontina",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Sobre a Tramontina",
+						"text": "Sobre a Tramontina"
+					}
+				},
+				{
+					"id": "menu-item-garantia-adicional",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Garantia Adicional",
+						"text": "Garantia Adicional"
+					}
+				},
+				{
+					"id": "menu-item-para-profissionais",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Para Profissionais",
+						"text": "Para Profissionais"
+					}
+				},
+				{
+					"id": "menu-item-para-empresas",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "#",
+						"noFollow": false,
+						"tagTitle": "Para Empresas",
+						"text": "Para Empresas"
+					}
+				}
+			]
 		}
 	}
 }

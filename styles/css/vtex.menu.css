@@ -1,0 +1,14 @@
+.menuContainer--top-header-menu {
+	gap: 1rem;
+}
+
+.styledLinkContainer--top-header-menu {
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.styledLinkContent--top-header-menu {
+	font-size: 0.75rem;
+}

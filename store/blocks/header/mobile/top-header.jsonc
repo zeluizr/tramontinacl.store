@@ -6,9 +6,7 @@
 			"fullWidth": false,
 			"paddingTop": 4,
 			"paddingBottom": 4,
-			"preserveLayoutOnMobile": true,
-			"preventHorizontalStretch": true,
-			"preventVerticalStretch": true
+			"preserveLayoutOnMobile": true
 		}
 	},
 	"flex-layout.col#welcome-mobile": {
