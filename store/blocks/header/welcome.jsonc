@@ -13,5 +13,13 @@
 			"font": "t-mini",
 			"textColor": "c-black-100"
 		}
+	},
+	"rich-text#oficial-store": {
+		"props": {
+			"blockClass": "oficial-store",
+			"text": "Loja Oficial",
+			"font": "t-mini",
+			"textColor": "c-black-100"
+		}
 	}
 }
