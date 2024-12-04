@@ -1,3 +1,15 @@
 {
-	"precio": { "component": "PrecioM2" }
+	"list-anchors": {
+		"component": "ListAnchor"
+	},
+	"anchor-nav": {
+		"composition": "children",
+		"allowed": "*",
+		"component": "containerAnchorNav"
+	},
+	"top-bar": {
+		"composition": "children",
+		"allowed": "*",
+		"component": "containerTopBar"
+	}
 }

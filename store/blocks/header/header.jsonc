@@ -6,9 +6,9 @@
 		"blocks": ["header-layout.desktop", "header-layout.mobile"]
 	},
 	"header-layout.desktop": {
-		"children": []
+		"children": ["top-bar#desktop"]
 	},
 	"header-layout.mobile": {
-		"children": []
+		"children": ["top-bar#mobile"]
 	}
 }

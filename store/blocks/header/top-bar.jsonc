@@ -1,0 +1,41 @@
+{
+	"top-bar#desktop": {
+		"children": [
+			"anchor-nav#top-header-desktop-menu",
+			"anchor-nav#top-header-desktop-menu"
+		]
+	},
+	"top-bar#mobile": {
+		"children": ["anchor-nav#top-header-desktop-menu"]
+	},
+	"anchor-nav#top-header-desktop-menu": {
+		"children": ["list-anchors#top-header-desktop-menu"]
+	},
+	"list-anchors#top-header-desktop-menu": {
+		"props": {
+			"title": "List Anchors",
+			"typography": "mini",
+			"color": "black-100",
+			"anchors": [
+				{
+					"__editorItemTitle": "Anchor 1",
+					"url": "#",
+					"title": "Home",
+					"attributeTitle": "Home"
+				},
+				{
+					"__editorItemTitle": "Anchor 2",
+					"url": "#",
+					"title": "About",
+					"attributeTitle": "About"
+				},
+				{
+					"__editorItemTitle": "Anchor 3",
+					"url": "#",
+					"title": "Services",
+					"attributeTitle": "Contact"
+				}
+			]
+		}
+	}
+}
