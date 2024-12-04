@@ -1,39 +1,54 @@
 {
 	"top-bar#desktop": {
-		"children": [
-			"anchor-nav#top-header-desktop-menu",
-			"anchor-nav#top-header-desktop-menu"
-		]
+		"children": ["brand#top-header-brand", "anchor-nav#top-header-desktop-menu"]
 	},
 	"top-bar#mobile": {
-		"children": ["anchor-nav#top-header-desktop-menu"]
+		"children": ["brand#top-header-brand"]
+	},
+	"brand#top-header-brand": {
+		"props": {
+			"type": "tramontina-header",
+			"image": "assets/brands/tramontina.svg",
+			"text": "Bem-vindo à Loja Oficial"
+		}
 	},
 	"anchor-nav#top-header-desktop-menu": {
 		"children": ["list-anchors#top-header-desktop-menu"]
 	},
 	"list-anchors#top-header-desktop-menu": {
 		"props": {
-			"title": "List Anchors",
 			"typography": "mini",
 			"color": "black-100",
 			"anchors": [
 				{
-					"__editorItemTitle": "Anchor 1",
-					"url": "#",
-					"title": "Home",
-					"attributeTitle": "Home"
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Atendimento",
+					"attributeTitle": "Atendimento"
 				},
 				{
-					"__editorItemTitle": "Anchor 2",
-					"url": "#",
-					"title": "About",
-					"attributeTitle": "About"
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Nossas Lojas",
+					"attributeTitle": "Nossas Lojas"
 				},
 				{
-					"__editorItemTitle": "Anchor 3",
-					"url": "#",
-					"title": "Services",
-					"attributeTitle": "Contact"
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Sobre a Tramontina",
+					"attributeTitle": "Sobre a Tramontina"
+				},
+				{
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Garantia Adicional",
+					"attributeTitle": "Garantia Adicional"
+				},
+				{
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Para Profissionais",
+					"attributeTitle": "Para Profissionais"
+				},
+				{
+					"link": { "url": "#", "target": "_blank" },
+					"title": "Para Empresas",
+					"attributeTitle": "Para Empresas"
 				}
 			]
 		}
