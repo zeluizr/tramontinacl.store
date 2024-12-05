@@ -49,7 +49,7 @@
 		"props": {
 			"blockClass": "carousel-banner",
 			"arrowSize": 15,
-			// "autoplay": { "timeout": 5000, "stopOnHover": true },
+			"autoplay": { "timeout": 5000, "stopOnHover": true },
 			"infinite": true,
 			"showNavigationArrows": "always",
 			"showPaginationDots": "always",

@@ -1,0 +1,52 @@
+{
+	"flex-layout.row#full-banner01": {
+		"children": ["list-context.image-list#full-banner01"],
+		"props": {
+			"blockClass": "full-banner01",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
+	"list-context.image-list#full-banner01": {
+		"children": ["slider-layout#full-banner01"],
+		"props": {
+			"images": [
+				{
+					"image": "assets/banners/full-banners/celebrar-com-tramontina-desktop.png",
+					"mobileImage": "assets/banners/full-banners/celebrar-com-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner01": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	},
+	"flex-layout.row#full-banner02": {
+		"children": ["list-context.image-list#full-banner02"],
+		"props": {
+			"blockClass": "full-banner02",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
+	"list-context.image-list#full-banner02": {
+		"children": ["slider-layout#full-banner02"],
+		"props": {
+			"images": [
+				{
+					"image": "assets/banners/full-banners/temporada-verao-tramontina-desktop.png",
+					"mobileImage": "assets/banners/full-banners/temporada-verao-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner02": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

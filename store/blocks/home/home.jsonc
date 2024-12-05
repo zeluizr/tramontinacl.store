@@ -1,5 +1,67 @@
 {
 	"store.home": {
-		"blocks": ["flex-layout.row#carousel-banner", "flex-layout.row#pill"]
+		"blocks": [
+			"flex-layout.row#carousel-banner",
+			"flex-layout.row#slider-banner",
+			"flex-layout.row#full-banner01",
+			"flex-layout.row#full-banner02",
+			"flex-layout.row#pill"
+		]
+	},
+	"flex-layout.row#slider-banner": {
+		"children": ["list-context.image-list#slider-banner"],
+		"props": {
+			"blockClass": "slider-banner",
+			"paddingTop": 4,
+			"paddingBottom": 7
+		}
+	},
+	"list-context.image-list#slider-banner": {
+		"children": ["slider-layout#slider-banner"],
+		"props": {
+			"images": [
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-29-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-29-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-199-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-199-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-399-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-399-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-599-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-599-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-899-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-899-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/presentes-tramontina-desktop.png",
+					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#slider-banner": {
+		"props": {
+			"blockClass": "slider-banner",
+			"arrowSize": 15,
+			"autoplay": { "timeout": 5000, "stopOnHover": true },
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
+		}
 	}
 }
