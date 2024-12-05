@@ -3,8 +3,8 @@
 		"children": ["list-context.image-list#carousel-banner"],
 		"props": {
 			"blockClass": "carousel-banner",
-			"marginTop": 4,
-			"marginBottom": 4
+			"marginTop": 5,
+			"marginBottom": 5
 		}
 	},
 	"list-context.image-list#carousel-banner": {

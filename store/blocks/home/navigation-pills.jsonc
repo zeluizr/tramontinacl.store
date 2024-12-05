@@ -3,8 +3,8 @@
 		"children": ["navigation#pill"],
 		"props": {
 			"blockClass": "pill",
-			"paddingTop": 4,
-			"paddingBottom": 4
+			"marginTop": 5,
+			"marginBottom": 5
 		}
 	},
 	"navigation#pill": {

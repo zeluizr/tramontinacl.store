@@ -1,59 +1,111 @@
 {
 	"flex-layout.row#departamento-container": {
-		"children": ["flex-layout.col#departamento-container"],
+		"children": ["department"],
 		"props": {
 			"blockClass": "departamento-container",
-			"paddingTop": 4,
-			"paddingBottom": 7,
-			"preventHorizontalStretch": true,
-			"preventVerticalStretch": true
-		}
-	},
-	"flex-layout.col#departamento-container": {
-		"children": [
-			"flex-layout.row#departamento-title",
-			"flex-layout.row#deparmento-slider"
-		],
-		"props": {
-			"blockClass": "departamento-container",
-			"width": "grow"
-		}
-	},
-	"flex-layout.row#departamento-title": {
-		"children": ["rich-text#departamento-title"],
-		"props": {
-			"blockClass": "departamento-title",
-			"paddingTop": 4,
+			"marginTop": 5,
+			"marginBottom": 5,
 			"paddingBottom": 6
 		}
 	},
-	"rich-text#departamento-title": {
-		"props": {
-			"blockClass": "departamento-title",
-			"text": "Conheça os departamentos que **fazem bonito**",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"font": "t-heading-2",
-			"textColor": "c-on-base"
-		}
-	},
-	"flex-layout.row#deparmento-slider": {
-		"children": ["department"]
-	},
 	"department": {
 		"props": {
-			"title": "Departamento",
+			"title": "## Conheça os departamentos que **fazem bonito**",
 			"department": [
 				{
 					"title": "Acessórios para veículos",
 					"imageUrl": "assets/departamentos/tramontina-departamento-acessorios-para-veiculos.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Accessórios para veículos"
-					}
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Accessórios para veículos" }
+				},
+				{
+					"title": "Casa Inteligente",
+					"imageUrl": "assets/departamentos/tramontina-departamento-casa-inteligente.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Casa Inteligente" }
+				},
+				{
+					"title": "Churrasco",
+					"imageUrl": "assets/departamentos/tramontina-departamento-churrasco.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Churrasco" }
+				},
+				{
+					"title": "Eletrodomésticos",
+					"imageUrl": "assets/departamentos/tramontina-departamento-eletrodomesticos.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Eletrodomésticos" }
+				},
+				{
+					"title": "Ferramentas",
+					"imageUrl": "assets/departamentos/tramontina-departamento-ferramentas.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Ferramentas" }
+				},
+				{
+					"title": "Iluminação",
+					"imageUrl": "assets/departamentos/tramontina-departamento-iluminacao.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Iluminação" }
+				},
+				{
+					"title": "Infantil",
+					"imageUrl": "assets/departamentos/tramontina-departamento-infantil.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Infantil" }
+				},
+				{
+					"title": "Jardinagem",
+					"imageUrl": "assets/departamentos/tramontina-departamento-jardinagem.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Jardinagem" }
+				},
+				{
+					"title": "Limpeza e Organização",
+					"imageUrl": "assets/departamentos/tramontina-departamento-limpeza-e-organizacao.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Limpeza e Organização" }
+				},
+				{
+					"title": "Mesa Posta",
+					"imageUrl": "assets/departamentos/tramontina-departamento-mesa-posta.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Mesa Posta" }
+				},
+				{
+					"title": "Móveis",
+					"imageUrl": "assets/departamentos/tramontina-departamento-moveis.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Móveis" }
+				},
+				{
+					"title": "Panelas",
+					"imageUrl": "assets/departamentos/tramontina-departamento-panelas.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Panelas" }
+				},
+				{
+					"title": "Produtos personalizáveis",
+					"imageUrl": "assets/departamentos/tramontina-departamento-produtos-personalizaveis.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Produtos personalizáveis" }
+				},
+				{
+					"title": "Reforma e Construção",
+					"imageUrl": "assets/departamentos/tramontina-departamento-reforma-e-construcao.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Reforma e Construção" }
+				},
+				{
+					"title": "Utilidades Domésticas",
+					"imageUrl": "assets/departamentos/tramontina-departamento-utilidades-domesticas.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Utilidades Domésticas" }
+				},
+				{
+					"title": "Veículos Utilitários",
+					"imageUrl": "assets/departamentos/tramontina-departamento-veiculos-utilitarios.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Veículos Utilitários" }
+				},
+				{
+					"title": "Beleza Pessoal",
+					"imageUrl": "assets/departamentos/tramontinac-departamento-beleza-pessoal.png",
+					"link": { "href": "/", "target": "_self", "attributeTitle": "Beleza Pessoal" }
 				}
-			]
+			],
+			"slider": {
+				"arrowSize": 15,
+				"autoplay": { "timeout": 5000, "stopOnHover": true },
+				"infinite": true,
+				"showNavigationArrows": "always",
+				"showPaginationDots": "always",
+				"itemsPerPage": { "desktop": 7, "tablet": 4, "phone": 2 }
+			}
 		}
 	}
 }
