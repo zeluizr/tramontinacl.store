@@ -4,7 +4,9 @@
 		"props": {
 			"blockClass": "departamento-container",
 			"paddingTop": 4,
-			"paddingBottom": 7
+			"paddingBottom": 7,
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true
 		}
 	},
 	"flex-layout.col#departamento-container": {
@@ -36,35 +38,22 @@
 		}
 	},
 	"flex-layout.row#deparmento-slider": {
-		"children": ["slider-layout#departamento"]
+		"children": ["department"]
 	},
-	"slider-layout#departamento": {
-		"children": [
-			"info-card#acessorios-para-veiculos",
-			"info-card#casa-inteligente",
-			"info-card#churrasco",
-			"info-card#eletrodomesticos",
-			"info-card#ferramentas",
-			"info-card#iluminacao",
-			"info-card#infantil",
-			"info-card#jardinagem",
-			"info-card#limpeza-e-organizacao",
-			"info-card#mesa-posta",
-			"info-card#moveis",
-			"info-card#panelas",
-			"info-card#produtos-personalizaveis",
-			"info-card#reforma-e-construcao",
-			"info-card#utilidades-domesticas",
-			"info-card#veiculos-utilitarios",
-			"info-card#beleza-pessoal"
-		],
+	"department": {
 		"props": {
-			"arrowSize": 15,
-			"autoplay": { "timeout": 5000, "stopOnHover": true },
-			"infinite": true,
-			"showNavigationArrows": "desktopOnly",
-			"showPaginationDots": "always",
-			"itemsPerPage": { "desktop": 8, "tablet": 4, "phone": 2 }
+			"title": "Departamento",
+			"department": [
+				{
+					"title": "Acessórios para veículos",
+					"imageUrl": "assets/departamentos/tramontina-departamento-acessorios-para-veiculos.png",
+					"link": {
+						"href": "/",
+						"target": "_self",
+						"attributeTitle": "Accessórios para veículos"
+					}
+				}
+			]
 		}
 	}
 }

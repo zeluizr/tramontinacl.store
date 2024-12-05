@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "tramontinastorecl.navigation": "0.x",
+    "tramontinastorecl.department": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.carousel": "2.x",
