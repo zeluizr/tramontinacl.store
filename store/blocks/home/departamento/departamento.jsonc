@@ -1,0 +1,70 @@
+{
+	"flex-layout.row#departamento-container": {
+		"children": ["flex-layout.col#departamento-container"],
+		"props": {
+			"blockClass": "departamento-container",
+			"paddingTop": 4,
+			"paddingBottom": 7
+		}
+	},
+	"flex-layout.col#departamento-container": {
+		"children": [
+			"flex-layout.row#departamento-title",
+			"flex-layout.row#deparmento-slider"
+		],
+		"props": {
+			"blockClass": "departamento-container",
+			"width": "grow"
+		}
+	},
+	"flex-layout.row#departamento-title": {
+		"children": ["rich-text#departamento-title"],
+		"props": {
+			"blockClass": "departamento-title",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
+	"rich-text#departamento-title": {
+		"props": {
+			"blockClass": "departamento-title",
+			"text": "Conheça os departamentos que **fazem bonito**",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3",
+			"textColor": "c-on-base"
+		}
+	},
+	"flex-layout.row#deparmento-slider": {
+		"children": ["slider-layout#departamento"]
+	},
+	"slider-layout#departamento": {
+		"children": [
+			"info-card#acessorios-para-veiculos",
+			"info-card#casa-inteligente",
+			"info-card#churrasco",
+			"info-card#eletrodomesticos",
+			"info-card#ferramentas",
+			"info-card#iluminacao",
+			"info-card#infantil",
+			"info-card#jardinagem",
+			"info-card#limpeza-e-organizacao",
+			"info-card#mesa-posta",
+			"info-card#moveis",
+			"info-card#panelas",
+			"info-card#produtos-personalizaveis",
+			"info-card#reforma-e-construcao",
+			"info-card#utilidades-domesticas",
+			"info-card#veiculos-utilitarios",
+			"info-card#beleza-pessoal"
+		],
+		"props": {
+			"arrowSize": 15,
+			"autoplay": { "timeout": 5000, "stopOnHover": true },
+			"infinite": true,
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 7, "tablet": 4, "phone": 2 }
+		}
+	}
+}

@@ -10,3 +10,44 @@
 	max-height: initial !important;
 	border-radius: 1rem;
 }
+
+.infoCardContainer--departamento {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.infoCardTextContainer--departamento {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.infoCardCallActionContainer--departamento {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.infoCardCallActionContainer--departamento :global(.vtex-button) {
+	background-color: transparent;
+	border: none;
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.infoCardCallActionContainer--departamento :global(.vtex-button__label) {
+	color: black;
+	text-transform: initial;
+	padding: 0 !important;
+}
+
+.infoCardImageContainer {
+	width: 100%;
+	display: flex;
+}
+
+.infoCardImage {
+	width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
+	max-height: initial !important;
+}
