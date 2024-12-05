@@ -1,30 +1,28 @@
-.flexRow--top-header {
+.flexRow :global(.vtex-store-components-3-x-container) {
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}
+
+.flexRow--top-header-desktop {
 	background-color: transparent;
 }
 
-.flexRow--top-header::after {
-	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+.flexRow--top-header-desktop::after {
+	background: linear-gradient(
+		90deg,
+		hsla(0, 0%, 92%, 0),
+		#ebebeb 50%,
+		hsla(0, 0%, 92%, 0)
+	);
 	content: "";
 	display: block;
 	height: 1px;
 	width: 100%;
 }
 
-.flexColChild--welcome {
-	display: flex;
-	align-items: center;
-}
-
-.flexCol--welcome {
-	flex-direction: row;
-	gap: 1rem;
-}
-
 @media (min-width: 1026px) {
-	.flexCol--welcome {
-		justify-content: flex-start;
-	}
-	.flexRow--top-header {
-		background-color: #f7f7f7;
+	.flexRow--top-header-desktop,
+	.flexRow--footer-menu {
+		background-color: #f8f8f8;
 	}
 }

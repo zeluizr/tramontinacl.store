@@ -1,0 +1,91 @@
+{
+	"flex-layout.row#pill": {
+		"children": ["navigation#pill"],
+		"props": {
+			"blockClass": "pill",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
+	"navigation#pill": {
+		"props": {
+			"title": "Categorias",
+			"navigationType": "pill",
+			"typographyType": "mini",
+			"navigation": [
+				{
+					"text": "Últimas Unidades",
+					"attributeTitle": "Últimas Unidades",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Cubas e Pias",
+					"attributeTitle": "Cubas e Pias",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Panelas",
+					"attributeTitle": "Panelas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Eletrodomésticos",
+					"attributeTitle": "Eletrodomésticos",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Jogos de Panelas",
+					"attributeTitle": "Jogos de Panelas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Faqueiros e Talheres",
+					"attributeTitle": "Faqueiros e Talheres",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Churrasco",
+					"attributeTitle": "Churrasco",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Móveis",
+					"attributeTitle": "Móveis",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Garrafas",
+					"attributeTitle": "Garrafas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Panelas de Pressão",
+					"attributeTitle": "Panelas de Pressão",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Facas",
+					"attributeTitle": "Facas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Lixeiras",
+					"attributeTitle": "Lixeiras",
+					"url": "/",
+					"target": "_self"
+				}
+			]
+		}
+	}
+}

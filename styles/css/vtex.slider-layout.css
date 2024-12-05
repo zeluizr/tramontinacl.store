@@ -1,0 +1,35 @@
+.sliderArrows {
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: white !important;
+	border-radius: 100% !important;
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+}
+
+.sliderLeftArrow {
+	left: 1rem !important;
+}
+
+.sliderRightArrow {
+	right: 1rem !important;
+}
+
+.paginationDotsContainer--carousel-banner {
+	bottom: 1.5rem;
+	gap: 0.5rem;
+	display: flex;
+}
+
+.paginationDot--carousel-banner {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	height: 0.125rem !important;
+	width: 4rem !important;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+}
+
+.paginationDot--carousel-banner--isActive {
+	background-color: white !important;
+}

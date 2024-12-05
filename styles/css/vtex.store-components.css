@@ -1,13 +1,11 @@
-.imageElement--tramontina-logo {
-	max-height: 16.45px;
+.imageElementLink--carousel-banner {
+	display: flex;
+	width: 100%;
 }
-
-.imageElementLink--tramontina-logo {
-	display: inline-flex;
-}
-
-@media (min-width: 1026px) {
-	.imageElement--tramontina-logo {
-		max-height: 27px;
-	}
+.imageElement--carousel-banner {
+	width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
+	max-height: initial !important;
+	border-radius: 1rem;
 }

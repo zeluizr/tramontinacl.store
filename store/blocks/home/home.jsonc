@@ -1,0 +1,5 @@
+{
+	"store.home": {
+		"blocks": ["flex-layout.row#carousel-banner", "flex-layout.row#pill"]
+	}
+}

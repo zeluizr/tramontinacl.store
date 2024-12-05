@@ -1,0 +1,176 @@
+{
+	"navigation#footer-menu-atendimento": {
+		"props": {
+			"title": "Atendimento",
+			"navigationType": "vertical",
+			"typographyType": "small",
+			"navigation": [
+				{
+					"text": "Central de Atendimento",
+					"attributeTitle": "Central de Atendimento",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Perguntas Frequentes",
+					"attributeTitle": "Perguntas Frequentes",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Troca e Devolução",
+					"attributeTitle": "Troca e Devolução",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Assistência Técnica",
+					"attributeTitle": "Assistência Técnica",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Garantia Adicional",
+					"attributeTitle": "Garantia Adicional",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Formas de Pagamento",
+					"attributeTitle": "Formas de Pagamento",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Regulamentos e Campanhas",
+					"attributeTitle": "Regulamentos e Campanhas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Processo de Entrega",
+					"attributeTitle": "Processo de Entrega",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Termos e Condições",
+					"attributeTitle": "Termos e Condições",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Política de Privacidade",
+					"attributeTitle": "Política de Privacidade",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Código de Defesa do Consumidor",
+					"attributeTitle": "Código de Defesa do Consumidor",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Mapa do Site",
+					"attributeTitle": "Mapa do Site",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Canal de Denúncias",
+					"attributeTitle": "Canal de Denúncias",
+					"url": "/",
+					"target": "_self"
+				}
+			]
+		}
+	},
+	"navigation#footer-menu-linhas-especiais": {
+		"props": {
+			"title": "Linhas Especiais",
+			"navigationType": "vertical",
+			"typographyType": "small",
+			"navigation": [
+				{
+					"text": "Clássicos Tramontina",
+					"attributeTitle": "Clássicos Tramontina",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Talheres Sofisticados",
+					"attributeTitle": "Talheres Sofisticados",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Troca e Devolução",
+					"attributeTitle": "Troca e Devolução",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Assistência Técnica",
+					"attributeTitle": "Assistência Técnica",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Garantia Adicional",
+					"attributeTitle": "Garantia Adicional",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Formas de Pagamento",
+					"attributeTitle": "Formas de Pagamento",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Regulamentos e Campanhas",
+					"attributeTitle": "Regulamentos e Campanhas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Processo de Entrega",
+					"attributeTitle": "Processo de Entrega",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Termos e Condições",
+					"attributeTitle": "Termos e Condições",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Política de Privacidade",
+					"attributeTitle": "Política de Privacidade",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Código de Defesa do Consumidor",
+					"attributeTitle": "Código de Defesa do Consumidor",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Mapa do Site",
+					"attributeTitle": "Mapa do Site",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Canal de Denúncias",
+					"attributeTitle": "Canal de Denúncias",
+					"url": "/",
+					"target": "_self"
+				}
+			]
+		}
+	}
+}
