@@ -30,7 +30,7 @@
 			"paddingTop": 8,
 			"paddingBottom": 8,
 			"preventHorizontalStretch": false,
-			"preventVerticalStretch": true
+			"preventVerticalStretch": false
 		}
 	},
 	"flex-layout.col#menu-atendimento": {

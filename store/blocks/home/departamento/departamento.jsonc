@@ -22,7 +22,7 @@
 		"props": {
 			"blockClass": "departamento-title",
 			"paddingTop": 4,
-			"paddingBottom": 4
+			"paddingBottom": 6
 		}
 	},
 	"rich-text#departamento-title": {
@@ -31,7 +31,7 @@
 			"text": "Conheça os departamentos que **fazem bonito**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"font": "t-heading-3",
+			"font": "t-heading-2",
 			"textColor": "c-on-base"
 		}
 	},
@@ -64,7 +64,7 @@
 			"infinite": true,
 			"showNavigationArrows": "desktopOnly",
 			"showPaginationDots": "always",
-			"itemsPerPage": { "desktop": 7, "tablet": 4, "phone": 2 }
+			"itemsPerPage": { "desktop": 8, "tablet": 4, "phone": 2 }
 		}
 	}
 }
