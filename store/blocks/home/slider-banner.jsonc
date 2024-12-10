@@ -1,11 +1,41 @@
 {
 	"flex-layout.row#slider-banner": {
-		"children": ["list-context.image-list#slider-banner"],
+		"children": [
+			"responsive-layout.desktop#slider-banner-title",
+			"responsive-layout.mobile#slider-banner-title-mobile",
+			"list-context.image-list#slider-banner"
+		],
 		"props": {
 			"blockClass": "slider-banner",
 			"marginTop": 5,
 			"marginBottom": 5,
 			"paddingBottom": 6
+		}
+	},
+	"responsive-layout.desktop#slider-banner-title": {
+		"children": ["rich-text#slider-banner-title-desktop"]
+	},
+	"rich-text#slider-banner-title-desktop": {
+		"props": {
+			"blockClass": "slider-banner-title",
+			"text": "## Seu Natal com Tramontina",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3",
+			"textColor": "c-on-base"
+		}
+	},
+	"responsive-layout.mobile#slider-banner-title-mobile": {
+		"children": ["rich-text#slider-banner-title-mobile"]
+	},
+	"rich-text#slider-banner-title-mobile": {
+		"props": {
+			"blockClass": "slider-banner-title",
+			"text": "### Seu Natal com Tramontina",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3",
+			"textColor": "c-on-base"
 		}
 	},
 	"list-context.image-list#slider-banner": {
@@ -49,9 +79,8 @@
 		"props": {
 			"blockClass": "slider-banner",
 			"arrowSize": 15,
-			"autoplay": { "timeout": 5000, "stopOnHover": true },
 			"infinite": true,
-			"showNavigationArrows": "always",
+			"showNavigationArrows": "desktopOnly",
 			"showPaginationDots": "always",
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}

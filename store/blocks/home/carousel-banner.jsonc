@@ -51,7 +51,7 @@
 			"arrowSize": 15,
 			"autoplay": { "timeout": 5000, "stopOnHover": true },
 			"infinite": true,
-			"showNavigationArrows": "always",
+			"showNavigationArrows": "desktopOnly",
 			"showPaginationDots": "always",
 			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
 		}

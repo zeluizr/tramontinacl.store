@@ -8,6 +8,37 @@
 	margin-bottom: 0;
 }
 
-.strong--departamento-title {
+.heading--title {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.container--title {
+	display: flex;
+	flex-direction: column;
+}
+
+.container--title::after {
+	background: linear-gradient(
+		90deg,
+		hsla(0, 0%, 92%, 0),
+		#ebebeb 50%,
+		hsla(0, 0%, 92%, 0)
+	);
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.strong--departamento-title,
+.strong--title {
 	color: #003087;
+}
+
+.headingLevel2--slider-banner-title,
+.headingLevel3--slider-banner-title {
+	margin-top: 0;
+	margin-bottom: 2rem;
 }

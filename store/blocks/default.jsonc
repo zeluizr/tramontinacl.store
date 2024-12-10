@@ -1,1 +1,13 @@
-{}
+{
+	"product-summary.shelf": {
+		"props": {
+			"blockClass": "shelf"
+		},
+		"children": [
+			"product-summary-image",
+			"product-summary-name",
+			"product-summary-space",
+			"product-summary-price"
+		]
+	}
+}

@@ -79,6 +79,20 @@
 	top: calc(50% - 48px);
 }
 
+.flexColChild--main-content {
+	height: fit-content !important;
+}
+
+.flexRowContent--slider-banner,
+.flexRowContent--shelf-container {
+	flex-direction: column;
+}
+
+.flexRowContent--slider-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--shelf-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu {

@@ -3,31 +3,14 @@
 		"blocks": [
 			"flex-layout.row#carousel-banner",
 			"flex-layout.row#departamento-container",
-			"flex-layout.row#half-banner",
+			"responsive-layout.desktop#half-banner",
+			"responsive-layout.mobile#half-banner",
+			"flex-layout.row#shelf-container-01",
 			"flex-layout.row#slider-banner",
 			"flex-layout.row#full-banner01",
 			"flex-layout.row#full-banner02",
+			"flex-layout.row#shelf-container-02",
 			"flex-layout.row#pill"
 		]
-	},
-	"flex-layout.row#half-banner": {
-		"children": ["list-context.image-list#half-banner"]
-	},
-	"list-context.image-list#half-banner": {
-		"children": ["slider-layout#half-banner"],
-		"props": {
-			"images": [
-				{
-					"image": "https://storecomponents.vtexassets.com/arquivos/ids/155155-1000-1000/image-1.jpg?v=637460000000000000",
-					"mobileImage": "https://storecomponents.vtexassets.com/arquivos/ids/155155-1000-1000/image-1.jpg?v=637460000000000000"
-				}
-			]
-		}
-	},
-	"slider-layout#half-banner": {
-		"props": {
-			"blockClass": "half-banner",
-			"itemsPerPage": { "desktop": 2, "tablet": 2, "phone": 1 }
-		}
 	}
 }

@@ -1,0 +1,30 @@
+.nameContainer {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.imageContainer {
+	display: flex;
+}
+
+.imageWrapper {
+	background-color: #efefef;
+}
+
+.image {
+	mix-blend-mode: multiply;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.brandName {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.priceContainer {
+	padding-top: 0;
+	padding-bottom: 0;
+}

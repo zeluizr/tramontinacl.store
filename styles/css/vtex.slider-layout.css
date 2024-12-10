@@ -54,6 +54,8 @@
 	background-color: white !important;
 }
 
-.sliderTrack--slider-banner {
+.sliderTrack--slider-banner,
+.sliderTrack--shelf,
+.sliderTrack--half-banner {
 	gap: 1rem;
 }

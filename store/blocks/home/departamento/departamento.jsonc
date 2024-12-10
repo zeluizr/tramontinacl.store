@@ -100,9 +100,8 @@
 			],
 			"slider": {
 				"arrowSize": 15,
-				"autoplay": { "timeout": 5000, "stopOnHover": true },
 				"infinite": true,
-				"showNavigationArrows": "always",
+				"showNavigationArrows": "desktopOnly",
 				"showPaginationDots": "always",
 				"itemsPerPage": { "desktop": 7, "tablet": 4, "phone": 2 }
 			}
