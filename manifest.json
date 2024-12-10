@@ -11,8 +11,9 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "tramontinastorecl.navigation": "0.x",
     "tramontinastorecl.department": "0.x",
+    "tramontinastorecl.mega-menu": "0.x",
+    "tramontinastorecl.navigation": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.carousel": "2.x",
@@ -34,6 +35,7 @@
     "vtex.responsive-layout": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.shelf": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.slider": "0.x",
@@ -43,6 +45,7 @@
     "vtex.store-drawer": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.store-header": "2.x",
+    "vtex.store-icons": "0.x",
     "vtex.store-image": "0.x",
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",

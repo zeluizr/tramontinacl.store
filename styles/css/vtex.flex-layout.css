@@ -3,26 +3,70 @@
 	padding-right: 1rem !important;
 }
 
-.flexRow--top-header-desktop {
+.flexRow--top-header {
 	background-color: transparent;
 }
 
-.flexRow--top-header-desktop::after {
-	background: linear-gradient(
-		90deg,
-		hsla(0, 0%, 92%, 0),
-		#ebebeb 50%,
-		hsla(0, 0%, 92%, 0)
-	);
+.flexRow--top-header::after,
+.flexRow--header-desktop::after {
+	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
 	content: "";
 	display: block;
 	height: 1px;
 	width: 100%;
 }
 
-@media (min-width: 1026px) {
-	.flexRow--top-header-desktop,
+.flexCol--welcome {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--top-header-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--top-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: fit-content !important;
+}
+
+.flexRowContent--header-desktop {
+	position: relative;
+}
+
+.flexRowContent--header-desktop::before {
+	background: url("assets/others/bg-header-left.png") no-repeat;
+	left: -7.25rem;
+}
+
+.flexRowContent--header-desktop::after {
+	background: url("assets/others/bg-header-right.png") no-repeat;
+	right: -7.25rem;
+}
+
+.flexRowContent--header-desktop::after,
+.flexRowContent--header-desktop::before {
+	background-size: contain;
+	content: "";
+	height: 96px;
+	width: 97px;
+	position: absolute;
+	top: calc(50% - 48px);
+}
+
+@media (min-width: 1025px) {
+	.flexRow--top-header,
 	.flexRow--footer-menu {
 		background-color: #f8f8f8;
+	}
+
+	.flexRowContent--top-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+		width: 100% !important;
 	}
 }
