@@ -49,12 +49,12 @@
 
 .flexRowContent--header-desktop::before {
 	background: url("assets/others/bg-header-left.png") no-repeat;
-	left: -7.25rem;
+	left: -10rem;
 }
 
 .flexRowContent--header-desktop::after {
 	background: url("assets/others/bg-header-right.png") no-repeat;
-	right: -7.25rem;
+	right: -10rem;
 }
 
 .flexRowContent--header-desktop::after,

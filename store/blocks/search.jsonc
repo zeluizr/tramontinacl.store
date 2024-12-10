@@ -1,5 +1,201 @@
 {
 	"store.search": {
-		"blocks": []
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	},
+	"store.search#brand": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	},
+	"store.search#department": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	},
+	"store.search#category": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	},
+	"store.search#subcategory": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	},
+	"search-result-layout": {
+		"blocks": ["search-result-layout.desktop", "search-result-layout.mobile", "search-not-found-layout"],
+		"props": {
+			"blockClass": "search-result-chilemat",
+			"pagination": "show-more",
+			"preventRouteChange": true,
+			"mobileLayout": {
+				"mode1": "small",
+				"mode2": "small"
+			},
+			"showFacetQuantity": false
+		}
+	},
+	"search-result-layout.desktop": {
+		"children": ["flex-layout.row#breadcrumb", "flex-layout.row#content"]
+	},
+	"search-result-layout.mobile": {
+		"children": ["flex-layout.row#breadcrumb", "flex-layout.row#content"]
+	},
+	"search-content": {
+		"blocks": ["gallery", "not-found"]
+	},
+	"search-not-found-layout": {
+		"children": ["flex-layout.row#breadcrumb", "flex-layout.row#notfound"]
+	},
+	"flex-layout.row#notfound": {
+		"children": ["not-found"],
+		"props": {
+			"fullWidth": true
+		}
+	},
+	"flex-layout.row#breadcrumb": {
+		"children": ["breadcrumb.search"],
+		"props": {
+			"horizontalAlign": "left",
+			"marginTop": 1,
+			"marginBottom": 1,
+			"paddingTop": 1,
+			"paddingBottom": 1,
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"rowGap": 1
+		}
+	},
+	"flex-layout.row#content": {
+		"children": ["flex-layout.col#sidebar", "flex-layout.col#main"],
+		"props": {
+			"blockClass": "flex-content-chilemat",
+			"preserveLayoutOnMobile": false,
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": false
+		}
+	},
+	"flex-layout.col#sidebar": {
+		"children": ["filter-navigator.v3"],
+		"props": { "blockClass": "filter-navigator-sidebar" }
+	},
+	"filter-navigator.v3": {
+		"props": {
+			"initiallyCollapsed": false,
+			"truncateFilters": false,
+			"filtersTitleHtmlTag": "h2",
+			"scrollToTop": "smooth"
+		}
+	},
+	"flex-layout.col#main": {
+		"children": ["flex-layout.row#bar", "flex-layout.row#vitrina", "flex-layout.row#showmore"],
+		"props": {
+			"blockClass": "main-content"
+		}
+	},
+	"flex-layout.row#bar": {
+		"children": ["flex-layout.col#total-productos", "flex-layout.col#orderby"],
+		"props": {
+			"blockClass": "show-previous",
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": false,
+			"horizontalAlign": "center",
+			"verticalAlign": "center"
+		}
+	},
+	"flex-layout.row#vitrina": {
+		"props": {
+			"blockClass": "main-search"
+		},
+		"children": ["search-content"]
+	},
+	"flex-layout.row#showmore": {
+		"children": ["flex-layout.col#count-per-page", "flex-layout.col#showmorebutton"],
+		"props": {
+			"blockClass": "show-more",
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": true,
+			"marginTop": 8,
+			"marginBottom": 8,
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"flex-layout.col#count-per-page": {
+		"children": ["search-products-count-per-page"]
+	},
+	"flex-layout.col#showmorebutton": {
+		"children": ["search-fetch-more"]
+	},
+
+	"flex-layout.col#total-productos": {
+		"children": ["total-products.v2"]
+	},
+	"flex-layout.col#orderby": {
+		"children": ["order-by.v2"]
+	},
+	"gallery": {
+		"blocks": ["product-summary.shelf"]
+	},
+	"order-by.v2": {
+		"props": {
+			"showOrderTitle": true,
+			"hiddenOptions": ["OrderByScoreDESC", "OrderByTopSaleDESC", "OrderByReleaseDateDESC"]
+		}
 	}
 }
