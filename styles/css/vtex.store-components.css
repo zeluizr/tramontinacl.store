@@ -15,9 +15,34 @@
 .logoContainer--logo-tstore {
 	padding: 0;
 	display: flex;
+	min-width: initial !important;
 }
 
 .logoLink--tramontina-logo,
 .logoLink--logo-tstore {
 	display: flex;
+}
+
+.searchBarContainer {
+	padding-top: 0;
+	padding-bottom: 0;
+	max-width: initial !important;
+}
+
+.searchBarIcon {
+	padding-right: 0;
+	width: 3.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:global(.vtex-input-prefix__group) {
+	border: 2px solid #c7c6c6;
+	height: 3.2rem !important;
+}
+
+:global(.vtex-input__suffix) {
+	padding-left: 0;
+	padding-right: 0;
 }

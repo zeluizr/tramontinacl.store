@@ -36,8 +36,15 @@
 	width: fit-content !important;
 }
 
+.flexRowContent--header-desktop :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: initial !important;
+}
+
 .flexRowContent--header-desktop {
 	position: relative;
+	display: grid;
+	grid-template-columns: auto auto 1fr auto auto;
+	gap: 3rem;
 }
 
 .flexRowContent--header-desktop::before {
