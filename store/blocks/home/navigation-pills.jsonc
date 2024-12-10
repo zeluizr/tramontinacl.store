@@ -3,8 +3,8 @@
 		"children": ["navigation#pill"],
 		"props": {
 			"blockClass": "pill",
-			"marginTop": 5,
-			"marginBottom": 5
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"navigation#pill": {
@@ -82,6 +82,66 @@
 				{
 					"text": "Lixeiras",
 					"attributeTitle": "Lixeiras",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Ofertas",
+					"attributeTitle": "Ofertas",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Black Friday",
+					"attributeTitle": "Black Friday",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "10% en eletrodomésticos",
+					"attributeTitle": "10% en eletrodomésticos",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "20% em móveis",
+					"attributeTitle": "20% em móveis",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Ofertas relâmpago",
+					"attributeTitle": "Ofertas relâmpago",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Cyber Monday",
+					"attributeTitle": "Cyber Monday",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Liquidação",
+					"attributeTitle": "Liquidação",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Outlet",
+					"attributeTitle": "Outlet",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Lançamentos",
+					"attributeTitle": "Lançamentos",
+					"url": "/",
+					"target": "_self"
+				},
+				{
+					"text": "Mais Vendidos",
+					"attributeTitle": "Mais Vendidos",
 					"url": "/",
 					"target": "_self"
 				}

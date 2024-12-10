@@ -8,6 +8,22 @@
 	margin-bottom: 0;
 }
 
+.heading--title-blue,
+.paragraph--title-blue {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.heading--title-blue {
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.paragraph--title-blue {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
 .heading--title {
 	margin-top: 0;
 	margin-bottom: 1rem;
@@ -41,4 +57,12 @@
 .headingLevel3--slider-banner-title {
 	margin-top: 0;
 	margin-bottom: 2rem;
+}
+
+.container--title-blue {
+	background-color: #003087;
+	color: white;
+	border-radius: 1rem;
+	margin-bottom: 1.5rem;
+	padding: 1rem;
 }

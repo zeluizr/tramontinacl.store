@@ -1,8 +1,8 @@
 {
-	"flex-layout.row#shelf-container-02": {
+	"flex-layout.row#shelf-container-blue": {
 		"children": [
-			"rich-text#shelf-container-02",
-			"list-context.product-list#shelf-container-02"
+			"rich-text#shelf-container-blue",
+			"list-context.product-list#shelf-container-blue"
 		],
 		"props": {
 			"blockClass": "shelf-container",
@@ -10,27 +10,27 @@
 			"paddingBottom": 7
 		}
 	},
-	"rich-text#shelf-container-02": {
+	"rich-text#shelf-container-blue": {
 		"props": {
-			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Seleção especial **feita para você**",
+			"blockClass": ["title-blue"],
+			"text": "## Reforma e Construção\nSua casa pronta para o verão",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
 			"textColor": "c-on-base"
 		}
 	},
-	"list-context.product-list#shelf-container-02": {
-		"children": ["slider-layout#shelf-container-02"],
+	"list-context.product-list#shelf-container-blue": {
+		"children": ["slider-layout#shelf-container-blue"],
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC",
-			"category": "36"
+			"orderBy": "OrderByBestDiscountDESC",
+			"category": "22"
 		}
 	},
-	"slider-layout#shelf-container-02": {
+	"slider-layout#shelf-container-blue": {
 		"props": {
 			"blockClass": "shelf",
 			"showNavigationArrows": "desktopOnly",

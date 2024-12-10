@@ -1,8 +1,8 @@
 {
-	"flex-layout.row#shelf-container-02": {
+	"flex-layout.row#shelf-container-04": {
 		"children": [
-			"rich-text#shelf-container-02",
-			"list-context.product-list#shelf-container-02"
+			"rich-text#shelf-container-04",
+			"list-context.product-list#shelf-container-04"
 		],
 		"props": {
 			"blockClass": "shelf-container",
@@ -10,27 +10,27 @@
 			"paddingBottom": 7
 		}
 	},
-	"rich-text#shelf-container-02": {
+	"rich-text#shelf-container-04": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Seleção especial **feita para você**",
+			"text": "## Novidades **para você**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
 			"textColor": "c-on-base"
 		}
 	},
-	"list-context.product-list#shelf-container-02": {
-		"children": ["slider-layout#shelf-container-02"],
+	"list-context.product-list#shelf-container-04": {
+		"children": ["slider-layout#shelf-container-04"],
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
 			"orderBy": "OrderByTopSaleDESC",
-			"category": "36"
+			"category": "16"
 		}
 	},
-	"slider-layout#shelf-container-02": {
+	"slider-layout#shelf-container-04": {
 		"props": {
 			"blockClass": "shelf",
 			"showNavigationArrows": "desktopOnly",

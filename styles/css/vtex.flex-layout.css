@@ -10,7 +10,12 @@
 .flexRow--top-header :global(.vtex-store-components-3-x-container)::after,
 .flexRow--header-mobile :global(.vtex-store-components-3-x-container)::after,
 .flexRow--header-desktop :global(.vtex-store-components-3-x-container)::after {
-	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+	background: linear-gradient(
+		90deg,
+		hsla(0, 0%, 92%, 0),
+		#ebebeb 50%,
+		hsla(0, 0%, 92%, 0)
+	);
 	content: "";
 	display: block;
 	height: 1px;
@@ -33,15 +38,18 @@
 	gap: 0.5rem;
 }
 
-.flexRowContent--top-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--top-header
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: fit-content !important;
 }
 
-.flexRowContent--header-desktop :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--header-desktop
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: initial !important;
 }
 
-.flexRowContent--header-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--header-mobile
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: initial !important;
 }
 
@@ -88,9 +96,23 @@
 	flex-direction: column;
 }
 
-.flexRowContent--slider-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
-.flexRowContent--shelf-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--slider-banner
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--shelf-container
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
+}
+
+.flexRowContent--list-price-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--list-price-row
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: fit-content !important;
 }
 
 @media (min-width: 1025px) {
@@ -99,7 +121,8 @@
 		background-color: #f8f8f8;
 	}
 
-	.flexRowContent--top-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	.flexRowContent--top-header
+		:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 		width: 100% !important;
 	}
 }

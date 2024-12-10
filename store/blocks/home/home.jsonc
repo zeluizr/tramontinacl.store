@@ -3,14 +3,17 @@
 		"blocks": [
 			"flex-layout.row#carousel-banner",
 			"flex-layout.row#departamento-container",
+			"flex-layout.row#shelf-container-01",
 			"responsive-layout.desktop#half-banner",
 			"responsive-layout.mobile#half-banner",
-			"flex-layout.row#shelf-container-01",
-			"flex-layout.row#slider-banner",
-			"flex-layout.row#full-banner01",
-			"flex-layout.row#full-banner02",
+			"flex-layout.row#pill",
 			"flex-layout.row#shelf-container-02",
-			"flex-layout.row#pill"
+			"flex-layout.row#slider-banner",
+			"flex-layout.row#shelf-container-03",
+			"flex-layout.row#full-banner01",
+			"flex-layout.row#shelf-container-blue",
+			"flex-layout.row#full-banner02",
+			"flex-layout.row#shelf-container-04"
 		]
 	}
 }

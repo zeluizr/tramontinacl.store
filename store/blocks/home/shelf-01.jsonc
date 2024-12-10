@@ -26,13 +26,15 @@
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC",
-			"category": "36"
+			"orderBy": "OrderByNameDESC",
+			"category": "209"
 		}
 	},
 	"slider-layout#shelf-container-01": {
 		"props": {
 			"blockClass": "shelf",
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	}

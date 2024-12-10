@@ -1,85 +1,25 @@
 {
 	"navigation#footer-menu-atendimento": {
 		"props": {
-			"title": "Atendimento",
+			"title": "Dudas y Servicios",
 			"navigationType": "vertical",
 			"typographyType": "small",
 			"navigation": [
 				{
-					"text": "Central de Atendimento",
-					"attributeTitle": "Central de Atendimento",
+					"text": "Consulte su Boleta",
+					"attributeTitle": "Consulte su Boleta",
 					"url": "/",
 					"target": "_self"
 				},
 				{
-					"text": "Perguntas Frequentes",
-					"attributeTitle": "Perguntas Frequentes",
+					"text": "Contacto",
+					"attributeTitle": "Contacto",
 					"url": "/",
 					"target": "_self"
 				},
 				{
-					"text": "Troca e Devolução",
-					"attributeTitle": "Troca e Devolução",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Assistência Técnica",
-					"attributeTitle": "Assistência Técnica",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Garantia Adicional",
-					"attributeTitle": "Garantia Adicional",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Formas de Pagamento",
-					"attributeTitle": "Formas de Pagamento",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Regulamentos e Campanhas",
-					"attributeTitle": "Regulamentos e Campanhas",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Processo de Entrega",
-					"attributeTitle": "Processo de Entrega",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Termos e Condições",
-					"attributeTitle": "Termos e Condições",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Política de Privacidade",
-					"attributeTitle": "Política de Privacidade",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Código de Defesa do Consumidor",
-					"attributeTitle": "Código de Defesa do Consumidor",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Mapa do Site",
-					"attributeTitle": "Mapa do Site",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Canal de Denúncias",
-					"attributeTitle": "Canal de Denúncias",
+					"text": "Términos y Condiciones",
+					"attributeTitle": "Términos y Condiciones",
 					"url": "/",
 					"target": "_self"
 				}
@@ -88,85 +28,31 @@
 	},
 	"navigation#footer-menu-linhas-especiais": {
 		"props": {
-			"title": "Linhas Especiais",
+			"title": "Institucional",
 			"navigationType": "vertical",
 			"typographyType": "small",
 			"navigation": [
 				{
-					"text": "Clássicos Tramontina",
-					"attributeTitle": "Clássicos Tramontina",
+					"text": "Acerca de Tramontina",
+					"attributeTitle": "Acerca de Tramontina",
 					"url": "/",
 					"target": "_self"
 				},
 				{
-					"text": "Talheres Sofisticados",
-					"attributeTitle": "Talheres Sofisticados",
+					"text": "Responsabilidad Ambiental",
+					"attributeTitle": "Responsabilidad Ambiental",
 					"url": "/",
 					"target": "_self"
 				},
 				{
-					"text": "Troca e Devolução",
-					"attributeTitle": "Troca e Devolução",
+					"text": "Nuestras Tiendas",
+					"attributeTitle": "Nuestras Tiendas",
 					"url": "/",
 					"target": "_self"
 				},
 				{
-					"text": "Assistência Técnica",
-					"attributeTitle": "Assistência Técnica",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Garantia Adicional",
-					"attributeTitle": "Garantia Adicional",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Formas de Pagamento",
-					"attributeTitle": "Formas de Pagamento",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Regulamentos e Campanhas",
-					"attributeTitle": "Regulamentos e Campanhas",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Processo de Entrega",
-					"attributeTitle": "Processo de Entrega",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Termos e Condições",
-					"attributeTitle": "Termos e Condições",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Política de Privacidade",
-					"attributeTitle": "Política de Privacidade",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Código de Defesa do Consumidor",
-					"attributeTitle": "Código de Defesa do Consumidor",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Mapa do Site",
-					"attributeTitle": "Mapa do Site",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Canal de Denúncias",
-					"attributeTitle": "Canal de Denúncias",
+					"text": "Consejos Tramontina",
+					"attributeTitle": "Consejos Tramontina",
 					"url": "/",
 					"target": "_self"
 				}

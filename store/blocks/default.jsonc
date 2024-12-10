@@ -7,7 +7,45 @@
 			"product-summary-image",
 			"product-summary-name",
 			"product-summary-space",
-			"product-summary-price"
+			"flex-layout.row#list-price",
+
+			"product-selling-price",
+			"product-installments"
 		]
+	},
+	"flex-layout.row#list-price": {
+		"children": ["product-list-price", "product-price-savings"],
+		"props": {
+			"blockClass": "list-price-row"
+		}
+	},
+	"product-list-price": {
+		"props": {
+			"blockClass": "list-price"
+		}
+	},
+	"product-selling-price": {
+		"props": {
+			"blockClass": "selling-price"
+		}
+	},
+	"product-installments": {
+		"props": {
+			"blockClass": "installments",
+			"installmentsCriteria": "max-quantity-without-interest",
+			"message": "en hasta {installmentsNumber} cuotas de {installmentValue} sin interés"
+		}
+	},
+	"product-price-savings": {
+		"props": {
+			"blockClass": "product-price-savings",
+			"message": "{savingsPercentage}"
+		}
+	},
+	"product-summary-image": {
+		"props": {
+			"aspectRatio": "1:1",
+			"showBadge": false
+		}
 	}
 }
