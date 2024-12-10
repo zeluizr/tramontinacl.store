@@ -11,17 +11,3 @@
 	border: none;
 	min-height: fit-content;
 }
-
-.minicartIconContainer {
-	display: flex;
-	gap: 1rem;
-	align-items: center;
-}
-
-.minicartQuantityBadge {
-	position: initial;
-	top: initial;
-	right: initial;
-	left: initial;
-	bottom: initial;
-}

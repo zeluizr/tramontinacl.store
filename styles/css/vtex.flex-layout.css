@@ -7,8 +7,9 @@
 	background-color: transparent;
 }
 
-.flexRow--top-header::after,
-.flexRow--header-desktop::after {
+.flexRow--top-header :global(.vtex-store-components-3-x-container)::after,
+.flexRow--header-mobile :global(.vtex-store-components-3-x-container)::after,
+.flexRow--header-desktop :global(.vtex-store-components-3-x-container)::after {
 	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
 	content: "";
 	display: block;
@@ -40,11 +41,22 @@
 	width: initial !important;
 }
 
+.flexRowContent--header-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: initial !important;
+}
+
 .flexRowContent--header-desktop {
 	position: relative;
 	display: grid;
 	grid-template-columns: auto auto 1fr auto auto;
 	gap: 3rem;
+}
+
+.flexRowContent--header-mobile {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2rem;
 }
 
 .flexRowContent--header-desktop::before {

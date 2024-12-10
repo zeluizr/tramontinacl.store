@@ -6,7 +6,7 @@
 		"blocks": ["header-layout.desktop", "header-layout.mobile"]
 	},
 	"header-layout.desktop": {
-		"children": ["flex-layout.row#top-header-desktop", "flex-layout.row#header-desktop"]
+		"children": ["flex-layout.row#top-header-desktop"]
 	},
 	"header-layout.mobile": {
 		"children": ["flex-layout.row#top-header-mobile"]
