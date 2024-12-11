@@ -47,16 +47,13 @@
 		"props": {
 			"initiallyCollapsed": false,
 			"truncateFilters": false,
+			"updateOnFilterSelectionOnMobile": true,
 			"filtersTitleHtmlTag": "h2",
 			"scrollToTop": "smooth"
 		}
 	},
 	"flex-layout.col#main": {
-		"children": [
-			"flex-layout.row#bar",
-			"flex-layout.row#vitrina",
-			"flex-layout.row#showmore"
-		],
+		"children": ["flex-layout.row#vitrina", "flex-layout.row#showmore"],
 		"props": {
 			"blockClass": "main-content"
 		}

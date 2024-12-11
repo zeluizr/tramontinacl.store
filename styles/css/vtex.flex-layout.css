@@ -115,6 +115,18 @@
 	width: fit-content !important;
 }
 
+.flexRowContent--show-more {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.flexRowContent--show-more :global(.vtex-flex-layout-0-x-flexColChild) {
+	display: flex;
+	align-items: center;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu {
@@ -128,13 +140,13 @@
 
 	.flexRowContent--flex-content {
 		display: grid;
-		grid-template-columns: 280px 1fr;
+		grid-template-columns: 340px 1fr;
 		gap: 1rem;
 	}
 
 	.flexCol--filter-navigator-sidebar {
 		background-color: #f8f8f8;
-		padding: 0.5rem;
+		padding: 1rem;
 		border-radius: 0.5rem;
 	}
 }
