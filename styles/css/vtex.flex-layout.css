@@ -125,4 +125,16 @@
 		:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 		width: 100% !important;
 	}
+
+	.flexRowContent--flex-content {
+		display: grid;
+		grid-template-columns: 280px 1fr;
+		gap: 1rem;
+	}
+
+	.flexCol--filter-navigator-sidebar {
+		background-color: #f8f8f8;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+	}
 }

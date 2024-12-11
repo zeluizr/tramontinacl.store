@@ -1,0 +1,17 @@
+{
+	"store.search#department": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result-department",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByTopSaleDESC",
+				"hideUnavailableItems": true,
+				"facetsBehavior": "static",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "skip",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	}
+}
