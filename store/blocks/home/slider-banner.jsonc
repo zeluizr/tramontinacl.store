@@ -43,33 +43,43 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-29-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-29-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_001.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_001.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-199-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-199-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_002.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_002.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-399-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-399-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_003.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_003.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-599-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-599-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_004.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_004.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-899-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-899-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_001.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_001.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/presentes-tramontina-desktop.png",
-					"mobileImage": "assets/banners/slider-banners/presentes-tramontina-mobile.png",
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_002.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_002.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_003.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_003.png",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				},
+				{
+					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_004.png",
+					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_004.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				}
 			]

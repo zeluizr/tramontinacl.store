@@ -67,7 +67,7 @@
 	gap: 2rem;
 }
 
-.flexRowContent--header-desktop::before {
+/* .flexRowContent--header-desktop::before {
 	background: url("assets/others/bg-header-left.png") no-repeat;
 	left: -10rem;
 }
@@ -85,7 +85,7 @@
 	width: 97px;
 	position: absolute;
 	top: calc(50% - 48px);
-}
+} */
 
 .flexColChild--main-content {
 	height: fit-content !important;

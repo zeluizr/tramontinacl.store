@@ -16,14 +16,22 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
-					"mobileImage": "assets/banners/half-banners/lancamentos-tramontina-mobile.png",
-					"link": { "href": "/", "target": "_self", "attributeTitle": "Lançamentos Tramontina" }
+					"image": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
+					"mobileImage": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
+					"link": {
+						"href": "/",
+						"target": "_self",
+						"attributeTitle": "Produtos Exclusivos"
+					}
 				},
 				{
-					"image": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
-					"mobileImage": "assets/banners/half-banners/produtos-exclusivos-mobile.png",
-					"link": { "href": "/", "target": "_self", "attributeTitle": "Produtos Exclusivos" }
+					"image": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
+					"mobileImage": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
+					"link": {
+						"href": "/",
+						"target": "_self",
+						"attributeTitle": "Lançamentos Tramontina"
+					}
 				}
 			]
 		}
@@ -39,11 +47,16 @@
 		"children": ["flex-layout.row#half-banner-mobile"]
 	},
 	"flex-layout.row#half-banner-mobile": {
-		"children": ["flex-layout.col#half-banner-image-01", "flex-layout.col#half-banner-image-02"],
+		"children": [
+			"flex-layout.col#half-banner-image-02",
+			"flex-layout.col#half-banner-image-01"
+		],
 		"props": {
 			"blockClass": "half-banner-mobile",
 			"paddingTop": 4,
-			"paddingBottom": 4
+			"paddingBottom": 4,
+			"rowGap": 5,
+			"colGap": 5
 		}
 	},
 	"flex-layout.col#half-banner-image-01": {
@@ -54,14 +67,22 @@
 	},
 	"image#half-banner-image-01": {
 		"props": {
-			"src": "assets/banners/half-banners/lancamentos-tramontina-mobile.png",
-			"link": { "href": "/", "target": "_self", "attributeTitle": "Lançamentos Tramontina" }
+			"src": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
+			"link": {
+				"href": "/",
+				"target": "_self",
+				"attributeTitle": "Lançamentos Tramontina"
+			}
 		}
 	},
 	"image#half-banner-image-02": {
 		"props": {
-			"src": "assets/banners/half-banners/produtos-exclusivos-mobile.png",
-			"link": { "href": "/", "target": "_self", "attributeTitle": "Produtos Exclusivos" }
+			"src": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
+			"link": {
+				"href": "/",
+				"target": "_self",
+				"attributeTitle": "Produtos Exclusivos"
+			}
 		}
 	}
 }

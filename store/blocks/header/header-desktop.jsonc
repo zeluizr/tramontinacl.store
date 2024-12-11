@@ -1,13 +1,60 @@
 {
 	"flex-layout.row#header-desktop": {
-		"children": [],
+		"children": [
+			"flex-layout.col#brand",
+			"flex-layout.col#menu-trigger",
+			"flex-layout.col#search",
+			"flex-layout.col#myaccount",
+			"flex-layout.col#checkout"
+		],
 		"props": {
 			"blockClass": "header-desktop",
-			"marginTop": 5,
-			"marginBottom": 5,
-			"paddingTop": 5,
-			"paddingBottom": 5,
+			"paddingTop": 4,
+			"paddingBottom": 4,
 			"horizontalAlign": "between"
 		}
-	}
+	},
+	"flex-layout.col#brand": {
+		"children": ["logo#t-store"],
+		"props": {
+			"blockClass": "brand",
+			"verticalAlign": "middle"
+		}
+	},
+	"logo#t-store": {
+		"props": {
+			"url": "assets/brands/tstore.svg"
+		}
+	},
+	"flex-layout.col#menu-trigger": {
+		"children": ["tr-mega-menu"],
+		"props": {
+			"blockClass": "menu-trigger",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#search": {
+		"children": ["search-bar"],
+		"props": {
+			"blockClass": "search",
+			"verticalAlign": "middle"
+		}
+	},
+	"search-bar": {},
+	"flex-layout.col#myaccount": {
+		"children": ["login"],
+		"props": {
+			"blockClass": "myaccount",
+			"verticalAlign": "middle"
+		}
+	},
+	"login": {},
+	"flex-layout.col#checkout": {
+		"children": ["minicart.v2"],
+		"props": {
+			"blockClass": "checkout",
+			"verticalAlign": "middle"
+		}
+	},
+	"minicart.v2": {}
 }
