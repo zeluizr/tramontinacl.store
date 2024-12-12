@@ -8,10 +8,30 @@
 	"header-layout.desktop": {
 		"children": [
 			"flex-layout.row#top-header-desktop",
-			"flex-layout.row#header-desktop"
+			"flex-layout.row#header-desktop",
+			"flex-layout.row#header-menu",
+			"flex-layout.row#notification-bar"
 		]
 	},
 	"header-layout.mobile": {
 		"children": ["flex-layout.row#top-header-mobile"]
+	},
+	"flex-layout.row#notification-bar": {
+		"children": ["rich-text#notification"],
+		"props": {
+			"blockClass": "notification-bar",
+			"horizontalAlign": "center",
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"rich-text#notification": {
+		"props": {
+			"blockClass": "notification",
+			"text": "🚚 Envíos gratis en compras **mayores a $1,000**",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-body"
+		}
 	}
 }

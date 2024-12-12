@@ -127,6 +127,10 @@
 	align-items: center;
 }
 
+.flexRow--notification-bar {
+	background-color: #f8f8f8;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu {

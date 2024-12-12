@@ -1,5 +1,17 @@
 .label {
 	text-transform: initial;
+	font-weight: 400;
+	font-size: 1rem;
+	padding-left: 0;
+}
+
+.profileIcon--login {
+	width: 24px;
+	height: 24px;
+}
+
+.container :global(.vtex-button) {
+	background-color: transparent;
 }
 
 :global(.suiteshare-widget) {

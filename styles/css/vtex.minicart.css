@@ -1,13 +1,17 @@
+.minicartContainer :global(.vtex-button) {
+	background-color: transparent;
+}
+
 .openIconContainer {
 	padding: 0;
 }
 
-:global(.vtex-button__label) {
+.minicartWrapperContainer :global(.vtex-button__label) {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-:global(.vtex-button) {
+.minicartWrapperContainer :global(.vtex-button) {
 	border: none;
 	min-height: fit-content;
 }

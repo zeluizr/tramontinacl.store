@@ -23,7 +23,9 @@
 	},
 	"logo#t-store": {
 		"props": {
-			"url": "assets/brands/tstore.svg"
+			"blockClass": ["logo-tstore"],
+			"url": "assets/brands/tstore.svg",
+			"href": "/"
 		}
 	},
 	"flex-layout.col#menu-trigger": {
@@ -40,7 +42,15 @@
 			"verticalAlign": "middle"
 		}
 	},
-	"search-bar": {},
+	"search-bar": {
+		"blocks": ["autocomplete-result-list.v2"],
+		"props": {
+			"openAutocompleteOnFocus": true
+		}
+	},
+	"autocomplete-result-list.v2": {
+		"blocks": ["product-summary.shelf"]
+	},
 	"flex-layout.col#myaccount": {
 		"children": ["login"],
 		"props": {
@@ -48,13 +58,32 @@
 			"verticalAlign": "middle"
 		}
 	},
-	"login": {},
+	"login": {
+		"props": {
+			"blockClass": "login",
+			"iconLabel": "Registrate o inicia sesión",
+			"showIconProfile": true
+		}
+	},
 	"flex-layout.col#checkout": {
 		"children": ["minicart.v2"],
 		"props": {
 			"blockClass": "checkout",
-			"verticalAlign": "middle"
+			"verticalAlign": "middle",
+			"paddingLeft": 4,
+			"paddingRight": 4
 		}
 	},
-	"minicart.v2": {}
+	"minicart.v2": {
+		"props": {
+			"MinicartIcon": "icon-cart#minicart-icon",
+			"quantityDisplay": "always"
+		},
+		"children": ["minicart-base-content"]
+	},
+	"icon-cart#minicart-icon": {
+		"props": {
+			"size": 28
+		}
+	}
 }

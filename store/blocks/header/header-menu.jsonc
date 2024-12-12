@@ -1,0 +1,104 @@
+{
+	"flex-layout.row#header-menu": {
+		"children": ["flex-layout.col#header-menu", "flex-layout.col#offer-menu"],
+		"props": {
+			"blockClass": "header-menu",
+			"horizontalAlign": "between",
+			"paddingTop": 6,
+			"paddingBottom": 6
+		}
+	},
+	"flex-layout.col#header-menu": {
+		"children": ["vtex.menu@2.x:menu#header-menu"],
+		"props": {
+			"blockClass": "header-menu",
+			"verticalAlign": "middle",
+			"horizontalAlign": "left"
+		}
+	},
+	"flex-layout.col#offer-menu": {
+		"children": ["vtex.menu@2.x:menu#offer-menu"],
+		"props": {
+			"blockClass": "offer-menu",
+			"verticalAlign": "middle",
+			"horizontalAlign": "right"
+		}
+	},
+	"vtex.menu@2.x:menu#header-menu": {
+		"props": {
+			"blockClass": ["header-menu"],
+			"textType": "small",
+			"experimentalOptimizeRendering": true,
+			"items": [
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Mundo Black"
+					}
+				},
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Ahorra al Por Mayor"
+					}
+				},
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Encimeras"
+					}
+				},
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Marca tu Cuchillo"
+					}
+				},
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Prepara en Acero"
+					}
+				},
+				{
+					"type": "custom",
+					"highlight": true,
+					"itemProps": {
+						"text": "Cubiertos de Asistencia"
+					}
+				}
+			]
+		}
+	},
+	"vtex.menu@2.x:menu#offer-menu": {
+		"props": {
+			"blockClass": ["header-menu", "offer-menu"],
+			"experimentalOptimizeRendering": true,
+			"items": [
+				{
+					"type": "custom",
+					"itemProps": {
+						"text": "Meus Pedidos"
+					},
+					"iconProps": {
+						"id": "hpa-truck",
+						"size": 16,
+						"viewBox": "0 0 16 16"
+					}
+				},
+				{
+					"type": "custom",
+					"highlight": true,
+					"itemProps": {
+						"text": "10% OFF para você"
+					},
+					"iconProps": {
+						"id": "hpa-percent",
+						"size": 16,
+						"viewBox": "0 0 16 16"
+					}
+				}
+			]
+		}
+	}
+}

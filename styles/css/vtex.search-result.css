@@ -117,25 +117,20 @@
 	gap: 0.3rem;
 }
 
-:global(.vtex-checkbox__line-container) {
+.filterItem :global(.vtex-checkbox__line-container) {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-:global(.vtex-checkbox__label) {
-	text-align: left;
-	font-size: 0.875rem;
-	color: #4f4f4f;
-	text-transform: capitalize;
-	margin-right: 1rem;
+.filterItem :global(.vtex-checkbox__label) {
 	display: -webkit-box !important;
 	-webkit-line-clamp: 1;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
 
-:global(.vtex-button__label) {
+.searchBarContainer :global(.vtex-button__label) {
 	font-size: 0.875rem;
 	text-transform: initial;
 	width: 8rem;

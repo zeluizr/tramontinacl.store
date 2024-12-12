@@ -2,13 +2,32 @@
 	gap: 1rem;
 }
 
-.styledLinkContainer--top-header-menu {
+.styledLinkContainer--top-header-menu,
+.styledLinkContainer--header-menu {
 	margin-right: 0;
 	margin-left: 0;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
+.menuContainer--header-menu {
+	display: flex;
+	gap: 1rem;
+}
+
 .styledLinkContent--top-header-menu {
 	font-size: 0.75rem;
+}
+
+.styledLinkContent--header-menu {
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.styledLinkIcon--offer-menu {
+	display: inline-flex;
+}
+
+.styledLink--offer-menu--highlight .styledLinkContent--offer-menu {
+	font-weight: 600;
 }
