@@ -144,7 +144,7 @@
 
 	.flexRowContent--flex-content {
 		display: grid;
-		grid-template-columns: 340px 1fr;
+		grid-template-columns: 300px 1fr;
 		gap: 1rem;
 	}
 

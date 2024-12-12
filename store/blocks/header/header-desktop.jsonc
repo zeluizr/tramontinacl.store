@@ -9,8 +9,8 @@
 		],
 		"props": {
 			"blockClass": "header-desktop",
-			"paddingTop": 4,
-			"paddingBottom": 4,
+			"paddingTop": 6,
+			"paddingBottom": 6,
 			"horizontalAlign": "between"
 		}
 	},
@@ -45,7 +45,8 @@
 	"search-bar": {
 		"blocks": ["autocomplete-result-list.v2"],
 		"props": {
-			"openAutocompleteOnFocus": true
+			"openAutocompleteOnFocus": true,
+			"placeholder": "Olá, o que você procura hoje?"
 		}
 	},
 	"autocomplete-result-list.v2": {

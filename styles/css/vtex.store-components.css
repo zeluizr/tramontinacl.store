@@ -37,6 +37,12 @@
 	align-items: center;
 }
 
+.searchIcon {
+	width: 1.3rem;
+	height: 1.3rem;
+	color: #939393;
+}
+
 :global(.vtex-input-prefix__group) {
 	border: 2px solid #c7c6c6;
 	height: 3.2rem !important;
