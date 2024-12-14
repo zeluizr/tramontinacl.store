@@ -46,7 +46,8 @@
 		"blocks": ["autocomplete-result-list.v2"],
 		"props": {
 			"openAutocompleteOnFocus": true,
-			"placeholder": "Olá, o que você procura hoje?"
+			"placeholder": "Olá, o que você procura hoje?",
+			"maxWidth": 200
 		}
 	},
 	"autocomplete-result-list.v2": {
@@ -59,13 +60,6 @@
 			"verticalAlign": "middle"
 		}
 	},
-	"login": {
-		"props": {
-			"blockClass": "login",
-			"iconLabel": "Registrate o inicia sesión",
-			"showIconProfile": true
-		}
-	},
 	"flex-layout.col#checkout": {
 		"children": ["minicart.v2"],
 		"props": {
@@ -73,18 +67,6 @@
 			"verticalAlign": "middle",
 			"paddingLeft": 4,
 			"paddingRight": 4
-		}
-	},
-	"minicart.v2": {
-		"props": {
-			"MinicartIcon": "icon-cart#minicart-icon",
-			"quantityDisplay": "always"
-		},
-		"children": ["minicart-base-content"]
-	},
-	"icon-cart#minicart-icon": {
-		"props": {
-			"size": 28
 		}
 	}
 }

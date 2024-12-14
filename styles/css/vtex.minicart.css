@@ -1,17 +1,30 @@
-.minicartContainer :global(.vtex-button) {
+.minicartContainer--mini-cart :global(.vtex-button) {
 	background-color: transparent;
 }
 
-.openIconContainer {
+.openIconContainer--mini-cart {
 	padding: 0;
 }
 
-.minicartWrapperContainer :global(.vtex-button__label) {
+.minicartWrapperContainer--mini-cart :global(.vtex-button__label) {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.minicartWrapperContainer :global(.vtex-button) {
+.minicartWrapperContainer--mini-cart :global(.vtex-button) {
 	border: none;
 	min-height: fit-content;
+}
+
+.minicartQuantityBadge--mini-cart {
+	bottom: -0.2rem !important;
+	top: initial !important;
+	border: 3px solid #fff;
+	background-color: #b6daea;
+	color: #003087;
+	font-weight: 500;
+}
+
+.minicartIconContainer--mini-cart {
+	color: black !important;
 }

@@ -6,3 +6,13 @@
 .tileListList {
 	gap: 1rem;
 }
+
+.autocomplete-wrapper {
+	max-width: 54.375rem;
+}
+
+.biggy-autocomplete {
+	box-shadow: none !important;
+	border: 2px solid #e8e8e8;
+	top: 0.5rem;
+}
