@@ -11,10 +11,10 @@
 		"postreleasy": "vtex publish --verbose"
 	},
 	"dependencies": {
-		"tramontinastorecl.department": "0.x",
-		"tramontinastorecl.mega-menu": "0.x",
-		"tramontinastorecl.navigation": "0.x",
-		"tramontinastorecl.minicart": "0.x",
+		"tramontinacl.department": "0.x",
+		"tramontinacl.mega-menu": "0.x",
+		"tramontinacl.navigation": "0.x",
+		"tramontinacl.minicart": "0.x",
 		"vtex.add-to-cart-button": "0.x",
 		"vtex.breadcrumb": "1.x",
 		"vtex.carousel": "2.x",
