@@ -3,20 +3,34 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 1rem;
+	background: #003087;
+	font-family: Tramontina Textos, sans-serif;
+	font-weight: 500;
+	padding: 1rem;
+	color: #fff;
+	border-radius: 0.5rem;
+}
+
+.triggerContainer::after {
+	content: "Departamentos";
+	margin-left: 10px;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
 }
 
 .triggerButtonIcon {
 	width: 20px;
 	height: 20px;
-	background-color: blue;
 }
 
 .menuContainerNav {
 	z-index: 10;
 	max-width: 1024px;
 	padding: 0;
-	left: 40px;
-	top: 0;
+	left: 100px;
+	top: -35px;
 	border: none;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
