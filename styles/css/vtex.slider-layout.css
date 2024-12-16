@@ -5,6 +5,11 @@
 	align-items: center;
 }
 
+.paginationDotsContainer--carousel-banner {
+	left: 1.5rem;
+	justify-content: flex-start !important;
+}
+
 .sliderArrows {
 	padding: 0 !important;
 	margin: 0 !important;
@@ -44,7 +49,7 @@
 .paginationDot--carousel-banner {
 	background-color: rgba(0, 0, 0, 0.5) !important;
 	height: 0.125rem !important;
-	width: 4rem !important;
+	width: 2rem !important;
 	padding: 0;
 	margin: 0;
 	border-radius: 0;
@@ -58,4 +63,19 @@
 .sliderTrack--shelf,
 .sliderTrack--half-banner {
 	gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+	.paginationDotsContainer--carousel-banner {
+		left: 0 !important;
+		justify-content: center !important;
+	}
+
+	.paginationDot--carousel-banner {
+		width: 4rem !important;
+	}
+
+	.paginationDot--carousel-banner--isActive {
+		background-color: white !important;
+	}
 }

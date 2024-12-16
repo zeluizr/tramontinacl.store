@@ -25,14 +25,22 @@
 		"props": {
 			"blockClass": ["logo-tstore"],
 			"url": "assets/brands/tstore.svg",
+			"mobileHeight": 50,
 			"href": "/"
 		}
 	},
 	"flex-layout.col#menu-trigger": {
-		"children": ["tr-mega-menu"],
+		"children": ["mega-menu-trigger-btn"],
 		"props": {
 			"blockClass": "menu-trigger",
 			"verticalAlign": "middle"
+		}
+	},
+	"mega-menu-trigger-btn": {},
+	"flex-layout.row#mega-menu-desktop": {
+		"children": ["mega-menu"],
+		"props": {
+			"blockClass": "mega-menu-desktop"
 		}
 	},
 	"flex-layout.col#search": {

@@ -36,20 +36,3 @@
 	height: 0.625rem !important;
 	width: 0.625rem !important;
 }
-
-.paginationDotsContainer--carousel-banner {
-	bottom: 1.5rem;
-}
-
-.paginationDot--carousel-banner {
-	background-color: rgba(0, 0, 0, 0.5) !important;
-	height: 0.125rem !important;
-	width: 4rem !important;
-	padding: 0;
-	margin: 0;
-	border-radius: 0;
-}
-
-.paginationDot--carousel-banner--isActive {
-	background-color: white !important;
-}

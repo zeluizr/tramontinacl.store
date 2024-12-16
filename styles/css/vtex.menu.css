@@ -10,6 +10,17 @@
 	padding-bottom: 0;
 }
 
+.styledLinkContainer--pedido-menu {
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.styledLinkIcon--pedido-menu {
+	display: inline-flex;
+}
+
 .menuContainer--header-menu {
 	display: flex;
 	gap: 1rem;

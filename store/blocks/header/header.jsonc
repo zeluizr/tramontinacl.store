@@ -9,29 +9,73 @@
 		"children": [
 			"flex-layout.row#top-header-desktop",
 			"flex-layout.row#header-desktop",
+			"flex-layout.row#mega-menu-desktop",
 			"flex-layout.row#header-menu",
 			"flex-layout.row#notification-bar"
 		]
 	},
 	"header-layout.mobile": {
-		"children": ["flex-layout.row#top-header-mobile"]
+		"children": [
+			"flex-layout.row#top-header-mobile",
+			"flex-layout.row#header-mobile",
+			"flex-layout.row#search-mobile",
+			"flex-layout.row#notification-bar"
+		]
 	},
-	"flex-layout.row#notification-bar": {
-		"children": ["rich-text#notification"],
+	"flex-layout.row#header-mobile": {
+		"children": [
+			"flex-layout.row#left-mobile",
+			"flex-layout.col#brand",
+			"flex-layout.row#right-mobile"
+		],
 		"props": {
-			"blockClass": "notification-bar",
-			"horizontalAlign": "center",
+			"blockClass": "header-mobile",
 			"paddingTop": 5,
-			"paddingBottom": 5
+			"paddingBottom": 5,
+			"horizontalAlign": "between"
 		}
 	},
-	"rich-text#notification": {
+	"flex-layout.row#left-mobile": {
+		"children": ["flex-layout.col#drawer", "flex-layout.col#pedidos-mobile"],
 		"props": {
-			"blockClass": "notification",
-			"text": "🚚 Envíos gratis en compras **mayores a $1,000**",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"font": "t-body"
+			"blockClass": "right-mobile",
+			"preserveLayoutOnMobile": true,
+			"horizontalAlign": "center"
 		}
-	}
+	},
+	"flex-layout.row#right-mobile": {
+		"children": ["flex-layout.col#myaccount", "flex-layout.col#checkout"],
+		"props": {
+			"blockClass": "right-mobile",
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"flex-layout.col#pedidos-mobile": {
+		"children": ["vtex.menu@2.x:menu#pedido-menu"]
+	},
+	"vtex.menu@2.x:menu#pedido-menu": {
+		"props": {
+			"blockClass": ["pedido-menu"],
+			"experimentalOptimizeRendering": true,
+			"items": [
+				{
+					"type": "custom",
+					"itemProps": { "text": "" },
+					"iconProps": {
+						"id": "hpa-heart",
+						"size": 20,
+						"viewBox": "0 0 20 20"
+					}
+				}
+			]
+		}
+	},
+	"flex-layout.col#drawer": {
+		"children": ["drawer"],
+		"props": {
+			"blockClass": "drawer",
+			"verticalAlign": "middle"
+		}
+	},
+	"drawer": {}
 }

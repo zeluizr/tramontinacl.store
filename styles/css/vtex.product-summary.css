@@ -46,9 +46,19 @@
 }
 
 .clearLink--shelf:hover {
-	background-color: #efefef;
+	background-color: transparent;
 }
 
 .clearLink--shelf:hover .image {
-	transform: scale(0.95);
+	transform: initial;
+}
+
+@media (min-width: 1024px) {
+	.clearLink--shelf:hover {
+		background-color: #efefef;
+	}
+
+	.clearLink--shelf:hover .image {
+		transform: scale(0.95);
+	}
 }
