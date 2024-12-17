@@ -14,7 +14,6 @@
 
 .triggerContainer::after {
 	content: "Departamentos";
-	margin-left: 10px;
 	color: #fff;
 	font-size: 1rem;
 	font-weight: 500;
@@ -32,24 +31,24 @@
 	left: 100px;
 	top: -35px;
 	border: none;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
 	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 	background-color: #fff;
 }
 
 .menuContainer {
-	height: 530px;
-	max-height: 530px;
-	min-height: 530px;
-	width: 400px;
-	min-width: 400px;
+	height: 480px;
+	max-height: 480px;
+	min-height: 480px;
+	width: 360px;
+	min-width: 360px;
 }
 
 .submenuContainer {
-	height: 530px;
-	max-height: 530px;
-	min-height: 530px;
+	height: 480px;
+	max-height: 480px;
+	min-height: 480px;
 }
 
 .departmentsTitle--megaMenuMobile {
@@ -58,4 +57,11 @@
 
 .menuContainerVertical--megaMenuMobile {
 	margin: 0px;
+}
+
+.styledLinkContainer {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 0;
+	margin-right: 0;
 }
