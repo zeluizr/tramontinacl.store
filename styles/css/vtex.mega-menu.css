@@ -29,12 +29,10 @@
 	max-width: 1024px;
 	padding: 0;
 	left: 100px;
-	top: -35px;
+	top: -25px;
 	border: none;
-	border-bottom-left-radius: 1rem;
-	border-bottom-right-radius: 1rem;
-	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
-	background-color: #fff;
+	border-radius: 0.5rem;
+	background-color: #f1f2f2;
 }
 
 .menuContainer {
@@ -43,12 +41,27 @@
 	min-height: 480px;
 	width: 360px;
 	min-width: 360px;
+	background-color: #fff;
+	margin: 1rem 0 1rem 1rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem 0;
 }
 
 .submenuContainer {
 	height: 480px;
 	max-height: 480px;
 	min-height: 480px;
+	background-color: #fff;
+	margin: 1rem;
+	border-radius: 0.5rem;
+}
+
+.menuItem {
+	background-color: #fff !important;
+}
+
+.styledLinkContent:hover {
+	color: #003087;
 }
 
 .departmentsTitle--megaMenuMobile {
@@ -59,9 +72,19 @@
 	margin: 0px;
 }
 
-.styledLinkContainer {
-	padding-top: 0;
-	padding-bottom: 0;
-	margin-right: 0;
-	margin-right: 0;
+.submenuItem :global(.vtex-mega-menu-2-x-styledLinkText) {
+	color: #5c5c5d;
+	font-size: 0.875rem;
+}
+
+.submenuContainerTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #003087;
+}
+
+.seeAllLinkContainer {
+	color: #5c5c5d;
+	font-size: 0.875rem;
 }
