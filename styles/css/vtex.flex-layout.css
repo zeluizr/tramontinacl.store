@@ -159,7 +159,9 @@
 
 @media (min-width: 1025px) {
 	.flexRow--top-header,
-	.flexRow--footer-menu {
+	.flexRow--footer-menu,
+	.flexRow--seo-footer,
+	.flexRow--top-rrss {
 		background-color: #f8f8f8;
 	}
 

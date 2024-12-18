@@ -1,0 +1,22 @@
+{
+	"flex-layout.row#seo-footer": {
+		"children": ["rich-text#seo-footer-01", "rich-text#seo-footer-02"],
+		"props": {
+			"blockClass": "seo-footer",
+			"paddingTop": 8,
+			"paddingBottom": 8,
+			"marginTop": 8,
+			"colGap": 4
+		}
+	},
+	"rich-text#seo-footer-01": {
+		"props": {
+			"text": "# TRAMONTINA,\no prazer de fazer bonito\n\nMais do que números, o que define a Tramontina é o esforço permanente em tornar a vida das pessoas cada vez melhor.\n\n"
+		}
+	},
+	"rich-text#seo-footer-02": {
+		"props": {
+			"text": "A pequena ferraria fundada por Valentin e Elisa Tramontina em 1911, no sul do Brasil, deu origem a um grupo que hoje conta com 9 unidades fabris e mantém a vocação centenária de encantar com gestos simples.\n\nO segredo para manter a essência está em acreditar nas pessoas. A Tramontina valoriza cada um dos mais de 10 mil funcionários para que entreguem ao mercado produtos funcionais e com estilo, que inspiram o dia a dia e estimulam experiências para gerar valor e satisfação a clientes, consumidores e comunidades.\n\n[Sobre a Tramontina](/)"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"flex-layout.row#address": {
+		"children": ["rich-text#address"],
+		"props": {
+			"blockClass": "address",
+			"paddingBottom": 8
+		}
+	},
+	"rich-text#address": {
+		"props": {
+			"blockClass": "copyrigth",
+			"text": "Avenida Mariland, 777 - 12º andar, São João, Porto Alegre/RS, CEP 90440-191. CNPJ: 07.635.498/0008-84 - Razão Social: TRAMONTINA STORE COMERCIO VAREJISTA LTDA. Central de Atendimento - Telefone: (11) 4861-3981. Todos os preços e condições comerciais estão sujeitos a alteração sem aviso prévio. As imagens dos produtos são meramente ilustrativas.",
+			"font": "t-mini",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"textColor": "c-on-base"
+		}
+	}
+}
