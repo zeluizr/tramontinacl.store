@@ -1,5 +1,5 @@
 {
-	"navigation#footer-menu-atendimento": {
+	"navigation#footer-menu-dudas-y-servicios": {
 		"props": {
 			"title": "Dudas y Servicios",
 			"navigationType": "vertical",
@@ -8,25 +8,25 @@
 				{
 					"text": "Consulte su Boleta",
 					"attributeTitle": "Consulte su Boleta",
-					"url": "/",
-					"target": "_self"
+					"url": "https://fe02wss.cl.dbnetcorp.com/ConsultaBoletaTramontina/",
+					"target": "_blank"
 				},
-				{
-					"text": "Contacto",
-					"attributeTitle": "Contacto",
-					"url": "/",
-					"target": "_self"
-				},
+				// {
+				// 	"text": "Contacto",
+				// 	"attributeTitle": "Contacto",
+				// 	"url": "/",
+				// 	"target": "_self"
+				// },
 				{
 					"text": "Términos y Condiciones",
 					"attributeTitle": "Términos y Condiciones",
-					"url": "/",
+					"url": "/terminosycondiciones",
 					"target": "_self"
 				}
 			]
 		}
 	},
-	"navigation#footer-menu-linhas-especiais": {
+	"navigation#footer-menu-institucional": {
 		"props": {
 			"title": "Institucional",
 			"navigationType": "vertical",
@@ -35,26 +35,48 @@
 				{
 					"text": "Acerca de Tramontina",
 					"attributeTitle": "Acerca de Tramontina",
-					"url": "/",
+					"url": "/institucional",
 					"target": "_self"
 				},
 				{
 					"text": "Responsabilidad Ambiental",
 					"attributeTitle": "Responsabilidad Ambiental",
-					"url": "/",
+					"url": "/institucional/responsabilidad-ambiental",
 					"target": "_self"
 				},
-				{
-					"text": "Nuestras Tiendas",
-					"attributeTitle": "Nuestras Tiendas",
-					"url": "/",
-					"target": "_self"
-				},
+				// {
+				// 	"text": "Nuestras Tiendas",
+				// 	"attributeTitle": "Nuestras Tiendas",
+				// 	"url": "/",
+				// 	"target": "_self"
+				// },
 				{
 					"text": "Consejos Tramontina",
 					"attributeTitle": "Consejos Tramontina",
-					"url": "/",
-					"target": "_self"
+					"url": "https://global.tramontina.com/es/blog",
+					"target": "_blank"
+				}
+			]
+		}
+	},
+	"navigation#footer-menu-atencion-al-cliente": {
+		"props": {
+			"title": "Atención al Cliente",
+			"navigationType": "vertical",
+			"typographyType": "small",
+			"navigation": [
+				{
+					"text": "Horario de atención:",
+					"attributeTitle": "Horario de atención:"
+				},
+				{
+					"text": "De Lunes a Viernes 08:30 a.m. hasta 5:30 p.m. (Excepto feriados)",
+					"attributeTitle": "De Lunes a Viernes 08:30 a.m. hasta 5:30 p.m. (Excepto feriados)"
+				},
+				{
+					"text": "Teléfono: +56 2 2676-5000",
+					"attributeTitle": "Teléfono: +56 2 2676-5000",
+					"url": "tel:+56226765000"
 				}
 			]
 		}

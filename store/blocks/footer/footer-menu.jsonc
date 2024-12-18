@@ -1,10 +1,9 @@
 {
 	"flex-layout.row#footer-menu": {
 		"children": [
-			"flex-layout.col#menu-atendimento",
-			"flex-layout.col#menu-linhas-especiais",
-			"flex-layout.col#menu-atendimento",
-			"flex-layout.col#menu-atendimento"
+			"flex-layout.col#menu-dudas-y-servicios",
+			"flex-layout.col#menu-institucional",
+			"flex-layout.col#menu-atencion-al-cliente"
 		],
 		"props": {
 			"blockClass": "footer-menu",
@@ -15,14 +14,21 @@
 			"preventVerticalStretch": false
 		}
 	},
-	"flex-layout.col#menu-atendimento": {
-		"children": ["navigation#footer-menu-atendimento"],
+	"flex-layout.col#menu-dudas-y-servicios": {
+		"children": ["navigation#footer-menu-dudas-y-servicios"],
 		"props": {
 			"blockClass": "menu-atendimento"
 		}
 	},
-	"flex-layout.col#menu-linhas-especiais": {
-		"children": ["navigation#footer-menu-linhas-especiais"],
+	"flex-layout.col#menu-institucional": {
+		"children": ["navigation#footer-menu-institucional"],
+		"props": {
+			"blockClass": "menu-linhas-especiais",
+			"rowGap": 9
+		}
+	},
+	"flex-layout.col#menu-atencion-al-cliente": {
+		"children": ["navigation#footer-menu-atencion-al-cliente"],
 		"props": {
 			"blockClass": "menu-linhas-especiais",
 			"rowGap": 9

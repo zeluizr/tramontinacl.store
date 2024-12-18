@@ -1,0 +1,29 @@
+{
+	"flex-layout.row#payments-stamps-brand": {
+		"children": [
+			"flex-layout.col#accepted-payment-methods",
+			"flex-layout.col#stamps"
+		]
+	},
+	"flex-layout.col#accepted-payment-methods": {
+		"children": ["rich-text#psb-title", "accepted-payment-methods"]
+	},
+	"accepted-payment-methods": {
+		"props": {
+			"paymentMethods": ["mastercard", "visa", "diners club"]
+		}
+	},
+	"flex-layout.col#stamps": {
+		"children": ["rich-text#stamps-title"]
+	},
+	"rich-text#stamps-title": {
+		"props": {
+			"text": "Total Seguridad"
+		}
+	},
+	"rich-text#psb-title": {
+		"props": {
+			"text": "Formas de pago"
+		}
+	}
+}

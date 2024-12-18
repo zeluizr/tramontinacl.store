@@ -48,6 +48,7 @@
 			"initiallyCollapsed": false,
 			"truncateFilters": false,
 			"updateOnFilterSelectionOnMobile": true,
+			"priceRangeLayout": "inputAndSlider",
 			"filtersTitleHtmlTag": "h2",
 			"scrollToTop": "smooth"
 		}

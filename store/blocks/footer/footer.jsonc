@@ -4,49 +4,20 @@
 	},
 	"footer-layout.desktop": {
 		"children": [
-			"flex-layout.row#seo-footer",
-			"flex-layout.row#top-rrss",
+			"flex-layout.row#top-rrss-desktop",
 			"flex-layout.row#footer-menu",
+			"flex-layout.row#payments-stamps-brand",
 			"flex-layout.row#copyrigth",
 			"flex-layout.row#address"
 		]
 	},
 	"footer-layout.mobile": {
 		"children": [
-			"flex-layout.row#seo-footer",
-			"flex-layout.row#top-rrss",
+			"flex-layout.row#top-rrss-mobile",
 			"flex-layout.row#footer-menu",
+			"flex-layout.row#payments-stamps-brand",
 			"flex-layout.row#copyrigth",
 			"flex-layout.row#address"
 		]
-	},
-	"flex-layout.row#top-rrss": {
-		"children": ["flex-layout.col#to-top", "flex-layout.col#rrss"],
-		"props": {
-			"blockClass": "top-rrss",
-			"paddingTop": 8,
-			"paddingBottom": 8,
-			"colGap": 8
-		}
-	},
-	"flex-layout.col#to-top": {
-		"children": ["rich-text#to-top"]
-	},
-	"rich-text#to-top": {
-		"props": {
-			"blockClass": "to-top",
-			"text": "Voltar ao topo"
-		}
-	},
-	"flex-layout.col#rrss": {
-		"children": ["social-networks"]
-	},
-	"social-networks": {
-		"props": {
-			"socialNetworks": [
-				{ "url": "https://facebook.com/foo", "name": "Facebook" },
-				{ "url": "https://twitter.com/foo", "name": "Twitter" }
-			]
-		}
 	}
 }
