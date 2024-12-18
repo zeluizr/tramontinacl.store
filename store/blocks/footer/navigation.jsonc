@@ -11,12 +11,6 @@
 					"url": "https://fe02wss.cl.dbnetcorp.com/ConsultaBoletaTramontina/",
 					"target": "_blank"
 				},
-				// {
-				// 	"text": "Contacto",
-				// 	"attributeTitle": "Contacto",
-				// 	"url": "/",
-				// 	"target": "_self"
-				// },
 				{
 					"text": "Términos y Condiciones",
 					"attributeTitle": "Términos y Condiciones",
@@ -44,12 +38,6 @@
 					"url": "/institucional/responsabilidad-ambiental",
 					"target": "_self"
 				},
-				// {
-				// 	"text": "Nuestras Tiendas",
-				// 	"attributeTitle": "Nuestras Tiendas",
-				// 	"url": "/",
-				// 	"target": "_self"
-				// },
 				{
 					"text": "Consejos Tramontina",
 					"attributeTitle": "Consejos Tramontina",
@@ -70,8 +58,8 @@
 					"attributeTitle": "Horario de atención:"
 				},
 				{
-					"text": "De Lunes a Viernes 08:30 a.m. hasta 5:30 p.m. (Excepto feriados)",
-					"attributeTitle": "De Lunes a Viernes 08:30 a.m. hasta 5:30 p.m. (Excepto feriados)"
+					"text": "De Lunes a Viernes 07:30 a.m. - 04:30 p.m. (Excepto feriados)",
+					"attributeTitle": "De Lunes a Viernes 07:30 a.m. - 04:30 p.m. (Excepto feriados)"
 				},
 				{
 					"text": "Teléfono: +56 2 2676-5000",

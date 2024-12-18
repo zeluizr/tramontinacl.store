@@ -6,14 +6,59 @@
 			"flex-layout.row#shelf-container-01",
 			"responsive-layout.desktop#half-banner",
 			"responsive-layout.mobile#half-banner",
-			"flex-layout.row#pill",
 			"flex-layout.row#shelf-container-02",
 			"flex-layout.row#slider-banner",
 			"flex-layout.row#shelf-container-03",
 			"flex-layout.row#full-banner01",
 			"flex-layout.row#shelf-container-blue",
 			"flex-layout.row#full-banner02",
-			"flex-layout.row#shelf-container-04"
+			"flex-layout.row#shelf-container-04",
+			"flex-layout.row#pill",
+			"flex-layout.row#help-menu"
 		]
+	},
+	"flex-layout.row#help-menu": {
+		"children": ["help-menu"],
+		"props": {
+			"marginTop": 8,
+			"marginBottom": 8
+		}
+	},
+	"help-menu": {
+		"props": {
+			"title": "## ¿Necesitas ayuda? **Elige la opción.**",
+			"department": [
+				{
+					"title": "Atención en línea",
+					"text": "Nuestro servicio está disponible de lunes a viernes exceptuando festivos, de 07:30 am a 16:00 hrs.",
+					"imageUrl": "assets/help-menu/atencion.svg",
+					"link": {
+						"href": "#",
+						"target": "_self",
+						"attributeTitle": "Atención en línea"
+					}
+				},
+				{
+					"title": "Quiero Distribuir",
+					"text": "Si quieres hacer parte de nuestra red de distribuidores, escríbenos y déjanos los datos de tu comercio. ¡Te contactaremos!",
+					"imageUrl": "assets/help-menu/contribuir.svg",
+					"link": {
+						"href": "#",
+						"target": "_self",
+						"attributeTitle": "Quiero Distribuir"
+					}
+				},
+				{
+					"title": "Política de cambio y devolución",
+					"text": "Conoce la política de cambios y devoluciones de nuestra tienda en línea.",
+					"imageUrl": "assets/help-menu/troca.svg",
+					"link": {
+						"href": "#",
+						"target": "_self",
+						"attributeTitle": "Política de cambio y devolución"
+					}
+				}
+			]
+		}
 	}
 }

@@ -15,7 +15,7 @@
 	"rich-text#to-top": {
 		"props": {
 			"blockClass": "to-top",
-			"text": "[Voltar ao topo](#)"
+			"text": "[Volver al topo](#)"
 		}
 	},
 	"flex-layout.col#rrss": {
