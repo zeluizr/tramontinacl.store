@@ -16,7 +16,10 @@
 		"children": ["breadcrumb"]
 	},
 	"flex-layout.row#description": {
-		"children": ["flex-layout.col#pdescription", "flex-layout.col#pspecifications"],
+		"children": [
+			"flex-layout.col#pdescription",
+			"flex-layout.col#pspecifications"
+		],
 		"props": {
 			"blockClass": "product-description"
 		}
