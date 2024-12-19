@@ -6,7 +6,7 @@
 		"children": [
 			"flex-layout.row#top-rrss-desktop",
 			"flex-layout.row#footer-menu",
-			"flex-layout.row#payments-stamps-brand",
+			// "flex-layout.row#payments-stamps-brand",
 			"flex-layout.row#copyrigth",
 			"flex-layout.row#address"
 		]
@@ -15,7 +15,7 @@
 		"children": [
 			"flex-layout.row#top-rrss-mobile",
 			"flex-layout.row#footer-menu",
-			"flex-layout.row#payments-stamps-brand",
+			// "flex-layout.row#payments-stamps-brand",
 			"flex-layout.row#copyrigth",
 			"flex-layout.row#address"
 		]

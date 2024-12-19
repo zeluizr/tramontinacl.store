@@ -36,21 +36,22 @@
 }
 
 .menuContainer {
-	height: 480px;
-	max-height: 480px;
-	min-height: 480px;
+	height: 530px;
+	max-height: 530px;
+	min-height: 530px;
 	width: 360px;
 	min-width: 360px;
 	background-color: #fff;
 	margin: 1rem 0 1rem 1rem;
 	border-radius: 0.5rem;
+	border: none !important;
 	padding: 0.5rem 0;
 }
 
 .submenuContainer {
-	height: 480px;
-	max-height: 480px;
-	min-height: 480px;
+	height: 530px;
+	max-height: 530px;
+	min-height: 530px;
 	background-color: #fff;
 	margin: 1rem;
 	border-radius: 0.5rem;
@@ -69,7 +70,7 @@
 	color: #003087;
 }
 
-.departmentsTitle--megaMenuMobile {
+.departmentsTitle {
 	display: none;
 }
 
@@ -80,6 +81,11 @@
 .submenuItem :global(.vtex-mega-menu-2-x-styledLinkText) {
 	color: #5c5c5d;
 	font-size: 0.875rem;
+}
+
+.styledLinkText {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }
 
 .submenuContainerTitle {

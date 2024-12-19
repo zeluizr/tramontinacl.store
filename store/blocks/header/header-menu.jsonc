@@ -17,7 +17,7 @@
 		}
 	},
 	"flex-layout.col#offer-menu": {
-		"children": ["vtex.menu@2.x:menu#offer-menu"],
+		"children": ["vtex.menu@2.x:menu#offer-menu-2"],
 		"props": {
 			"blockClass": "offer-menu",
 			"verticalAlign": "middle",
@@ -70,7 +70,7 @@
 			]
 		}
 	},
-	"vtex.menu@2.x:menu#offer-menu": {
+	"vtex.menu@2.x:menu#offer-menu-2": {
 		"props": {
 			"blockClass": ["header-menu", "offer-menu"],
 			"experimentalOptimizeRendering": true,
@@ -78,7 +78,8 @@
 				{
 					"type": "custom",
 					"itemProps": {
-						"text": "Meus Pedidos"
+						"text": "Meus Pedidos",
+						"href": "/account#/orders"
 					},
 					"iconProps": {
 						"id": "hpa-truck",
@@ -90,7 +91,8 @@
 					"type": "custom",
 					"highlight": true,
 					"itemProps": {
-						"text": "10% OFF para você"
+						"text": "Hasta 50% OFF para ti",
+						"href": "/139?map=productClusterIds"
 					},
 					"iconProps": {
 						"id": "hpa-percent",

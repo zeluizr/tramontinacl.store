@@ -104,3 +104,73 @@
 		font-size: 2.25rem;
 	}
 }
+
+/* T y C */
+
+.headingLevel1--custom-page,
+.headingLevel2--custom-page,
+.headingLevel3--custom-page,
+.headingLevel4--custom-page,
+.headingLevel5--custom-page,
+.headingLevel6--custom-page,
+.paragraph--custom-page {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.headingLevel1--custom-page,
+.headingLevel2--custom-page,
+.headingLevel3--custom-page,
+.headingLevel4--custom-page,
+.headingLevel5--custom-page,
+.headingLevel6--custom-page {
+	margin-bottom: 1rem;
+	color: #003087;
+}
+
+.headingLevel2--custom-page {
+	font-size: 1.3rem;
+}
+
+.headingLevel3--custom-page {
+	font-size: 1rem;
+}
+
+.headingLevel5--custom-page {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.paragraph--custom-page {
+	line-height: 1.5;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color: #414042;
+}
+
+.link--custom-page {
+	text-decoration: none;
+	color: #003087;
+	font-weight: 500;
+}
+
+.list--custom-page {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	color: #414042;
+}
+
+.listItem--custom-page {
+	line-height: 1.5;
+}
+
+@media (min-width: 1025px) {
+	.headingLevel2--custom-page {
+		font-size: 2rem;
+	}
+
+	.headingLevel3--custom-page {
+		font-size: 1.25rem;
+	}
+}

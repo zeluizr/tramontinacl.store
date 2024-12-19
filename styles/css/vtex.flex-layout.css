@@ -157,6 +157,22 @@
 	background-color: #f8f8f8;
 }
 
+.flexRow--drawer-header {
+	width: 100%;
+}
+
+.flexRowContent--drawer-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexRow--custom-page :global(.vtex-store-components-3-x-container) {
+	width: 100%;
+	max-width: 80rem;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu,

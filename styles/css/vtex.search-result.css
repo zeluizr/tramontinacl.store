@@ -142,6 +142,10 @@
 	padding: 0 !important;
 }
 
+.priceRangeInput :global(.vtex-styleguide-9-x-input)::placeholder {
+	font-size: 0.5rem;
+}
+
 @media (min-width: 1025px) {
 	.gallery {
 		margin: 0;

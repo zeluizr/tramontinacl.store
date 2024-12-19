@@ -1,0 +1,19 @@
+{
+	"store.custom#about-us": {
+		"blocks": ["flex-layout.row#about-us"]
+	},
+	"flex-layout.row#about-us": {
+		"children": ["rich-text#about-us"],
+		"props": {
+			"blockClass": "custom-page",
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"rich-text#about-us": {
+		"props": {
+			"blockClass": "custom-page",
+			"text": "#Titulo"
+		}
+	}
+}

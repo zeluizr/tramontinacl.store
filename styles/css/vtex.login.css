@@ -12,6 +12,10 @@
 	color: black !important;
 }
 
+.profile {
+	text-transform: initial;
+}
+
 .container :global(.vtex-button) {
 	background-color: transparent;
 }
