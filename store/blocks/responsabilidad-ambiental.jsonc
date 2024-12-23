@@ -1,0 +1,19 @@
+{
+	"store.custom#responsabilidad-ambiental": {
+		"blocks": ["flex-layout.row#responsabilidad-ambiental"]
+	},
+	"flex-layout.row#responsabilidad-ambiental": {
+		"children": ["rich-text#responsabilidad-ambiental"],
+		"props": {
+			"blockClass": "custom-page",
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"rich-text#responsabilidad-ambiental": {
+		"props": {
+			"blockClass": "custom-page",
+			"text": "#Titulo"
+		}
+	}
+}

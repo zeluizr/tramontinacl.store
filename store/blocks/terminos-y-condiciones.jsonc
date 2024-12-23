@@ -1,0 +1,19 @@
+{
+	"store.custom#terminos-y-condiciones": {
+		"blocks": ["flex-layout.row#empty-content"]
+	},
+	"flex-layout.row#empty-content": {
+		"children": ["rich-text#empty-content"],
+		"props": {
+			"blockClass": "custom-page",
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"rich-text#empty-content": {
+		"props": {
+			"blockClass": "custom-page",
+			"text": "#Titulo"
+		}
+	}
+}

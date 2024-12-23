@@ -1,0 +1,17 @@
+{
+	"store.search#brand": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result-brand",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByNameASC",
+				"hideUnavailableItems": true,
+				"facetsBehavior": "static",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "skip",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	}
+}

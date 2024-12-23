@@ -1,0 +1,64 @@
+.nameContainer {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.productBrand {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	font-family: "Tramontina Titulos", sans-serif;
+	font-weight: 500;
+}
+
+.imageContainer {
+	display: flex;
+	padding: 0.2rem;
+}
+
+.imageWrapper {
+	background-color: #efefef;
+}
+
+.image {
+	mix-blend-mode: multiply;
+	transition: all 0.3s ease;
+}
+
+.brandName {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.priceContainer {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.element--shelf {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.clearLink--shelf {
+	transition: all 0.3s ease;
+}
+
+.clearLink--shelf:hover {
+	background-color: transparent;
+}
+
+.clearLink--shelf:hover .image {
+	transform: initial;
+}
+
+@media (min-width: 1024px) {
+	.clearLink--shelf:hover {
+		background-color: #efefef;
+	}
+
+	.clearLink--shelf:hover .image {
+		transform: scale(0.95);
+	}
+}

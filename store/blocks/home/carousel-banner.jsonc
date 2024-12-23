@@ -1,0 +1,59 @@
+{
+	"flex-layout.row#carousel-banner": {
+		"children": ["list-context.image-list#carousel-banner"],
+		"props": {
+			"blockClass": "carousel-banner",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#carousel-banner": {
+		"children": ["slider-layout#carousel-banner"],
+		"props": {
+			"preload": true,
+			"images": [
+				{
+					"image": "assets/banners/carousel-banners/bazer-fim-ano-desktop.gif",
+					"mobileImage": "assets/banners/carousel-banners/bazer-fim-ano-mobile.png",
+					"link": { "openNewTab": true, "title": "Banner 1", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banners/casa-natal-tramontina-desktop.png",
+					"mobileImage": "assets/banners/carousel-banners/casa-natal-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banners/cyber-monday-black-friday-tramontina-desktop.png",
+					"mobileImage": "assets/banners/carousel-banners/cyber-monday-black-friday-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banners/efeito-de-natal-tramontina-desktop.png",
+					"mobileImage": "assets/banners/carousel-banners/efeito-de-natal-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banners/os-mais-desejados-tramontina-desktop.png",
+					"mobileImage": "assets/banners/carousel-banners/os-mais-desejados-tramontina-mobile.png",
+					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+				},
+				{
+					"image": "assets/banners/carousel-banners/panelas-inox-natal-desktop.png",
+					"mobileImage": "assets/banners/carousel-banners/panelas-inox-natal-mobile.png",
+					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#carousel-banner": {
+		"props": {
+			"blockClass": "carousel-banner",
+			"arrowSize": 15,
+			"autoplay": { "timeout": 5000, "stopOnHover": true },
+			"infinite": true,
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

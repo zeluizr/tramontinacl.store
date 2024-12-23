@@ -1,30 +1,200 @@
+.flexRow :global(.vtex-store-components-3-x-container) {
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}
+
 .flexRow--top-header {
 	background-color: transparent;
 }
 
-.flexRow--top-header::after {
-	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+.flexRow--top-header :global(.vtex-store-components-3-x-container)::after,
+.flexRow--header-desktop :global(.vtex-store-components-3-x-container)::after {
+	background: linear-gradient(
+		90deg,
+		hsla(0, 0%, 92%, 0),
+		#ebebeb 50%,
+		hsla(0, 0%, 92%, 0)
+	);
 	content: "";
 	display: block;
 	height: 1px;
 	width: 100%;
 }
 
-.flexColChild--welcome {
+.flexCol--welcome {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--top-header-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--top-header
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: fit-content !important;
+}
+
+.flexRowContent--header-desktop
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: initial !important;
+}
+
+.flexRowContent--header-mobile
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: initial !important;
+}
+
+.flexRowContent--header-desktop {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto 1fr auto auto;
+	gap: 3rem;
+}
+
+.flexRowContent--header-mobile {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	gap: 2rem;
+}
+
+.flexColChild--brand {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexRow--right-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+}
+
+.flexRowContent--left-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.flexRowContent--mega-menu-desktop {
+	position: relative;
+}
+
+/* .flexRowContent--header-desktop::before {
+	background: url("assets/others/bg-header-left.png") no-repeat;
+	left: -10rem;
+}
+
+.flexRowContent--header-desktop::after {
+	background: url("assets/others/bg-header-right.png") no-repeat;
+	right: -10rem;
+}
+
+.flexRowContent--header-desktop::after,
+.flexRowContent--header-desktop::before {
+	background-size: contain;
+	content: "";
+	height: 96px;
+	width: 97px;
+	position: absolute;
+	top: calc(50% - 48px);
+} */
+
+.flexColChild--main-content {
+	height: fit-content !important;
+}
+
+.flexRowContent--slider-banner,
+.flexRowContent--shelf-container {
+	flex-direction: column;
+}
+
+.flexRowContent--slider-banner
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--shelf-container
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+}
+
+.flexRowContent--list-price-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.flexRowContent--list-price-row
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: fit-content !important;
+}
+
+.flexRowContent--show-more {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.flexRowContent--show-more :global(.vtex-flex-layout-0-x-flexColChild) {
 	display: flex;
 	align-items: center;
 }
 
-.flexCol--welcome {
-	flex-direction: row;
-	gap: 1rem;
+.flexRow--notification-bar {
+	background-color: #f8f8f8;
 }
 
-@media (min-width: 1026px) {
-	.flexCol--welcome {
-		justify-content: flex-start;
+.flexRow--drawer-header {
+	width: 100%;
+}
+
+.flexRowContent--drawer-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexRow--custom-page :global(.vtex-store-components-3-x-container) {
+	width: 100%;
+	max-width: 80rem;
+}
+
+@media (min-width: 1025px) {
+	.flexRow--top-header,
+	.flexRow--footer-menu,
+	.flexRow--seo-footer,
+	.flexRow--top-rrss {
+		background-color: #f8f8f8;
 	}
-	.flexRow--top-header {
-		background-color: #f7f7f7;
+
+	.flexRowContent--top-header
+		:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+		width: 100% !important;
+	}
+
+	.flexRowContent--flex-content {
+		display: grid;
+		grid-template-columns: 300px 1fr;
+		gap: 1rem;
+	}
+
+	.flexCol--filter-navigator-sidebar {
+		background-color: #f8f8f8;
+		padding: 1rem;
+		border-radius: 0.5rem;
 	}
 }

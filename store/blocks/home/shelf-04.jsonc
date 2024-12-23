@@ -1,0 +1,41 @@
+{
+	"flex-layout.row#shelf-container-04": {
+		"children": [
+			"rich-text#shelf-container-04",
+			"list-context.product-list#shelf-container-04"
+		],
+		"props": {
+			"blockClass": "shelf-container",
+			"paddingTop": 4,
+			"paddingBottom": 7
+		}
+	},
+	"rich-text#shelf-container-04": {
+		"props": {
+			"blockClass": ["shelf-container-title", "title"],
+			"text": "## Novidades **para você**",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3",
+			"textColor": "c-on-base"
+		}
+	},
+	"list-context.product-list#shelf-container-04": {
+		"children": ["slider-layout#shelf-container-04"],
+		"blocks": ["product-summary.shelf"],
+		"props": {
+			"hideUnavailableItems": true,
+			"maxItems": 15,
+			"orderBy": "OrderByTopSaleDESC",
+			"category": "16"
+		}
+	},
+	"slider-layout#shelf-container-04": {
+		"props": {
+			"blockClass": "shelf",
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
+		}
+	}
+}

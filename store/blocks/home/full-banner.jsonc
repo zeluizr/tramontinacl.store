@@ -1,0 +1,52 @@
+{
+	"flex-layout.row#full-banner01": {
+		"children": ["list-context.image-list#full-banner01"],
+		"props": {
+			"blockClass": "full-banner01",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#full-banner01": {
+		"children": ["slider-layout#full-banner01"],
+		"props": {
+			"images": [
+				{
+					"image": "assets/banners/full-banners/BANNER_HALF_DESKTOP_1920x300.jpg",
+					"mobileImage": "assets/banners/full-banners/BANNER_HALF_MOBILE_1080x450.jpg",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner01": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	},
+	"flex-layout.row#full-banner02": {
+		"children": ["list-context.image-list#full-banner02"],
+		"props": {
+			"blockClass": "full-banner02",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#full-banner02": {
+		"children": ["slider-layout#full-banner02"],
+		"props": {
+			"images": [
+				{
+					"image": "assets/banners/full-banners/BANNER_FOOTER_DESKTOP_1920x450.jpg",
+					"mobileImage": "assets/banners/full-banners/BANNER_FOOTER_MOBILE_1080x980.jpg",
+					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner02": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

@@ -1,0 +1,101 @@
+.triggerContainer {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	background: #003087;
+	font-family: Tramontina Textos, sans-serif;
+	font-weight: 500;
+	padding: 1rem;
+	color: #fff;
+	border-radius: 0.5rem;
+}
+
+.triggerContainer::after {
+	content: "Departamentos";
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.triggerButtonIcon {
+	width: 20px;
+	height: 20px;
+}
+
+.menuContainerNav {
+	z-index: 10;
+	max-width: 1024px;
+	padding: 0;
+	left: 100px;
+	top: -25px;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: #f1f2f2;
+}
+
+.menuContainer {
+	height: 530px;
+	max-height: 530px;
+	min-height: 530px;
+	width: 360px;
+	min-width: 360px;
+	background-color: #fff;
+	margin: 1rem 0 1rem 1rem;
+	border-radius: 0.5rem;
+	border: none !important;
+	padding: 0.5rem 0;
+}
+
+.submenuContainer {
+	height: 530px;
+	max-height: 530px;
+	min-height: 530px;
+	background-color: #fff;
+	margin: 1rem;
+	border-radius: 0.5rem;
+}
+
+.menuItem {
+	background-color: #fff !important;
+}
+
+.menuItem :global(.vtex-mega-menu-2-x-styledLinkText) {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.styledLinkContent:hover {
+	color: #003087;
+}
+
+.departmentsTitle {
+	display: none;
+}
+
+.menuContainerVertical--megaMenuMobile {
+	margin: 0px;
+}
+
+.submenuItem :global(.vtex-mega-menu-2-x-styledLinkText) {
+	color: #5c5c5d;
+	font-size: 0.875rem;
+}
+
+.styledLinkText {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.submenuContainerTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #003087;
+}
+
+.seeAllLinkContainer {
+	color: #5c5c5d;
+	font-size: 0.875rem;
+}

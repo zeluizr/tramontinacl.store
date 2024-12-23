@@ -1,0 +1,34 @@
+.label {
+	text-transform: initial;
+	font-weight: 400;
+	font-size: 0.875rem;
+	padding-left: 0;
+	color: black !important;
+}
+
+.profileIcon--login {
+	width: 24px;
+	height: 24px;
+	color: black !important;
+}
+
+.profile {
+	text-transform: initial;
+}
+
+.container :global(.vtex-button) {
+	background-color: transparent;
+}
+
+.container :global(.vtex-button__label) {
+	padding: 0 !important;
+}
+
+:global(.suiteshare-widget) {
+	bottom: 1rem !important;
+	right: 1rem !important;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainer) h3 {
+	display: none;
+}
