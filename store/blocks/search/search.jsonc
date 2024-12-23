@@ -6,7 +6,7 @@
 			"context": {
 				"maxItemsPerPage": 24,
 				"orderByField": "OrderByBestDiscountDESC",
-				"hideUnavailableItems": false,
+				"hideUnavailableItems": true,
 				"facetsBehavior": "dynamic",
 				"skusFilter": "ALL_AVAILABLE",
 				"simulationBehavior": "default",

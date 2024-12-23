@@ -102,15 +102,13 @@
 		"children": [
 			"flex-layout.row#product-name",
 			"product-identifier.product",
-			"product-separator",
 			"product-list-price",
 			"product-selling-price",
 			"product-price-savings",
-			"product-installments",
+			// "product-installments",
 			"sku-selector",
 			"product-quantity",
 			"add-to-cart-button",
-			"product-separator",
 			"share#default"
 		]
 	},
