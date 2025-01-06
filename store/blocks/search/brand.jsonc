@@ -7,10 +7,10 @@
 				"maxItemsPerPage": 24,
 				"orderByField": "OrderByNameASC",
 				"hideUnavailableItems": true,
-				"facetsBehavior": "static",
+				"facetsBehavior": "dynamic",
 				"skusFilter": "ALL_AVAILABLE",
-				"simulationBehavior": "skip",
-				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITH_INTEREST"
 			}
 		}
 	}

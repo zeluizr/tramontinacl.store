@@ -14,7 +14,6 @@
 			"flex-layout.row#shelf-container-blue",
 			"flex-layout.row#full-banner02",
 			"flex-layout.row#shelf-container-04",
-			"flex-layout.row#full-banner03",
 			"flex-layout.row#help-menu"
 		]
 	},
@@ -47,6 +46,16 @@
 						"href": "mailto:ventas.tchile@tramontina.com",
 						"target": "_blank",
 						"attributeTitle": "Quiero Distribuir"
+					}
+				},
+				{
+					"title": "Política de cambio y devolución",
+					"text": "Conoce la política de cambios y devoluciones de nuestra tienda en línea.",
+					"imageUrl": "assets/help-menu/troca.svg",
+					"link": {
+						"href": "/terminosycondiciones#politica-de-cambio-y-devolucion",
+						"target": "_self",
+						"attributeTitle": "Política de cambio y devolución"
 					}
 				},
 				{
