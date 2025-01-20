@@ -2,15 +2,14 @@
 	"store.search#brand": {
 		"blocks": ["search-result-layout"],
 		"props": {
-			"blockClass": "search-result-brand",
 			"context": {
 				"maxItemsPerPage": 24,
-				"orderByField": "OrderByNameASC",
-				"hideUnavailableItems": true,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
 				"facetsBehavior": "dynamic",
-				"skusFilter": "ALL_AVAILABLE",
+				"skusFilter": "FIRST_AVAILABLE",
 				"simulationBehavior": "default",
-				"installmentCriteria": "MAX_WITH_INTEREST"
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
 			}
 		}
 	}
