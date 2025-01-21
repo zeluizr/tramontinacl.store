@@ -4,10 +4,11 @@
 			"flex-layout.row#product-breadcrumb",
 			"flex-layout.row#product-main",
 			"flex-layout.row#description",
-			"shelf.relatedProducts"
+			"shelf.relatedProducts#view",
+			"shelf.relatedProducts#buy",
+			"shelf.relatedProducts#viewAndBought"
 		]
 	},
-
 	"flex-layout.row#product-breadcrumb": {
 		"props": {
 			"blockClass": "product-breadcrumb",
@@ -16,39 +17,14 @@
 		"children": ["breadcrumb"]
 	},
 	"flex-layout.row#description": {
-		"children": [
-			"flex-layout.col#pdescription",
-			"flex-layout.col#pspecifications"
-		],
+		"children": ["product-description"],
 		"props": {
 			"blockClass": "product-description"
 		}
 	},
-	"flex-layout.col#pdescription": {
-		"props": {
-			"blockClass": "product-main",
-			"paddingRight": 4
-		},
-		"children": ["product-description"]
-	},
-	"flex-layout.col#pspecifications": {
-		"props": {
-			"blockClass": "product-main",
-			"paddingLeft": 4
-		},
-		"children": ["product-specifications"]
-	},
 	"product-description": {
 		"props": {
 			"collapseContent": true
-		}
-	},
-	"product-specifications": {
-		"props": {
-			"blockClass": "Specifications-Table",
-			"shoudCollapseOnTabChange": true,
-			"collapsible": "desktopOnly",
-			"hiddenSpecifications": ["Ficha Técnica", "Manual del Producto"]
 		}
 	},
 	"flex-layout.row#product-main": {
@@ -91,7 +67,8 @@
 				"phone": "1:1"
 			},
 			"displayThumbnailsArrows": true,
-			"thumbnailsOrientation": "horizontal"
+			"showNavigationArrows": true,
+			"showPaginationDots": true
 		}
 	},
 	"flex-layout.col#right-col": {
@@ -105,14 +82,28 @@
 			"product-list-price",
 			"product-selling-price",
 			"product-price-savings",
-			// "product-installments",
+			"product-installments",
 			"sku-selector",
 			"product-quantity",
-			"add-to-cart-button",
+			"flex-layout.row#buybutton",
+			"flex-layout.row#onClick",
 			"share#default"
 		]
 	},
-
+	"flex-layout.row#buybutton": {
+		"children": ["add-to-cart-button"],
+		"props": {
+			"blockClass": "add-to-cart",
+			"paddingBottom": 5
+		}
+	},
+	"flex-layout.row#onClick": {
+		"children": ["add-to-cart-button#onClick"],
+		"props": {
+			"blockClass": "one-click-buy",
+			"paddingBottom": 5
+		}
+	},
 	"flex-layout.row#product-name": {
 		"props": {
 			"paddingBottom": 5
@@ -137,13 +128,39 @@
 			}
 		}
 	},
-	"shelf.relatedProducts": {
+	"shelf.relatedProducts#view": {
+		"blocks": ["product-summary.shelf"],
+		"props": {
+			"blockClass": "shelfContainer",
+			"recommendation": "view",
+			"productList": {
+				"titleText": "Explora lo que otros compradores están buscando",
+				"itemsPerPage": 5,
+				"minItemsPerPage": 1,
+				"gap": "ph3"
+			}
+		}
+	},
+	"shelf.relatedProducts#buy": {
+		"blocks": ["product-summary.shelf"],
+		"props": {
+			"blockClass": "shelfContainer",
+			"recommendation": "buy",
+			"productList": {
+				"titleText": "Completa tu carrito con las compras más populares",
+				"itemsPerPage": 5,
+				"minItemsPerPage": 1,
+				"gap": "ph3"
+			}
+		}
+	},
+	"shelf.relatedProducts#viewAndBought": {
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"blockClass": "shelfContainer",
 			"recommendation": "viewAndBought",
 			"productList": {
-				"titleText": "Productos sugeridos",
+				"titleText": "Inspiración para completar tu compra: ¡Esto es lo más popular!",
 				"itemsPerPage": 5,
 				"minItemsPerPage": 1,
 				"gap": "ph3"

@@ -173,6 +173,11 @@
 	max-width: 80rem;
 }
 
+.flexRowContent--one-click-buy :global(.vtex-button) {
+	background-color: #45a8f4;
+	border-color: #45a8f4;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu,
