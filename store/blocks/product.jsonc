@@ -3,7 +3,7 @@
 		"children": [
 			"flex-layout.row#product-breadcrumb",
 			"flex-layout.row#product-main",
-			"flex-layout.row#description",
+			"flex-layout.row#product-description",
 			"shelf.relatedProducts#view",
 			"shelf.relatedProducts#buy",
 			"shelf.relatedProducts#viewAndBought"
@@ -16,15 +16,10 @@
 		},
 		"children": ["breadcrumb"]
 	},
-	"flex-layout.row#description": {
-		"children": ["product-description"],
+	"flex-layout.row#product-description": {
+		"children": ["product-info"],
 		"props": {
 			"blockClass": "product-description"
-		}
-	},
-	"product-description": {
-		"props": {
-			"collapseContent": true
 		}
 	},
 	"flex-layout.row#product-main": {
