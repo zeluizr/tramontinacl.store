@@ -99,8 +99,21 @@
 			"product-quantity",
 			"flex-layout.row#buybutton",
 			"flex-layout.row#onClick",
-			"share#default"
+			"share#default",
+			"flex-layout.row#shipping-simulator"
 		]
+	},
+	"flex-layout.row#shipping-simulator": {
+		"children": ["rich-text#shipping-simulator", "shipping-simulator"],
+		"props": {
+			"blockClass": "shipping-simulator"
+		}
+	},
+	"rich-text#shipping-simulator": {
+		"props": {
+			"text": "Calcula el costo de envío",
+			"font": "t-heading-3"
+		}
 	},
 	"flex-layout.row#buybutton": {
 		"children": ["add-to-cart-button"],

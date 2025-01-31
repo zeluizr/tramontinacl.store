@@ -7,6 +7,18 @@
 	background-color: transparent;
 }
 
+.flexRowContent--shipping-simulator {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.flexRowContent--shipping-simulator
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+	display: flex;
+	flex-direction: column;
+}
+
 .flexRow--top-header :global(.vtex-store-components-3-x-container)::after,
 .flexRow--header-desktop :global(.vtex-store-components-3-x-container)::after {
 	background: linear-gradient(
