@@ -26,8 +26,7 @@
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC",
-			"category": "36"
+			"orderBy": "OrderByTopSaleDESC"
 		}
 	},
 	"slider-layout#shelf-container-02": {

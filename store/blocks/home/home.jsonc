@@ -3,6 +3,7 @@
 		"blocks": [
 			"flex-layout.row#carousel-banner",
 			"flex-layout.row#departamento-container",
+			"flex-layout.row#countdown",
 			"flex-layout.row#shelf-container-01",
 			"responsive-layout.desktop#half-banner",
 			"responsive-layout.mobile#half-banner",
@@ -16,6 +17,41 @@
 			"flex-layout.row#shelf-container-04",
 			"flex-layout.row#help-menu"
 		]
+	},
+	"flex-layout.row#countdown": {
+		"children": ["countdown-shelf"],
+		"props": {
+			"blockClass": "countdown",
+			"marginTop": 8,
+			"marginBottom": 8
+		}
+	},
+	"countdown-shelf": {
+		"children": ["list-context.product-list#countdown"],
+		"props": {
+			"isActive": true,
+			"title": "Kits Exclusivos Black Friday",
+			"subtitle": "Estoque Limitado",
+			"endDate": "2025-02-04 14:00:59"
+		}
+	},
+	"list-context.product-list#countdown": {
+		"children": ["slider-layout#countdown"],
+		"blocks": ["product-summary.shelf#countdown"],
+		"props": {
+			"hideUnavailableItems": true,
+			"maxItems": 15,
+			"orderBy": "OrderByTopSaleDESC"
+		}
+	},
+	"slider-layout#countdown": {
+		"props": {
+			"blockClass": "shelf",
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "never",
+			"fullWidth": true,
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
 	},
 	"flex-layout.row#help-menu": {
 		"children": ["help-menu"],
