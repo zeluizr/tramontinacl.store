@@ -13,35 +13,6 @@
 			"add-to-cart-button"
 		]
 	},
-	"product-summary.shelf#countdown": {
-		"props": {
-			"blockClass": "shelf"
-		},
-		"children": ["flex-layout.row#shelf-countdown"]
-	},
-	"flex-layout.row#shelf-countdown": {
-		"children": [
-			"flex-layout.col#shelf-countdown-image",
-			"flex-layout.col#shelf-countdown-info"
-		],
-		"props": {
-			"blockClass": "shelf-countdown",
-			"colGap": 4
-		}
-	},
-	"flex-layout.col#shelf-countdown-image": {
-		"children": ["product-summary-image"]
-	},
-	"flex-layout.col#shelf-countdown-info": {
-		"children": [
-			"product-summary-name",
-			"product-summary-space",
-			"flex-layout.row#list-price",
-			"product-selling-price",
-			"product-installments",
-			"add-to-cart-button"
-		]
-	},
 	"flex-layout.row#list-price": {
 		"children": ["product-list-price", "product-price-savings"],
 		"props": {
