@@ -442,7 +442,7 @@
 			<rect width="16" height="16" transform="translate(827 553)" fill="currentColor" opacity="0" />
 			<path id="arrow-right2"
 				d="M11.951,17.38l5.714-5.714a1.143,1.143,0,0,0,0-1.616L11.951,4.335a1.143,1.143,0,0,0-1.616,1.616L14.1,9.714H3.143a1.143,1.143,0,0,0,0,2.286H14.1l-3.763,3.763a1.143,1.143,0,0,0,1.616,1.616Z"
-				transform="translate(825 550)" fill="currentColor" />
+				transform="translate(825 550)" fill="#FF9900" />
 		</g>
 		<g id="nav-caret--up">
 			<path

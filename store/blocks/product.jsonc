@@ -4,6 +4,7 @@
 			"flex-layout.row#product-breadcrumb",
 			"flex-layout.row#product-main",
 			"flex-layout.row#description",
+			"product-reviews.vtex",
 			"shelf.relatedProducts#view",
 			"shelf.relatedProducts#buy",
 			"shelf.relatedProducts#viewAndBought"
@@ -89,6 +90,7 @@
 			"rowGap": 0
 		},
 		"children": [
+			"product-rating-inline.vtex",
 			"flex-layout.row#product-name",
 			"product-identifier.product",
 			"product-list-price",
