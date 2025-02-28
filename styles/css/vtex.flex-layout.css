@@ -190,6 +190,18 @@
 	border-color: #45a8f4;
 }
 
+.flexCol--product-info-right {
+	background-color: #f5f7f9;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.flexRow--product-right {
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
 @media (min-width: 1025px) {
 	.flexRow--top-header,
 	.flexRow--footer-menu,
