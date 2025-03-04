@@ -61,8 +61,12 @@
 				"desktop": "auto",
 				"phone": "1:1"
 			},
-			"showNavigationArrows": true,
 			"displayThumbnailsArrows": true,
+			"maxHeight": 800,
+			"showNavigationArrows": true,
+			"showPaginationDots": true,
+			"thumbnailAspectRatio": "1:1",
+			"thumbnailMaxHeight": 100,
 			"thumbnailsOrientation": "horizontal"
 		}
 	},
