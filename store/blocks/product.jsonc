@@ -116,9 +116,9 @@
 			"preserveLayoutOnMobile": true,
 			"preventHorizontalStretch": true
 		},
-		"children": ["product-list-price"]
+		"children": ["product-list-price#pdp"]
 	},
-	"product-list-price": {
+	"product-list-price#pdp": {
 		"props": {
 			"blockClass": "productListPrice"
 		}
