@@ -185,7 +185,11 @@
 	max-width: 80rem;
 }
 
-.flexRowContent--one-click-buy :global(.vtex-button) {
+.flexColChild--one-click-buy {
+	margin-top: 1rem;
+}
+
+.flexColChild--one-click-buy :global(.vtex-button) {
 	background-color: #45a8f4;
 	border-color: #45a8f4;
 }
@@ -194,12 +198,31 @@
 	background-color: #f5f7f9;
 	border-radius: 0.5rem;
 	padding: 1rem;
+	height: fit-content;
 }
 
-.flexRow--product-right {
+.flexRowContent--row-product-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexRowContent--row-product-right
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+}
+
+.flexCol--product-right-price {
 	background-color: white;
 	border-radius: 0.5rem;
 	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.flexCol--shipping-simulator {
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin-top: 1rem;
 }
 
 @media (min-width: 1025px) {

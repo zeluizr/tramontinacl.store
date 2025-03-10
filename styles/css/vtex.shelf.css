@@ -1,4 +1,30 @@
-.relatedProducts--shelfContainer {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+.title {
+	font-size: 2.25rem;
+	color: #000;
+	font-weight: 500;
+}
+
+.caretIcon {
+	color: #000;
+}
+
+.arrowLeft,
+.arrowRight {
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: white !important;
+	border-radius: 100% !important;
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrowLeft {
+	left: 1rem !important;
+}
+
+.arrowRight {
+	right: 1rem !important;
 }
