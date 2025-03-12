@@ -215,14 +215,17 @@
 	background-color: white;
 	border-radius: 0.5rem;
 	padding: 1rem;
-	margin-bottom: 1rem;
 }
 
 .flexCol--shipping-simulator {
 	background-color: white;
 	border-radius: 0.5rem;
 	padding: 1rem;
-	margin-top: 1rem;
+	margin: 1rem 0;
+}
+
+.flexRowContent--product-main {
+	gap: 2rem;
 }
 
 @media (min-width: 1025px) {
