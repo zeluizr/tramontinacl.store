@@ -1,7 +1,7 @@
 {
 	"vendor": "tramontinacl",
 	"name": "store",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"builders": {
 		"assets": "0.x",
 		"styles": "2.x",
@@ -41,6 +41,7 @@
 		"vtex.product-summary": "2.x",
 		"vtex.responsive-layout": "0.x",
 		"vtex.rich-text": "0.x",
+		"vtex.product-customizer": "2.x",
 		"vtex.search-result": "3.x",
 		"vtex.search": "2.x",
 		"vtex.shelf": "1.x",
