@@ -100,7 +100,7 @@
 	"flex-layout.row#product-right": {
 		"children": [
 			"flex-layout.col#product-right-price",
-			"product-assembly-options",
+			"customcheckoutfields",
 			"flex-layout.col#shipping-simulator",
 			"flex-layout.col#add-to-cart",
 			"flex-layout.col#add-to-cart-one-click-buy"
@@ -108,12 +108,6 @@
 		"props": {
 			"blockClass": "row-product-right"
 		}
-	},
-	"product-assembly-options": {
-		"props": {
-			"initiallyOpened": "always"
-		},
-		"children": ["assembly-option-input-values"]
 	},
 	"flex-layout.col#product-right-price": {
 		"children": [
@@ -213,7 +207,7 @@
 	"product-installments#pdp": {
 		"props": {
 			"blockClass": "productInstallmentsPdP",
-			"message": "o en hasta {installmentsNumber} cuotas de {installmentValue} sin interés"
+			"message": "o en hasta {installmentsNumber} cuotas de {installmentValue}"
 		}
 	},
 	//

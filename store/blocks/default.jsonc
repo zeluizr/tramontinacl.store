@@ -33,7 +33,7 @@
 		"props": {
 			"blockClass": "installments",
 			"installmentsCriteria": "max-quantity-without-interest",
-			"message": "en hasta {installmentsNumber} cuotas de {installmentValue} sin interés"
+			"message": "en hasta {installmentsNumber} cuotas de {installmentValue}"
 		}
 	},
 	"product-price-savings": {
