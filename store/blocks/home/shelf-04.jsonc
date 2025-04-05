@@ -13,7 +13,7 @@
 	"rich-text#shelf-container-04": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Novidades **para você**",
+			"text": "## Conoce algunos productos de **jardín y agricultura**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -27,7 +27,7 @@
 			"hideUnavailableItems": true,
 			"maxItems": 15,
 			"orderBy": "OrderByTopSaleDESC",
-			"category": "16"
+			"category": "2925"
 		}
 	},
 	"slider-layout#shelf-container-04": {

@@ -13,7 +13,7 @@
 	"rich-text#shelf-container-03": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Melhores **ofertas**",
+			"text": "## Un cuchillo para **cada necesidad**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -27,7 +27,7 @@
 			"hideUnavailableItems": true,
 			"maxItems": 15,
 			"orderBy": "OrderByTopSaleDESC",
-			"category": "1"
+			"collection": "147"
 		}
 	},
 	"slider-layout#shelf-container-03": {

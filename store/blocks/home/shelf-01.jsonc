@@ -13,7 +13,7 @@
 	"rich-text#shelf-container-01": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Descubra os **mais vendidos**",
+			"text": "## ¡Productos **destacados!**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -26,8 +26,8 @@
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
-			"orderBy": "OrderByNameDESC",
-			"category": "209"
+			"orderBy": "OrderByTopSaleDESC",
+			"collection": "137"
 		}
 	},
 	"slider-layout#shelf-container-01": {

@@ -14,135 +14,63 @@
 			"typographyType": "mini",
 			"navigation": [
 				{
-					"text": "Últimas Unidades",
-					"attributeTitle": "Últimas Unidades",
-					"url": "/",
+					"text": "Fregaderos",
+					"attributeTitle": "Fregaderos",
+					"url": "/fregaderos",
 					"target": "_self"
 				},
 				{
-					"text": "Cubas e Pias",
-					"attributeTitle": "Cubas e Pias",
-					"url": "/",
+					"text": "Baterías de Cocina",
+					"attributeTitle": "Baterías de Cocina",
+					"url": "/baterias-de-cocina",
 					"target": "_self"
 				},
 				{
-					"text": "Panelas",
-					"attributeTitle": "Panelas",
-					"url": "/",
+					"text": "Cubiertos",
+					"attributeTitle": "Cubiertos",
+					"url": "/cubiertos",
 					"target": "_self"
 				},
 				{
-					"text": "Eletrodomésticos",
-					"attributeTitle": "Eletrodomésticos",
-					"url": "/",
+					"text": "Electrodomésticos",
+					"attributeTitle": "Electrodomésticos",
+					"url": "/electrodomesticos",
 					"target": "_self"
 				},
 				{
-					"text": "Jogos de Panelas",
-					"attributeTitle": "Jogos de Panelas",
-					"url": "/",
+					"text": "Utensilios de Cocina",
+					"attributeTitle": "Utensilios de Cocina",
+					"url": "/utensilios-de-cocina",
 					"target": "_self"
 				},
 				{
-					"text": "Faqueiros e Talheres",
-					"attributeTitle": "Faqueiros e Talheres",
-					"url": "/",
+					"text": "Muebles",
+					"attributeTitle": "Muebles",
+					"url": "/muebles",
 					"target": "_self"
 				},
 				{
-					"text": "Churrasco",
-					"attributeTitle": "Churrasco",
-					"url": "/",
+					"text": "Herramientas",
+					"attributeTitle": "Herramientas",
+					"url": "/herramientas",
 					"target": "_self"
 				},
 				{
-					"text": "Móveis",
-					"attributeTitle": "Móveis",
-					"url": "/",
+					"text": "Materiales Eléctricos",
+					"attributeTitle": "Materiales Eléctricos",
+					"url": "/materiales-electricos",
 					"target": "_self"
 				},
 				{
-					"text": "Garrafas",
-					"attributeTitle": "Garrafas",
-					"url": "/",
+					"text": "Jardinería",
+					"attributeTitle": "Jardinería",
+					"url": "/jardineria",
 					"target": "_self"
 				},
 				{
-					"text": "Panelas de Pressão",
-					"attributeTitle": "Panelas de Pressão",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Facas",
-					"attributeTitle": "Facas",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Lixeiras",
-					"attributeTitle": "Lixeiras",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Ofertas",
-					"attributeTitle": "Ofertas",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Black Friday",
-					"attributeTitle": "Black Friday",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "10% en eletrodomésticos",
-					"attributeTitle": "10% en eletrodomésticos",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "20% em móveis",
-					"attributeTitle": "20% em móveis",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Ofertas relâmpago",
-					"attributeTitle": "Ofertas relâmpago",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Cyber Monday",
-					"attributeTitle": "Cyber Monday",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Liquidação",
-					"attributeTitle": "Liquidação",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Outlet",
-					"attributeTitle": "Outlet",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Lançamentos",
-					"attributeTitle": "Lançamentos",
-					"url": "/",
-					"target": "_self"
-				},
-				{
-					"text": "Mais Vendidos",
-					"attributeTitle": "Mais Vendidos",
-					"url": "/",
+					"text": "Infantil",
+					"attributeTitle": "Infantil",
+					"url": "/infantil",
 					"target": "_self"
 				}
 			]

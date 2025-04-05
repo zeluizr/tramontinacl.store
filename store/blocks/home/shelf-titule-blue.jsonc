@@ -13,7 +13,7 @@
 	"rich-text#shelf-container-blue": {
 		"props": {
 			"blockClass": ["title-blue"],
-			"text": "## Reforma e Construção\nSua casa pronta para o verão",
+			"text": "## Reforma y Construcción\nTu casa lista para el verano",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +25,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 15,
+			"maxItems": 20,
 			"orderBy": "OrderByBestDiscountDESC",
-			"category": "22"
+			"category": "2902"
 		}
 	},
 	"slider-layout#shelf-container-blue": {

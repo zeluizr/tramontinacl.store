@@ -13,34 +13,22 @@
 			"preload": true,
 			"images": [
 				{
-					"image": "assets/banners/carousel-banners/bazer-fim-ano-desktop.gif",
-					"mobileImage": "assets/banners/carousel-banners/bazer-fim-ano-mobile.png",
-					"link": { "openNewTab": true, "title": "Banner 1", "url": "/" }
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/153a600c-5da6-4795-bce6-74cebf8164a4___e29bd1fe9a79636b3de57f6caf9fde0f.jpg",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/8102840e-fa21-481d-8535-467ba9e873ca___9e3df400005be44d8f20c9fb02785913.jpg",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/utensilios-para-cocina?initialMap=c&initialQuery=utensilios-para-cocina&map=category-1,material,material&query=/utensilios-para-cocina/acero-inoxidable/hierro&searchState"
+					}
 				},
 				{
-					"image": "assets/banners/carousel-banners/casa-natal-tramontina-desktop.png",
-					"mobileImage": "assets/banners/carousel-banners/casa-natal-tramontina-mobile.png",
-					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
-				},
-				{
-					"image": "assets/banners/carousel-banners/cyber-monday-black-friday-tramontina-desktop.png",
-					"mobileImage": "assets/banners/carousel-banners/cyber-monday-black-friday-tramontina-mobile.png",
-					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
-				},
-				{
-					"image": "assets/banners/carousel-banners/efeito-de-natal-tramontina-desktop.png",
-					"mobileImage": "assets/banners/carousel-banners/efeito-de-natal-tramontina-mobile.png",
-					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
-				},
-				{
-					"image": "assets/banners/carousel-banners/os-mais-desejados-tramontina-desktop.png",
-					"mobileImage": "assets/banners/carousel-banners/os-mais-desejados-tramontina-mobile.png",
-					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
-				},
-				{
-					"image": "assets/banners/carousel-banners/panelas-inox-natal-desktop.png",
-					"mobileImage": "assets/banners/carousel-banners/panelas-inox-natal-mobile.png",
-					"link": { "openNewTab": false, "title": "Banner 2", "url": "/" }
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/638770b1-f985-45d2-9fea-b645b6801c56___872d79493b42b9720f1594716f8071cf.webp",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/be2cffd3-3e0d-41bd-9b72-1338be1ccd51___461b7c1b932743bc7a7b290e66f904b1.webp",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/154?map=productClusterIds&order=&utmi_cp=nuevas-vajillas-tramontina&utmi_pc=banner-principal-nuevas-vajillas-tramontina&utmi_p=home"
+					}
 				}
 			]
 		}

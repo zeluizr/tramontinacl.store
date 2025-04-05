@@ -100,7 +100,6 @@
 	"flex-layout.row#product-right": {
 		"children": [
 			"flex-layout.col#product-right-price",
-			"customcheckoutfields",
 			"flex-layout.col#shipping-simulator",
 			"flex-layout.col#add-to-cart",
 			"flex-layout.col#add-to-cart-one-click-buy"
@@ -207,12 +206,12 @@
 	"product-installments#pdp": {
 		"props": {
 			"blockClass": "productInstallmentsPdP",
-			"message": "o en hasta {installmentsNumber} cuotas de {installmentValue}"
+			"message": "o en hasta {installmentsNumber} cuotas de {installmentValue} sin interés"
 		}
 	},
 	//
 	"flex-layout.row#product-details": {
-		"children": ["tramontinacl.product-description:product-description"],
+		"children": ["tramontinaco.product-description:product-description"],
 		"props": {
 			"blockClass": "product-details",
 			"colGap": 5,

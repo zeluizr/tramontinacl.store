@@ -1,8 +1,7 @@
 {
 	"flex-layout.row#slider-banner": {
 		"children": [
-			"responsive-layout.desktop#slider-banner-title",
-			"responsive-layout.mobile#slider-banner-title-mobile",
+			"rich-text#slider-banner-title-desktop",
 			"list-context.image-list#slider-banner"
 		],
 		"props": {
@@ -12,26 +11,10 @@
 			"paddingBottom": 6
 		}
 	},
-	"responsive-layout.desktop#slider-banner-title": {
-		"children": ["rich-text#slider-banner-title-desktop"]
-	},
 	"rich-text#slider-banner-title-desktop": {
 		"props": {
 			"blockClass": "slider-banner-title",
-			"text": "## Seu Natal com Tramontina",
-			"textAlignment": "CENTER",
-			"textPosition": "CENTER",
-			"font": "t-heading-3",
-			"textColor": "c-on-base"
-		}
-	},
-	"responsive-layout.mobile#slider-banner-title-mobile": {
-		"children": ["rich-text#slider-banner-title-mobile"]
-	},
-	"rich-text#slider-banner-title-mobile": {
-		"props": {
-			"blockClass": "slider-banner-title",
-			"text": "### Seu Natal com Tramontina",
+			"text": "## Destacados de marzo con Tramontina",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -43,43 +26,23 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_001.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_001.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/7b316cb4-69f7-4745-9a02-e326b3cb0bb5___aab01474a0e66aec1ad7d06ee8d7fc50.jpg",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/7b316cb4-69f7-4745-9a02-e326b3cb0bb5___aab01474a0e66aec1ad7d06ee8d7fc50.jpg",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_002.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_002.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/c212d4bb-dbdc-412e-a877-f86231510285___f3a4d3c8fd1b3fb52139ebb342ab1145.png",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/c212d4bb-dbdc-412e-a877-f86231510285___f3a4d3c8fd1b3fb52139ebb342ab1145.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_003.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_003.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/0bb78dc3-b846-43dc-bccc-2da8cb976f57___36fa856515ae738a514cf6eafb9c423b.png",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/0bb78dc3-b846-43dc-bccc-2da8cb976f57___36fa856515ae738a514cf6eafb9c423b.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				},
 				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_004.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_004.png",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
-				},
-				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_001.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_001.png",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
-				},
-				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_002.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_002.png",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
-				},
-				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_003.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_003.png",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
-				},
-				{
-					"image": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_004.png",
-					"mobileImage": "assets/banners/slider-banners/BANNER_COLECCIONES_DESKTOP_550x750_NAVIDAD_004.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/80bb7543-7fe1-46e0-b870-4a9ff50d08bd___633ad1da3f8014e051b56abaf7be6a2e.png",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/80bb7543-7fe1-46e0-b870-4a9ff50d08bd___633ad1da3f8014e051b56abaf7be6a2e.png",
 					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
 				}
 			]

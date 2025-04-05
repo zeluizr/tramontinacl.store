@@ -1,7 +1,7 @@
 {
-  "vendor": "tramontinacl",
+  "vendor": "tramontinaco",
   "name": "store",
-  "version": "0.0.19",
+  "version": "1.0.9",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -11,12 +11,12 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "tramontinacl.department": "0.x",
-    "tramontinacl.mega-menu": "0.x",
-    "tramontinacl.help-menu": "0.x",
-    "tramontinacl.navigation": "0.x",
-    "tramontinacl.minicart": "0.x",
-    "tramontinacl.product-description": "0.x",
+    "tramontinaco.department": "0.x",
+    "tramontinaco.product-description": "0.x",
+    "tramontinaco.mega-menu": "0.x",
+    "tramontinaco.help-menu": "0.x",
+    "tramontinaco.navigation": "0.x",
+    "tramontinaco.minicart": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.carousel": "2.x",
@@ -41,7 +41,6 @@
     "vtex.product-summary": "2.x",
     "vtex.responsive-layout": "0.x",
     "vtex.rich-text": "0.x",
-    "vtex.product-customizer": "2.x",
     "vtex.search-result": "3.x",
     "vtex.search": "2.x",
     "vtex.shelf": "1.x",

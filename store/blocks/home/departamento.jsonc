@@ -10,155 +10,87 @@
 	},
 	"department": {
 		"props": {
-			"title": "## Conheça os departamentos que **fazem bonito**",
+			"title": "## Conoce nuestros departamentos **para tu hogar o negocio**",
 			"department": [
 				{
-					"title": "Acessórios para veículos",
-					"imageUrl": "assets/departamentos/tramontina-departamento-acessorios-para-veiculos.png",
+					"title": "Baterías de Cocina",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/1aa47f30-1a92-4cba-bf75-720d6feec70d___8d378b4fccae532b6fe507ca7d724826.png",
 					"link": {
-						"href": "/acessorios-para-veiculos",
+						"href": "/ollas/bateria-de-cocina",
 						"target": "_self",
-						"attributeTitle": "Accessórios para veículos"
+						"attributeTitle": "Baterías de Cocina"
 					}
 				},
 				{
-					"title": "Casa Inteligente",
-					"imageUrl": "assets/departamentos/tramontina-departamento-casa-inteligente.png",
+					"title": "Juegos de Cuchillos",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/863a1a9c-b378-4ef5-9b8c-2198e7f1d2e0___a790be562498e86451914b10ad3e17e5.png",
 					"link": {
-						"href": "/casa-inteligente",
+						"href": "/utensilios-para-cocina/cuchillos/juego-de-cuchillos",
 						"target": "_self",
-						"attributeTitle": "Casa Inteligente"
+						"attributeTitle": "Juegos de Cuchillos"
 					}
 				},
 				{
-					"title": "Churrasco",
-					"imageUrl": "assets/departamentos/tramontina-departamento-churrasco.png",
+					"title": "Comedor",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/cb4722d9-8c35-4620-8c26-98bc7066db9e___239c57be270b09fa3520c255aa5da008.png",
 					"link": {
-						"href": "/churrasco",
+						"href": "/mesa-puesta/juegos-de-cubiertos-y-cubiertos",
 						"target": "_self",
-						"attributeTitle": "Churrasco"
+						"attributeTitle": "Comedor"
+					}
+				},
+				{
+					"title": "Cocinas Profesionales",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/432d71d1-0ef7-4eb1-858d-e951561e67f0___6af1a8416079096333702a6899b2c2b1.png",
+					"link": {
+						"href": "/profesional?_q=profesional&fuzzy=0&initialMap=ft&initialQuery=profesional&map=category-2,category-2,category-2,category-2,category-2,ft&operator=and&page=2&query=/biferas/cuchillos/ollas/sartenes-panquequeras-omeleteras/utensilios/profesional&searchState",
+						"target": "_self",
+						"attributeTitle": "Cocinas Profesionales"
+					}
+				},
+				{
+					"title": "Cubetas y Fregaderos",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/dad88049-6527-466e-ae39-a34f2a39171d___a71f14ae373f0a9315bcf67a42e2e2a2.png",
+					"link": {
+						"href": "/remodelacion-y-construccion/cubas-y-piletas",
+						"target": "_self",
+						"attributeTitle": "Cubetas y Fregaderos"
 					}
 				},
 				{
 					"title": "Eletrodomésticos",
-					"imageUrl": "assets/departamentos/tramontina-departamento-eletrodomesticos.png",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex/assets-builder/tramontinaco.store/0.0.1/departamentos/tramontina-departamento-eletrodomesticos___5cf23bfc46ae0983eff96346285fc821.png",
 					"link": {
-						"href": "/eletrodomesticos",
+						"href": "/electrodomesticos",
 						"target": "_self",
 						"attributeTitle": "Eletrodomésticos"
 					}
 				},
 				{
-					"title": "Ferramentas",
-					"imageUrl": "assets/departamentos/tramontina-departamento-ferramentas.png",
+					"title": "Iluminación",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/61fcb908-8fa9-429d-adf2-e98d5e906fe5___86a300813378618e12dc0fc1511db49f.png",
 					"link": {
-						"href": "/herramientas",
+						"href": "/iluminacion/bombillos",
 						"target": "_self",
-						"attributeTitle": "Ferramentas"
+						"attributeTitle": "Iluminación"
 					}
 				},
 				{
-					"title": "Iluminação",
-					"imageUrl": "assets/departamentos/tramontina-departamento-iluminacao.png",
+					"title": "Reforma y Construcción",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/41d7a32d-88ac-4730-8153-f873145ee3e4___37365a1c3ea40bcfa624b37e17f402b9.png",
 					"link": {
-						"href": "/iluminacao",
+						"href": "/remodelacion-y-construccion/yes?map=c,c,promotion",
 						"target": "_self",
-						"attributeTitle": "Iluminação"
+						"attributeTitle": "Reforma y Construcción"
 					}
 				},
 				{
-					"title": "Infantil",
-					"imageUrl": "assets/departamentos/tramontina-departamento-infantil.png",
+					"title": "Jardín y Agricultura",
+					"imageUrl": "https://tramontinaco.vtexassets.com/assets/vtex/assets-builder/tramontinaco.store/0.0.1/departamentos/tramontina-departamento-jardinagem___38cfa6646090314df6e0efaaee55d290.png",
 					"link": {
-						"href": "/infantil",
+						"href": "/jardineria-y-agricultura/yes?map=c,c,promotion",
 						"target": "_self",
-						"attributeTitle": "Infantil"
-					}
-				},
-				{
-					"title": "Jardinagem",
-					"imageUrl": "assets/departamentos/tramontina-departamento-jardinagem.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Jardinagem"
-					}
-				},
-				{
-					"title": "Limpeza e Organização",
-					"imageUrl": "assets/departamentos/tramontina-departamento-limpeza-e-organizacao.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Limpeza e Organização"
-					}
-				},
-				{
-					"title": "Mesa Posta",
-					"imageUrl": "assets/departamentos/tramontina-departamento-mesa-posta.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Mesa Posta"
-					}
-				},
-				{
-					"title": "Móveis",
-					"imageUrl": "assets/departamentos/tramontina-departamento-moveis.png",
-					"link": { "href": "/", "target": "_self", "attributeTitle": "Móveis" }
-				},
-				{
-					"title": "Panelas",
-					"imageUrl": "assets/departamentos/tramontina-departamento-panelas.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Panelas"
-					}
-				},
-				{
-					"title": "Produtos personalizáveis",
-					"imageUrl": "assets/departamentos/tramontina-departamento-produtos-personalizaveis.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Produtos personalizáveis"
-					}
-				},
-				{
-					"title": "Reforma e Construção",
-					"imageUrl": "assets/departamentos/tramontina-departamento-reforma-e-construcao.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Reforma e Construção"
-					}
-				},
-				{
-					"title": "Utilidades Domésticas",
-					"imageUrl": "assets/departamentos/tramontina-departamento-utilidades-domesticas.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Utilidades Domésticas"
-					}
-				},
-				{
-					"title": "Veículos Utilitários",
-					"imageUrl": "assets/departamentos/tramontina-departamento-veiculos-utilitarios.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Veículos Utilitários"
-					}
-				},
-				{
-					"title": "Beleza Pessoal",
-					"imageUrl": "assets/departamentos/tramontinac-departamento-beleza-pessoal.png",
-					"link": {
-						"href": "/",
-						"target": "_self",
-						"attributeTitle": "Beleza Pessoal"
+						"attributeTitle": "Jardín y Agricultura"
 					}
 				}
 			],

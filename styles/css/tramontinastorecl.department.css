@@ -1,0 +1,38 @@
+.paginationDotsContainer {
+	bottom: -1.5rem;
+	gap: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.sliderArrows {
+	padding: 0 !important;
+	margin: 0 !important;
+	background-color: white !important;
+	border-radius: 100% !important;
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+}
+
+.sliderLeftArrow {
+	left: 1rem !important;
+}
+
+.sliderRightArrow {
+	right: 1rem !important;
+}
+
+.paginationDot {
+	background-color: #b2b2b2;
+	height: 0.5rem !important;
+	width: 0.5rem !important;
+	padding: 0;
+	margin: 0;
+	border-radius: 100%;
+}
+
+.paginationDot--isActive {
+	background-color: #003087;
+	height: 0.625rem !important;
+	width: 0.625rem !important;
+}

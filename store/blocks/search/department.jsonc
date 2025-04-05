@@ -2,9 +2,10 @@
 	"store.search#department": {
 		"blocks": ["search-result-layout"],
 		"props": {
+			"blockClass": "search-result-department",
 			"context": {
 				"maxItemsPerPage": 24,
-				"orderByField": "OrderByBestDiscountDESC",
+				"orderByField": "OrderByTopSaleDESC",
 				"hideUnavailableItems": true,
 				"facetsBehavior": "dynamic",
 				"skusFilter": "ALL_AVAILABLE",

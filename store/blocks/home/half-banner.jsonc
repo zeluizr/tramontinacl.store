@@ -1,8 +1,4 @@
 {
-	// The desktop version of the half-banner block
-	"responsive-layout.desktop#half-banner": {
-		"children": ["flex-layout.row#half-banner"]
-	},
 	"flex-layout.row#half-banner": {
 		"children": ["list-context.image-list#half-banner"],
 		"props": {
@@ -16,19 +12,19 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/c4ee6e54-9bc2-4f2c-8898-ee213baf81a1___3b0f864bc8139ebfab341ac6659f9ec0.png",
 					"mobileImage": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
 					"link": {
-						"href": "/",
+						"href": "/142?map=productClusterIds&order=&utmi_cp=lanzamiento&utmi_pc=banner-principal-hogar-enero&utmi_p=home",
 						"target": "_self",
 						"attributeTitle": "Produtos Exclusivos"
 					}
 				},
 				{
-					"image": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/028fa011-9ac6-46e8-b992-78b918dd80ef___6300625f83f50f153a6e8e77b05d0764.png",
 					"mobileImage": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
 					"link": {
-						"href": "/",
+						"href": "/143?map=productClusterIds&order=OrderByBestDiscountDESC&utmi_cp=ultimas-unidades&utmi_pc=banner-medium-ultimas-unidades&utmi_p=home",
 						"target": "_self",
 						"attributeTitle": "Lançamentos Tramontina"
 					}
@@ -40,49 +36,6 @@
 		"props": {
 			"blockClass": "half-banner",
 			"itemsPerPage": { "desktop": 2, "tablet": 2, "phone": 1 }
-		}
-	},
-	// The mobile version of the half-banner block
-	"responsive-layout.mobile#half-banner": {
-		"children": ["flex-layout.row#half-banner-mobile"]
-	},
-	"flex-layout.row#half-banner-mobile": {
-		"children": [
-			"flex-layout.col#half-banner-image-02",
-			"flex-layout.col#half-banner-image-01"
-		],
-		"props": {
-			"blockClass": "half-banner-mobile",
-			"paddingTop": 4,
-			"paddingBottom": 4,
-			"rowGap": 5,
-			"colGap": 5
-		}
-	},
-	"flex-layout.col#half-banner-image-01": {
-		"children": ["image#half-banner-image-01"]
-	},
-	"flex-layout.col#half-banner-image-02": {
-		"children": ["image#half-banner-image-02"]
-	},
-	"image#half-banner-image-01": {
-		"props": {
-			"src": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
-			"link": {
-				"href": "/",
-				"target": "_self",
-				"attributeTitle": "Lançamentos Tramontina"
-			}
-		}
-	},
-	"image#half-banner-image-02": {
-		"props": {
-			"src": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
-			"link": {
-				"href": "/",
-				"target": "_self",
-				"attributeTitle": "Produtos Exclusivos"
-			}
 		}
 	}
 }

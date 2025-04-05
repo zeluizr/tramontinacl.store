@@ -13,7 +13,7 @@
 	"rich-text#shelf-container-02": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Seleção especial **feita para você**",
+			"text": "## ¡Diseñados para **compartir!**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -26,7 +26,8 @@
 		"props": {
 			"hideUnavailableItems": true,
 			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC"
+			"orderBy": "OrderByTopSaleDESC",
+			"collection": "138"
 		}
 	},
 	"slider-layout#shelf-container-02": {

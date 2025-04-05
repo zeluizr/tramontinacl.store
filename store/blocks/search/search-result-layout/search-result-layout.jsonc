@@ -59,6 +59,17 @@
 			"blockClass": "main-content"
 		}
 	},
+	"flex-layout.row#bar": {
+		"children": ["flex-layout.col#total-productos", "flex-layout.col#orderby"],
+		"props": {
+			"blockClass": "show-previous",
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": false,
+			"horizontalAlign": "center",
+			"verticalAlign": "center"
+		}
+	},
 	"flex-layout.row#vitrina": {
 		"props": {
 			"blockClass": "main-search"
@@ -86,5 +97,22 @@
 	},
 	"flex-layout.col#showmorebutton": {
 		"children": ["search-fetch-more"]
+	},
+
+	"flex-layout.col#total-productos": {
+		"children": ["total-products.v2"]
+	},
+	"flex-layout.col#orderby": {
+		"children": ["order-by.v2"]
+	},
+	"order-by.v2": {
+		"props": {
+			"showOrderTitle": true,
+			"hiddenOptions": [
+				"OrderByScoreDESC",
+				"OrderByTopSaleDESC",
+				"OrderByReleaseDateDESC"
+			]
+		}
 	}
 }

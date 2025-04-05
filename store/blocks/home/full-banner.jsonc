@@ -12,9 +12,13 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/full-banners/BANNER_HALF_DESKTOP_1920x300.jpg",
-					"mobileImage": "assets/banners/full-banners/BANNER_HALF_MOBILE_1080x450.jpg",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/0e4fc35b-3ca6-40ee-ba41-fde9fa7998d2___27d5c8fd75c8bc4f22a534ec667de08c.webp",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/9cd30551-0257-47c6-83d0-74118d1acb47___3dd9727b94fcdbc0008d2974341c9a75.webp",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/wok?_q=wok&map=ft"
+					}
 				}
 			]
 		}
@@ -37,9 +41,13 @@
 		"props": {
 			"images": [
 				{
-					"image": "assets/banners/full-banners/BANNER_FOOTER_DESKTOP_1920x450.jpg",
-					"mobileImage": "assets/banners/full-banners/BANNER_FOOTER_MOBILE_1080x980.jpg",
-					"link": { "openNewTab": false, "title": "Veja mais", "url": "/" }
+					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/026aeeb8-544e-49a7-b2bd-306c41b02328___bbc1af01ad1253b2f0700f4eba5c6c2b.webp",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/2546350d-6877-4113-bbed-ed47ce0d219f___0de48be0157ce530efa081b088da5919.jpg",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/jardineria-y-agricultura/equipos-para-jardineria/trituradores"
+					}
 				}
 			]
 		}
