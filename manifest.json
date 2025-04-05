@@ -1,7 +1,7 @@
 {
 	"vendor": "tramontinacl",
 	"name": "store",
-	"version": "0.0.19",
+	"version": "2.0.0",
 	"builders": {
 		"assets": "0.x",
 		"styles": "2.x",
