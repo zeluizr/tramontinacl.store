@@ -21,6 +21,8 @@ const Brand: React.FC<BrandProps> & { schema?: any } = ({
   const resolvedWidth = isMobile ? mobileWidth || width : width;
   const resolvedHeight = isMobile ? mobileHeight || height : height;
 
+  const figureClasses = classNames(handles.logoFigure, "flex ma0");
+  const linkClasses = classNames(handles.logoLink, "flex");
   const imageClasses = classNames(
     handles.logoImage,
     "flex",
@@ -29,8 +31,8 @@ const Brand: React.FC<BrandProps> & { schema?: any } = ({
   );
 
   return (
-    <figure className={classNames(handles.logoFigure, "flex")}>
-      <a href={linkUrl} className={classNames(handles.logoLink, "flex")}>
+    <figure className={figureClasses}>
+      <a href={linkUrl} className={linkClasses}>
         <img src={logoUrl} alt={altText} width={resolvedWidth} height={resolvedHeight} className={imageClasses} />
       </a>
     </figure>
