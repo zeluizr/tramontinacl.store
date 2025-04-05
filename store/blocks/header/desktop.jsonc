@@ -18,12 +18,25 @@
   },
   "flex-layout.row#header-desktop": {
     "title": "Header Desktop",
-    "children": ["flex-layout.col#brand", "flex-layout.col#mega-menu"],
+    "children": ["flex-layout.col#left-header", "flex-layout.col#search"],
     "props": {
       "blockClass": "header-desktop",
       "horizontalAlign": "between",
       "paddingTop": 5,
       "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#left-header": {
+    "children": ["flex-layout.row#left-header"],
+    "props": {
+      "blockClass": "left-header-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#left-header": {
+    "children": ["flex-layout.col#brand", "flex-layout.col#mega-menu"],
+    "props": {
+      "blockClass": "left-header-row"
     }
   },
   "flex-layout.col#brand": {
@@ -43,5 +56,8 @@
   },
   "flex-layout.row#mega-menu": {
     "children": ["mega-menu#desktop"]
+  },
+  "flex-layout.col#search": {
+    "children": ["search-bar"]
   }
 }
