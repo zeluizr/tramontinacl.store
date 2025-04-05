@@ -2,7 +2,6 @@
 	"store.search": {
 		"blocks": ["search-result-layout"],
 		"props": {
-			"blockClass": "search-result",
 			"context": {
 				"maxItemsPerPage": 24,
 				"orderByField": "OrderByBestDiscountDESC",

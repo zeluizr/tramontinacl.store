@@ -126,8 +126,10 @@
 .filterItem :global(.vtex-checkbox__label) {
 	display: -webkit-box !important;
 	-webkit-line-clamp: 1;
+	line-clamp: 1;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
+	font-size: 0.85rem;
 }
 
 .searchBarContainer :global(.vtex-button__label) {

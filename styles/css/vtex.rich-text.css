@@ -174,3 +174,10 @@
 		font-size: 1.25rem;
 	}
 }
+
+/* Product Page */
+
+.paragraph--shipping-simulator {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}

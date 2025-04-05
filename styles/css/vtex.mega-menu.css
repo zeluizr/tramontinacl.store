@@ -99,3 +99,8 @@
 	color: #5c5c5d;
 	font-size: 0.875rem;
 }
+
+.accordionIconContainer {
+	display: flex;
+	align-items: center;
+}

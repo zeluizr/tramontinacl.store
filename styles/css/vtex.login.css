@@ -32,3 +32,13 @@
 :global(.vtex-mega-menu-2-x-menuContainer) h3 {
 	display: none;
 }
+
+:global(.swiper-container-thumbs) :global(.swiper-wrapper) {
+	gap: 0.5rem;
+}
+
+:global(.swiper-container-thumbs) :global(.swiper-slide-active) {
+	border: 1px solid #e6e8ea;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}

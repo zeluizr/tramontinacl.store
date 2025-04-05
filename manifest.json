@@ -1,7 +1,7 @@
 {
   "vendor": "tramontinacl",
   "name": "store",
-  "version": "0.0.4",
+  "version": "0.0.19",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -16,6 +16,7 @@
     "tramontinacl.help-menu": "0.x",
     "tramontinacl.navigation": "0.x",
     "tramontinacl.minicart": "0.x",
+    "tramontinacl.product-description": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.carousel": "2.x",
@@ -40,6 +41,7 @@
     "vtex.product-summary": "2.x",
     "vtex.responsive-layout": "0.x",
     "vtex.rich-text": "0.x",
+    "vtex.product-customizer": "2.x",
     "vtex.search-result": "3.x",
     "vtex.search": "2.x",
     "vtex.shelf": "1.x",
@@ -59,7 +61,8 @@
     "vtex.telemarketing": "2.x"
   },
   "peerDependencies": {
-    "vtex.mega-menu": "2.x"
+    "vtex.mega-menu": "2.x",
+    "vtex.reviews-and-ratings": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
