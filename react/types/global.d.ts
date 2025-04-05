@@ -10,6 +10,10 @@ declare global {
     mobileHeight?: number;
   };
 
+  type MainMenuProps = {
+    logoUrl?: string;
+  };
+
   interface PixelMessage extends MessageEvent {
     data:
       | ProductViewData

@@ -10,13 +10,18 @@
   },
   "flex-layout.col#brand-top-bar": {
     "title": "Marca Top Bar",
-    "children": ["brand#tramontina"]
+    "children": ["brand#tramontina"],
+    "props": {
+      "blockClass": "brand-top-bar",
+      "verticalAlign": "middle"
+    }
   },
   "flex-layout.row#header-desktop": {
     "title": "Header Desktop",
-    "children": ["flex-layout.col#brand"],
+    "children": ["flex-layout.col#brand", "flex-layout.col#mega-menu"],
     "props": {
       "blockClass": "header-desktop",
+      "horizontalAlign": "between",
       "paddingTop": 5,
       "paddingBottom": 5
     }
@@ -25,7 +30,18 @@
     "title": "Marca",
     "children": ["brand#tstore"],
     "props": {
-      "blockClass": "brand"
+      "blockClass": "brand",
+      "verticalAlign": "middle"
     }
+  },
+  "flex-layout.col#mega-menu": {
+    "children": ["mega-menu-trigger-btn", "flex-layout.row#mega-menu"],
+    "props": {
+      "blockClass": "mega-menu",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu#desktop"]
   }
 }

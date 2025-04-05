@@ -1,0 +1,10 @@
+{
+  "mega-menu-trigger-btn": {
+    "props": { "Drawer": "drawer" }
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal"
+    }
+  }
+}
