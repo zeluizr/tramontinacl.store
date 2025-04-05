@@ -1,0 +1,20 @@
+{
+  "store.custom#custom-page": {
+    "blocks": ["flex-layout.row#custom-page-title"]
+  },
+  "flex-layout.row#custom-page-title": {
+    "children": ["rich-text#custom-page-title"]
+  },
+  "rich-text#custom-page-title": {
+    "props": {
+      "blockClass": "custom-page-title",
+      "font": "t-body",
+      "htmlId": "custom-page-title",
+      "preventVerticalStretch": false,
+      "text": "# Custom Page\n\nlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}
