@@ -26,6 +26,7 @@
 			"blockClass": ["logo-tstore"],
 			"url": "assets/brands/tstore.svg",
 			"mobileHeight": 50,
+			"title": "T-Store",
 			"href": "/"
 		}
 	},

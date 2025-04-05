@@ -1,9 +1,6 @@
 {
-	"store.custom#custom-page": {
-		"path": "/custom-page"
-	},
 	"store.custom#terminos-y-condiciones": {
-		"path": "/terminos-y-condiciones"
+		"path": "/terminosycondiciones"
 	},
 	"store.custom#about-us": {
 		"path": "/institucional"

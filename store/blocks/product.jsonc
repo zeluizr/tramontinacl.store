@@ -211,7 +211,7 @@
 	},
 	//
 	"flex-layout.row#product-details": {
-		"children": ["tramontinaco.product-description:product-description"],
+		"children": ["tramontinacl.product-description:product-description"],
 		"props": {
 			"blockClass": "product-details",
 			"colGap": 5,

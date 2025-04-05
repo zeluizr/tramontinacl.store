@@ -28,6 +28,7 @@
 			"blockClass": ["logo", "tramontina-logo"],
 			"url": "assets/brands/tramontina.svg",
 			"href": "/",
+			"title": "Tramontina",
 			"width": 105,
 			"mobileWidth": 105
 		}
@@ -81,7 +82,10 @@
 	},
 	// Header mobile
 	"flex-layout.row#top-header-mobile": {
-		"children": ["flex-layout.col#welcome-text-mobile", "flex-layout.col#logo-mobile"],
+		"children": [
+			"flex-layout.col#welcome-text-mobile",
+			"flex-layout.col#logo-mobile"
+		],
 		"props": {
 			"blockClass": ["top-header", "top-header-mobile"],
 			"paddingTop": 4,

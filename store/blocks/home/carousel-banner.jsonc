@@ -13,21 +13,39 @@
 			"preload": true,
 			"images": [
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/153a600c-5da6-4795-bce6-74cebf8164a4___e29bd1fe9a79636b3de57f6caf9fde0f.jpg",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/ba8e6627-22f1-49e1-a6fa-6a2fdb2296fd___d12b37c7a5e0a0e2c08f928d754e3df1.png",
 					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/8102840e-fa21-481d-8535-467ba9e873ca___9e3df400005be44d8f20c9fb02785913.jpg",
 					"link": {
 						"openNewTab": false,
 						"title": "Veja mais",
-						"url": "/utensilios-para-cocina?initialMap=c&initialQuery=utensilios-para-cocina&map=category-1,material,material&query=/utensilios-para-cocina/acero-inoxidable/hierro&searchState"
+						"url": "/190?map=productClusterIds"
 					}
 				},
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/638770b1-f985-45d2-9fea-b645b6801c56___872d79493b42b9720f1594716f8071cf.webp",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/97fc2dea-bf55-4fa7-8a47-ca3718134b99___f94c5797c7afeaf562f3fe6c73e0037e.gif",
 					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/be2cffd3-3e0d-41bd-9b72-1338be1ccd51___461b7c1b932743bc7a7b290e66f904b1.webp",
 					"link": {
 						"openNewTab": false,
 						"title": "Veja mais",
-						"url": "/154?map=productClusterIds&order=&utmi_cp=nuevas-vajillas-tramontina&utmi_pc=banner-principal-nuevas-vajillas-tramontina&utmi_p=home"
+						"url": "/191?map=productClusterIds"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/550d005f-0ab4-4b3c-8e1e-2966b96af7c6___3a333f2258dad40a19e098e91db4db6c.gif",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/be2cffd3-3e0d-41bd-9b72-1338be1ccd51___461b7c1b932743bc7a7b290e66f904b1.webp",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/173?map=productClusterIds"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/6a4034da-497d-4e2f-84ac-ba1973ea2a5a___e95acd1487e73c166b380bf794d4dbbc.png",
+					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/be2cffd3-3e0d-41bd-9b72-1338be1ccd51___461b7c1b932743bc7a7b290e66f904b1.webp",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/mesa-puesta/te-y-cafe"
 					}
 				}
 			]
