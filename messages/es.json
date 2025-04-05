@@ -1,6 +1,6 @@
 {
-  "admin/editor.brand.title": "Título",
-  "admin/editor.brand.description": "Descripción",
+  "admin/editor.brand.title": "Configuración de la Marca",
+  "admin/editor.brand.description": "Personaliza la apariencia de tu aplicación con tu marca.",
   "admin/editor.brand.logoUrl": "URL del Logo",
   "admin/editor.brand.altText": "Texto alternativo",
   "admin/editor.brand.linkUrl": "URL del Enlace",

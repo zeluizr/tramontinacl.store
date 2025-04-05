@@ -2,6 +2,7 @@ declare global {
   type BrandProps = {
     logoUrl?: string;
     altText?: string;
+    content?: string;
     linkUrl?: string;
     width?: number;
     height?: number;

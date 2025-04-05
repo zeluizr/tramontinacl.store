@@ -1,6 +1,6 @@
 {
-  "admin/editor.brand.title": "Title",
-  "admin/editor.brand.description": "Description",
+  "admin/editor.brand.title": "Branding",
+  "admin/editor.brand.description": "Customize the branding of your application.",
   "admin/editor.brand.logoUrl": "Logo URL",
   "admin/editor.brand.altText": "Alt text",
   "admin/editor.brand.linkUrl": "Link URL",

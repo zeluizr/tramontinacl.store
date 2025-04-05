@@ -1,11 +1,23 @@
 {
-  "brand": {
+  "brand#tstore": {
+    "title": "T Store",
     "props": {
       "logoUrl": "assets/brand/tstore.svg",
-      "altText": "",
-      "linkUrl": "#",
+      "altText": "T Store",
+      "linkUrl": "/",
       "height": 70,
       "mobileHeight": 70
+    }
+  },
+  "brand#tramontina": {
+    "title": "Tramontina",
+    "props": {
+      "altText": "Tramontina",
+      "content": "Bienvenido a la Tienda Oficial",
+      "height": 22,
+      "linkUrl": "/",
+      "logoUrl": "assets/brand/tramontina.svg",
+      "mobileHeight": 22
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#header-mobile": {
-    "children": ["brand"],
+    "children": ["brand#tstore"],
     "props": {
       "blockClass": "header-mobile",
       "paddingTop": 5,

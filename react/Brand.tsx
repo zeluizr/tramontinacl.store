@@ -3,8 +3,9 @@ import React from "react";
 import { defineMessages } from "react-intl";
 import { useCssHandles } from "vtex.css-handles";
 import { useDevice } from "vtex.device-detector";
+import "./styles/styles.css";
 
-const CSS_HANDLES = ["logoFigure", "logoLink", "logoImage"] as const;
+const CSS_HANDLES = ["logoFigure", "logoContent", "logoLink", "logoImage"] as const;
 
 const Brand: React.FC<BrandProps> & { schema?: any } = ({
   altText,
@@ -14,6 +15,7 @@ const Brand: React.FC<BrandProps> & { schema?: any } = ({
   height,
   mobileWidth,
   mobileHeight,
+  content,
 }) => {
   const { handles } = useCssHandles(CSS_HANDLES);
   const { isMobile } = useDevice();
@@ -22,7 +24,8 @@ const Brand: React.FC<BrandProps> & { schema?: any } = ({
   const resolvedHeight = isMobile ? mobileHeight || height : height;
 
   const figureClasses = classNames(handles.logoFigure, "flex ma0");
-  const linkClasses = classNames(handles.logoLink, "flex");
+  const linkClasses = classNames(handles.logoLink, "flex items-center link c-on-base");
+  const contentClasses = classNames(handles.logoContent, "t-mini");
   const imageClasses = classNames(
     handles.logoImage,
     "flex",
@@ -33,6 +36,7 @@ const Brand: React.FC<BrandProps> & { schema?: any } = ({
   return (
     <figure className={figureClasses}>
       <a href={linkUrl} className={linkClasses}>
+        {content && <span className={contentClasses}>{content}</span>}
         <img src={logoUrl} alt={altText} width={resolvedWidth} height={resolvedHeight} className={imageClasses} />
       </a>
     </figure>
@@ -77,6 +81,7 @@ Brand.schema = {
     logoUrl: {
       title: messages.logoUrl.id,
       type: "string",
+      widget: { "ui:widget": "image-uploader" },
     },
     altText: {
       title: messages.altText.id,
