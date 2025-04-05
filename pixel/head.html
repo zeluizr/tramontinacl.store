@@ -1,9 +1,13 @@
 <script>
-  const mensagem = "{{settings.message}}";
+  const tema = decodeURIComponent("{{settings.tema}}");
+  console.log("tema", tema);
 
-  if (mensagem) {
-    console.log(`Mensagem definida pelo usuário: ${mensagem}`);
-  } else {
-    console.log("Nenhuma mensagem foi definida.");
-  }
+  const corCyber = decodeURIComponent("{{settings.corCyber}}");
+  console.log("corCyber", corCyber);
 </script>
+
+<style type="text/css">
+  .suiteshare-widget {
+    display: none !important;
+  }
+</style>

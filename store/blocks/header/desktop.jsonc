@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#header-desktop": {
+    "children": ["brand"],
+    "props": {
+      "blockClass": "header-desktop",
+      "paddingTop": 5,
+      "paddingBottom": 5
+    }
+  }
+}

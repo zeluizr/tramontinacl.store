@@ -1,0 +1,11 @@
+{
+  "brand": {
+    "props": {
+      "logoUrl": "assets/brand/tstore.svg",
+      "altText": "",
+      "linkUrl": "#",
+      "height": 70,
+      "mobileHeight": 70
+    }
+  }
+}

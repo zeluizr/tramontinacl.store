@@ -67,13 +67,50 @@
     "vtex.reviews-and-ratings": "3.x"
   },
   "settingsSchema": {
-    "title": "Configuración del Pixel App",
+    "title": "Configuração do Pixel App",
     "type": "object",
     "properties": {
-      "message": {
+      "tema": {
         "type": "string",
-        "title": "Mensaje personalizado",
-        "default": "Jose Luiz Rodrigues"
+        "title": "Tema da campanha",
+        "enum": [
+          "default",
+          "cyber",
+          "black-friday"
+        ],
+        "enumNames": [
+          "Padrão",
+          "Cyber",
+          "Black Friday"
+        ],
+        "default": "default"
+      }
+    },
+    "dependencies": {
+      "tema": {
+        "oneOf": [
+          {
+            "properties": {
+              "tema": {
+                "const": "cyber"
+              },
+              "corCyber": {
+                "type": "string",
+                "title": "Cor hexadecimal do tema Cyber"
+              }
+            }
+          },
+          {
+            "properties": {
+              "tema": {
+                "enum": [
+                  "default",
+                  "black-friday"
+                ]
+              }
+            }
+          }
+        ]
       }
     }
   },

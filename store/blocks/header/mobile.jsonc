@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#header-mobile": {
+    "children": ["brand"],
+    "props": {
+      "blockClass": "header-mobile",
+      "paddingTop": 5,
+      "paddingBottom": 5
+    }
+  }
+}

@@ -8,6 +8,27 @@ declare global {
     mobileWidth?: number;
     mobileHeight?: number;
   };
+
+  interface PixelMessage extends MessageEvent {
+    data:
+      | ProductViewData
+      | ProductClickData
+      | OrderPlacedData
+      | OrderPlacedTrackedData
+      | PageViewData
+      | ProductImpressionData
+      | AddToCartData
+      | RemoveToCartData
+      | CartChangedData
+      | HomePageInfo
+      | ProductPageInfoData
+      | SearchPageInfoData
+      | UserData
+      | CartIdData
+      | PromoViewData
+      | PromotionClickData
+      | NewsletterSubscriptionData;
+  }
 }
 
 export {};

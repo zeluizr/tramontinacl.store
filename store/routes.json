@@ -1,11 +1,11 @@
 {
-	"store.custom#acerca-de-tramontina": {
-		"path": "/acerca-de-tramontina"
-	},
-	"store.custom#terminos-y-condiciones": {
-		"path": "/terminos-y-condiciones"
-	},
-	"store.custom#responsabilidad-ambiental": {
-		"path": "/responsabilidad-ambiental"
-	}
+  "store.custom#acerca-de-tramontina": {
+    "path": "/acerca-de-tramontina"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#responsabilidad-ambiental": {
+    "path": "/responsabilidad-ambiental"
+  }
 }
