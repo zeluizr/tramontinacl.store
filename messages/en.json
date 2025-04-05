@@ -1,1 +1,11 @@
-{}
+{
+  "admin/editor.brand.title": "Title",
+  "admin/editor.brand.description": "Description",
+  "admin/editor.brand.logoUrl": "Logo URL",
+  "admin/editor.brand.altText": "Alt text",
+  "admin/editor.brand.linkUrl": "Link URL",
+  "admin/editor.brand.width": "Width",
+  "admin/editor.brand.height": "Height",
+  "admin/editor.brand.mobileWidth": "Mobile width",
+  "admin/editor.brand.mobileHeight": "Mobile height"
+}

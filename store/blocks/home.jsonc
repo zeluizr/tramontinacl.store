@@ -1,5 +1,16 @@
 {
-	"store.home": {
-		"blocks": []
-	}
+  "store.home": {
+    "blocks": ["brand"]
+  },
+  "brand": {
+    "props": {
+      "logoUrl": "assets/brand/tstore.svg",
+      "altText": "",
+      "linkUrl": "#",
+      "width": 100,
+      "height": 100,
+      "mobileWidth": 100,
+      "mobileHeight": 100
+    }
+  }
 }

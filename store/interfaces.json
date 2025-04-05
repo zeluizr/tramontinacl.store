@@ -1,1 +1,8 @@
-{}
+{
+  "pixel.normalize": {
+    "component": "index"
+  },
+  "brand": {
+    "component": "Brand"
+  }
+}
