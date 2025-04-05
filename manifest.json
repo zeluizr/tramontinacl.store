@@ -4,7 +4,10 @@
   "version": "0.0.19",
   "builders": {
     "assets": "0.x",
+    "docs": "0.x",
+    "messages": "1.x",
     "pixel": "0.x",
+    "react": "3.x",
     "store": "0.x",
     "styles": "2.x"
   },
