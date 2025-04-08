@@ -43,12 +43,12 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/026aeeb8-544e-49a7-b2bd-306c41b02328___bbc1af01ad1253b2f0700f4eba5c6c2b.webp",
-					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/2546350d-6877-4113-bbed-ed47ce0d219f___0de48be0157ce530efa081b088da5919.jpg",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/43e008bb-a1e8-44b6-ab5e-03110ef2db75___bd63f7aa51954a07b5bbcb145d4a915e.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9c2e914b-b605-40bd-85a4-5208ca71ebf9___a48d40575ac768e78c4e946d35fc196f.png",
 					"link": {
 						"openNewTab": false,
 						"title": "Veja mais",
-						"url": "/jardineria-y-agricultura/equipos-para-jardineria/trituradores"
+						"url": "/179?map=productClusterIds"
 					}
 				}
 			]
