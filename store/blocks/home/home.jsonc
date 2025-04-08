@@ -29,10 +29,10 @@
 			"department": [
 				{
 					"title": "Atención en línea",
-					"text": "Nuestro servicio está disponible de lunes a viernes exceptuando festivos, de 06:30 a 16:00 hrs.",
+					"text": "Nuestro servicio está disponible de lunes a viernes exceptuando festivos, de 07:30 a 16:00 hrs.",
 					"imageUrl": "assets/help-menu/atencion.svg",
 					"link": {
-						"href": "https://api.whatsapp.com/send?phone=573167428599",
+						"href": "https://api.whatsapp.com/send?phone=56957790936",
 						"target": "_blank",
 						"attributeTitle": "Atención en línea"
 					}
@@ -42,7 +42,7 @@
 					"text": "Si quieres hacer parte de nuestra red de distribuidores, escríbenos y déjanos los datos de tu comercio. ¡Te contactaremos!",
 					"imageUrl": "assets/help-menu/contribuir.svg",
 					"link": {
-						"href": "mailto:distribuidores@tramontina.com",
+						"href": "mailto:ventas.tchile@tramontina.com",
 						"target": "_blank",
 						"attributeTitle": "Quiero Distribuir"
 					}
@@ -52,7 +52,7 @@
 					"text": "Conoce la política de cambios y devoluciones de nuestra tienda en línea.",
 					"imageUrl": "assets/help-menu/troca.svg",
 					"link": {
-						"href": "/terminos-y-condiciones#politica-de-cambio-y-devolucion",
+						"href": "/terminosycondiciones#politica-de-cambio-y-devolucion",
 						"target": "_self",
 						"attributeTitle": "Política de cambio y devolución"
 					}

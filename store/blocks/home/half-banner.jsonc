@@ -12,21 +12,21 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/c4ee6e54-9bc2-4f2c-8898-ee213baf81a1___3b0f864bc8139ebfab341ac6659f9ec0.png",
-					"mobileImage": "assets/banners/half-banners/produtos-exclusivos-desktop.png",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b7a9eff9-9c19-4ed9-ab80-3c96c92ae037___290efe6b85c5e5a237eab3dcafb3966e.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b7a9eff9-9c19-4ed9-ab80-3c96c92ae037___290efe6b85c5e5a237eab3dcafb3966e.png",
 					"link": {
-						"href": "/142?map=productClusterIds&order=&utmi_cp=lanzamiento&utmi_pc=banner-principal-hogar-enero&utmi_p=home",
+						"href": "/mesa-puesta/juegos-de-cubiertos-y-cubiertos",
 						"target": "_self",
-						"attributeTitle": "Produtos Exclusivos"
+						"attributeTitle": ""
 					}
 				},
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/028fa011-9ac6-46e8-b992-78b918dd80ef___6300625f83f50f153a6e8e77b05d0764.png",
-					"mobileImage": "assets/banners/half-banners/lancamentos-tramontina-desktop.png",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/3049e560-bd8f-4ca7-b471-5ce1a4b3ebb0___90d414697824b9959be5445a875984f0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b7a9eff9-9c19-4ed9-ab80-3c96c92ae037___290efe6b85c5e5a237eab3dcafb3966e.png",
 					"link": {
-						"href": "/143?map=productClusterIds&order=OrderByBestDiscountDESC&utmi_cp=ultimas-unidades&utmi_pc=banner-medium-ultimas-unidades&utmi_p=home",
+						"href": "/asado/cubiertos-y-juegos",
 						"target": "_self",
-						"attributeTitle": "Lançamentos Tramontina"
+						"attributeTitle": ""
 					}
 				}
 			]

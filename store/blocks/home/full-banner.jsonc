@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#full-banner01": {
+		"title": "Full Banner #1",
 		"children": ["list-context.image-list#full-banner01"],
 		"props": {
 			"blockClass": "full-banner01",
@@ -12,12 +13,12 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/0e4fc35b-3ca6-40ee-ba41-fde9fa7998d2___27d5c8fd75c8bc4f22a534ec667de08c.webp",
-					"mobileImage": "https://tramontinaco.vtexassets.com/assets/vtex.file-manager-graphql/images/9cd30551-0257-47c6-83d0-74118d1acb47___3dd9727b94fcdbc0008d2974341c9a75.webp",
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f00e10c3-f29f-41d8-b00a-e4eb911d5dad___50e1c9c331675d5e0851fffbea40c416.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f00e10c3-f29f-41d8-b00a-e4eb911d5dad___50e1c9c331675d5e0851fffbea40c416.png",
 					"link": {
 						"openNewTab": false,
 						"title": "Veja mais",
-						"url": "/wok?_q=wok&map=ft"
+						"url": "/167?map=productClusterIds"
 					}
 				}
 			]
@@ -29,6 +30,7 @@
 		}
 	},
 	"flex-layout.row#full-banner02": {
+		"title": "Full Banner #2",
 		"children": ["list-context.image-list#full-banner02"],
 		"props": {
 			"blockClass": "full-banner02",

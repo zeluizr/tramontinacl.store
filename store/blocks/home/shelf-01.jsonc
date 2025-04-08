@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#shelf-container-01": {
+		"title": "Vitrina #1",
 		"children": [
 			"rich-text#shelf-container-01",
 			"list-context.product-list#shelf-container-01"
@@ -13,7 +14,7 @@
 	"rich-text#shelf-container-01": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## ¡Productos **destacados!**",
+			"text": "## Los más Top de abril **Tramontina** 😲",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +26,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC",
-			"collection": "137"
+			"maxItems": 25,
+			"orderBy": "OrderByBestDiscountDESC",
+			"collection": "187"
 		}
 	},
 	"slider-layout#shelf-container-01": {

@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#shelf-container-02": {
+		"title": "Vitrina #2",
 		"children": [
 			"rich-text#shelf-container-02",
 			"list-context.product-list#shelf-container-02"
@@ -13,7 +14,7 @@
 	"rich-text#shelf-container-02": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## ¡Diseñados para **compartir!**",
+			"text": "## Es momento de lucir tu mesa con  ***encanto***",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +26,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 15,
-			"orderBy": "OrderByTopSaleDESC",
-			"collection": "138"
+			"maxItems": 20,
+			"orderBy": "OrderByBestDiscountDESC",
+			"collection": "188"
 		}
 	},
 	"slider-layout#shelf-container-02": {

@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#shelf-container-blue": {
+		"title": "Vitrina Azul",
 		"children": [
 			"rich-text#shelf-container-blue",
 			"list-context.product-list#shelf-container-blue"
@@ -13,7 +14,7 @@
 	"rich-text#shelf-container-blue": {
 		"props": {
 			"blockClass": ["title-blue"],
-			"text": "## Reforma y Construcción\nTu casa lista para el verano",
+			"text": "## Ponle el toque a tu hogar.\nDiseños exclusivos TRAMONTINA",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +26,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 20,
-			"orderBy": "OrderByBestDiscountDESC",
-			"category": "2902"
+			"maxItems": 25,
+			"orderBy": "OrderByTopSaleDESC",
+			"collection": "180"
 		}
 	},
 	"slider-layout#shelf-container-blue": {

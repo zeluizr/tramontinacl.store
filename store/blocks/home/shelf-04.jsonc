@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#shelf-container-04": {
+		"title": "Vitrina #4",
 		"children": [
 			"rich-text#shelf-container-04",
 			"list-context.product-list#shelf-container-04"
@@ -13,7 +14,7 @@
 	"rich-text#shelf-container-04": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Conoce algunos productos de **jardín y agricultura**",
+			"text": "## Disfruta nuestros mejores **descuentos Tramontina**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +26,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 15,
+			"maxItems": 30,
 			"orderBy": "OrderByTopSaleDESC",
-			"category": "2925"
+			"collection": "185"
 		}
 	},
 	"slider-layout#shelf-container-04": {

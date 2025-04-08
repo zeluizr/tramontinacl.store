@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#shelf-container-03": {
+		"title": "Vitrina #3",
 		"children": [
 			"rich-text#shelf-container-03",
 			"list-context.product-list#shelf-container-03"
@@ -13,7 +14,7 @@
 	"rich-text#shelf-container-03": {
 		"props": {
 			"blockClass": ["shelf-container-title", "title"],
-			"text": "## Un cuchillo para **cada necesidad**",
+			"text": "## Disfruta los mejores descuentos **Tramontina**",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"font": "t-heading-3",
@@ -25,9 +26,9 @@
 		"blocks": ["product-summary.shelf"],
 		"props": {
 			"hideUnavailableItems": true,
-			"maxItems": 15,
+			"maxItems": 90,
 			"orderBy": "OrderByTopSaleDESC",
-			"collection": "147"
+			"collection": "171"
 		}
 	},
 	"slider-layout#shelf-container-03": {

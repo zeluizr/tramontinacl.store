@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#pill": {
+		"title": "Enlaces de navegación",
 		"children": ["navigation#pill"],
 		"props": {
 			"blockClass": "pill",
@@ -14,39 +15,33 @@
 			"typographyType": "mini",
 			"navigation": [
 				{
-					"text": "Fregaderos",
-					"attributeTitle": "Fregaderos",
-					"url": "/fregaderos",
+					"text": "Iluminación",
+					"attributeTitle": "Iluminación",
+					"url": "/iluminacion",
 					"target": "_self"
 				},
 				{
-					"text": "Baterías de Cocina",
-					"attributeTitle": "Baterías de Cocina",
-					"url": "/baterias-de-cocina",
+					"text": "Sistema de Riego",
+					"attributeTitle": "Sistema de Riego",
+					"url": "/jardineria-y-agricultura/sistemas-de-irrigacion",
 					"target": "_self"
 				},
 				{
-					"text": "Cubiertos",
-					"attributeTitle": "Cubiertos",
-					"url": "/cubiertos",
+					"text": "Ollas Sueltas",
+					"attributeTitle": "Ollas Sueltas",
+					"url": "/ollas/ollas-sueltas",
 					"target": "_self"
 				},
 				{
-					"text": "Electrodomésticos",
-					"attributeTitle": "Electrodomésticos",
-					"url": "/electrodomesticos",
+					"text": "Grills",
+					"attributeTitle": "Grills",
+					"url": "/asado/grills-a-carbon",
 					"target": "_self"
 				},
 				{
-					"text": "Utensilios de Cocina",
-					"attributeTitle": "Utensilios de Cocina",
-					"url": "/utensilios-de-cocina",
-					"target": "_self"
-				},
-				{
-					"text": "Muebles",
-					"attributeTitle": "Muebles",
-					"url": "/muebles",
+					"text": "Sillas",
+					"attributeTitle": "Sillas",
+					"url": "/muebles/sillas",
 					"target": "_self"
 				},
 				{
@@ -56,21 +51,39 @@
 					"target": "_self"
 				},
 				{
-					"text": "Materiales Eléctricos",
-					"attributeTitle": "Materiales Eléctricos",
-					"url": "/materiales-electricos",
+					"text": "Inducción",
+					"attributeTitle": "Inducción",
+					"url": "/Ollas",
 					"target": "_self"
 				},
 				{
-					"text": "Jardinería",
-					"attributeTitle": "Jardinería",
-					"url": "/jardineria",
+					"text": "Olla de Presión",
+					"attributeTitle": "Olla de Presión",
+					"url": "/ollas/ollas-a-presion",
 					"target": "_self"
 				},
 				{
-					"text": "Infantil",
-					"attributeTitle": "Infantil",
-					"url": "/infantil",
+					"text": "Cubetas",
+					"attributeTitle": "Cubetas",
+					"url": "/remodelacion-y-construccion/cubas-y-piletas",
+					"target": "_self"
+				},
+				{
+					"text": "Porta Herramientas",
+					"attributeTitle": "Porta Herramientas",
+					"url": "/Herramientas-Industriales/Organizadores-para-Herramientas",
+					"target": "_self"
+				},
+				{
+					"text": "Cubiertos",
+					"attributeTitle": "Cubiertos",
+					"url": "/Cocina/Juego-de-Cubiertos-y-Cubiertos",
+					"target": "_self"
+				},
+				{
+					"text": "Vajillas",
+					"attributeTitle": "Vajillas",
+					"url": "/mesa-puesta/vajilla",
 					"target": "_self"
 				}
 			]
