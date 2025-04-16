@@ -11,6 +11,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "tramontinacl.whatsapp": "0.x",
     "tramontinacl.department": "0.x",
     "tramontinacl.product-description": "0.x",
     "tramontinacl.mega-menu": "0.x",
