@@ -10,8 +10,19 @@
 			"flex-layout.row#list-price",
 			"product-selling-price",
 			"product-installments",
-			"add-to-cart-button"
+			"add-to-cart-button",
+			"badges"
 		]
+	},
+	"badges": {
+		"props": {
+			"coleccions": [
+				{
+					"idCollection": 200,
+					"image": "assets/others/venta-por-mayor.gif"
+				}
+			]
+		}
 	},
 	"flex-layout.row#list-price": {
 		"children": ["product-list-price", "product-price-savings"],

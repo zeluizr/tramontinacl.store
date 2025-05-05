@@ -39,6 +39,7 @@
 .element--shelf {
 	padding-top: 0;
 	padding-bottom: 0;
+	position: relative;
 }
 
 .clearLink--shelf {
