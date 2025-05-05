@@ -102,10 +102,17 @@
 			"flex-layout.col#product-right-price",
 			"flex-layout.col#shipping-simulator",
 			"flex-layout.col#add-to-cart",
-			"flex-layout.col#add-to-cart-one-click-buy"
+			"flex-layout.col#add-to-cart-one-click-buy",
+			"buy-button-mayor"
 		],
 		"props": {
 			"blockClass": "row-product-right"
+		}
+	},
+	"buy-button-mayor": {
+		"props": {
+			"idCollection": 200,
+			"textoButton": "COMPRAR 6+ POR MAYOR"
 		}
 	},
 	"flex-layout.col#product-right-price": {
