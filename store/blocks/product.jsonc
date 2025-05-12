@@ -103,7 +103,8 @@
 			"flex-layout.col#shipping-simulator",
 			"flex-layout.col#add-to-cart",
 			"flex-layout.col#add-to-cart-one-click-buy",
-			"buy-button-mayor"
+			"buy-button-mayor",
+			"product-assembly-options"
 		],
 		"props": {
 			"blockClass": "row-product-right"
