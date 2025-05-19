@@ -12,7 +12,7 @@
     "pixel": "0.x"
   },
   "scripts": {
-    "postreleasy": "vtex publish --verbose"
+    "postreleasy": "vtex publish --verbose && vtex deploy --force"
   },
   "dependencies": {
     "vtex.add-to-cart-button": "0.x",

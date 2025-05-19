@@ -1,15 +1,13 @@
 {
   "name": "store-components",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "UNLICENSED",
   "dependencies": {
-    "axios": "^1.8.4",
     "classnames": "^2.3.2",
     "react-intl": "^6.3.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.4",
     "@types/classnames": "^2.2.9",
     "@types/node": "^12.7.5",
     "@types/react-dom": "^16.9.0",
@@ -26,6 +24,7 @@
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context",
     "vtex.availability-notify": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.availability-notify@1.0.0/public/@types/vtex.availability-notify",
-    "vtex.product-quantity": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-quantity@1.9.0/public/@types/vtex.product-quantity"
+    "vtex.product-quantity": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-quantity@1.9.0/public/@types/vtex.product-quantity",
+    "vtex.store-icons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons"
   }
 }
