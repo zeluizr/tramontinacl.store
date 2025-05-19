@@ -1,0 +1,31 @@
+{
+  "name": "store-components",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "classnames": "^2.3.2",
+    "react-intl": "^6.3.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.7.5",
+    "@types/react-dom": "^16.9.0",
+    "@types/react": "^16.9.2",
+    "@vtex/tsconfig": "^0.5.5",
+    "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles",
+    "vtex.device-detector": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector",
+    "vtex.list-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.1/public/@types/vtex.list-context",
+    "vtex.product-list": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list@0.37.3/public/@types/vtex.product-list",
+    "vtex.product-summary-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.12.0/public/@types/vtex.product-summary-context",
+    "vtex.slider-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.7/public/@types/vtex.slider-layout",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide",
+    "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
+    "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context",
+    "vtex.availability-notify": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.availability-notify@1.0.0/public/@types/vtex.availability-notify",
+    "vtex.product-quantity": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-quantity@1.9.0/public/@types/vtex.product-quantity"
+  }
+}
