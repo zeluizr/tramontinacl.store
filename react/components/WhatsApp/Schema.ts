@@ -18,12 +18,5 @@ export default {
 			type: "string",
 			default: "",
 		},
-		size: {
-			title: "Tamaño",
-			type: "string",
-			enum: [45, 60, 75],
-			enumNames: ["Pequeño", "Mediano", "Grande"],
-			default: 45,
-		},
 	},
 };

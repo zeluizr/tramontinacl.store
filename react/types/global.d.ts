@@ -1,9 +1,8 @@
 declare global {
 	type WhatsAppProps = {
+		inverted: boolean;
 		phone: string;
 		message: string;
-		inverted: boolean;
-		size: number;
 	};
 }
 

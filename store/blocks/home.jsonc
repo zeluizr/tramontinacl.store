@@ -1,13 +1,13 @@
 {
 	"store.home": {
-		"blocks": ["whatsapp#ayuda"]
+		"blocks": ["whatsapp"]
 	},
-	"whatsapp#ayuda": {
+
+	"whatsapp": {
 		"props": {
 			"inverted": true,
 			"phone": 56993978820,
-			"message": "Hola, ¿en qué puedo ayudarte?",
-			"size": 60
+			"message": "Hola, ¿en qué puedo ayudarte?"
 		}
 	}
 }
