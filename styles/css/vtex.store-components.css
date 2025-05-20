@@ -1,0 +1,15 @@
+.logoContainer--welcome-logo {
+	padding: 0;
+}
+
+.logoLink--welcome-logo {
+	display: flex;
+}
+
+.logoContainer--welcome-logo {
+	max-width: initial;
+	max-height: initial;
+	min-width: initial;
+	display: flex;
+	align-items: center;
+}

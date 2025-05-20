@@ -6,9 +6,11 @@
 		"blocks": ["header-layout.desktop", "header-layout.mobile"]
 	},
 	"header-layout.desktop": {
-		"children": []
+		"title": "Desktop Header Layout",
+		"children": ["flex-layout.row#desktop__header-info-strip"]
 	},
 	"header-layout.mobile": {
-		"children": []
+		"title": "Mobile Header Layout",
+		"children": ["flex-layout.row#mobile__header-info-strip"]
 	}
 }

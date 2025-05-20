@@ -1,0 +1,77 @@
+{
+	"flex-layout.row#desktop__header-info-strip": {
+		"title": "Desktop Header Info Strip",
+		"children": ["flex-layout.col#header-info-strip-welcome", "flex-layout.col#header-info-strip-menu"],
+		"props": {
+			"blockClass": "header-info-strip",
+			"colJustify": "between",
+			"colGap": 5,
+			"paddingBottom": 3,
+			"paddingTop": 3
+		}
+	},
+	"flex-layout.col#header-info-strip-welcome": {
+		"title": "Header Info Strip Welcome",
+		"children": ["rich-text#header-info-strip-welcome", "logo#header-info-strip-welcome"],
+		"props": {
+			"blockClass": "header-info-strip-welcome",
+			"verticalAlign": "middle",
+			"horizontalAlign": "left"
+		}
+	},
+	"rich-text#header-info-strip-welcome": {
+		"title": "Texto",
+		"props": {
+			"blockClass": "welcome-text",
+			"text": "Bienvenido a la Tienda Oficial",
+			"font": "t-mini"
+		}
+	},
+	"logo#header-info-strip-welcome": {
+		"title": "Logo",
+		"props": {
+			"blockClass": ["logo", "welcome-logo"],
+			"href": "/",
+			"url": "assets/brands/tramontina.svg",
+			"height": 22
+		}
+	},
+	"flex-layout.col#header-info-strip-menu": {
+		"children": ["vtex.menu@2.x:menu#header-info-strip-menu"],
+		"props": {
+			"blockClass": "header-info-strip-menu",
+			"verticalAlign": "middle",
+			"horizontalAlign": "right"
+		}
+	},
+	"vtex.menu@2.x:menu#header-info-strip-menu": {
+		"title": "Menu",
+		"props": {
+			"blockClass": ["header-info-strip-menu"],
+			"items": [
+				{
+					"id": "menu-item-about-tramontina",
+					"type": "custom",
+					"itemProps": {
+						"type": "external",
+						"href": "https://www.tramontina.cl/institucional",
+						"noFollow": false,
+						"tagTitle": "Acerca de Tramontina",
+						"text": "Acerca de Tramontina"
+					}
+				},
+				{
+					"id": "menu-item-para-profesionales",
+					"type": "custom",
+					"itemProps": {
+						"type": "external",
+						"href": "https://global.tramontina.com/es/para-profesionales",
+						"noFollow": false,
+						"tagTitle": "Para Profesionales",
+						"text": "Para Profesionales"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+/* Head Info Strip Menu */
+.menuContainer--header-info-strip-menu {
+	gap: 1rem;
+}
+
+.styledLinkContent--header-info-strip-menu {
+	font-size: 0.75rem;
+}
+
+.styledLinkContainer--header-info-strip-menu {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+}

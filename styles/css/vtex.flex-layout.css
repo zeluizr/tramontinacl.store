@@ -1,0 +1,29 @@
+/* Gradient Dash */
+.flexRow--header-info-strip::after {
+	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+}
+
+/* Header Info Strip */
+.flexRow--header-info-strip {
+	background-color: #fff;
+}
+
+.flexCol--header-info-strip-welcome {
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.flexColChild--header-info-strip-welcome {
+	display: flex;
+	align-items: center;
+}
+
+@media (min-width: 1025px) {
+	.flexRow--header-info-strip {
+		background-color: #f1f2f2;
+	}
+}

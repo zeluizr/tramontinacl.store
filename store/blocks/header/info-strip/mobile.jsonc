@@ -1,0 +1,12 @@
+{
+	"flex-layout.row#mobile__header-info-strip": {
+		"title": "Mobile Header Info Strip",
+		"children": ["flex-layout.col#header-info-strip-welcome"],
+		"props": {
+			"blockClass": "header-info-strip",
+			"colJustify": "center",
+			"paddingTop": 3,
+			"paddingBottom": 3
+		}
+	}
+}
