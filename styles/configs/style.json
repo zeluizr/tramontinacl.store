@@ -2,33 +2,11 @@
 	"typeScale": [3, 2.25, 1.5, 1.25, 1, 0.875, 0.75],
 	"spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
 	"customMedia": [
-		{
-			"s": 20
-		},
-		{
-			"ns": {
-				"value": 40,
-				"minWidth": true
-			}
-		},
-		{
-			"m": {
-				"value": 40,
-				"minWidth": true
-			}
-		},
-		{
-			"l": {
-				"value": 64,
-				"minWidth": true
-			}
-		},
-		{
-			"xl": {
-				"value": 80,
-				"minWidth": true
-			}
-		}
+		{ "s": 20 },
+		{ "ns": { "value": 40, "minWidth": true } },
+		{ "m": { "value": 40, "minWidth": true } },
+		{ "l": { "value": 64, "minWidth": true } },
+		{ "xl": { "value": 80, "minWidth": true } }
 	],
 	"colors": {
 		"black-90": "rgba(0,0,0,.9)",
@@ -248,101 +226,92 @@
 	"maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
 	"heights": [1, 2, 4, 8, 16],
 	"sizes": [
-		{
-			"name": "small",
-			"value": 2
-		},
-		{
-			"name": "regular",
-			"value": 2.5
-		},
-		{
-			"name": "large",
-			"value": 3
-		}
+		{ "name": "small", "value": 2 },
+		{ "name": "regular", "value": 2.5 },
+		{ "name": "large", "value": 3 }
 	],
 	"typography": {
 		"measure": [30, 34, 20],
 		"styles": {
 			"heading-1": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "3rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-2": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "2.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-3": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "700",
 				"fontSize": "1.75rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-4": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.5rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-5": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"heading-6": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1.25rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"body": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "1rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"small": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "0.875rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"mini": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
 				"fontSize": "0.75rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},
 			"action": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "1rem",
 				"textTransform": "uppercase",
 				"letterSpacing": "0"
 			},
 			"action--small": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "0.875rem",
 				"textTransform": "uppercase",
 				"letterSpacing": "0"
 			},
 			"action--large": {
-				"fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+				"fontFamily": "Tramontina Textos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "500",
 				"fontSize": "1.25rem",
 				"textTransform": "uppercase",
