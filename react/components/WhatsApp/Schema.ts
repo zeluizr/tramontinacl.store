@@ -18,5 +18,12 @@ export default {
 			type: "string",
 			default: "",
 		},
+		position: {
+			title: "Posicion",
+			type: "string",
+			enum: ["left", "right"],
+			enumNames: ["Izquierda", "Derecha"],
+			default: "right",
+		},
 	},
 };

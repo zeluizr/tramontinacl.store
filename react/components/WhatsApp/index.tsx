@@ -7,7 +7,7 @@ import Schema from "./Schema";
 
 const CSS_HANDLES = ["whatsAppLink"];
 
-function WhatsApp({ phone, message, inverted }: WhatsAppProps) {
+function WhatsApp({ phone, message, inverted, position }: WhatsAppProps) {
 	if (!phone || !message) return null;
 
 	const { handles } = useCssHandles(CSS_HANDLES);
@@ -17,7 +17,15 @@ function WhatsApp({ phone, message, inverted }: WhatsAppProps) {
 	}, [phone, message]);
 
 	return (
-		<a className={classNames(handles.whatsAppLink, "flex fixed bottom-1 right-1 z-0")} href={url} target="_blank">
+		<a
+			className={classNames(
+				handles.whatsAppLink,
+				"flex fixed z-0 bottom-1",
+				position === "left" ? "left-1" : "right-1"
+			)}
+			href={url}
+			target="_blank"
+		>
 			<Icon inverted={inverted} size={isMobile ? 60 : 75} />
 		</a>
 	);

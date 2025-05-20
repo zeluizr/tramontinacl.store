@@ -12,7 +12,8 @@
 		"props": {
 			"inverted": true,
 			"phone": 56993978820,
-			"message": "Hola, ¿en qué puedo ayudarte?"
+			"message": "Hola, ¿en qué puedo ayudarte?",
+			"position": "left"
 		}
 	}
 }
