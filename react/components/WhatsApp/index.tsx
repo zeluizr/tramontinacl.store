@@ -1,28 +1,23 @@
 import classNames from "classnames";
 import { useCssHandles } from "vtex.css-handles";
-import { Icon } from "vtex.store-icons";
+import Icon from "./Icon";
 import Schema from "./Schema";
 
-const CSS_HANDLES = ["container"];
+const CSS_HANDLES = ["whatsAppLink"];
 
-function WhatsApp({ phone, message, size, inverted }: WhatsAppProps) {
+function WhatsApp({ phone, message, size, inverted, position }: WhatsAppProps) {
 	const { handles } = useCssHandles(CSS_HANDLES);
-
-	console.log("handles", handles.container);
 
 	if (!phone) return null;
 	if (!message) message = "Hola, tengo una consulta sobre un producto.";
+	const URI = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+	const positionClass = position === "left" ? "left-1" : "right-1";
+	const className = "flex fixed z-0 bottom-1";
 
 	return (
-		<div className={classNames(handles.container, "fixed bottom-1 right-1")}>
-			<a href={`https://wa.me/${phone}?text=${encodeURIComponent(message)}`} target="_blank" className="flex">
-				{inverted ? (
-					<Icon id="icon-atendimento-online" size={size || 25} />
-				) : (
-					<Icon id="icon-atendimento-online-narrow" size={size || 25} />
-				)}
-			</a>
-		</div>
+		<a href={URI} target="_blank" className={classNames(handles.whatsAppLink, className, positionClass)}>
+			<Icon inverted={inverted} size={size} />
+		</a>
 	);
 }
 

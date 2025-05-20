@@ -4,7 +4,7 @@
 	},
 	"whatsapp#ayuda": {
 		"props": {
-			"inverted": true,
+			"inverted": false,
 			"phone": 56993978820,
 			"message": "Hola, ¿en qué puedo ayudarte?",
 			"size": 60

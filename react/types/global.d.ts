@@ -4,6 +4,7 @@ declare global {
 		message: string;
 		inverted: boolean;
 		size: number;
+		position: string;
 	};
 }
 
