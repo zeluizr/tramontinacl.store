@@ -33,7 +33,10 @@
 			"blockClass": ["logo", "welcome-logo"],
 			"href": "/",
 			"url": "assets/brands/tramontina.svg",
-			"height": 22
+			"height": 22,
+			"title": "Tramontina",
+			"showLabel": true,
+			"mobileHeight": 22
 		}
 	},
 	"flex-layout.col#header-info-strip-menu": {
