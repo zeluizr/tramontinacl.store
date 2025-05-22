@@ -14,6 +14,7 @@
 
 .flexCol--header-info-strip-welcome {
 	flex-direction: row;
+	justify-content: center;
 	gap: 1rem;
 }
 
@@ -25,5 +26,9 @@
 @media (min-width: 1025px) {
 	.flexRow--header-info-strip {
 		background-color: #f1f2f2;
+	}
+
+	.flexCol--header-info-strip-welcome {
+		justify-content: flex-start;
 	}
 }
