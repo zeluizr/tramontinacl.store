@@ -1,8 +1,8 @@
 {
 	"whatsapp": {
-		"component": "WhatsApp"
+		"component": "_WhatsApp"
 	},
 	"megamenu": {
-		"component": "MegaMenu"
+		"component": "_MegaMenu"
 	}
 }
