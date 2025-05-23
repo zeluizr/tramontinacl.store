@@ -2,8 +2,8 @@ import classNames from "classnames";
 import { useMemo } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { useDevice } from "vtex.device-detector";
-import Icon from "./Icon";
-import Schema from "./Schema";
+import Icon from "./_icon";
+import SCHEMA from "./_schema";
 
 const CSS_HANDLES = ["whatsAppLink"];
 
@@ -34,6 +34,6 @@ function WhatsApp({ phone, message, inverted, position }: WhatsAppProps) {
 	);
 }
 
-WhatsApp.schema = Schema;
+WhatsApp.schema = SCHEMA;
 
 export default WhatsApp;
