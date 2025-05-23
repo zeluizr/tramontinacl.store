@@ -1,5 +1,5 @@
 import { useQuery } from "react-apollo";
-import GET_MENUS from "./query.graphql";
+import GET_MENUS from "./_query.graphql";
 
 const MegaMenu = () => {
 	const { data } = useQuery(GET_MENUS, {
