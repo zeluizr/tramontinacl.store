@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "module": "esnext",
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "noEmit": true,
-    "typeRoots": ["./react/types"]
-  },
-  "include": ["./**/*.ts", "./**/*.tsx"],
-  "exclude": ["node_modules", "react/typings"]
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "esnext",
+		"jsx": "preserve",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"noEmit": true,
+		"typeRoots": ["./react/types"]
+	},
+	"include": ["./**/*.ts", "./**/*.tsx"],
+	"exclude": ["node_modules", "react/typings"]
 }

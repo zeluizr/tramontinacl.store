@@ -23,8 +23,8 @@ function WhatsApp({ phone, message, inverted, position }: WhatsAppProps) {
 		<a
 			className={classNames(
 				handles.whatsAppLink,
-				"flex fixed z-0 bottom-5",
-				position === "left" ? "left-5" : "right-5"
+				"flex fixed z-0 bottom-1",
+				position === "left" ? "left-1" : "right-1"
 			)}
 			href={url}
 			target="_blank"

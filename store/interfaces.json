@@ -1,5 +1,8 @@
 {
 	"whatsapp": {
 		"component": "WhatsApp"
+	},
+	"megamenu": {
+		"component": "MegaMenu"
 	}
 }

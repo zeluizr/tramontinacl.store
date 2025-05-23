@@ -181,17 +181,64 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.8.tgz#ce5ace04cfeabe7ef87c0091e50752e36707deff"
   integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
 
+"@types/zen-observable@^0.8.0":
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.7.tgz#114e2ffc8d5be4915fdd5bc90668fc0ceaadb760"
+  integrity sha512-LKzNTjj+2j09wAo/vvVjzgw5qckJJzhdGgWHW7j69QIGdq/KnZrMAMIHQiWGl3Ccflh5/CudBAntTPYdprPltA==
+
 "@vtex/tsconfig@^0.5.5":
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@wry/equality@^0.1.9":
+"@wry/equality@^0.1.2", "@wry/equality@^0.1.9":
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@wry/equality/-/equality-0.1.11.tgz#35cb156e4a96695aa81a9ecc4d03787bc17f1790"
   integrity sha512-mwEVBDUVODlsQQ5dfuLUS5/Tf7jqUKyhKYHmVi4fPB6bDMOfWvUPJmKgS1Z7Za/sOI3vzWt4+O7yCiL/70MogA==
   dependencies:
     tslib "^1.9.3"
+
+apollo-cache@1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.3.5.tgz#9dbebfc8dbe8fe7f97ba568a224bca2c5d81f461"
+  integrity sha512-1XoDy8kJnyWY/i/+gLTEbYLnoiVtS8y7ikBr/IfmML4Qb+CM7dEEbIUOjnY716WqmZ/UpXIxTfJsY7rMcqiCXA==
+  dependencies:
+    apollo-utilities "^1.3.4"
+    tslib "^1.10.0"
+
+apollo-client@^2.4.7:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.6.10.tgz#86637047b51d940c8eaa771a4ce1b02df16bea6a"
+  integrity sha512-jiPlMTN6/5CjZpJOkGeUV0mb4zxx33uXWdj/xQCfAMkuNAC3HN7CvYDyMHHEzmcQ5GV12LszWoQ/VlxET24CtA==
+  dependencies:
+    "@types/zen-observable" "^0.8.0"
+    apollo-cache "1.3.5"
+    apollo-link "^1.0.0"
+    apollo-utilities "1.3.4"
+    symbol-observable "^1.0.2"
+    ts-invariant "^0.4.0"
+    tslib "^1.10.0"
+    zen-observable "^0.8.0"
+
+apollo-link@^1.0.0:
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.14.tgz#3feda4b47f9ebba7f4160bef8b977ba725b684d9"
+  integrity sha512-p67CMEFP7kOG1JZ0ZkYZwRDa369w5PIjtMjvrQd/HnIV8FRsHRqLqK+oAZQnFa1DDdZtOtHTi+aMIW6EatC2jg==
+  dependencies:
+    apollo-utilities "^1.3.0"
+    ts-invariant "^0.4.0"
+    tslib "^1.9.3"
+    zen-observable-ts "^0.8.21"
+
+apollo-utilities@1.3.4, apollo-utilities@^1.3.0, apollo-utilities@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.3.4.tgz#6129e438e8be201b6c55b0f13ce49d2c7175c9cf"
+  integrity sha512-pk2hiWrCXMAy2fRPwEyhvka+mqwzeP60Jr1tRYi5xru+3ko94HI9o6lK0CT33/w4RDlxWchmdhDCrvdr+pHCig==
+  dependencies:
+    "@wry/equality" "^0.1.2"
+    fast-json-stable-stringify "^2.0.0"
+    ts-invariant "^0.4.0"
+    tslib "^1.10.0"
 
 classnames@*, classnames@^2.3.2:
   version "2.5.1"
@@ -202,6 +249,16 @@ csstype@^3.0.2:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
+
+fast-json-stable-stringify@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+  integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
+
+graphql@^15.5.0:
+  version "15.10.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.10.1.tgz#e9ff3bb928749275477f748b14aa5c30dcad6f2f"
+  integrity sha512-BL/Xd/T9baO6NFzoMpiMD7YUZ62R6viR5tp/MULVEnbYJXZA//kRNW7J0j1w/wXArgL0sCxhDfK5dczSKn3+cg==
 
 hoist-non-react-statics@3, hoist-non-react-statics@^3.3.0:
   version "3.3.2"
@@ -285,7 +342,12 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
-ts-invariant@^0.4.4:
+symbol-observable@^1.0.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
+
+ts-invariant@^0.4.0, ts-invariant@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/ts-invariant/-/ts-invariant-0.4.4.tgz#97a523518688f93aafad01b0e80eb803eb2abd86"
   integrity sha512-uEtWkFM/sdZvRNNDL3Ehu4WVpwaulhwQszV8mrtcdeE8nN00BV9mAmQ88RkrBhFgl9gMgvjJLAQcZbnPXI9mlA==
@@ -327,6 +389,10 @@ typescript@3.9.7:
   version "0.2.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.1/public/@types/vtex.list-context#e544b5177d00cb25cefa863069316b67ca69a0db"
 
+"vtex.mega-menu@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.mega-menu@2.0.0/public/@types/vtex.mega-menu":
+  version "2.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.mega-menu@2.0.0/public/@types/vtex.mega-menu#ebccf62e15784e9d657eb0c244e047917095f4f0"
+
 "vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context":
   version "0.10.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context#86ceba68085420edcf54749f07e51a257d2e5d94"
@@ -354,3 +420,16 @@ typescript@3.9.7:
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide":
   version "9.146.3"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.3/public/@types/vtex.styleguide#05558160f29cd8f4aefe419844a4bd66e2b3fdbb"
+
+zen-observable-ts@^0.8.21:
+  version "0.8.21"
+  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-0.8.21.tgz#85d0031fbbde1eba3cd07d3ba90da241215f421d"
+  integrity sha512-Yj3yXweRc8LdRMrCC8nIc4kkjWecPAUVh0TI0OUrWXx6aX790vLcDlWca6I4vsyCGH3LpWxq0dJRcMOFoVqmeg==
+  dependencies:
+    tslib "^1.9.3"
+    zen-observable "^0.8.0"
+
+zen-observable@^0.8.0:
+  version "0.8.15"
+  resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
