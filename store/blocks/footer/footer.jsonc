@@ -11,6 +11,7 @@
 	"whatsapp#atencion-en-linea-desktop": {
 		"title": "Atención en Línea desktop",
 		"props": {
+			"isActive": true,
 			"inverted": true,
 			"phone": 56993978820,
 			"message": "Hola, ¿en qué puedo ayudarte?",
@@ -20,6 +21,7 @@
 	"whatsapp#atencion-en-linea-mobile": {
 		"title": "Atención en Línea mobile",
 		"props": {
+			"isActive": true,
 			"inverted": false,
 			"phone": 56993978820,
 			"message": "Hola, ¿en qué puedo ayudarte?",

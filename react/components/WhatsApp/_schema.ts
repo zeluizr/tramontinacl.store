@@ -3,6 +3,11 @@ export default {
 	description: "WhatsApp",
 	type: "object",
 	properties: {
+		isActive: {
+			title: "Activo?",
+			type: "boolean",
+			default: true,
+		},
 		inverted: {
 			title: "Invertir?",
 			type: "boolean",
