@@ -4,5 +4,10 @@
 	},
 	"megamenu": {
 		"component": "_MegaMenu"
+	},
+	"showcomponent": {
+		"component": "_ShowComponent",
+		"composition": "children",
+		"allowed": "*"
 	}
 }

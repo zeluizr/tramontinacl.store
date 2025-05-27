@@ -1,6 +1,13 @@
 {
-	"flex-layout.row#hero-banner": {
+	"showcomponent#hero-banner": {
 		"title": "Hero Banner",
+		"children": ["flex-layout.row#hero-banner"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#hero-banner": {
+		"title": "Configuración",
 		"children": ["list-context.image-list#hero-banner"],
 		"props": {
 			"blockClass": "[hero-banner]",
@@ -12,21 +19,22 @@
 		"title": "Lista de Imagens",
 		"children": ["slider-layout#hero-banner"],
 		"props": {
-			"blockClass": ["image-list"],
+			"height": 550,
+			"blockClass": ["image-list", "hero-banner"],
 			"images": [
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				}
 			]
@@ -35,7 +43,7 @@
 	"slider-layout#hero-banner": {
 		"title": "Slider de Imagens",
 		"props": {
-			"blockClass": ["slider"],
+			"blockClass": ["slider", "hero-banner"],
 			"autoplay": { "stopOnHover": true, "timeout": 5000 },
 			"infinite": true,
 			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }

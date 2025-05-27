@@ -1,5 +1,5 @@
 {
 	"store.home": {
-		"blocks": ["flex-layout.row#top-banner", "flex-layout.row#hero-banner"]
+		"blocks": ["showcomponent#top-banner", "showcomponent#hero-banner"]
 	}
 }
