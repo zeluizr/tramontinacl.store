@@ -23,18 +23,18 @@
 			"blockClass": ["image-list", "hero-banner"],
 			"images": [
 				{
-					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
-					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
+					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
+					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				},
 				{
-					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
-					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
+					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
+					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				},
 				{
-					"image": "https://dummyimage.com/1280x420/003087/FFFFFF",
-					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF",
+					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
+					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				}
 			]

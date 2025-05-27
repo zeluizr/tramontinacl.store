@@ -1,0 +1,50 @@
+{
+	"showcomponent#half-banner": {
+		"title": "Half Banner",
+		"children": ["flex-layout.row#half-banner"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#half-banner": {
+		"children": ["flex-layout.col#half-banner-01", "flex-layout.col#half-banner-02"],
+		"props": {
+			"blockClass": ["half-banner"],
+			"marginBottom": 5
+		}
+	},
+	"flex-layout.col#half-banner-01": {
+		"children": ["image#half-banner-01"],
+		"props": {
+			"blockClass": ["half-banner", "col-1"],
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#half-banner-02": {
+		"children": ["image#half-banner-02"],
+		"props": {
+			"blockClass": ["half-banner", "col-2"],
+			"verticalAlign": "middle"
+		}
+	},
+	"image#half-banner-01": {
+		"title": "Image Left",
+		"props": {
+			"blockClass": ["image", "half-banner"],
+			"src": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwcbf0a58c/home/Maio-2025-LYF-banner-mobile.png",
+			"title": "Conheça a Tramontina",
+			"alt": "Conheça a Tramontina",
+			"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+		}
+	},
+	"image#half-banner-02": {
+		"title": "Image Right",
+		"props": {
+			"blockClass": ["image", "half-banner"],
+			"src": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwb50374c4/home/Maio-2025-dia-do-hamburguer.png",
+			"title": "Conheça a Tramontina",
+			"alt": "Conheça a Tramontina",
+			"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+		}
+	}
+}

@@ -22,12 +22,14 @@
 }
 
 /* Top Banner */
-.imageElementLink--slider {
+.imageElementLink--slider,
+.imageElement--image {
 	display: flex;
 	width: 100%;
 }
 
-.imageElement--slider {
+.imageElement--slider,
+.imageElement--image {
 	width: 100%;
 	height: auto;
 	max-height: initial !important;

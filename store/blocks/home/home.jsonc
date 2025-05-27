@@ -1,5 +1,5 @@
 {
 	"store.home": {
-		"blocks": ["showcomponent#top-banner", "showcomponent#hero-banner"]
+		"blocks": ["showcomponent#top-banner", "showcomponent#hero-banner", "showcomponent#half-banner"]
 	}
 }

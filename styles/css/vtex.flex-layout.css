@@ -32,3 +32,24 @@
 		justify-content: flex-start;
 	}
 }
+/* Half Banner */
+.flexRowContent--half-banner {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.flexRowContent--half-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+}
+
+@media (min-width: 1025px) {
+	.flexRowContent--half-banner {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.flexRowContent--half-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+		width: 50% !important;
+	}
+}

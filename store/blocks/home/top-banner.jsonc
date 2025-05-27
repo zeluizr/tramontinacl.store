@@ -21,8 +21,8 @@
 			"blockClass": ["image-list", "top-banner"],
 			"images": [
 				{
-					"image": "https://dummyimage.com/1280x100/003087/FFFFFF",
-					"mobileImage": "https://dummyimage.com/1025x180/003087/FFFFFF",
+					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw5534156a/Banner_home/liberou-desktop.png",
+					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw5534156a/Banner_home/liberou-desktop.png",
 					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
 				}
 			]
