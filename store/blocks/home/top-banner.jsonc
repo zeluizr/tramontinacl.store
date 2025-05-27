@@ -1,0 +1,32 @@
+{
+	"flex-layout.row#top-banner": {
+		"title": "Top Banner",
+		"children": ["list-context.image-list#top-banner"],
+		"props": {
+			"blockClass": ["top-banner"],
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#top-banner": {
+		"title": "Lista de Imagens",
+		"children": ["slider-layout#top-banner"],
+		"props": {
+			"blockClass": ["image-list"],
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/6fe7eba8-b9cc-4de2-b84a-a8cb375d7aec___5942419ff5afc3872f7ca1cd4c2e5789.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/6fe7eba8-b9cc-4de2-b84a-a8cb375d7aec___5942419ff5afc3872f7ca1cd4c2e5789.png",
+					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#top-banner": {
+		"title": "Slider de Imagens",
+		"props": {
+			"blockClass": ["slider"],
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

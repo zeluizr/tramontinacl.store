@@ -1,0 +1,44 @@
+{
+	"flex-layout.row#hero-banner": {
+		"title": "Hero Banner",
+		"children": ["list-context.image-list#hero-banner"],
+		"props": {
+			"blockClass": "[hero-banner]",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#hero-banner": {
+		"title": "Lista de Imagens",
+		"children": ["slider-layout#hero-banner"],
+		"props": {
+			"blockClass": ["image-list"],
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9a8bb-b0a5-4973-9f0d-27fa18a7962e___fd7f97719529f43af89a51422498abac.gif",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9d927ddc-ce09-4306-ae62-4e89decac926___27fc29cd4519ca5c2c1ea7ffcedc8911.gif",
+					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+				}
+			]
+		}
+	},
+	"slider-layout#hero-banner": {
+		"title": "Slider de Imagens",
+		"props": {
+			"blockClass": ["slider"],
+			"autoplay": { "stopOnHover": true, "timeout": 5000 },
+			"infinite": true,
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}
