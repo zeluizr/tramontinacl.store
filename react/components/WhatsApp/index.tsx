@@ -17,7 +17,6 @@ function WhatsApp({ phone, message, inverted, position, isActive }: WhatsAppProp
 
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const { isMobile } = useDevice();
-
 	const url = useMemo(() => {
 		return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 	}, [phone, message]);
