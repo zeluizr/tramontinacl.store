@@ -3,9 +3,7 @@
 		"title": "Top Banner",
 		"children": ["list-context.image-list#top-banner"],
 		"props": {
-			"blockClass": ["top-banner"],
-			"marginTop": 5,
-			"marginBottom": 5
+			"blockClass": ["top-banner"]
 		}
 	},
 	"list-context.image-list#top-banner": {
