@@ -10,6 +10,7 @@
 		"children": ["vitrina#shelf-01"],
 		"props": {
 			"blockClass": ["shelf"],
+			"marginTop": 8,
 			"marginBottom": 5
 		}
 	},
@@ -34,6 +35,8 @@
 	"slider-layout#shelf-01": {
 		"props": {
 			"blockClass": ["shelf"],
+			"showPaginationDots": "never",
+			"showNavigationArrows": "desktopOnly",
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
 		}
 	},

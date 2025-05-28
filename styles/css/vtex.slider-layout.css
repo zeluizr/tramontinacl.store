@@ -2,6 +2,11 @@
 	gap: 1rem;
 }
 
+.paginationDotsContainer {
+	bottom: -2rem;
+	align-items: center;
+}
+
 .paginationDot {
 	background-color: #d1d3d4;
 	height: 0.6rem !important;
@@ -10,6 +15,22 @@
 
 .paginationDot--isActive {
 	background-color: #003087;
+	height: 0.7rem !important;
+	width: 0.7rem !important;
+}
+
+.paginationDotsContainer--hero-banner {
+	bottom: 1.5rem;
+}
+
+.paginationDot--hero-banner {
+	background-color: #414042;
+	height: 0.6rem !important;
+	width: 0.6rem !important;
+}
+
+.paginationDot--hero-banner--isActive {
+	background-color: #ffffff;
 	height: 0.7rem !important;
 	width: 0.7rem !important;
 }
