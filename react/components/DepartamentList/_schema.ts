@@ -14,11 +14,6 @@ export default {
 				title: "Items",
 				type: "object",
 				properties: {
-					__editorItemTitle: {
-						title: "Title",
-						description: "Ese titulo es para el backoffice",
-						type: "string",
-					},
 					title: {
 						title: "Texto",
 						type: "string",
