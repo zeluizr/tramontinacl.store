@@ -1,7 +1,10 @@
 {
 	"product-summary.shelf": {
-		"props": {},
-		"children": ["product-summary-image", "product-summary-name"]
+		"children": ["product-summary-image", "product-summary-name", "add-to-cart-button#product-summary"],
+		"props": {
+			"priceBehavior": "async",
+			"trackListName": false
+		}
 	},
 	"product-summary-image": {
 		"title": "Imagen del producto",
@@ -16,6 +19,15 @@
 		"props": {
 			"blockClass": ["name"],
 			"tag": "h3"
+		}
+	},
+	"add-to-cart-button#product-summary": {
+		"props": {
+			"blockClass": ["buybutton", "product-summary"],
+			"isOneClickBuy": false,
+			"text": "Comprar ahora",
+			"customToastUrl": "/checkout/#/cart",
+			"unavailableText": "Producto no disponible"
 		}
 	}
 }

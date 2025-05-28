@@ -129,7 +129,7 @@
 				}
 			],
 			"slider": {
-				"arrowSize": 25,
+				"arrowSize": 16,
 				"infinite": true,
 				"showNavigationArrows": "desktopOnly",
 				"showPaginationDots": "always",

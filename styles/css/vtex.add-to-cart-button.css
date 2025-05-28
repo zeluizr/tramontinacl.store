@@ -1,0 +1,10 @@
+.buttonDataContainer--product-summary {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.buttonDataContainer--product-summary::after {
+	content: "";
+	font-family: "Font Awesome 6 Pro";
+	font-weight: 400;
+}

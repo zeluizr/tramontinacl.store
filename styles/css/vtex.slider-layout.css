@@ -34,3 +34,28 @@
 	height: 0.7rem !important;
 	width: 0.7rem !important;
 }
+
+.sliderArrows--slider,
+.sliderArrows--shelf {
+	background-color: #ffffff !important;
+	margin: 0;
+	padding: 0.5rem;
+	border-radius: 100%;
+	border: 1px solid #d1d3d4;
+}
+
+.caretIcon--slider,
+.caretIcon--shelf {
+	width: 1rem;
+	height: 1rem;
+}
+
+.sliderLeftArrow--slider,
+.sliderLeftArrow--shelf {
+	left: 1rem;
+}
+
+.sliderRightArrow--slider,
+.sliderRightArrow--shelf {
+	right: 1rem;
+}
