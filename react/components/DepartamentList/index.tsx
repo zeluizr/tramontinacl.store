@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import marked, { Renderer } from "marked";
-import { useEffect, useRef, useState } from "react";
+import marked from "marked";
+import { useMemo } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { ListContextProvider, useListContext } from "vtex.list-context";
 import { SliderLayout } from "vtex.slider-layout";
@@ -12,31 +12,24 @@ const CSS_HANDLES = ["departamentListContainer", "departamentListTitle"] as cons
 function DepartamentList({ title, department, slider }: DepartamentListProps) {
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const { list } = useListContext() || [];
-	const renderer = useRef<Renderer | null>(null);
-	const [, setMounted] = useState(false);
+	const renderer = useMemo(() => RENDERER(), []);
 
-	useEffect(() => {
-		if (!renderer.current) renderer.current = RENDERER();
-		setMounted(true);
-	}, []);
-
-	const _department = department?.map(({ title, imageUrl, link }, idx) => {
-		return (
-			<a key={idx} className={classNames("flex flex-column link black")} href={link?.href} target={link?.target}>
+	const departmentList = [
+		...list,
+		...(department?.map(({ title, imageUrl, link }, idx) => (
+			<a key={idx} className="flex flex-column link black" href={link?.href} target={link?.target}>
 				<img src={imageUrl} alt={title} />
-				<p className={classNames("t-small tc")}>{title}</p>
+				<p className="t-small tc mt5 mb0">{title}</p>
 			</a>
-		);
-	});
-
-	const departmentList = list.concat(_department);
+		)) || []),
+	];
 
 	return (
 		<div className={classNames(handles.departamentListContainer)}>
 			<div
-				className={classNames(handles.departamentListTitle, "flex justify-center items-center")}
+				className={classNames(handles.departamentListTitle, "flex justify-center items-center mb9")}
 				dangerouslySetInnerHTML={{
-					__html: title ? marked.parse(title, { renderer: renderer.current! }) : "",
+					__html: title && renderer ? marked.parse(title, { renderer }) : "",
 				}}
 			/>
 			<ListContextProvider list={departmentList}>

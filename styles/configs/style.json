@@ -9,6 +9,7 @@
 		{ "xl": { "value": 80, "minWidth": true } }
 	],
 	"colors": {
+		"black": "rgba(0,0,0,1)",
 		"black-90": "rgba(0,0,0,.9)",
 		"black-80": "rgba(0,0,0,.8)",
 		"black-70": "rgba(0,0,0,.7)",
@@ -21,6 +22,7 @@
 		"black-05": "rgba(0,0,0,.05)",
 		"black-025": "rgba(0,0,0,.025)",
 		"black-0125": "rgba(0,0,0,.0125)",
+		"white": "rgba(255,255,255,1)",
 		"white-90": "rgba(255,255,255,.9)",
 		"white-80": "rgba(255,255,255,.8)",
 		"white-70": "rgba(255,255,255,.7)",

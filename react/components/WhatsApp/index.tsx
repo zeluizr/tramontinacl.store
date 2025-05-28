@@ -5,7 +5,7 @@ import { useDevice } from "vtex.device-detector";
 import Icon from "./_icon";
 import SCHEMA from "./_schema";
 
-const CSS_HANDLES = ["whatsAppLink"];
+const CSS_HANDLES = ["whatsAppLink"] as const;
 
 function WhatsApp({ phone, message, inverted, position, isActive }: WhatsAppProps) {
 	if (!isActive || !phone || !message) {

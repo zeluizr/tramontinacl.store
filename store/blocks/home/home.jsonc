@@ -18,8 +18,8 @@
 		"children": ["departament"],
 		"props": {
 			"blockClass": ["departament"],
-			"marginTop": 0,
-			"marginBottom": 5
+			"marginTop": 9,
+			"marginBottom": 9
 		}
 	},
 	"departament": {
@@ -137,7 +137,7 @@
 				}
 			],
 			"slider": {
-				"arrowSize": 15,
+				"arrowSize": 25,
 				"infinite": true,
 				"showNavigationArrows": "desktopOnly",
 				"showPaginationDots": "always",
