@@ -9,17 +9,19 @@
 	font-weight: bold;
 }
 
-.departamentListTitle p::after,
-.departamentListTitle h1::after,
-.departamentListTitle h2::after,
-.departamentListTitle h3::after,
-.departamentListTitle h4::after,
-.departamentListTitle h5::after,
-.departamentListTitle h6::after {
-	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
-	content: "";
-	display: block;
-	height: 1px;
-	width: 100%;
-	margin-top: 1rem;
+.paginationDotsContainer {
+	bottom: -2rem;
+	align-items: center;
+}
+
+.paginationDot {
+	background-color: #d1d3d4;
+	height: 0.6rem !important;
+	width: 0.6rem !important;
+}
+
+.paginationDot--isActive {
+	background-color: #003087;
+	height: 0.7rem !important;
+	width: 0.7rem !important;
 }

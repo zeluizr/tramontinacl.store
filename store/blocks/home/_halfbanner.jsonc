@@ -10,8 +10,7 @@
 		"children": ["flex-layout.col#half-banner-left-01", "flex-layout.col#half-banner-right-01"],
 		"props": {
 			"blockClass": ["half-banner"],
-			"marginTop": 0,
-			"marginBottom": 0
+			"marginBottom": 5
 		}
 	},
 	"flex-layout.col#half-banner-left-01": {

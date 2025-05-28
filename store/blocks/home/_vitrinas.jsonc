@@ -10,8 +10,7 @@
 		"children": ["vitrina#shelf-01"],
 		"props": {
 			"blockClass": ["shelf"],
-			"marginTop": 0,
-			"marginBottom": 0
+			"marginBottom": 5
 		}
 	},
 	"vitrina#shelf-01": {
