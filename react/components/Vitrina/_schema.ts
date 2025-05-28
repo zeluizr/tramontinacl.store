@@ -3,10 +3,10 @@ export default {
 	description: "Configuración de Componente",
 	type: "object",
 	properties: {
-		isActive: {
-			title: "Activo?",
-			type: "boolean",
-			default: true,
+		title: {
+			title: "Titulo",
+			type: "string",
+			default: "Vitrina",
 		},
 	},
 };

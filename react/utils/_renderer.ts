@@ -1,6 +1,6 @@
 import { Renderer } from "marked";
 
-export default function renderer() {
+export function baseRenderer() {
 	const r = new Renderer();
 	r.strong = (content: string) => `<span class="">${content}</span>`;
 	r.paragraph = (content: string) => `<p class="">${content}</p>`;
