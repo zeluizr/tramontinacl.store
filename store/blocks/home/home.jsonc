@@ -5,7 +5,8 @@
 			"container#hero-banner",
 			"container#half-banner",
 			"container#departament",
-			"container#shelf-01"
+			"container#shelf-01",
+			"container#shelf-02"
 		]
 	}
 }

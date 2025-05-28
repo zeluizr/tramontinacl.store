@@ -6,7 +6,13 @@ import { renderer } from "../../utils/_renderer";
 import SCHEMA from "./_schema";
 import "./styles.css";
 
-const CSS_HANDLES = ["vitrinaContainer", "vitrinaTitle", "vitrinaSubTitle", "vitrinaShelfContainer"] as const;
+const CSS_HANDLES = [
+	"vitrinaContainer",
+	"vitrinaTitle",
+	"vitrinaWhiteTitle",
+	"vitrinaSubTitle",
+	"vitrinaShelfContainer",
+] as const;
 function Vitrina({
 	title,
 	backgroundImage,
@@ -26,18 +32,25 @@ function Vitrina({
 			className={classNames(handles.vitrinaContainer, backgroundImage ? "br3" : "br0")}
 			style={{ backgroundImage: `url(${backgroundImage})` }}
 		>
-			<div
-				className={classNames(handles.vitrinaTitle, "flex justify-center items-center")}
-				dangerouslySetInnerHTML={{
-					__html: title && _renderer ? marked.parse(title, { renderer: _renderer }) : "",
-				}}
-			/>
-			<div
-				className={classNames(handles.vitrinaSubTitle, "flex justify-center items-center")}
-				dangerouslySetInnerHTML={{
-					__html: subTitle && _renderer ? marked.parse(subTitle, { renderer: _renderer }) : "",
-				}}
-			/>
+			{title && (
+				<div
+					className={classNames(
+						backgroundImage ? handles.vitrinaWhiteTitle : handles.vitrinaTitle,
+						"flex justify-center items-center"
+					)}
+					dangerouslySetInnerHTML={{
+						__html: title && _renderer ? marked.parse(title, { renderer: _renderer }) : "",
+					}}
+				/>
+			)}
+			{subTitle && (
+				<div
+					className={classNames(handles.vitrinaSubTitle, "flex justify-center items-center")}
+					dangerouslySetInnerHTML={{
+						__html: subTitle && _renderer ? marked.parse(subTitle, { renderer: _renderer }) : "",
+					}}
+				/>
+			)}
 			<div className={classNames(handles.vitrinaShelfContainer, "mt5")}>{children}</div>
 		</section>
 	);

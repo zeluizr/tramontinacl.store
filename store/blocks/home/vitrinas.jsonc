@@ -37,5 +37,42 @@
 			"blockClass": ["shelf"],
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
 		}
+	},
+	"container#shelf-02": {
+		"title": "Vitrina #02",
+		"children": ["flex-layout.row#shelf-02"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#shelf-02": {
+		"children": ["vitrina#shelf-02"],
+		"props": {
+			"blockClass": ["shelf"],
+			"marginTop": 0,
+			"marginBottom": 5
+		}
+	},
+	"vitrina#shelf-02": {
+		"children": ["list-context.product-list#shelf-02"],
+		"props": {
+			"title": "¡Prepara tus mejores platos con ***Tramontina!** 👳*"
+		}
+	},
+	"list-context.product-list#shelf-02": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf-02"],
+		"props": {
+			"category": "2842",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"slider-layout#shelf-02": {
+		"props": {
+			"blockClass": ["shelf"],
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+		}
 	}
 }

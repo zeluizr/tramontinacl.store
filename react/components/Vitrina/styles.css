@@ -6,13 +6,35 @@
 	padding: 1rem;
 }
 
+.vitrinaTitle p::after,
+.vitrinaTitle h1::after,
+.vitrinaTitle h2::after,
+.vitrinaTitle h3::after,
+.vitrinaTitle h4::after,
+.vitrinaTitle h5::after,
+.vitrinaTitle h6::after {
+	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-top: 1rem;
+}
+
 .vitrinaTitle p,
 .vitrinaTitle h1,
 .vitrinaTitle h2,
 .vitrinaTitle h3,
 .vitrinaTitle h4,
 .vitrinaTitle h5,
-.vitrinaTitle h6 {
+.vitrinaTitle h6,
+.vitrinaWhiteTitle p,
+.vitrinaWhiteTitle h1,
+.vitrinaWhiteTitle h2,
+.vitrinaWhiteTitle h3,
+.vitrinaWhiteTitle h4,
+.vitrinaWhiteTitle h5,
+.vitrinaWhiteTitle h6 {
 	font-size: 2.25rem;
 	font-weight: bold;
 }
