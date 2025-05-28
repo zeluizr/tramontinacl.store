@@ -11,7 +11,7 @@
 		"props": {
 			"blockClass": ["shelf"],
 			"marginTop": 8,
-			"marginBottom": 5
+			"marginBottom": 8
 		}
 	},
 	"vitrina#shelf-01": {
@@ -37,7 +37,7 @@
 			"blockClass": ["shelf"],
 			"showPaginationDots": "never",
 			"showNavigationArrows": "desktopOnly",
-			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	},
 	"container#shelf-02": {
@@ -51,8 +51,8 @@
 		"children": ["vitrina#shelf-02"],
 		"props": {
 			"blockClass": ["shelf"],
-			"marginTop": 0,
-			"marginBottom": 0
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"vitrina#shelf-02": {
@@ -74,10 +74,9 @@
 	"slider-layout#shelf-02": {
 		"props": {
 			"blockClass": ["shelf"],
-			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	},
-
 	"container#shelf-03": {
 		"title": "Vitrina #03",
 		"children": ["flex-layout.row#shelf-03"],
@@ -89,8 +88,8 @@
 		"children": ["vitrina#shelf-03"],
 		"props": {
 			"blockClass": ["shelf"],
-			"marginTop": 0,
-			"marginBottom": 0
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"vitrina#shelf-03": {
@@ -113,7 +112,44 @@
 	"slider-layout#shelf-03": {
 		"props": {
 			"blockClass": ["shelf"],
-			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
+		}
+	},
+	"container#shelf-04": {
+		"title": "Vitrina #04",
+		"children": ["flex-layout.row#shelf-04"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#shelf-04": {
+		"children": ["vitrina#shelf-04"],
+		"props": {
+			"blockClass": ["shelf"],
+			"marginTop": 5,
+			"marginBottom": 9
+		}
+	},
+	"vitrina#shelf-04": {
+		"children": ["list-context.product-list#shelf-04"],
+		"props": {
+			"title": "¡Prepara tus mejores platos con  ***Tramontina!*** 👳"
+		}
+	},
+	"list-context.product-list#shelf-04": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf-04"],
+		"props": {
+			"category": "2842",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"slider-layout#shelf-04": {
+		"props": {
+			"blockClass": ["shelf"],
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	}
 }
