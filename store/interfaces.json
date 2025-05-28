@@ -1,6 +1,6 @@
 {
-	"whatsapp": {
-		"component": "_WhatsApp"
+	"departament": {
+		"component": "_DepartamentList"
 	},
 	"megamenu": {
 		"component": "_MegaMenu"
@@ -9,5 +9,8 @@
 		"component": "_ShowComponent",
 		"composition": "children",
 		"allowed": "*"
+	},
+	"whatsapp": {
+		"component": "_WhatsApp"
 	}
 }

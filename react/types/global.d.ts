@@ -6,6 +6,21 @@ declare global {
 		phone: string;
 		message: string;
 	};
+
+	type DepartmentItem = {
+		title: string;
+		imageUrl: string;
+		link: {
+			href: string;
+			target?: string;
+		};
+	};
+
+	type DepartamentListProps = {
+		title: string;
+		department: DepartmentItem[];
+		slider: any;
+	};
 }
 
 export {};

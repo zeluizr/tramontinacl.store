@@ -1,5 +1,148 @@
 {
 	"store.home": {
-		"blocks": ["showcomponent#top-banner", "showcomponent#hero-banner", "showcomponent#half-banner"]
+		"blocks": [
+			"showcomponent#top-banner",
+			"showcomponent#hero-banner",
+			"showcomponent#half-banner",
+			"showcomponent#departament"
+		]
+	},
+	"showcomponent#departament": {
+		"title": "Departamentos",
+		"children": ["flex-layout.row#departament"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#departament": {
+		"children": ["departament"],
+		"props": {
+			"blockClass": ["departament"],
+			"marginTop": 0,
+			"marginBottom": 5
+		}
+	},
+	"departament": {
+		"title": "Configuración",
+		"props": {
+			"title": "## Conheça os departamentos que **fazem bonito**",
+			"department": [
+				{
+					"title": "Cuchillos",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/d139882d-09df-41b6-92d3-ef055ff975a8___36f8dfa7183a77b1ac7745c28bc090be.png",
+					"link": {
+						"href": "/utensilios-para-cocina/cuchillos",
+						"target": "_self",
+						"attributeTitle": "Cuchillos"
+					}
+				},
+				{
+					"title": "Sartenes",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/7149c5eb-36a2-4075-8ffc-7b4c34ee8835___ec897b79f4868aa6fd0cb9e3a39c9971.png",
+					"link": {
+						"href": "/utensilios-para-cocina/ollas/sartenes-panquequeras-omeleteras",
+						"target": "_self",
+						"attributeTitle": "Sartenes"
+					}
+				},
+				{
+					"title": "Ollas",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/4ff22f76-ce74-476c-bee0-c16102543d3f___2b5407755904b6c2719376efa1a64afd.png",
+					"link": {
+						"href": "/ollas",
+						"target": "_self",
+						"attributeTitle": "Ollas"
+					}
+				},
+				{
+					"title": "Muebles",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/66a55118-6808-4702-a762-762ab56b3521___8edf3e153b19d169e234aeb2a89e73b0.png",
+					"link": {
+						"href": "/remodelacion-y-construccion?initialMap=c&initialQuery=remodelacion-y-construccion&map=category-1,category-2&query=/remodelacion-y-construccion/sillas&searchState",
+						"target": "_self",
+						"attributeTitle": "Muebles"
+					}
+				},
+				{
+					"title": "Cubetas",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/5dd69b19-8943-433b-8d31-5e10168f195b___27ea3bef6c08e485fa68c11132318962.png",
+					"link": {
+						"href": "/remodelacion-y-construccion?initialMap=c&initialQuery=remodelacion-y-construccion&map=category-1,category-2&query=/remodelacion-y-construccion/cubas-y-piletas&searchState",
+						"target": "_self",
+						"attributeTitle": "Cubetas"
+					}
+				},
+				{
+					"title": "Basureros",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/c50f2efa-c6d3-43ac-8d97-0b32a4d168c0___c9850f4b747bbd9d1ef3c745cdf26e25.png",
+					"link": {
+						"href": "/utensilios-para-cocina/basureros",
+						"target": "_self",
+						"attributeTitle": "Basureros"
+					}
+				},
+				{
+					"title": "Juegos de Cubiertos",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/e5fc6411-17dd-4858-83e6-dc56b5cb016d___0747c20bba5f98412dc4d3fcb9ecb780.png",
+					"link": {
+						"href": "/mesa-puesta/juegos-de-cubiertos-y-cubiertos/estuche-y-juegos-de-cubiertos",
+						"target": "_self",
+						"attributeTitle": "Juegos de Cubiertos"
+					}
+				},
+				{
+					"title": "Asado",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b6209b3b-8caf-491b-b1d5-269e2b95ebf4___d01b2234f6dd9b0de6784ba36c727016.png",
+					"link": {
+						"href": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b6209b3b-8caf-491b-b1d5-269e2b95ebf4___d01b2234f6dd9b0de6784ba36c727016.png",
+						"target": "_self",
+						"attributeTitle": "Asado"
+					}
+				},
+				{
+					"title": "Iluminación",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/79da24e9-8c58-4574-8559-905779b19a9e___c8e8462a2e5a1529e21c1efdc4b8d5f4.png",
+					"link": {
+						"href": "/iluminacion",
+						"target": "_self",
+						"attributeTitle": "Iluminación"
+					}
+				},
+				{
+					"title": "Vajillas",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/c7a8bbf7-374a-4035-b351-179a414386b4___825b904b8f76503a0ab97d118cc2c929.png",
+					"link": {
+						"href": "/mesa-puesta/vajilla",
+						"target": "_self",
+						"attributeTitle": "Vajillas"
+					}
+				},
+				{
+					"title": "Riego",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/dd0092bf-3b2b-4d89-a474-206c3e2e6ece___d0e90891e3804a27ebbabfd8d312085d.png",
+					"link": {
+						"href": "/jardineria-y-agricultura/sistemas-de-irrigacion",
+						"target": "_self",
+						"attributeTitle": "Riego"
+					}
+				},
+				{
+					"title": "Belleza Personal",
+					"imageUrl": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/47466170-6ae4-4889-9aaa-1e688080cb48___3d993ad99545fc0fbb3bb45a9567dfd9.png",
+					"link": {
+						"href": "/belleza-personal",
+						"target": "_self",
+						"attributeTitle": "Belleza Personal"
+					}
+				}
+			],
+			"slider": {
+				"arrowSize": 15,
+				"infinite": true,
+				"showNavigationArrows": "desktopOnly",
+				"showPaginationDots": "always",
+				"itemsPerPage": { "desktop": 8, "tablet": 4, "phone": 2 }
+			}
+		}
 	}
 }
