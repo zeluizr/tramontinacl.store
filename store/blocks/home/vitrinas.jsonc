@@ -49,14 +49,14 @@
 		"children": ["vitrina#shelf-02"],
 		"props": {
 			"blockClass": ["shelf"],
-			"marginTop": 0,
-			"marginBottom": 5
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"vitrina#shelf-02": {
 		"children": ["list-context.product-list#shelf-02"],
 		"props": {
-			"title": "¡Prepara tus mejores platos con ***Tramontina!** 👳*"
+			"title": "¡Prepara tus mejores platos con  ***Tramontina!*** 👳"
 		}
 	},
 	"list-context.product-list#shelf-02": {

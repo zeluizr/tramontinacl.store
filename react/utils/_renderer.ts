@@ -8,7 +8,7 @@ export function renderer({ isWhite }: { isWhite?: boolean }) {
 	const strongClass = isWhite ? "white" : "c-action-primary";
 
 	r.paragraph = (content: string) => `<p class="${classNames(colorClass, "mt0 mb0")}">${content}</p>`;
-	r.em = (content: string) => `<em class="${classNames(colorClass)}">${content}</em>`;
+	r.em = (content: string) => `<em class="${classNames(strongClass)}">${content}</em>`;
 	r.strong = (content: string) => `<strong class="${classNames(strongClass)}">${content}</strong>`;
 	r.heading = (text: string, level: number) => {
 		const headingClassMap: Record<number, string> = {

@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import marked from "marked";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { renderer } from "../../utils/_renderer";
 import SCHEMA from "./_schema";
@@ -13,17 +13,7 @@ const CSS_HANDLES = [
 	"vitrinaSubTitle",
 	"vitrinaShelfContainer",
 ] as const;
-function Vitrina({
-	title,
-	backgroundImage,
-	subTitle,
-	children,
-}: {
-	title: string;
-	backgroundImage: string;
-	subTitle: string;
-	children: React.ReactNode;
-}) {
+function Vitrina({ title, backgroundImage, subTitle, children }: VitrinaProps) {
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const _renderer = useMemo(() => renderer({ isWhite: backgroundImage ? true : false }), []);
 

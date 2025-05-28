@@ -21,6 +21,13 @@ declare global {
 		department: DepartmentItem[];
 		slider: any;
 	};
+
+	type VitrinaProps = {
+		title: string;
+		backgroundImage: string;
+		subTitle: string;
+		children: React.ReactNode;
+	};
 }
 
 export {};

@@ -1,0 +1,39 @@
+{
+	"container#middle-banner": {
+		"title": "Middle Banner",
+		"children": ["flex-layout.row#middle-banner"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#middle-banner": {
+		"title": "Configuración",
+		"children": ["list-context.image-list#middle-banner"],
+		"props": {
+			"blockClass": ["middle-banner"],
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#middle-banner": {
+		"title": "Lista de Imagens",
+		"children": ["slider-layout#middle-banner"],
+		"props": {
+			"blockClass": ["image-list", "middle-banner"],
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/d435b33c-4c60-4991-b14a-33922b295b09___ab3c7135aaf7781c95dc2de96f76c54a.gif",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/10397daf-07c4-4251-83de-d085932c4878___3f5752546d8ba5569154eb0ad6d76e3d.gif",
+					"link": { "openNewTab": false, "url": "/collections/novidades", "title": "Novedad" }
+				}
+			]
+		}
+	},
+	"slider-layout#middle-banner": {
+		"title": "Slider de Imagens",
+		"props": {
+			"blockClass": ["slider", "middle-banner"],
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}
