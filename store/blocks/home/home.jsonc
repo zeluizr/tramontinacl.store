@@ -1,10 +1,11 @@
 {
 	"store.home": {
 		"blocks": [
-			"showcomponent#top-banner",
-			"showcomponent#hero-banner",
-			"showcomponent#half-banner",
-			"showcomponent#departament"
+			"container#top-banner",
+			"container#hero-banner",
+			"container#half-banner",
+			"container#departament",
+			"container#shelf-01"
 		]
 	}
 }

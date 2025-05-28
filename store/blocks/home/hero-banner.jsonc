@@ -1,5 +1,5 @@
 {
-	"showcomponent#hero-banner": {
+	"container#hero-banner": {
 		"title": "Hero Banner",
 		"children": ["flex-layout.row#hero-banner"],
 		"props": {

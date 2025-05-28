@@ -1,0 +1,10 @@
+.departamentListTitle p,
+.departamentListTitle h1,
+.departamentListTitle h2,
+.departamentListTitle h3,
+.departamentListTitle h4,
+.departamentListTitle h5,
+.departamentListTitle h6 {
+	font-size: 2.25rem;
+	font-weight: bold;
+}

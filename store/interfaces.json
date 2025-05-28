@@ -5,10 +5,13 @@
 	"megamenu": {
 		"component": "_MegaMenu"
 	},
-	"showcomponent": {
-		"component": "_ShowComponent",
+	"container": {
+		"component": "_Container",
 		"composition": "children",
 		"allowed": "*"
+	},
+	"vitrina": {
+		"component": "_Vitrina"
 	},
 	"whatsapp": {
 		"component": "_WhatsApp"

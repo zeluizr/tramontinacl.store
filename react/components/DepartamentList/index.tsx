@@ -4,15 +4,16 @@ import { useMemo } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { ListContextProvider, useListContext } from "vtex.list-context";
 import { SliderLayout } from "vtex.slider-layout";
-import { baseRenderer } from "../../utils/_renderer";
+import { renderer } from "../../utils/_renderer";
 import SCHEMA from "./_schema";
+import "./styles.css";
 
 const CSS_HANDLES = ["departamentListContainer", "departamentListTitle"] as const;
 
 function DepartamentList({ title, department, slider }: DepartamentListProps) {
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const { list } = useListContext() || [];
-	const renderer = useMemo(() => baseRenderer(), []);
+	const _renderer = useMemo(() => renderer({ isWhite: false }), []);
 
 	const departmentList = [
 		...list,
@@ -29,7 +30,7 @@ function DepartamentList({ title, department, slider }: DepartamentListProps) {
 			<div
 				className={classNames(handles.departamentListTitle, "flex justify-center items-center mb9")}
 				dangerouslySetInnerHTML={{
-					__html: title && renderer ? marked.parse(title, { renderer }) : "",
+					__html: title && _renderer ? marked.parse(title, { renderer: _renderer }) : "",
 				}}
 			/>
 			<ListContextProvider list={departmentList}>

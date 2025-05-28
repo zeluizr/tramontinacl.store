@@ -1,5 +1,5 @@
 {
-	"showcomponent#half-banner": {
+	"container#half-banner": {
 		"title": "Half Banner",
 		"children": ["flex-layout.row#half-banner"],
 		"props": {

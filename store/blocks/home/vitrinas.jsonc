@@ -1,0 +1,24 @@
+{
+	"container#shelf-01": {
+		"title": "Vitrina #01",
+		"children": ["flex-layout.row#shelf-01"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#shelf-01": {
+		"children": ["vitrina#shelf-01"],
+		"props": {
+			"blockClass": ["shelf"],
+			"marginTop": 0,
+			"marginBottom": 5
+		}
+	},
+	"vitrina#shelf-01": {
+		"props": {
+			"title": "Garanta já 5% OFF",
+			"subTitle": "APLIQUE O CUPOM: LIBEROU5",
+			"backgroundImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwe9cf632e/Banner_home/descont-mais-5.png"
+		}
+	}
+}

@@ -273,7 +273,7 @@
 			"heading-6": {
 				"fontFamily": "Tramontina Titulos, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
 				"fontWeight": "normal",
-				"fontSize": "1.25rem",
+				"fontSize": "1.05rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
 			},

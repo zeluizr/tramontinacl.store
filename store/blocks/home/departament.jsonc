@@ -1,5 +1,5 @@
 {
-	"showcomponent#departament": {
+	"container#departament": {
 		"title": "Departamentos",
 		"children": ["flex-layout.row#departament"],
 		"props": {
@@ -17,7 +17,7 @@
 	"departament": {
 		"title": "Configuración",
 		"props": {
-			"title": "## Conheça os departamentos que **fazem bonito**",
+			"title": "Conheça os departamentos que **fazem bonito**",
 			"department": [
 				{
 					"title": "Cuchillos",
