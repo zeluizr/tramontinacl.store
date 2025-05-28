@@ -1,17 +1,17 @@
 export default {
-	title: "Configuración de Componente",
-	description: "Configuración de Componente",
+	title: "Vitrina",
+	description: "Vitrina",
 	type: "object",
 	properties: {
 		title: {
 			title: "Titulo",
 			type: "string",
-			default: "Vitrina",
+			default: "",
 		},
 		subTitle: {
 			title: "Subtitulo",
 			type: "string",
-			default: "Bienvenido a nuestra tienda",
+			default: "",
 		},
 		backgroundImage: {
 			title: "Imagen de Fondo",

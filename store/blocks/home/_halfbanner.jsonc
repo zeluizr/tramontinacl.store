@@ -11,7 +11,7 @@
 		"props": {
 			"blockClass": ["half-banner"],
 			"marginTop": 0,
-			"marginBottom": 5
+			"marginBottom": 0
 		}
 	},
 	"flex-layout.col#half-banner-01": {

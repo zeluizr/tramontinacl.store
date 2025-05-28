@@ -28,7 +28,7 @@ function DepartamentList({ title, department, slider }: DepartamentListProps) {
 	return (
 		<section className={classNames(handles.departamentListContainer)}>
 			<div
-				className={classNames(handles.departamentListTitle, "flex justify-center items-center mb9")}
+				className={classNames(handles.departamentListTitle, "flex justify-center items-center mb5")}
 				dangerouslySetInnerHTML={{
 					__html: title && _renderer ? marked.parse(title, { renderer: _renderer }) : "",
 				}}

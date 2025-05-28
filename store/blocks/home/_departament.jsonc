@@ -10,8 +10,8 @@
 		"children": ["departament"],
 		"props": {
 			"blockClass": ["departament"],
-			"marginTop": 9,
-			"marginBottom": 9
+			"marginTop": 8,
+			"marginBottom": 8
 		}
 	},
 	"departament": {

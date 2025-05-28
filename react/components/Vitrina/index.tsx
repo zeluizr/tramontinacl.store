@@ -19,8 +19,8 @@ function Vitrina({ title, backgroundImage, subTitle, children }: VitrinaProps) {
 
 	return (
 		<section
-			className={classNames(handles.vitrinaContainer, backgroundImage ? "br3" : "br0")}
-			style={{ backgroundImage: `url(${backgroundImage})` }}
+			className={classNames(handles.vitrinaContainer, backgroundImage ? "br3 pa5" : "br0 pa0")}
+			style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
 		>
 			{title && (
 				<div
