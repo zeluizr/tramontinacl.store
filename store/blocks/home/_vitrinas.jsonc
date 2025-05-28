@@ -74,5 +74,44 @@
 			"blockClass": ["shelf"],
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
 		}
+	},
+
+	"container#shelf-03": {
+		"title": "Vitrina #03",
+		"children": ["flex-layout.row#shelf-03"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#shelf-03": {
+		"children": ["vitrina#shelf-03"],
+		"props": {
+			"blockClass": ["shelf"],
+			"marginTop": 0,
+			"marginBottom": 0
+		}
+	},
+	"vitrina#shelf-03": {
+		"children": ["list-context.product-list#shelf-03"],
+		"props": {
+			"title": "Renueva tus espacios con calidad",
+			"subTitle": "Diseños exclusivos TRAMONTINA"
+		}
+	},
+	"list-context.product-list#shelf-03": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf-03"],
+		"props": {
+			"category": "2842",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"slider-layout#shelf-03": {
+		"props": {
+			"blockClass": ["shelf"],
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+		}
 	}
 }

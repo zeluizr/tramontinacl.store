@@ -81,7 +81,7 @@
 		"title": "Image Left",
 		"props": {
 			"blockClass": ["image", "half-banner"],
-			"src": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwcbf0a58c/home/Maio-2025-LYF-banner-mobile.png",
+			"src": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/b7a9eff9-9c19-4ed9-ab80-3c96c92ae037___290efe6b85c5e5a237eab3dcafb3966e.png",
 			"title": "Conheça a Tramontina",
 			"alt": "Conheça a Tramontina",
 			"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
@@ -91,7 +91,7 @@
 		"title": "Image Right",
 		"props": {
 			"blockClass": ["image", "half-banner"],
-			"src": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwb50374c4/home/Maio-2025-dia-do-hamburguer.png",
+			"src": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/3049e560-bd8f-4ca7-b471-5ce1a4b3ebb0___90d414697824b9959be5445a875984f0.png",
 			"title": "Conheça a Tramontina",
 			"alt": "Conheça a Tramontina",
 			"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
