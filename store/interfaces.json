@@ -11,7 +11,9 @@
 		"allowed": "*"
 	},
 	"vitrina": {
-		"component": "_Vitrina"
+		"component": "_Vitrina",
+		"composition": "children",
+		"allowed": "*"
 	},
 	"whatsapp": {
 		"component": "_WhatsApp"
