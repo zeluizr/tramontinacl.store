@@ -1,23 +1,23 @@
 {
-	"container#middle-banner": {
+	"container#middle-banner-01": {
 		"title": "Middle Banner",
-		"children": ["flex-layout.row#middle-banner"],
+		"children": ["flex-layout.row#middle-banner-01"],
 		"props": {
 			"isActive": true
 		}
 	},
-	"flex-layout.row#middle-banner": {
+	"flex-layout.row#middle-banner-01": {
 		"title": "Configuración",
-		"children": ["list-context.image-list#middle-banner"],
+		"children": ["list-context.image-list#middle-banner-01"],
 		"props": {
 			"blockClass": ["middle-banner"],
 			"marginTop": 0,
-			"marginBottom": 5
+			"marginBottom": 0
 		}
 	},
-	"list-context.image-list#middle-banner": {
+	"list-context.image-list#middle-banner-01": {
 		"title": "Lista de Imagens",
-		"children": ["slider-layout#middle-banner"],
+		"children": ["slider-layout#middle-banner-01"],
 		"props": {
 			"blockClass": ["image-list", "middle-banner"],
 			"images": [
@@ -29,7 +29,44 @@
 			]
 		}
 	},
-	"slider-layout#middle-banner": {
+	"slider-layout#middle-banner-01": {
+		"title": "Slider de Imagens",
+		"props": {
+			"blockClass": ["slider", "middle-banner"],
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	},
+	"container#middle-banner-02": {
+		"title": "Middle Banner",
+		"children": ["flex-layout.row#middle-banner-02"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#middle-banner-02": {
+		"title": "Configuración",
+		"children": ["list-context.image-list#middle-banner-02"],
+		"props": {
+			"blockClass": ["middle-banner"],
+			"marginTop": 0,
+			"marginBottom": 0
+		}
+	},
+	"list-context.image-list#middle-banner-02": {
+		"title": "Lista de Imagens",
+		"children": ["slider-layout#middle-banner-02"],
+		"props": {
+			"blockClass": ["image-list", "middle-banner"],
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f4ba8c44-fdf9-48df-ae90-e218610da361___743ba225d0c00c96dc467eef1a79aa5b.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/26a5f6ac-0419-436a-9e90-e21f1d388df6___8025a6f7ed530a01db44e4eb72a46af6.png",
+					"link": { "openNewTab": false, "url": "/collections/novidades", "title": "Novedad" }
+				}
+			]
+		}
+	},
+	"slider-layout#middle-banner-02": {
 		"title": "Slider de Imagens",
 		"props": {
 			"blockClass": ["slider", "middle-banner"],

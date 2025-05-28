@@ -11,8 +11,8 @@
 		"children": ["list-context.image-list#hero-banner"],
 		"props": {
 			"blockClass": "[hero-banner]",
-			"marginTop": 5,
-			"marginBottom": 5
+			"marginTop": 0,
+			"marginBottom": 0
 		}
 	},
 	"list-context.image-list#hero-banner": {

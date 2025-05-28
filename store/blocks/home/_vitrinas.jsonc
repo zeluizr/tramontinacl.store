@@ -11,7 +11,7 @@
 		"props": {
 			"blockClass": ["shelf"],
 			"marginTop": 0,
-			"marginBottom": 8
+			"marginBottom": 0
 		}
 	},
 	"vitrina#shelf-01": {
@@ -49,8 +49,8 @@
 		"children": ["vitrina#shelf-02"],
 		"props": {
 			"blockClass": ["shelf"],
-			"marginTop": 8,
-			"marginBottom": 8
+			"marginTop": 0,
+			"marginBottom": 0
 		}
 	},
 	"vitrina#shelf-02": {
