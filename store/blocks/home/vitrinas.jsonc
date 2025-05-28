@@ -34,6 +34,7 @@
 	},
 	"slider-layout#shelf-01": {
 		"props": {
+			"blockClass": ["shelf"],
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
 		}
 	}

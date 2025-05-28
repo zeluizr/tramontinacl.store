@@ -1,6 +1,1 @@
-{
-	"product-summary.shelf": {
-		"props": {},
-		"children": ["product-summary-name"]
-	}
-}
+{}

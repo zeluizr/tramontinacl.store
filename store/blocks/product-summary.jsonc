@@ -1,0 +1,21 @@
+{
+	"product-summary.shelf": {
+		"props": {},
+		"children": ["product-summary-image", "product-summary-name"]
+	},
+	"product-summary-image": {
+		"title": "Imagen del producto",
+		"props": {
+			"blockClass": ["image"],
+			"aspectRatio": "1:1",
+			"showBadge": false
+		}
+	},
+	"product-summary-name": {
+		"title": "Nombre del producto",
+		"props": {
+			"blockClass": ["name"],
+			"tag": "h3"
+		}
+	}
+}

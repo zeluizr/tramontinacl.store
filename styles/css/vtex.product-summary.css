@@ -1,0 +1,17 @@
+.container {
+	background-color: #fff;
+	padding: 1rem;
+}
+
+.nameContainer--name {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.productBrand--name {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

@@ -6,7 +6,7 @@ import { renderer } from "../../utils/_renderer";
 import SCHEMA from "./_schema";
 import "./styles.css";
 
-const CSS_HANDLES = ["vitrinaContainer", "vitrinaTitle", "vitrinaSubTitle"] as const;
+const CSS_HANDLES = ["vitrinaContainer", "vitrinaTitle", "vitrinaSubTitle", "vitrinaShelfContainer"] as const;
 function Vitrina({
 	title,
 	backgroundImage,
@@ -38,7 +38,7 @@ function Vitrina({
 					__html: subTitle && _renderer ? marked.parse(subTitle, { renderer: _renderer }) : "",
 				}}
 			/>
-			<>{children}</>
+			<div className={classNames(handles.vitrinaShelfContainer, "mt5")}>{children}</div>
 		</section>
 	);
 }
