@@ -1,4 +1,5 @@
-.sliderTrack--shelf {
+.sliderTrack--shelf,
+.sliderTrack--slider-banner {
 	gap: 1rem;
 }
 
