@@ -10,8 +10,11 @@
 	"megamenu": {
 		"component": "_MegaMenu"
 	},
-	"plpprice": {
+	"product-summary-price": {
 		"component": "_PLPPrice"
+	},
+	"product-summary-badges": {
+		"component": "_PLPBadges"
 	},
 	"vitrina": {
 		"component": "_Vitrina",

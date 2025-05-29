@@ -1,9 +1,10 @@
 {
 	"product-summary.shelf": {
 		"children": [
+			"product-summary-badges",
 			"product-summary-image",
 			"product-summary-name",
-			"plpprice",
+			"product-summary-price",
 			"product-installments",
 			"flex-layout.row#add-to-cart-button"
 		],
