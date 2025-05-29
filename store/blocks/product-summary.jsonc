@@ -1,6 +1,11 @@
 {
 	"product-summary.shelf": {
-		"children": ["product-summary-image", "product-summary-name", "add-to-cart-button#product-summary"],
+		"children": [
+			"product-summary-image",
+			"product-summary-name",
+			"product-installments",
+			"add-to-cart-button#product-summary"
+		],
 		"props": {
 			"priceBehavior": "async",
 			"trackListName": false
@@ -28,6 +33,13 @@
 			"text": "Comprar ahora",
 			"customToastUrl": "/checkout/#/cart",
 			"unavailableText": "Producto no disponible"
+		}
+	},
+	"product-installments": {
+		"props": {
+			"blockClass": ["installments"],
+			"message": "en hasta {installmentsNumber} cuotas {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}",
+			"installmentsCriteria": "max-quantity"
 		}
 	}
 }
