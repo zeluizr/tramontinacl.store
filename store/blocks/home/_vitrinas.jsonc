@@ -103,7 +103,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"category": "2842",
+			"category": "2963",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -140,7 +140,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-04"],
 		"props": {
-			"category": "2842",
+			"category": "2935",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12

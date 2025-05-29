@@ -3,6 +3,7 @@
 		"children": [
 			"product-summary-image",
 			"product-summary-name",
+			"plpprice",
 			"product-installments",
 			"add-to-cart-button#product-summary"
 		],

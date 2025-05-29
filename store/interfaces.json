@@ -1,14 +1,17 @@
 {
+	"container": {
+		"component": "_Container",
+		"composition": "children",
+		"allowed": "*"
+	},
 	"departament": {
 		"component": "_DepartamentList"
 	},
 	"megamenu": {
 		"component": "_MegaMenu"
 	},
-	"container": {
-		"component": "_Container",
-		"composition": "children",
-		"allowed": "*"
+	"plpprice": {
+		"component": "_PLPPrice"
 	},
 	"vitrina": {
 		"component": "_Vitrina",
