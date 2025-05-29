@@ -25,13 +25,13 @@ function PLPPrice() {
 				>
 					<s>{listPrice !== price && formatCLP(listPrice)}</s>
 					{listPrice !== price && (
-						<span className={classNames("bg-emphasis white br2 pa2", "t-small")}>
+						<span className={classNames("bg-emphasis white br2 pa2 t-small")}>
 							{listPrice !== undefined && price !== undefined ? getDiscountPercentage(listPrice, price) : null}
 						</span>
 					)}
 				</p>
 			)}
-			{price && <p className={classNames("t-heading-4 c-action-primary mt0 mb0")}>{formatCLP(price)}</p>}
+			{price && <p className={classNames("t-heading-3 c-action-primary mt0 mb0")}>{formatCLP(price)}</p>}
 		</section>
 	);
 }

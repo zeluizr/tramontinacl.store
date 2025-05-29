@@ -4,4 +4,9 @@
 	font-size: 0.75rem;
 	font-weight: 400;
 	color: #414042;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }

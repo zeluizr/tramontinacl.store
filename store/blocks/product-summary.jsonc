@@ -5,7 +5,7 @@
 			"product-summary-name",
 			"plpprice",
 			"product-installments",
-			"add-to-cart-button#product-summary"
+			"flex-layout.row#add-to-cart-button"
 		],
 		"props": {
 			"priceBehavior": "async",
@@ -25,6 +25,19 @@
 		"props": {
 			"blockClass": ["name"],
 			"tag": "h3"
+		}
+	},
+	"flex-layout.row#add-to-cart-button": {
+		"children": ["flex-layout.col#add-to-cart-button"],
+		"props": {
+			"marginBottom": 3
+		}
+	},
+	"flex-layout.col#add-to-cart-button": {
+		"children": ["add-to-cart-button#product-summary"],
+		"props": {
+			"marginLeft": 3,
+			"marginRight": 3
 		}
 	},
 	"add-to-cart-button#product-summary": {

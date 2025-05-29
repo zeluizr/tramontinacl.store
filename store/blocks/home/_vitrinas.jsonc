@@ -103,7 +103,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"category": "2963",
+			"category": "2842",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
