@@ -1,6 +1,6 @@
 {
 	"container#middle-banner-01": {
-		"title": "Middle Banner",
+		"title": "Middle Banner #01",
 		"children": ["flex-layout.row#middle-banner-01"],
 		"props": {
 			"isActive": true
@@ -36,7 +36,7 @@
 		}
 	},
 	"container#middle-banner-02": {
-		"title": "Middle Banner",
+		"title": "Middle Banner #2",
 		"children": ["flex-layout.row#middle-banner-02"],
 		"props": {
 			"isActive": true
@@ -73,7 +73,7 @@
 		}
 	},
 	"container#middle-banner-03": {
-		"title": "Middle Banner",
+		"title": "Middle Banner #3",
 		"children": ["flex-layout.row#middle-banner-03"],
 		"props": {
 			"isActive": true

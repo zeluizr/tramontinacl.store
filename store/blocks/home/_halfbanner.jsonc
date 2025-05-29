@@ -1,6 +1,6 @@
 {
 	"container#half-banner-01": {
-		"title": "Half Banner",
+		"title": "Half Banner #01",
 		"children": ["flex-layout.row#half-banner-01"],
 		"props": {
 			"isActive": true
@@ -48,7 +48,7 @@
 		}
 	},
 	"container#half-banner-02": {
-		"title": "Half Banner",
+		"title": "Half Banner #02",
 		"children": ["flex-layout.row#half-banner-02"],
 		"props": {
 			"isActive": true

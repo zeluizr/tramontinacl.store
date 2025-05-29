@@ -30,6 +30,8 @@
 	"flex-layout.row#add-to-cart-button": {
 		"children": ["flex-layout.col#add-to-cart-button"],
 		"props": {
+			"blockClass": "add-to-cart-button",
+			"marginTop": 3,
 			"marginBottom": 3
 		}
 	},
