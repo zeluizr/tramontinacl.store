@@ -33,8 +33,6 @@ function PLPBadges() {
 
 	if (validBadges.length === 0) return null;
 
-	console.log("Valid Badges:", validBadges);
-
 	return (
 		<div
 			className={classNames(
