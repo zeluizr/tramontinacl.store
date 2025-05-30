@@ -26,7 +26,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-01"],
 		"props": {
-			"category": "2842",
+			"collection": "214",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -58,14 +58,14 @@
 	"vitrina#shelf-02": {
 		"children": ["list-context.product-list#shelf-02"],
 		"props": {
-			"title": "¡Prepara tus mejores platos con  ***Tramontina!*** 👳"
+			"title": "Aproveite o melhor da **Tramontina**"
 		}
 	},
 	"list-context.product-list#shelf-02": {
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-02"],
 		"props": {
-			"category": "2842",
+			"collection": "200",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -103,7 +103,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"category": "2842",
+			"collection": "207",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -133,14 +133,14 @@
 	"vitrina#shelf-04": {
 		"children": ["list-context.product-list#shelf-04"],
 		"props": {
-			"title": "¡Prepara tus mejores platos con  ***Tramontina!*** 👳"
+			"title": "¡Lleva la cocina a **otro nivel** con Tramontina!"
 		}
 	},
 	"list-context.product-list#shelf-04": {
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-04"],
 		"props": {
-			"category": "2935",
+			"collection": "200",
 			"hideUnavailableItems": false,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
