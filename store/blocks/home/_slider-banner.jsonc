@@ -1,0 +1,77 @@
+{
+	"container#slider-banner": {
+		"title": "Slider Banner",
+		"children": ["flex-layout.row#slider-banner"],
+		"props": {
+			"isActive": true
+		}
+	},
+	"flex-layout.row#slider-banner": {
+		"children": ["vitrina#slider-banner"],
+		"props": {
+			"blockClass": ["slider-banner"],
+			"marginBottom": 8
+		}
+	},
+	"vitrina#slider-banner": {
+		"children": ["list-context.image-list#slider-banner"]
+	},
+	"list-context.image-list#slider-banner": {
+		"children": ["slider-layout#slider-banner"],
+		"props": {
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				},
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#slider-banner": {
+		"props": {
+			"blockClass": ["slider", "slider-banner"],
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+		}
+	}
+}

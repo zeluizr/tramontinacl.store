@@ -24,17 +24,29 @@
 				{
 					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
 					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
-					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+					"link": {
+						"openNewTab": false,
+						"title": "Conheça a Tramontina",
+						"url": "/"
+					}
 				},
 				{
 					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
 					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
-					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+					"link": {
+						"openNewTab": false,
+						"title": "Conheça a Tramontina",
+						"url": "/"
+					}
 				},
 				{
 					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
 					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
-					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+					"link": {
+						"openNewTab": false,
+						"title": "Conheça a Tramontina",
+						"url": "/"
+					}
 				}
 			]
 		}

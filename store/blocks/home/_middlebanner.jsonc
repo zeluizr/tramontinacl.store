@@ -23,7 +23,11 @@
 				{
 					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwbba76b2c/Banner_home/banner_dia-t_20224-desktop.png",
 					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw12162ad2/Banner_home/banner_dia-t_20224-mobile.png",
-					"link": { "openNewTab": false, "url": "/collections/novidades", "title": "Novedad" }
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
 				}
 			]
 		}
@@ -60,7 +64,11 @@
 				{
 					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f4ba8c44-fdf9-48df-ae90-e218610da361___743ba225d0c00c96dc467eef1a79aa5b.png",
 					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/26a5f6ac-0419-436a-9e90-e21f1d388df6___8025a6f7ed530a01db44e4eb72a46af6.png",
-					"link": { "openNewTab": false, "url": "/collections/novidades", "title": "Novedad" }
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
 				}
 			]
 		}
@@ -97,7 +105,11 @@
 				{
 					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/d435b33c-4c60-4991-b14a-33922b295b09___ab3c7135aaf7781c95dc2de96f76c54a.gif",
 					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/10397daf-07c4-4251-83de-d085932c4878___3f5752546d8ba5569154eb0ad6d76e3d.gif",
-					"link": { "openNewTab": false, "url": "/collections/novidades", "title": "Novedad" }
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
 				}
 			]
 		}

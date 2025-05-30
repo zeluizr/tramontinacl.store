@@ -23,13 +23,18 @@
 		}
 	},
 	"tab-list#home": {
-		"children": ["tab-list.item#home1", "tab-list.item#home2", "tab-list.item#home3", "tab-list.item#home4"]
+		"children": [
+			"tab-list.item#home1",
+			"tab-list.item#home2",
+			"tab-list.item#home3",
+			"tab-list.item#home4"
+		]
 	},
 	"tab-list.item#home1": {
 		"title": "Tab #01",
 		"props": {
 			"tabId": "home1",
-			"label": "🔥 Ofertas",
+			"label": "Ollas",
 			"defaultActiveTab": true
 		}
 	},
@@ -37,25 +42,30 @@
 		"title": "Tab #02",
 		"props": {
 			"tabId": "home2",
-			"label": "💙 Cyber Monday"
+			"label": "Sartenes"
 		}
 	},
 	"tab-list.item#home3": {
 		"title": "Tab #03",
 		"props": {
 			"tabId": "home3",
-			"label": "🖤 Black Friday"
+			"label": "Cacerolas"
 		}
 	},
 	"tab-list.item#home4": {
 		"title": "Tab #04",
 		"props": {
 			"tabId": "home4",
-			"label": "🎄 Navidad"
+			"label": "Cuchillos"
 		}
 	},
 	"tab-content#home": {
-		"children": ["tab-content.item#home1", "tab-content.item#home2", "tab-content.item#home3", "tab-content.item#home4"]
+		"children": [
+			"tab-content.item#home1",
+			"tab-content.item#home2",
+			"tab-content.item#home3",
+			"tab-content.item#home4"
+		]
 	},
 	"tab-content.item#home1": {
 		"children": ["flex-layout.row#home1"],

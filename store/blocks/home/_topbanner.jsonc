@@ -23,7 +23,11 @@
 				{
 					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/1db2bf7f-255e-4fd9-881f-e0ab671e3e75___2bad186db30b1575d17ed7fe3ebc51f6.png",
 					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/5365965f-fe54-45c2-b299-a5a639eba17f___2f868fb6cdc64b527a0d546b8ec9eb20.png",
-					"link": { "openNewTab": false, "title": "Conheça a Tramontina", "url": "/" }
+					"link": {
+						"openNewTab": false,
+						"title": "Conheça a Tramontina",
+						"url": "/"
+					}
 				}
 			]
 		}
