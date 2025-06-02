@@ -1,6 +1,70 @@
 {
 	"product-summary.shelf": {
-		"props": {},
-		"children": []
+		"props": {
+			"blockClass": "shelf"
+		},
+		"children": [
+			"product-summary-image",
+			"product-summary-name",
+			"product-summary-space",
+			"flex-layout.row#list-price",
+			"product-selling-price",
+			"product-installments",
+			"add-to-cart-button",
+			"badges#home"
+		]
+	},
+	"badges#home": {
+		"props": {
+			"coleccions": [
+				{
+					"idCollection": 200,
+					"image": "https://tramontinacl.vtexassets.com/arquivos/compra-por-mayor.gif"
+				},
+				{
+					"idCollection": 207,
+					"image": "https://tramontinacl.vtexassets.com/arquivos/cyber-day.gif"
+				},
+				{
+					"idCollection": 214,
+					"image": "https://tramontinacl.vtexassets.com/arquivos/envio-gratis-rm.png"
+				}
+			]
+		}
+	},
+	"flex-layout.row#list-price": {
+		"children": ["product-list-price", "product-price-savings"],
+		"props": {
+			"blockClass": "list-price-row"
+		}
+	},
+	"product-list-price": {
+		"props": {
+			"blockClass": "list-price"
+		}
+	},
+	"product-selling-price": {
+		"props": {
+			"blockClass": "selling-price"
+		}
+	},
+	"product-installments": {
+		"props": {
+			"blockClass": "installments",
+			"installmentsCriteria": "max-quantity-without-interest",
+			"message": "en hasta {installmentsNumber} cuotas de {installmentValue} sin interés"
+		}
+	},
+	"product-price-savings": {
+		"props": {
+			"blockClass": "product-price-savings",
+			"message": "{savingsPercentage}"
+		}
+	},
+	"product-summary-image": {
+		"props": {
+			"aspectRatio": "1:1",
+			"showBadge": false
+		}
 	}
 }

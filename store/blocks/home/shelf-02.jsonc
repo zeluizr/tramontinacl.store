@@ -1,0 +1,42 @@
+{
+	"flex-layout.row#shelf-container-02": {
+		"title": "Vitrina #2",
+		"children": [
+			"rich-text#shelf-container-02",
+			"list-context.product-list#shelf-container-02"
+		],
+		"props": {
+			"blockClass": "shelf-container",
+			"paddingTop": 4,
+			"paddingBottom": 7
+		}
+	},
+	"rich-text#shelf-container-02": {
+		"props": {
+			"blockClass": ["shelf-container-title", "title"],
+			"text": "## Es momento de lucir tu mesa con  ***encanto***",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3",
+			"textColor": "c-on-base"
+		}
+	},
+	"list-context.product-list#shelf-container-02": {
+		"children": ["slider-layout#shelf-container-02"],
+		"blocks": ["product-summary.shelf"],
+		"props": {
+			"hideUnavailableItems": true,
+			"maxItems": 20,
+			"orderBy": "OrderByBestDiscountDESC",
+			"collection": "188"
+		}
+	},
+	"slider-layout#shelf-container-02": {
+		"props": {
+			"blockClass": "shelf",
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
+		}
+	}
+}

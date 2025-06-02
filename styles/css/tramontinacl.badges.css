@@ -1,0 +1,15 @@
+.containerBuyButtonMayo :global(.vtex-button) {
+	background-color: #f57f29;
+	border: 1px solid #f57f29;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.badges {
+	width: 2.5rem;
+	height: 2.5rem;
+}

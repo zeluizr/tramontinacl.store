@@ -1,0 +1,37 @@
+{
+	"flex-layout.row#footer-menu": {
+		"children": [
+			"flex-layout.col#menu-dudas-y-servicios",
+			"flex-layout.col#menu-institucional",
+			"flex-layout.col#menu-atencion-al-cliente"
+		],
+		"props": {
+			"blockClass": "footer-menu",
+			"horizontalAlign": "center",
+			"colGap": 4,
+			"paddingBottom": 8,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": false
+		}
+	},
+	"flex-layout.col#menu-dudas-y-servicios": {
+		"children": ["navigation#footer-menu-dudas-y-servicios"],
+		"props": {
+			"blockClass": "menu-atendimento"
+		}
+	},
+	"flex-layout.col#menu-institucional": {
+		"children": ["navigation#footer-menu-institucional"],
+		"props": {
+			"blockClass": "menu-linhas-especiais",
+			"rowGap": 9
+		}
+	},
+	"flex-layout.col#menu-atencion-al-cliente": {
+		"children": ["navigation#footer-menu-atencion-al-cliente"],
+		"props": {
+			"blockClass": "menu-linhas-especiais",
+			"rowGap": 9
+		}
+	}
+}

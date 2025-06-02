@@ -1,1 +1,11 @@
-{}
+{
+	"store.custom#terminos-y-condiciones": {
+		"path": "/terminosycondiciones"
+	},
+	"store.custom#about-us": {
+		"path": "/institucional"
+	},
+	"store.custom#responsabilidad-ambiental": {
+		"path": "/institucional/responsabilidad-ambiental"
+	}
+}

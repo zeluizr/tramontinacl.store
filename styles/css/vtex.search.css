@@ -1,0 +1,32 @@
+.tileList {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.tileListList {
+	gap: 1rem;
+}
+
+.biggy-autocomplete-wrapper {
+	max-width: 54.375rem;
+	width: 90vw !important;
+}
+
+.biggy-autocomplete {
+	box-shadow: none !important;
+	border: 2px solid #e8e8e8;
+	top: 0.5rem;
+}
+
+.productBrand {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+@media (min-width: 1025px) {
+	.biggy-autocomplete-wrapper {
+		width: 50vw !important;
+	}
+}

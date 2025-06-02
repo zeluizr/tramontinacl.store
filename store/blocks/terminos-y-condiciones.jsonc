@@ -1,0 +1,19 @@
+{
+	"store.custom#terminos-y-condiciones": {
+		"blocks": ["flex-layout.row#empty-content"]
+	},
+	"flex-layout.row#empty-content": {
+		"children": ["rich-text#empty-content"],
+		"props": {
+			"blockClass": "custom-page",
+			"paddingTop": 5,
+			"paddingBottom": 5
+		}
+	},
+	"rich-text#empty-content": {
+		"props": {
+			"blockClass": "custom-page",
+			"text": "## Términos y Condiciones\n\nEste documento regula los términos y condiciones bajo los cuales Ud. tiene derecho a acceder y usar los servicios del sitio Web [https://www.tramontina.cl/](https://www.tramontina.cl/) y de cualquier información, texto, video u otro material comunicado en el sitio web.\n\nEn este sitio Web podrá usar, sin costo, el software y las aplicaciones para equipos móviles que le permitan navegar, visitar, comparar y si lo desea, adquirir los bienes o servicios que se exhiben aquí.\n\nLe recomendamos que lea detenidamente estas Condiciones e imprima o guarde una copia de las mismas en la unidad de disco local para su información.\n\nEstos Términos y Condiciones serán aplicados y se entenderán incorporados en cada uno de los contratos que celebre con T Store Tramontina por medio de este sitio web.\n\nEl uso de este sitio web, la aplicación de estos Términos y Condiciones, los actos que ejecute y los contratos que celebre por medio de este sitio web, se encuentran sujetos y sometidos a las leyes de la República de Chile y en especial a la ley 19.496 de protección de los derechos de los consumidores.\n\nT Store Tramontina aplicará estrictamente todos los beneficios, garantías y derechos reconocidos en favor de los consumidores en la ley 19.496. Además, T Store Tramontina adhiere en todas sus partes al Código de Buenas Prácticas para el Comercio Electrónico de la Cámara de Comercio de Santiago, disponible en este [link](https://www.ecommerceccs.cl/codigo-de-buenas-practicas-para-el-comercio-electronico/).\n\n## Garantías, Responsabilidades y Daños\n\n1. No garantizamos que el contenido, los instrumentos y los materiales utilizados y ofrecidos en este sitio web estén necesariamente actualizados o completos.\n2. No nos responsabilizamos por el uso inadecuado de la información, instrumentos o materiales puestos a disposición.\n3. T store Tramontina no será responsable de daños, pérdidas o gastos derivados del uso o imposibilidad de uso del sitio.\n4. La provisión adecuada de todos los recursos de internet es responsabilidad exclusiva del usuario.\n5. No somos responsables por el contenido de sitios externos vinculados desde este sitio web.\n6. Los inversores deben considerar cuidadosamente toda la información disponible antes de tomar decisiones financieras.\n\n## Comunicaciones\n\nPara presentaciones, consultas o reclamos relacionados con el sitio, puede comunicarse al correo [postventa.tchile@tramontina.com](mailto:postventa.tchile@tramontina.com) o al teléfono 2 2676 5000.\n\n## Aceptación\n\nEl simple uso de este sitio implica la aceptación de estos Términos y Condiciones.\n\n## Jurisdicción\n\nEste acuerdo se rige por las leyes de la República de Chile. Cualquier controversia será resuelta por los tribunales chilenos."
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"footer": {
+		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+	},
+	"footer-layout.desktop": {
+		"children": [
+			"flex-layout.row#top-rrss-desktop",
+			"flex-layout.row#footer-menu",
+			// "flex-layout.row#payments-stamps-brand",
+			"flex-layout.row#copyrigth",
+			"flex-layout.row#address"
+		]
+	},
+	"footer-layout.mobile": {
+		"children": [
+			"flex-layout.row#top-rrss-mobile",
+			"flex-layout.row#footer-menu",
+			// "flex-layout.row#payments-stamps-brand",
+			"flex-layout.row#copyrigth",
+			"flex-layout.row#address"
+		]
+	}
+}

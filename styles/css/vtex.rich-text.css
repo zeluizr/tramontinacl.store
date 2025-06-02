@@ -1,0 +1,183 @@
+.paragraph--welcome {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.paragraph--departamento-title {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.heading--title-blue,
+.paragraph--title-blue {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.heading--title-blue {
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.paragraph--title-blue {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.heading--title {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.container--title {
+	display: flex;
+	flex-direction: column;
+}
+
+.container--title::after {
+	background: linear-gradient(
+		90deg,
+		hsla(0, 0%, 92%, 0),
+		#ebebeb 50%,
+		hsla(0, 0%, 92%, 0)
+	);
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.strong--departamento-title,
+.strong--title {
+	color: #003087;
+}
+
+.headingLevel2--slider-banner-title,
+.headingLevel3--slider-banner-title {
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+.heading--shelf-container-title {
+	font-size: 1.75rem;
+}
+
+.container--title-blue {
+	background-color: #003087;
+	color: white;
+	border-radius: 1rem;
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+}
+
+.paragraph--notification {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0.875rem;
+}
+
+.strong--notification {
+	color: #003087;
+}
+
+.paragraph--to-top {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.link--to-top {
+	border: 1px solid #d1d3d4;
+	padding: 0.5rem 1rem;
+	display: inline-flex;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1rem;
+	font-family: "Tramontina Titulos", sans-serif;
+	border-radius: 0.25rem;
+}
+
+@media (min-width: 1025px) {
+	.heading--shelf-container-title {
+		font-size: 2.25rem;
+	}
+}
+
+/* T y C */
+
+.headingLevel1--custom-page,
+.headingLevel2--custom-page,
+.headingLevel3--custom-page,
+.headingLevel4--custom-page,
+.headingLevel5--custom-page,
+.headingLevel6--custom-page,
+.paragraph--custom-page {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.headingLevel1--custom-page,
+.headingLevel2--custom-page,
+.headingLevel3--custom-page,
+.headingLevel4--custom-page,
+.headingLevel5--custom-page,
+.headingLevel6--custom-page {
+	margin-bottom: 1rem;
+	color: #003087;
+}
+
+.headingLevel2--custom-page {
+	font-size: 1.3rem;
+}
+
+.headingLevel3--custom-page {
+	font-size: 1rem;
+}
+
+.headingLevel5--custom-page {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.paragraph--custom-page {
+	line-height: 1.5;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color: #414042;
+}
+
+.link--custom-page {
+	text-decoration: none;
+	color: #003087;
+	font-weight: 500;
+}
+
+.list--custom-page {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	color: #414042;
+}
+
+.listItem--custom-page {
+	line-height: 1.5;
+}
+
+@media (min-width: 1025px) {
+	.headingLevel2--custom-page {
+		font-size: 2rem;
+	}
+
+	.headingLevel3--custom-page {
+		font-size: 1.25rem;
+	}
+}
+
+/* Product Page */
+
+.paragraph--shipping-simulator {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}

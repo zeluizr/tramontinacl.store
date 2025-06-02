@@ -1,0 +1,17 @@
+{
+	"store.search#subcategory": {
+		"blocks": ["search-result-layout"],
+		"props": {
+			"blockClass": "search-result",
+			"context": {
+				"maxItemsPerPage": 24,
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"facetsBehavior": "dynamic",
+				"skusFilter": "ALL_AVAILABLE",
+				"simulationBehavior": "default",
+				"installmentCriteria": "MAX_WITHOUT_INTEREST"
+			}
+		}
+	}
+}

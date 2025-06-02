@@ -1,0 +1,11 @@
+{
+	"flex-layout.row#search-mobile": {
+		"children": ["search-bar"],
+		"props": {
+			"blockClass": "search-mobile",
+			"horizontalAlign": "center",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	}
+}

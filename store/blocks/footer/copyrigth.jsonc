@@ -1,0 +1,19 @@
+{
+	"flex-layout.row#copyrigth": {
+		"children": ["rich-text#copyrigth"],
+		"props": {
+			"blockClass": "copyrigth",
+			"paddingTop": 8
+		}
+	},
+	"rich-text#copyrigth": {
+		"props": {
+			"blockClass": "copyrigth",
+			"text": "**© Copyright 2018 Tramontina. Todos os direitos reservados.**",
+			"font": "t-mini",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"textColor": "c-on-base"
+		}
+	}
+}

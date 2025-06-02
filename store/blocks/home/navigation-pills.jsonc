@@ -1,0 +1,92 @@
+{
+	"flex-layout.row#pill": {
+		"title": "Enlaces de navegación",
+		"children": ["navigation#pill"],
+		"props": {
+			"blockClass": "pill",
+			"marginTop": 8,
+			"marginBottom": 8
+		}
+	},
+	"navigation#pill": {
+		"props": {
+			"title": "Categorias",
+			"navigationType": "pill",
+			"typographyType": "mini",
+			"navigation": [
+				{
+					"text": "Iluminación",
+					"attributeTitle": "Iluminación",
+					"url": "/iluminacion",
+					"target": "_self"
+				},
+				{
+					"text": "Sistema de Riego",
+					"attributeTitle": "Sistema de Riego",
+					"url": "/jardineria-y-agricultura/sistemas-de-irrigacion",
+					"target": "_self"
+				},
+				{
+					"text": "Ollas Sueltas",
+					"attributeTitle": "Ollas Sueltas",
+					"url": "/ollas/ollas-sueltas",
+					"target": "_self"
+				},
+				{
+					"text": "Grills",
+					"attributeTitle": "Grills",
+					"url": "/asado/grills-a-carbon",
+					"target": "_self"
+				},
+				{
+					"text": "Sillas",
+					"attributeTitle": "Sillas",
+					"url": "/muebles/sillas",
+					"target": "_self"
+				},
+				{
+					"text": "Herramientas",
+					"attributeTitle": "Herramientas",
+					"url": "/herramientas",
+					"target": "_self"
+				},
+				{
+					"text": "Inducción",
+					"attributeTitle": "Inducción",
+					"url": "/Ollas",
+					"target": "_self"
+				},
+				{
+					"text": "Olla de Presión",
+					"attributeTitle": "Olla de Presión",
+					"url": "/ollas/ollas-a-presion",
+					"target": "_self"
+				},
+				{
+					"text": "Cubetas",
+					"attributeTitle": "Cubetas",
+					"url": "/remodelacion-y-construccion/cubas-y-piletas",
+					"target": "_self"
+				},
+				{
+					"text": "Porta Herramientas",
+					"attributeTitle": "Porta Herramientas",
+					"url": "/Herramientas-Industriales/Organizadores-para-Herramientas",
+					"target": "_self"
+				},
+				{
+					"text": "Cubiertos",
+					"attributeTitle": "Cubiertos",
+					"url": "/Cocina/Juego-de-Cubiertos-y-Cubiertos",
+					"target": "_self"
+				},
+				{
+					"text": "Vajillas",
+					"attributeTitle": "Vajillas",
+					"url": "/mesa-puesta/vajilla",
+					"target": "_self"
+				}
+			]
+		}
+	}
+}

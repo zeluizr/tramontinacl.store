@@ -1,0 +1,39 @@
+.label {
+	text-transform: initial;
+	font-weight: 400;
+	font-size: 0.875rem;
+	padding-left: 0;
+	color: black !important;
+}
+
+.profileIcon--login {
+	width: 24px;
+	height: 24px;
+	color: black !important;
+}
+
+.profile {
+	text-transform: initial;
+}
+
+.container :global(.vtex-button) {
+	background-color: transparent;
+}
+
+.container :global(.vtex-button__label) {
+	padding: 0 !important;
+}
+
+:global(.vtex-mega-menu-2-x-menuContainer) h3 {
+	display: none;
+}
+
+:global(.swiper-container-thumbs) :global(.swiper-wrapper) {
+	gap: 0.5rem;
+}
+
+:global(.swiper-container-thumbs) :global(.swiper-slide-active) {
+	border: 1px solid #e6e8ea;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}

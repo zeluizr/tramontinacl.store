@@ -1,0 +1,62 @@
+{
+	"flex-layout.row#full-banner01": {
+		"title": "Full Banner #1",
+		"children": ["list-context.image-list#full-banner01"],
+		"props": {
+			"blockClass": "full-banner01",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#full-banner01": {
+		"children": ["slider-layout#full-banner01"],
+		"props": {
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f00e10c3-f29f-41d8-b00a-e4eb911d5dad___50e1c9c331675d5e0851fffbea40c416.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/f00e10c3-f29f-41d8-b00a-e4eb911d5dad___50e1c9c331675d5e0851fffbea40c416.png",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/167?map=productClusterIds"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner01": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	},
+	"flex-layout.row#full-banner02": {
+		"title": "Full Banner #2",
+		"children": ["list-context.image-list#full-banner02"],
+		"props": {
+			"blockClass": "full-banner02",
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"list-context.image-list#full-banner02": {
+		"children": ["slider-layout#full-banner02"],
+		"props": {
+			"images": [
+				{
+					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/43e008bb-a1e8-44b6-ab5e-03110ef2db75___bd63f7aa51954a07b5bbcb145d4a915e.png",
+					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/9c2e914b-b605-40bd-85a4-5208ca71ebf9___a48d40575ac768e78c4e946d35fc196f.png",
+					"link": {
+						"openNewTab": false,
+						"title": "Veja mais",
+						"url": "/179?map=productClusterIds"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#full-banner02": {
+		"props": {
+			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+		}
+	}
+}

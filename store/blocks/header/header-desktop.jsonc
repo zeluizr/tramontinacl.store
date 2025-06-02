@@ -1,0 +1,81 @@
+{
+	"flex-layout.row#header-desktop": {
+		"children": [
+			"flex-layout.col#brand",
+			"flex-layout.col#menu-trigger",
+			"flex-layout.col#search",
+			"flex-layout.col#myaccount",
+			"flex-layout.col#checkout"
+		],
+		"props": {
+			"blockClass": "header-desktop",
+			"paddingTop": 6,
+			"paddingBottom": 6,
+			"horizontalAlign": "between"
+		}
+	},
+	"flex-layout.col#brand": {
+		"children": ["logo#t-store"],
+		"props": {
+			"blockClass": "brand",
+			"verticalAlign": "middle"
+		}
+	},
+	"logo#t-store": {
+		"props": {
+			"blockClass": ["logo-tstore"],
+			"url": "assets/brands/tstore.svg",
+			"mobileHeight": 50,
+			"title": "T-Store",
+			"href": "/"
+		}
+	},
+	"flex-layout.col#menu-trigger": {
+		"children": ["mega-menu-trigger-btn"],
+		"props": {
+			"blockClass": "menu-trigger",
+			"verticalAlign": "middle"
+		}
+	},
+	"mega-menu-trigger-btn": {},
+	"flex-layout.row#mega-menu-desktop": {
+		"children": ["mega-menu"],
+		"props": {
+			"blockClass": "mega-menu-desktop"
+		}
+	},
+	"flex-layout.col#search": {
+		"children": ["search-bar"],
+		"props": {
+			"blockClass": "search",
+			"verticalAlign": "middle"
+		}
+	},
+	"search-bar": {
+		"blocks": ["autocomplete-result-list.v2"],
+		"props": {
+			"openAutocompleteOnFocus": true,
+			"placeholder": "Olá, o que você procura hoje?",
+			"maxWidth": 200
+		}
+	},
+	"autocomplete-result-list.v2": {
+		"blocks": ["product-summary.shelf"]
+	},
+	"flex-layout.col#myaccount": {
+		"children": ["login"],
+		"props": {
+			"blockClass": "myaccount",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#checkout": {
+		"children": ["minicart.v2"],
+		"props": {
+			"blockClass": "checkout",
+			"verticalAlign": "middle",
+			"paddingLeft": 4,
+			"paddingRight": 4
+		}
+	}
+}
