@@ -145,8 +145,8 @@
 	},
 	"slider-layout#tab-slider": {
 		"props": {
-			"blockClass": ["slider"],
-			"itemsPerPage": { "desktop": 6, "tablet": 4, "phone": 2 }
+			"blockClass": ["shelf"],
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	}
 }
