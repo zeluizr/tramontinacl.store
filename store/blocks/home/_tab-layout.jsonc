@@ -34,7 +34,7 @@
 		"title": "Tab #01",
 		"props": {
 			"tabId": "home1",
-			"label": "Ollas",
+			"label": "Asado",
 			"defaultActiveTab": true
 		}
 	},
@@ -42,21 +42,21 @@
 		"title": "Tab #02",
 		"props": {
 			"tabId": "home2",
-			"label": "Sartenes"
+			"label": "Herramientas"
 		}
 	},
 	"tab-list.item#home3": {
 		"title": "Tab #03",
 		"props": {
 			"tabId": "home3",
-			"label": "Cacerolas"
+			"label": "Infantil"
 		}
 	},
 	"tab-list.item#home4": {
 		"title": "Tab #04",
 		"props": {
 			"tabId": "home4",
-			"label": "Cuchillos"
+			"label": "Ollas"
 		}
 	},
 	"tab-content#home": {
@@ -80,21 +80,73 @@
 		}
 	},
 	"tab-content.item#home3": {
-		"children": ["flex-layout.row#home1"],
+		"children": ["flex-layout.row#home3"],
 		"props": {
 			"tabId": "home3"
 		}
 	},
 	"tab-content.item#home4": {
-		"children": ["flex-layout.row#home2"],
+		"children": ["flex-layout.row#home4"],
 		"props": {
 			"tabId": "home4"
 		}
 	},
 	"flex-layout.row#home1": {
-		"children": ["list-context.product-list#shelf-01"]
+		"children": ["list-context.product-list#home1"]
+	},
+	"list-context.product-list#home1": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#tab-slider"],
+		"props": {
+			"category": "2842",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
 	},
 	"flex-layout.row#home2": {
-		"children": ["list-context.product-list#shelf-04"]
+		"children": ["list-context.product-list#home2"]
+	},
+	"list-context.product-list#home2": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#tab-slider"],
+		"props": {
+			"category": "2917",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"flex-layout.row#home3": {
+		"children": ["list-context.product-list#home3"]
+	},
+	"list-context.product-list#home3": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#tab-slider"],
+		"props": {
+			"category": "2939",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"flex-layout.row#home4": {
+		"children": ["list-context.product-list#home4"]
+	},
+	"list-context.product-list#home4": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#tab-slider"],
+		"props": {
+			"category": "2823",
+			"hideUnavailableItems": false,
+			"orderBy": "OrderByBestDiscountDESC",
+			"maxItems": 12
+		}
+	},
+	"slider-layout#tab-slider": {
+		"props": {
+			"blockClass": ["slider"],
+			"itemsPerPage": { "desktop": 6, "tablet": 4, "phone": 2 }
+		}
 	}
 }
