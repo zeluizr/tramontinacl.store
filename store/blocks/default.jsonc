@@ -9,7 +9,7 @@
 			"product-summary-space",
 			"flex-layout.row#list-price",
 			"product-selling-price",
-			"product-installments",
+			// "product-installments",
 			"add-to-cart-button",
 			"badges#home"
 		]

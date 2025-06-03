@@ -120,8 +120,8 @@
 			"product-badges",
 			"flex-layout.row#selling-price",
 			"flex-layout.row#list-price-savings",
-			"flex-layout.row#saveprice",
-			"flex-layout.row#product-installments"
+			"flex-layout.row#saveprice"
+			// "flex-layout.row#product-installments"
 		],
 		"props": {
 			"blockClass": "product-right-price"
