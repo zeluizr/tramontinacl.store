@@ -3,18 +3,18 @@
 		"blocks": [
 			"container#top-banner",
 			"container#hero-banner",
-			"container#middle-banner-01",
 			"container#half-banner-01",
 			"container#departament",
 			"container#shelf-01",
-			"container#middle-banner-02",
+			"container#middle-banner-01",
 			"container#shelf-02",
 			"container#half-banner-02",
 			"container#shelf-03",
-			"container#middle-banner-03",
+			"container#middle-banner-02",
 			"container#shelf-04",
 			"container#slider-banner",
-			"container#tab-layout"
+			"container#tab-layout",
+			"container#middle-banner-03"
 		]
 	}
 }
