@@ -1,5 +1,70 @@
 {
 	"store.search": {
-		"blocks": []
+		"blocks": ["search-result-layout"],
+		"props": {
+			"context": {
+				"maxItemsPerPage": 24
+			}
+		}
+	},
+	"search-result-layout": {
+		"blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+	},
+	"search-result-layout.desktop": {
+		"children": [
+			"flex-layout.row#search-suggestions",
+			"flex-layout.row#did-you-mean",
+			"flex-layout.row#breadcrumb-search",
+			"flex-layout.row#search-content"
+		]
+	},
+	"flex-layout.row#search-suggestions": {
+		"children": ["search-suggestions"]
+	},
+	"flex-layout.row#did-you-mean": {
+		"children": ["did-you-mean"]
+	},
+	"flex-layout.row#breadcrumb-search": {
+		"children": ["breadcrumb.search"]
+	},
+	"flex-layout.row#search-content": {
+		"children": [
+			"flex-layout.col#filter-navigator",
+			"flex-layout.col#search-content"
+		]
+	},
+	"flex-layout.col#filter-navigator": {
+		"children": ["filter-navigator.v3"]
+	},
+	"filter-navigator.v3": {
+		"props": {}
+	},
+	"flex-layout.col#search-content": {
+		"children": ["search-content"]
+	},
+	"search-content": {
+		"blocks": ["gallery", "not-found"]
+	},
+	"gallery": {
+		"props": {
+			"layouts": [
+				{
+					"name": "grid",
+					"component": "GridSummary",
+					"itemsPerRow": {
+						"(min-width:1008px)": 4,
+						"(min-width:623px) and (max-width:1007px)": 3,
+						"(max-width:622px)": 2
+					}
+				}
+			],
+			"GridSummary": "product-summary.shelf"
+		}
+	},
+	"search-not-found-layout": {
+		"children": ["not-found"],
+		"props": {
+			"blockClass": "not-found"
+		}
 	}
 }
