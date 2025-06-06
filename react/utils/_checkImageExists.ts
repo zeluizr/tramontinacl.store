@@ -1,6 +1,9 @@
 import axios from "axios";
 
-export const checkImageExists = async (baseName: string, extensions: string[]) => {
+export const checkImageExists = async (
+	baseName: string,
+	extensions: string[]
+) => {
 	for (const ext of extensions) {
 		const url = `https://tramontinacl.vteximg.com.br/arquivos/${baseName}.${ext}`;
 
