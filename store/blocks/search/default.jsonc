@@ -1,0 +1,23 @@
+{
+	"flex-layout.row#search-suggestions": {
+		"children": ["search-suggestions"]
+	},
+	"flex-layout.row#did-you-mean": {
+		"children": ["did-you-mean"]
+	},
+	"flex-layout.row#breadcrumb-search": {
+		"children": ["breadcrumb.search"],
+		"props": {
+			"blockClass": ["breadcrumb"],
+			"marginBottom": 5
+		}
+	},
+	"breadcrumb.search": {
+		"title": "Breadcrumb",
+		"props": {
+			"caretIconSize": 8,
+			"homeIconSize": 26,
+			"showOnMobile": true
+		}
+	}
+}

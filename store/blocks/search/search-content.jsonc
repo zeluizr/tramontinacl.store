@@ -1,0 +1,17 @@
+{
+	"flex-layout.row#search-content": {
+		"children": [
+			"flex-layout.col#filter-navigator",
+			"flex-layout.col#search-content"
+		],
+		"props": {
+			"blockClass": ["search-content"]
+		}
+	},
+	"flex-layout.col#search-content": {
+		"children": ["search-content"]
+	},
+	"search-content": {
+		"blocks": ["gallery", "not-found"]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"search-not-found-layout": {
+		"children": ["not-found"],
+		"props": {
+			"blockClass": "not-found"
+		}
+	},
+	"not-found": {}
+}

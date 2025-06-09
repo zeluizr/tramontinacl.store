@@ -1,0 +1,20 @@
+{
+	"search-result-layout": {
+		"blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+	},
+	"search-result-layout.desktop": {
+		"children": [
+			"flex-layout.row#search-suggestions",
+			"flex-layout.row#did-you-mean",
+			"flex-layout.row#breadcrumb-search",
+			"flex-layout.row#search-content"
+		],
+		"props": {
+			"trackingId": "search-result-layout",
+			"blockClass": "search-result-layout",
+			"defaultGalleryLayout": "grid",
+			"preventRouteChange": true,
+			"mobileLayout": { "mode1": "inline", "mode2": "inline" }
+		}
+	}
+}
