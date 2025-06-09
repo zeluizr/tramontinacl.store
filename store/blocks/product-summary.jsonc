@@ -5,7 +5,7 @@
 			"product-summary-image",
 			"product-summary-name",
 			"product-summary-price",
-			"product-installments",
+			"container#installments",
 			"flex-layout.row#add-to-cart-button"
 		],
 		"props": {
@@ -52,11 +52,17 @@
 			"unavailableText": "Producto no disponible"
 		}
 	},
+	"container#installments": {
+		"title": "Cuotas",
+		"children": ["product-installments"],
+		"props": {
+			"isActive": true
+		}
+	},
 	"product-installments": {
 		"props": {
 			"blockClass": ["installments"],
-			"message": "en hasta {installmentsNumber} cuotas {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}",
-			"installmentsCriteria": "max-quantity"
+			"message": "en hasta {installmentsNumber} cuotas {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}"
 		}
 	}
 }
