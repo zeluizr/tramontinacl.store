@@ -56,6 +56,7 @@
 	font-size: 0.875rem;
 	font-weight: 500;
 	color: #414042;
+	text-transform: capitalize;
 }
 
 .filterIcon {
@@ -74,6 +75,19 @@
 	line-clamp: 1;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
+}
+
+:global(.vtex-checkbox__container),
+:global(.vtex-checkbox__input),
+:global(.vtex-checkbox__inner-container),
+:global(.vtex-checkbox__box-wrapper) {
+	width: 0.75rem;
+	height: 0.75rem;
+}
+
+:global(.vtex-checkbox__inner-container) {
+	border-width: 0.0625rem;
+	border-color: #9eb3be;
 }
 
 .seeMoreButton {
