@@ -64,6 +64,13 @@
 
 /* Search Result */
 @media screen and (min-width: 1025px) {
+	.flexCol--filter-navigator {
+		background-color: #efefef;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		height: fit-content;
+	}
+
 	.flexRowContent--search-content {
 		display: grid;
 		grid-template-columns: 280px 1fr;

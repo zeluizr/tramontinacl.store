@@ -17,14 +17,6 @@
 	transition: all 0.3s ease;
 }
 
-.productBrand--name {
-	display: -webkit-box;
-	-webkit-line-clamp: 2;
-	line-clamp: 2;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-}
-
 .clearLink {
 	transition: all 0.3s ease;
 }
@@ -44,8 +36,13 @@
 }
 
 .productBrand--name {
-	font-size: 1rem;
-	font-weight: 500;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	font-size: 0.875rem;
+	font-weight: 400;
 	color: #414042;
 }
 

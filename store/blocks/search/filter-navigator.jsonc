@@ -1,8 +1,13 @@
 {
 	"flex-layout.col#filter-navigator": {
-		"children": ["filter-navigator.v3"]
+		"children": ["filter-navigator.v3"],
+		"props": {
+			"blockClass": ["filter-navigator"]
+		}
 	},
 	"filter-navigator.v3": {
-		"props": {}
+		"props": {
+			"closeOnOutsideClick": true
+		}
 	}
 }

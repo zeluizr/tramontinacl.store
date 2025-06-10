@@ -1,4 +1,87 @@
+.filter__container--title {
+	display: none;
+}
+
 .gallery--grid {
 	margin: 0;
 	padding-left: 0;
+}
+
+.galleryItem--grid {
+	padding-top: 0;
+}
+
+.filter__container {
+	border: none;
+	background-color: #ffffff;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.filter__container--priceRange {
+	margin-bottom: 0;
+}
+
+.filter {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.filterTemplateOverflow {
+	padding-bottom: 0;
+	height: fit-content;
+	scrollbar-width: none;
+	scrollbar-color: #003087 #e0e0e0;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar {
+	width: 4px;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-thumb {
+	background-color: #c0c0c0;
+	border-radius: 4px;
+}
+
+.filterTitle {
+	margin-bottom: 0.5rem;
+}
+
+.filterTitleSpan {
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #414042;
+}
+
+.filterIcon {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+:global(.vtex-checkbox__line-container) {
+	align-items: center;
+}
+
+:global(.vtex-checkbox__label) {
+	font-size: 0.875rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.seeMoreButton {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	padding: 0;
+	background-color: transparent;
+	font-size: 0.875rem;
+	color: #003087;
+	font-weight: 500;
 }
