@@ -4,12 +4,12 @@
 		"props": {
 			"context": {
 				"maxItemsPerPage": 24,
-				"facetsBehavior": "dynamic",
-				"hideUnavailableItems": true,
+				"facetsBehavior": "static",
+				"hideUnavailableItems": false,
 				"installmentCriteria": "MAX_WITHOUT_INTEREST",
-				"orderByField": "OrderByNameASC",
-				"simulationBehavior": "default",
-				"skusFilter": "ALL"
+				"orderByField": "OrderByBestDiscountDESC",
+				"simulationBehavior": "skip",
+				"skusFilter": "FIRST_AVAILABLE"
 			}
 		}
 	}
