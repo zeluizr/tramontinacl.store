@@ -63,7 +63,18 @@
 }
 
 /* Search Result */
-@media screen and (min-width: 1025px) {
+
+.flexRowContent--search-content {
+	display: grid;
+	gap: 1rem;
+}
+
+.flexRowContent--search-content
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: initial !important;
+}
+
+@media screen and (min-width: 1026px) {
 	.flexCol--filter-navigator {
 		background-color: #efefef;
 		padding: 1rem;
@@ -72,14 +83,7 @@
 	}
 
 	.flexRowContent--search-content {
-		display: grid;
-		grid-template-columns: 280px 1fr;
-		gap: 1rem;
-	}
-
-	.flexRowContent--search-content
-		:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-		width: initial !important;
+		grid-template-columns: 340px 1fr;
 	}
 }
 

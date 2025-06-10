@@ -8,14 +8,13 @@
 }
 
 .galleryItem--grid {
-	padding-top: 0;
+	padding: 0 0.5rem 1rem 0.5rem;
 }
 
 .filter__container {
 	border: none;
 	background-color: #ffffff;
 	margin-bottom: 1rem;
-	border-radius: 0.5rem;
 	padding: 1rem;
 }
 
@@ -33,6 +32,7 @@
 	height: fit-content;
 	scrollbar-width: none;
 	scrollbar-color: #003087 #e0e0e0;
+	max-height: initial !important;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar {
@@ -62,6 +62,10 @@
 .filterIcon {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.caretIcon {
+	color: #414042;
 }
 
 :global(.vtex-checkbox__line-container) {
