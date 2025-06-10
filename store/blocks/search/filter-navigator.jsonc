@@ -7,7 +7,7 @@
 	},
 	"filter-navigator.v3": {
 		"props": {
-			"closeOnOutsideClick": true
+			"filtersTitleHtmlTag": "h2"
 		}
 	}
 }

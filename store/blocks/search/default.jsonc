@@ -15,8 +15,8 @@
 	"breadcrumb.search": {
 		"title": "Breadcrumb",
 		"props": {
-			"caretIconSize": 8,
-			"homeIconSize": 26,
+			"caretIconSize": 5,
+			"homeIconSize": 12,
 			"showOnMobile": true
 		}
 	}
