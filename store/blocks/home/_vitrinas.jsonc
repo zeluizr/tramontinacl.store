@@ -26,8 +26,8 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-01"],
 		"props": {
-			"collection": "214",
-			"hideUnavailableItems": false,
+			"category": "2948",
+			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
 		}
@@ -65,8 +65,8 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-02"],
 		"props": {
-			"collection": "200",
-			"hideUnavailableItems": false,
+			"category": "2823",
+			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
 		}
@@ -103,8 +103,8 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"collection": "207",
-			"hideUnavailableItems": false,
+			"category": "2867",
+			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
 		}
@@ -140,9 +140,8 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-04"],
 		"props": {
-			"collection": "200",
-			"hideUnavailableItems": false,
-			"orderBy": "OrderByBestDiscountDESC",
+			"hideUnavailableItems": true,
+			"orderBy": "OrderByNameASC",
 			"maxItems": 12
 		}
 	},
