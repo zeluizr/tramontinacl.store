@@ -5,6 +5,6 @@
 
 .buttonDataContainer--product-summary::after {
 	content: "";
-	font-family: "Font Awesome 6 Pro";
+	font-family: "FontAwesome";
 	font-weight: 400;
 }
