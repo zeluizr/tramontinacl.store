@@ -17,8 +17,8 @@
 					"itemsPerRow": 1
 				}
 			],
-			"ListSummary": "product-summary.shelf",
-			"GridSummary": "product-summary.shelf"
+			"GridSummary": "product-summary.shelf",
+			"ListSummary": "product-summary.shelf#list"
 		}
 	}
 }

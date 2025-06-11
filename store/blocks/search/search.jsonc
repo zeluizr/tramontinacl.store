@@ -3,12 +3,12 @@
 		"blocks": ["search-result-layout"],
 		"props": {
 			"context": {
-				"maxItemsPerPage": 24,
-				"facetsBehavior": "static",
+				"maxItemsPerPage": 12,
+				"facetsBehavior": "dynamic",
 				"hideUnavailableItems": false,
 				"installmentCriteria": "MAX_WITHOUT_INTEREST",
 				"orderByField": "OrderByBestDiscountDESC",
-				"simulationBehavior": "skip",
+				"simulationBehavior": "default",
 				"skusFilter": "FIRST_AVAILABLE"
 			}
 		}

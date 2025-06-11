@@ -14,7 +14,9 @@ function PLPBadges() {
 	const productId = product?.productId ?? "";
 	const clusterHighlights = product?.clusterHighlights ?? [];
 
-	const [validBadges, setValidBadges] = useState<{ image: string; url: string }[]>([]);
+	const [validBadges, setValidBadges] = useState<
+		{ image: string; url: string }[]
+	>([]);
 
 	useEffect(() => {
 		const loadBadges = async () => {
@@ -26,7 +28,11 @@ function PLPBadges() {
 					return image ? { image } : null;
 				})
 			);
-			setValidBadges(badgeUrls.filter((b): b is { image: string; url: string } => b !== null).slice(0, 3));
+			setValidBadges(
+				badgeUrls
+					.filter((b): b is { image: string; url: string } => b !== null)
+					.slice(0, 3)
+			);
 		};
 
 		if (clusterHighlights.length > 0) loadBadges();
@@ -43,7 +49,15 @@ function PLPBadges() {
 			)}
 		>
 			{validBadges.map(({ image }, idx) => (
-				<img key={idx} src={image} alt={`Badge ${idx + 1}`} loading="lazy" width={60} height={60} className="br3" />
+				<img
+					key={idx}
+					src={image}
+					alt={`Badge ${idx + 1}`}
+					loading="lazy"
+					width={60}
+					height={60}
+					className="br3"
+				/>
 			))}
 		</div>
 	);

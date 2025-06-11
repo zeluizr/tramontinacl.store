@@ -7,11 +7,13 @@
 			"product-summary-price",
 			"container#installments",
 			"flex-layout.row#add-to-cart-button"
-		],
-		"props": {
-			"priceBehavior": "async",
-			"trackListName": false
-		}
+		]
+	},
+	"product-summary.shelf#list": {
+		"children": ["flex-layout.row#product-summary-image"]
+	},
+	"flex-layout.row#product-summary-image": {
+		"children": ["product-summary-image", "product-summary-name"]
 	},
 	"product-summary-image": {
 		"title": "Imagen del producto",

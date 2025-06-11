@@ -2,13 +2,21 @@
 	display: none;
 }
 
-.gallery--grid {
+.gallery {
 	margin: 0;
 	padding-left: 0;
 }
 
 .galleryItem--grid {
 	padding: 0 0.5rem 1rem 0.5rem;
+}
+
+.galleryItem--list {
+	padding: 0 0 1rem 0.5rem;
+}
+
+.galleryItem--list :global(.vtex-product-summary-2-x-container) {
+	max-width: 100% !important;
 }
 
 .filter__container {

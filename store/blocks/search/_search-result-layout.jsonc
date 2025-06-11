@@ -12,7 +12,7 @@
 		"props": {
 			"trackingId": "search-result-layout",
 			"blockClass": "search-result-layout",
-			"defaultGalleryLayout": "grid",
+			"defaultGalleryLayout": "list",
 			"preventRouteChange": true,
 			"mobileLayout": { "mode1": "inline", "mode2": "inline" }
 		}
