@@ -92,3 +92,8 @@
 	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
 }
+
+.flexRowContent--add-to-cart-button :global(.vtex-button__label) {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}

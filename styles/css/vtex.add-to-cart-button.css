@@ -8,3 +8,11 @@
 	font-family: "Font Awesome 6 Pro";
 	font-weight: 400;
 }
+
+.buttonText--buybutton {
+	font-size: 0.875rem;
+}
+
+.buttonDataContainer--buybutton {
+	align-items: center;
+}

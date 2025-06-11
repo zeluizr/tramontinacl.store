@@ -6,9 +6,9 @@
 					"name": "grid",
 					"component": "GridSummary",
 					"itemsPerRow": {
-						"(min-width:1331px)": 4,
-						"(min-width:623px) and (max-width:1330px)": 3,
-						"(max-width:622px)": 2
+						"(min-width:1331px)": 3,
+						"(min-width:623px) and (max-width:1330px)": 2,
+						"(max-width:622px)": 1
 					}
 				},
 				{

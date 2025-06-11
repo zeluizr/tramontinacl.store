@@ -16,6 +16,8 @@
 	background-color: #f1f2f2;
 	border: 1px solid #f1f2f2;
 	color: #003087;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .listItemActive :global(.vtex-button) {

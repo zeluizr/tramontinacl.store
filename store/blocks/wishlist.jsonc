@@ -44,11 +44,7 @@
 	},
 	"slider-layout#wishlist": {
 		"props": {
-			"itemsPerPage": {
-				"desktop": 5,
-				"tablet": 3,
-				"phone": 1
-			},
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 },
 			"showNavigationArrows": "desktopOnly",
 			"showPaginationDots": "always",
 			"infinite": false,
