@@ -4,8 +4,7 @@
 	},
 	"search-result-layout.desktop": {
 		"children": [
-			"flex-layout.row#search-suggestions",
-			"flex-layout.row#did-you-mean",
+			"flex-layout.row#search-banner-one",
 			"flex-layout.row#breadcrumb-search",
 			"flex-layout.row#search-content"
 		],
@@ -15,6 +14,16 @@
 			"defaultGalleryLayout": "list",
 			"preventRouteChange": true,
 			"mobileLayout": { "mode1": "inline", "mode2": "inline" }
+		}
+	},
+	"flex-layout.row#search-banner-one": {
+		"children": ["search-banner#one"]
+	},
+	"search-banner#one": {
+		"props": {
+			"area": "one",
+			"blockClass": "search-banner-one",
+			"horizontalAlignment": "center"
 		}
 	}
 }

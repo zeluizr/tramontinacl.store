@@ -146,6 +146,7 @@
 	"slider-layout#tab-slider": {
 		"props": {
 			"blockClass": ["shelf"],
+			"showNavigationArrows": "desktopOnly",
 			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	}

@@ -21,8 +21,8 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"url": "/collections/novidades",
@@ -30,8 +30,8 @@
 					}
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"url": "/collections/novidades",
@@ -39,8 +39,8 @@
 					}
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"url": "/collections/novidades",
@@ -48,8 +48,8 @@
 					}
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"url": "/collections/novidades",
@@ -57,8 +57,17 @@
 					}
 				},
 				{
-					"image": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
-					"mobileImage": "https://tramontinacl.vtexassets.com/assets/vtex.file-manager-graphql/images/96b1ce7d-5069-4066-a48d-3449d73614b6___3e3db1230b1e4eba96106beee80354c0.png",
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"link": {
+						"openNewTab": false,
+						"url": "/collections/novidades",
+						"title": "Novedad"
+					}
+				},
+				{
+					"image": "https://dummyimage.com/630x820/003087/FFFFFF.png",
+					"mobileImage": "https://dummyimage.com/630x820/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"url": "/collections/novidades",
@@ -71,7 +80,9 @@
 	"slider-layout#slider-banner": {
 		"props": {
 			"blockClass": ["slider", "slider-banner"],
-			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 1 }
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "desktopOnly",
+			"itemsPerPage": { "desktop": 5, "tablet": 3, "phone": 2 }
 		}
 	}
 }

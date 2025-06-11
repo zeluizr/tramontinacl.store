@@ -22,8 +22,8 @@
 			"blockClass": ["image-list", "hero-banner"],
 			"images": [
 				{
-					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
-					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
+					"image": "https://dummyimage.com/1330x450/003087/FFFFFF.gif",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"title": "Conheça a Tramontina",
@@ -31,8 +31,8 @@
 					}
 				},
 				{
-					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
-					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
+					"image": "https://dummyimage.com/1330x450/003087/FFFFFF.gif",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"title": "Conheça a Tramontina",
@@ -40,8 +40,8 @@
 					}
 				},
 				{
-					"image": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw4f0cf06e/home/banner_fecha_mes_desktop.png",
-					"mobileImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw0ad21df2/home/Banner_Cadeiras2_mobile.png",
+					"image": "https://dummyimage.com/1330x450/003087/FFFFFF.gif",
+					"mobileImage": "https://dummyimage.com/1025x1025/003087/FFFFFF.png",
 					"link": {
 						"openNewTab": false,
 						"title": "Conheça a Tramontina",
@@ -55,6 +55,8 @@
 		"title": "Slider de Imagens",
 		"props": {
 			"blockClass": ["slider", "hero-banner"],
+			"showNavigationArrows": "desktopOnly",
+			"showPaginationDots": "always",
 			"autoplay": { "stopOnHover": true, "timeout": 5000 },
 			"infinite": true,
 			"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }

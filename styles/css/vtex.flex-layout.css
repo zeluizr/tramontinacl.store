@@ -74,6 +74,27 @@
 	width: initial !important;
 }
 
+.flexRowContent--product-summary-list {
+	display: grid;
+	grid-template-columns: 220px 1fr;
+}
+
+.flexRowContent--product-summary-list
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+}
+
+.flexRowContent--product-summary-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.flexRow--search-content {
+	margin-top: 1rem;
+}
+
 @media screen and (min-width: 1026px) {
 	.flexCol--filter-navigator {
 		background-color: #efefef;

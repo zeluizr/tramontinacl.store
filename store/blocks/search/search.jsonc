@@ -3,7 +3,7 @@
 		"blocks": ["search-result-layout"],
 		"props": {
 			"context": {
-				"maxItemsPerPage": 12,
+				"maxItemsPerPage": 24,
 				"facetsBehavior": "dynamic",
 				"hideUnavailableItems": false,
 				"installmentCriteria": "MAX_WITHOUT_INTEREST",

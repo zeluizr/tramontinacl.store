@@ -10,10 +10,40 @@
 		]
 	},
 	"product-summary.shelf#list": {
-		"children": ["flex-layout.row#product-summary-image"]
+		"children": ["flex-layout.row#product-summary-list"]
 	},
-	"flex-layout.row#product-summary-image": {
-		"children": ["product-summary-image", "product-summary-name"]
+	"flex-layout.row#product-summary-list": {
+		"children": [
+			"flex-layout.col#product-summary-image",
+			"flex-layout.col#product-summary-content"
+		],
+		"props": {
+			"blockClass": ["product-summary-list"],
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"flex-layout.col#product-summary-image": {
+		"children": ["product-summary-image"],
+		"props": {
+			"blockClass": ["product-summary-image"]
+		}
+	},
+	"flex-layout.col#product-summary-content": {
+		"children": ["flex-layout.row#product-summary-content"],
+		"props": {
+			"blockClass": ["product-summary-content"]
+		}
+	},
+	"flex-layout.row#product-summary-content": {
+		"children": [
+			"product-summary-name",
+			"product-summary-price",
+			"container#installments",
+			"flex-layout.row#add-to-cart-button"
+		],
+		"props": {
+			"blockClass": ["product-summary-content"]
+		}
 	},
 	"product-summary-image": {
 		"title": "Imagen del producto",

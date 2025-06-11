@@ -8,11 +8,11 @@
 					"itemsPerRow": {
 						"(min-width:1331px)": 3,
 						"(min-width:623px) and (max-width:1330px)": 2,
-						"(max-width:622px)": 1
+						"(max-width:622px)": 2
 					}
 				},
 				{
-					"name": "list",
+					"name": "grid",
 					"component": "ListSummary",
 					"itemsPerRow": 1
 				}

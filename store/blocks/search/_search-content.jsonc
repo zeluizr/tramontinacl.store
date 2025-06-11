@@ -9,7 +9,7 @@
 		}
 	},
 	"flex-layout.col#search-content": {
-		"children": ["gallery-layout-switcher", "search-content"]
+		"children": ["search-content"]
 	},
 	"search-content": {
 		"blocks": ["gallery", "not-found"]

@@ -1,0 +1,15 @@
+.suggestionsListPrefix,
+.suggestionsList,
+.suggestionsListItem {
+	display: flex;
+	align-items: center;
+	font-size: 0.875rem;
+	color: #939598;
+	font-weight: 400;
+	justify-content: center;
+}
+
+.suggestionsListLink {
+	color: #939598;
+	font-size: 0.875rem;
+}
