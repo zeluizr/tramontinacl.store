@@ -141,7 +141,7 @@
 		"children": ["slider-layout#shelf-04"],
 		"props": {
 			"hideUnavailableItems": true,
-			"orderBy": "OrderByNameASC",
+			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
 		}
 	},
