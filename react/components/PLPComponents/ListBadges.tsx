@@ -27,9 +27,8 @@ function PLPListBadges({ slider }: PLPListBadgesProps) {
 				<a
 					key={key}
 					className={classNames(
-						"flex justify-center items-center w-100",
-						handles.PLPListBadgesLink,
-						`c-action-${Math.floor(Math.random() * 10)}`
+						"flex justify-center items-center w-100 c-action-primary",
+						handles.PLPListBadgesLink
 					)}
 				>
 					<Icon id={`icon-${key}`} size={13} />
