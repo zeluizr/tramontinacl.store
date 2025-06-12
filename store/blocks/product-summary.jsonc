@@ -1,13 +1,19 @@
 {
 	"product-summary.shelf": {
 		"children": [
-			"product-summary-badges",
-			"product-summary-image",
+			"product-summary-list-badges",
+			"stack-layout#image-badge",
 			"product-summary-name",
 			"product-summary-price",
 			"container#installments",
 			"flex-layout.row#add-to-cart-button"
 		]
+	},
+	"stack-layout#image-badge": {
+		"children": ["product-summary-image", "product-summary-badges"],
+		"props": {
+			"blockClass": ["stack-layout", "image-badge"]
+		}
 	},
 	"product-summary.shelf#list": {
 		"children": ["flex-layout.row#product-summary-list"]
@@ -20,6 +26,16 @@
 		"props": {
 			"blockClass": ["product-summary-list"],
 			"preserveLayoutOnMobile": true
+		}
+	},
+	"product-summary-list-badges": {
+		"props": {
+			"slider": {
+				"arrowSize": 12,
+				"infinite": true,
+				"showPaginationDots": "never",
+				"itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+			}
 		}
 	},
 	"flex-layout.col#product-summary-image": {

@@ -11,7 +11,6 @@ const CSS_HANDLES = ["PLPBadgesContainer"] as const;
 function PLPBadges() {
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const { product } = useProduct() ?? {};
-	const productId = product?.productId ?? "";
 	const clusterHighlights = product?.clusterHighlights ?? [];
 
 	const [validBadges, setValidBadges] = useState<
@@ -42,10 +41,9 @@ function PLPBadges() {
 
 	return (
 		<div
-			data-id={productId}
 			className={classNames(
 				handles.PLPBadgesContainer,
-				"absolute top-1 right-1 z-1 flex flex-column items-center justify-center"
+				"flex flex-column items-center justify-center"
 			)}
 		>
 			{validBadges.map(({ image }, idx) => (
@@ -54,8 +52,8 @@ function PLPBadges() {
 					src={image}
 					alt={`Badge ${idx + 1}`}
 					loading="lazy"
-					width={60}
-					height={60}
+					width={45}
+					height={45}
 					className="br3"
 				/>
 			))}

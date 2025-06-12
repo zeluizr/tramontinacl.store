@@ -1,5 +1,9 @@
 .container {
 	background-color: #fff;
+	/* position: relative; */
+}
+
+.imageContainer {
 	position: relative;
 }
 

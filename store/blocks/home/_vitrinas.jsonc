@@ -26,7 +26,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-01"],
 		"props": {
-			"category": "2948",
+			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -65,7 +65,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-02"],
 		"props": {
-			"category": "2823",
+			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -104,7 +104,7 @@
 		"blocks": ["product-summary.shelf"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"category": "2867",
+			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12

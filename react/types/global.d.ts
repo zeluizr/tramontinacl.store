@@ -28,6 +28,10 @@ declare global {
 		subTitle: string;
 		children: React.ReactNode;
 	};
+
+	interface PLPListBadgesProps {
+		slider: any;
+	}
 }
 
 export {};
