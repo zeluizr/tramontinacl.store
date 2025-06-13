@@ -16,6 +16,8 @@ function PLPListBadges({ slider }: PLPListBadgesProps) {
 
 	const clusterHighlights = product?.clusterHighlights ?? [];
 
+	console.log(clusterHighlights);
+
 	const validBadges = clusterHighlights.map(({ name }) => {
 		return { name: name.toUpperCase(), key: slugify(name) };
 	});
