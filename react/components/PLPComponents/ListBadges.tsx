@@ -16,8 +16,6 @@ function PLPListBadges({ slider }: PLPListBadgesProps) {
 
 	const clusterHighlights = product?.clusterHighlights ?? [];
 
-	console.log(clusterHighlights);
-
 	const validBadges = clusterHighlights.map(({ name }) => {
 		return { name: name.toUpperCase(), key: slugify(name) };
 	});
@@ -44,7 +42,7 @@ function PLPListBadges({ slider }: PLPListBadgesProps) {
 		<div
 			className={classNames(
 				handles.PLPListBadgesContainer,
-				"flex pt5 pb0 pl3 pr3"
+				"flex pt5 pb0 pl3 pr3 pb5"
 			)}
 		>
 			<ListContextProvider list={validBadgesList}>
