@@ -1,0 +1,20 @@
+{
+	"flex-layout.row#copyrigth": {
+		"children": ["rich-text#copyrigth"],
+		"props": {
+			"marginBottom": 5
+		}
+	},
+	"rich-text#copyrigth": {
+		"props": {
+			"blockClass": ["copyrigth", "footer"],
+			"font": "t-small",
+			"htmlId": "copyrigth",
+			"preventVerticalStretch": true,
+			"text": "© Copyright 2019 Tramontina. Todos los derechos reservados.",
+			"textAlignment": "CENTER",
+			"textColor": "c-on-base",
+			"textPosition": "CENTER"
+		}
+	}
+}

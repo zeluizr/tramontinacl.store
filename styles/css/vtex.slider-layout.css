@@ -3,6 +3,13 @@
 	gap: 1rem;
 }
 
+.paginationDotsContainer--hero-banner {
+	gap: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	justify-content: flex-start;
+}
+
 .paginationDotsContainer {
 	bottom: -2rem;
 	align-items: center;
@@ -26,14 +33,25 @@
 
 .paginationDot--hero-banner {
 	background-color: #414042;
-	height: 0.6rem !important;
-	width: 0.6rem !important;
+	border-radius: 0 !important;
+	height: 0.125rem !important;
+	width: 2rem !important;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .paginationDot--hero-banner--isActive {
 	background-color: #ffffff;
-	height: 0.7rem !important;
-	width: 0.7rem !important;
+}
+
+@media screen and (min-width: 1024px) {
+	.paginationDot--hero-banner {
+		width: 3.75rem !important;
+	}
+
+	.paginationDotsContainer--hero-banner {
+		justify-content: center;
+	}
 }
 
 .sliderArrows--slider,

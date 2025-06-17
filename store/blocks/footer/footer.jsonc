@@ -3,29 +3,17 @@
 		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
 	},
 	"footer-layout.desktop": {
-		"children": ["whatsapp#atencion-en-linea-desktop"]
+		"children": [
+			"whatsapp#atencion-en-linea-desktop",
+			"flex-layout.row#legales",
+			"flex-layout.row#copyrigth"
+		]
 	},
 	"footer-layout.mobile": {
-		"children": ["whatsapp#atencion-en-linea-mobile"]
-	},
-	"whatsapp#atencion-en-linea-desktop": {
-		"title": "Atención en Línea desktop",
-		"props": {
-			"isActive": true,
-			"inverted": true,
-			"phone": 56993978820,
-			"message": "Hola, ¿en qué puedo ayudarte?",
-			"position": "right"
-		}
-	},
-	"whatsapp#atencion-en-linea-mobile": {
-		"title": "Atención en Línea mobile",
-		"props": {
-			"isActive": true,
-			"inverted": false,
-			"phone": 56993978820,
-			"message": "Hola, ¿en qué puedo ayudarte?",
-			"position": "right"
-		}
+		"children": [
+			"whatsapp#atencion-en-linea-mobile",
+			"flex-layout.row#legales",
+			"flex-layout.row#copyrigth"
+		]
 	}
 }

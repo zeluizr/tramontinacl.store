@@ -1,0 +1,21 @@
+{
+	"flex-layout.row#legales": {
+		"children": ["rich-text#legales"],
+		"props": {
+			"marginTop": 5,
+			"marginBottom": 5
+		}
+	},
+	"rich-text#legales": {
+		"props": {
+			"blockClass": ["legales", "footer"],
+			"font": "t-mini",
+			"htmlId": "legales",
+			"preventVerticalStretch": true,
+			"text": "Tramontina de Chile S.A. RUT 77.479.170-1 Av Andres Bello 22 33 Piso 4 - Providencia - Código Postal 7510056 - Santiago - Chile - Teléfono: (56 2) 2676 5000.\nTodos los precios y términos comerciales están sujetos a cambios sin previo aviso. Las imágenes del producto son sólo para fines ilustrativos.",
+			"textAlignment": "CENTER",
+			"textColor": "c-on-base",
+			"textPosition": "CENTER"
+		}
+	}
+}
