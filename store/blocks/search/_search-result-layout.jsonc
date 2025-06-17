@@ -14,7 +14,6 @@
 			"defaultGalleryLayout": "list",
 			"preventRouteChange": true,
 			"hiddenFacets": {
-				"brands": true,
 				"specificationFilters": {
 					"hiddenFilters": [
 						{ "name": "Acabado" },
@@ -183,6 +182,7 @@
 						{ "name": "Instalación" },
 						{ "name": "Interativo" },
 						{ "name": "Lámina" },
+						{ "name": "Lanzamiento" },
 						{ "name": "Largo" },
 						{ "name": "larguraText" },
 						{ "name": "Length" },
@@ -213,6 +213,7 @@
 						{ "name": "Llave de Impacto" },
 						{ "name": "Longitud" },
 						{ "name": "Mango" },
+						{ "name": "Marca" },
 						{ "name": "Material" },
 						{ "name": "Material de la hoja - MELI" },
 						{ "name": "Material externo" },

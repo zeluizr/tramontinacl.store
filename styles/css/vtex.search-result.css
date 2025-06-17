@@ -26,6 +26,10 @@
 	padding: 1rem;
 }
 
+.filter__container--selectedFilters {
+	display: none;
+}
+
 .filter__container--priceRange {
 	margin-bottom: 0;
 }
