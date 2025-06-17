@@ -95,7 +95,7 @@
 		"children": ["list-context.product-list#home1"]
 	},
 	"list-context.product-list#home1": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#tab-slider"],
 		"props": {
 			"category": "2842",
@@ -108,7 +108,7 @@
 		"children": ["list-context.product-list#home2"]
 	},
 	"list-context.product-list#home2": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#tab-slider"],
 		"props": {
 			"category": "2917",
@@ -121,7 +121,7 @@
 		"children": ["list-context.product-list#home3"]
 	},
 	"list-context.product-list#home3": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#tab-slider"],
 		"props": {
 			"category": "2939",
@@ -134,7 +134,7 @@
 		"children": ["list-context.product-list#home4"]
 	},
 	"list-context.product-list#home4": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#tab-slider"],
 		"props": {
 			"category": "2823",

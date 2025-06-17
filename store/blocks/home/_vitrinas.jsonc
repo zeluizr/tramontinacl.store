@@ -23,10 +23,9 @@
 		}
 	},
 	"list-context.product-list#shelf-01": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#shelf-01"],
 		"props": {
-			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -62,10 +61,9 @@
 		}
 	},
 	"list-context.product-list#shelf-02": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#shelf-02"],
 		"props": {
-			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -101,10 +99,9 @@
 		}
 	},
 	"list-context.product-list#shelf-03": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#shelf-03"],
 		"props": {
-			"collection": "222",
 			"hideUnavailableItems": true,
 			"orderBy": "OrderByBestDiscountDESC",
 			"maxItems": 12
@@ -139,7 +136,7 @@
 		}
 	},
 	"list-context.product-list#shelf-04": {
-		"blocks": ["product-summary.shelf"],
+		"blocks": ["product-summary.shelf#home"],
 		"children": ["slider-layout#shelf-04"],
 		"props": {
 			"hideUnavailableItems": true,

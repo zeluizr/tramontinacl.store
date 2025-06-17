@@ -1,4 +1,13 @@
 {
+	"product-summary.shelf#home": {
+		"children": [
+			"stack-layout#image-badge",
+			"product-summary-name",
+			"product-summary-price",
+			"container#installments",
+			"flex-layout.row#add-to-cart-button"
+		]
+	},
 	"product-summary.shelf": {
 		"children": [
 			"product-summary-list-badges",
@@ -97,7 +106,7 @@
 			"isOneClickBuy": false,
 			"text": "Comprar ahora",
 			"customToastUrl": "/checkout/#/cart",
-			"unavailableText": "Producto no disponible"
+			"unavailableText": "No disponible"
 		}
 	},
 	"container#installments": {
