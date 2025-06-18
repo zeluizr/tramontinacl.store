@@ -1,7 +1,7 @@
 {
   "vendor": "tramontinacl",
   "name": "store",
-  "version": "2.0.0",
+  "version": "1.1.15",
   "builders": {
     "assets": "0.x",
     "pixel": "0.x",
@@ -11,6 +11,17 @@
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose && vtex deploy --force"
+  },
+  "settingsSchema": {
+    "title": "Configuración de la tienda",
+    "type": "object",
+    "properties": {
+      "cyberBlack": {
+        "title": "Activar tienda modo Cyber?",
+        "description": "Si la tienda está en modo Cyber, la tienda quedará color negro.",
+        "type": "boolean"
+      }
+    }
   },
   "dependencies": {
     "vtex.add-to-cart-button": "0.x",
@@ -71,17 +82,6 @@
     "vtex.reviews-and-ratings": "3.x",
     "vtex.store-locator": "1.x",
     "vtex.wish-list": "1.x"
-  },
-  "settingsSchema": {
-    "title": "Configuración de la tienda",
-    "type": "object",
-    "properties": {
-      "cyberBlack": {
-        "title": "Activar tienda modo Cyber?",
-        "description": "Si la tienda está en modo Cyber, y la tienda quedará color negro.",
-        "type": "boolean"
-      }
-    }
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
