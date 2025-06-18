@@ -9,7 +9,33 @@
 		}
 	},
 	"flex-layout.col#search-content": {
-		"children": ["search-content"]
+		"children": ["flex-layout.row#content"],
+		"props": {
+			"blockClass": ["search-content"]
+		}
+	},
+	"flex-layout.row#content": {
+		"children": ["flex-layout.col#content"],
+		"props": {
+			"blockClass": ["content"]
+		}
+	},
+	"flex-layout.col#content": {
+		"children": [
+			"flex-layout.row#order-and-total",
+			"search-content",
+			"search-fetch-more"
+		],
+		"props": {
+			"blockClass": ["content"]
+		}
+	},
+	"flex-layout.row#order-and-total": {
+		"children": ["total-products.v2", "order-by.v2"],
+		"props": {
+			"blockClass": ["order-and-total"],
+			"horizontalAlign": "between"
+		}
 	},
 	"search-content": {
 		"blocks": ["gallery", "not-found"]

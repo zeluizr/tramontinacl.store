@@ -80,6 +80,44 @@
 	color: #414042;
 }
 
+.totalProducts--layout,
+.orderByButton {
+	padding: 0;
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	text-transform: initial;
+}
+
+.filterPopupTitle {
+	text-transform: initial;
+}
+
+.orderByOptionsContainer {
+	top: 2rem;
+	border: none;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	width: fit-content;
+}
+
+.orderByOptionItem {
+	padding: 0.5rem 0.75rem;
+	font-size: 0.875rem;
+	border-radius: 0.25rem;
+}
+
+.orderByDropdown {
+	padding-top: 0;
+}
+
+.filterPopupArrowIcon {
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+}
+
 :global(.vtex-checkbox__line-container) {
 	align-items: center;
 }

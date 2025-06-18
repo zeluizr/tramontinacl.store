@@ -4,7 +4,6 @@
 	},
 	"search-result-layout.desktop": {
 		"children": [
-			"flex-layout.row#banner-one",
 			"flex-layout.row#breadcrumb-search",
 			"flex-layout.row#search-content"
 		],
@@ -284,20 +283,6 @@
 				}
 			},
 			"mobileLayout": { "mode1": "inline", "mode2": "inline" }
-		}
-	},
-	"flex-layout.row#banner-one": {
-		"children": ["search-banner#one"],
-		"props": {
-			"blockClass": ["search-banner", "one-area"],
-			"horizontalAlignment": "center"
-		}
-	},
-	"search-banner#one": {
-		"props": {
-			"area": "one",
-			"blockClass": "search-banner",
-			"horizontalAlignment": "center"
 		}
 	}
 }

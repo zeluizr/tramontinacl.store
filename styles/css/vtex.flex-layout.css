@@ -69,6 +69,19 @@
 	gap: 0.5rem;
 }
 
+.flexColChild--content {
+	height: initial !important;
+}
+
+.flexRow--order-and-total {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.flexCol--content {
+	gap: 1rem;
+}
+
 .flexRowContent--search-content
 	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: initial !important;
