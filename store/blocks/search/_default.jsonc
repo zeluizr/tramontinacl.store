@@ -1,16 +1,16 @@
 {
-	"flex-layout.row#search-suggestions": {
-		"children": ["search-suggestions"],
-		"props": {
-			"blockClass": ["search-suggestions"]
-		}
-	},
-	"flex-layout.row#did-you-mean": {
-		"children": ["did-you-mean"],
-		"props": {
-			"blockClass": ["did-you-mean"]
-		}
-	},
+	// "flex-layout.row#search-suggestions": {
+	// 	"children": ["search-suggestions"],
+	// 	"props": {
+	// 		"blockClass": ["search-suggestions"]
+	// 	}
+	// },
+	// "flex-layout.row#did-you-mean": {
+	// 	"children": ["did-you-mean"],
+	// 	"props": {
+	// 		"blockClass": ["did-you-mean"]
+	// 	}
+	// },
 	"flex-layout.row#breadcrumb-search": {
 		"children": ["breadcrumb.search"],
 		"props": {
