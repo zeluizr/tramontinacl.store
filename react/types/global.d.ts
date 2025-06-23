@@ -34,6 +34,7 @@ declare global {
 	}
 
 	type ProductPDP = {
+		productName?: string;
 		description?: string;
 	};
 }
