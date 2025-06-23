@@ -29,3 +29,9 @@
 	max-height: initial !important;
 	border-radius: 0.5rem;
 }
+
+/* Product Page */
+.productNameContainer {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}

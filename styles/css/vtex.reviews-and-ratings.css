@@ -1,0 +1,13 @@
+.summaryContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.summaryButtonContainer {
+	display: none;
+}
+
+.star {
+	font-size: 1rem;
+}

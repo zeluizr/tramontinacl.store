@@ -7,16 +7,27 @@
 			"flex-layout.col#product-main-left",
 			"flex-layout.col#product-main-middle",
 			"flex-layout.col#product-main-right"
-		]
+		],
+		"props": {
+			"blockClass": ["product-main"]
+		}
 	},
 	"flex-layout.col#product-main-left": {
 		"children": [
+			"product-rating-summary.vtex",
+			"product-identifier.product",
 			"vtex.store-components:product-name",
 			"product-short-description"
-		]
+		],
+		"props": {
+			"blockClass": ["product-main-left"]
+		}
 	},
 	"flex-layout.col#product-main-middle": {
-		"children": ["product-images"]
+		"children": ["product-images"],
+		"props": {
+			"blockClass": ["product-main-middle"]
+		}
 	},
 	"flex-layout.col#product-main-right": {}
 }

@@ -28,7 +28,8 @@ function ProductShortDescription() {
 		<p
 			className={classNames(
 				handles.ProductShortDescriptionContent,
-				"c-on-muted-3 hover-c-on-muted-3 active-c-on-muted-3 lh-copy"
+				"c-on-muted-3 hover-c-on-muted-3 active-c-on-muted-3 lh-copy",
+				"mt0 mb0"
 			)}
 		>
 			{truncateText(product?.description || "", MAX_CHARACTERS)}{" "}
