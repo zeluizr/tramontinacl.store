@@ -16,6 +16,8 @@ function ProductShortDescription() {
 	const productContext = useProduct();
 	const product: ProductPDP = productContext?.product || {};
 
+	console.log("productContext", productContext);
+
 	const targetRef = useRef<HTMLDivElement | null>(null);
 
 	const handleScroll = () => {
