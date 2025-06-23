@@ -1,5 +1,6 @@
 /* Gradient Dash */
-.flexRow--header-info-strip::after {
+.flexRow--header-info-strip::after,
+.flexRow--order-and-total::after {
 	background: linear-gradient(
 		90deg,
 		hsla(0, 0%, 92%, 0),
@@ -10,6 +11,10 @@
 	display: block;
 	height: 1px;
 	width: 100%;
+}
+
+.flexRowContent--order-and-total {
+	margin-bottom: 1rem;
 }
 
 /* Header Info Strip */
