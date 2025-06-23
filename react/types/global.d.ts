@@ -32,6 +32,10 @@ declare global {
 	interface PLPListBadgesProps {
 		slider: any;
 	}
+
+	type ProductPDP = {
+		description?: string;
+	};
 }
 
 export {};

@@ -11,7 +11,8 @@
 		"skipLibCheck": true,
 		"resolveJsonModule": true,
 		"noEmit": true,
-		"typeRoots": ["./react/types"]
+		"typeRoots": ["./react/types"],
+		"lib": ["esnext", "dom"]
 	},
 	"include": ["./**/*.ts", "./**/*.tsx"],
 	"exclude": ["node_modules", "react/typings"]

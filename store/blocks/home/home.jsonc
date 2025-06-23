@@ -1,7 +1,7 @@
 {
 	"store.home": {
 		"blocks": [
-			"container#top-banner",
+			"container#top-banner-home",
 			"container#hero-banner",
 			"container#half-banner-01",
 			"container#departament",

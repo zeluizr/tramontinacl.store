@@ -1,22 +1,22 @@
 {
-	"container#top-banner-home": {
+	"container#top-banner-product": {
 		"title": "Top Banner",
-		"children": ["flex-layout.row#top-banner"],
+		"children": ["flex-layout.row#top-banner-producto"],
 		"props": {
 			"isActive": true
 		}
 	},
-	"flex-layout.row#top-banner": {
+	"flex-layout.row#top-banner-producto": {
 		"title": "Configuración",
-		"children": ["list-context.image-list#top-banner"],
+		"children": ["list-context.image-list#top-banner-producto"],
 		"props": {
 			"blockClass": ["top-banner"],
 			"marginBottom": 5
 		}
 	},
-	"list-context.image-list#top-banner": {
+	"list-context.image-list#top-banner-producto": {
 		"title": "Lista de Imagens",
-		"children": ["slider-layout#top-banner"],
+		"children": ["slider-layout#top-banner-producto"],
 		"props": {
 			"blockClass": ["image-list", "top-banner"],
 			"images": [
@@ -32,7 +32,7 @@
 			]
 		}
 	},
-	"slider-layout#top-banner": {
+	"slider-layout#top-banner-producto": {
 		"title": "Slider de Imagens",
 		"props": {
 			"blockClass": ["slider", "top-banner"],

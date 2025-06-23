@@ -19,6 +19,9 @@
 	"product-summary-list-badges": {
 		"component": "_PLPListBadges"
 	},
+	"product-short-description": {
+		"component": "_PDPShortDescription"
+	},
 	"vitrina": {
 		"component": "_Vitrina",
 		"composition": "children",

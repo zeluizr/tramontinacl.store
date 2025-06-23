@@ -1,5 +1,22 @@
 {
 	"store.product": {
-		"blocks": []
-	}
+		"blocks": ["container#top-banner-product", "flex-layout.row#product-main"]
+	},
+	"flex-layout.row#product-main": {
+		"children": [
+			"flex-layout.col#product-main-left",
+			"flex-layout.col#product-main-middle",
+			"flex-layout.col#product-main-right"
+		]
+	},
+	"flex-layout.col#product-main-left": {
+		"children": [
+			"vtex.store-components:product-name",
+			"product-short-description"
+		]
+	},
+	"flex-layout.col#product-main-middle": {
+		"children": ["product-images"]
+	},
+	"flex-layout.col#product-main-right": {}
 }
