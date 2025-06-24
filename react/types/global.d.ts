@@ -44,6 +44,13 @@ declare global {
 		properties?: any;
 		description?: string;
 	};
+
+	type PropsGenericModal = {
+		title?: string;
+		onClose: () => void;
+		children: React.ReactNode;
+		handles?: any;
+	};
 }
 
 export {};

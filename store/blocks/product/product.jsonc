@@ -3,7 +3,7 @@
 		"blocks": [
 			"container#top-banner-product",
 			"flex-layout.row#product-main",
-			"product-description",
+			"flex-layout.row#description",
 			"flex-layout.row#favoritos",
 			"container#departament"
 		]
@@ -47,6 +47,9 @@
 		}
 	},
 	"flex-layout.col#product-main-right": {},
+	"flex-layout.row#description": {
+		"children": ["product-description"]
+	},
 	"flex-layout.row#favoritos": {
 		"children": ["shelf.relatedProducts#favoritos"]
 	},
