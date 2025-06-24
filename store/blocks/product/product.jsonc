@@ -3,6 +3,7 @@
 		"blocks": [
 			"container#top-banner-product",
 			"flex-layout.row#product-main",
+			"product-description",
 			"flex-layout.row#favoritos",
 			"container#departament"
 		]

@@ -22,6 +22,9 @@
 	"product-short-description": {
 		"component": "_PDPShortDescription"
 	},
+	"product-description": {
+		"component": "_PDPDescription"
+	},
 	"vitrina": {
 		"component": "_Vitrina",
 		"composition": "children",

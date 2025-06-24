@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import { useRef } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { useProduct } from "vtex.product-context";
 import { truncateText } from "../../utils/_truncateText";
@@ -16,13 +15,10 @@ function ProductShortDescription() {
 	const productContext = useProduct();
 	const product: ProductPDP = productContext?.product || {};
 
-	console.log("productContext", productContext);
-
-	const targetRef = useRef<HTMLDivElement | null>(null);
-
 	const handleScroll = () => {
-		if (targetRef.current) {
-			targetRef.current.scrollIntoView({ behavior: "smooth" });
+		const targetElement = document.getElementById("productShortDescription");
+		if (targetElement) {
+			targetElement.scrollIntoView({ behavior: "smooth" });
 		}
 	};
 

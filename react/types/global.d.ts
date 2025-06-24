@@ -34,6 +34,14 @@ declare global {
 	}
 
 	type ProductPDP = {
+		productId?: string;
+		description?: string;
+		items?: Array<{
+			images: Array<{
+				imageUrl: string;
+			}>;
+		}>;
+		properties?: any;
 		description?: string;
 	};
 }
