@@ -288,7 +288,7 @@ function ProductDescription() {
 							{tecnicalImage && (
 								<div className={classNames("bg-base pa4 br2")}>
 									<div
-										className="flex items-center justify-between cursor-pointer"
+										className="flex items-center justify-between cursor-pointer mb2"
 										onClick={() => setShowTechnical(!showTechnical)}
 									>
 										<div className="flex items-center">
@@ -312,7 +312,7 @@ function ProductDescription() {
 							{warranty && (
 								<div className={classNames("bg-base pa4 br2")}>
 									<div
-										className="flex items-center justify-between cursor-pointer"
+										className="flex items-center justify-between cursor-pointer mb2"
 										onClick={() => setShowWarranty(!showWarranty)}
 									>
 										<div className="flex items-center">
@@ -328,13 +328,18 @@ function ProductDescription() {
 											size={12}
 										/>
 									</div>
-									{showWarranty && <p className="t-small mb2">{warranty}</p>}
+									{showWarranty && (
+										<div
+											className="t-small"
+											dangerouslySetInnerHTML={{ __html: warranty }}
+										/>
+									)}
 								</div>
 							)}
 							{certification && (
 								<div className={classNames("bg-base pa4 br2")}>
 									<div
-										className="flex items-center justify-between cursor-pointer"
+										className="flex items-center justify-between cursor-pointer mb2"
 										onClick={() => setShowCert(!showCert)}
 									>
 										<div className="flex items-center">
@@ -350,7 +355,12 @@ function ProductDescription() {
 											size={12}
 										/>
 									</div>
-									{showCert && <p className="t-small mb2">{certification}</p>}
+									{showCert && (
+										<div
+											className="t-small"
+											dangerouslySetInnerHTML={{ __html: certification }}
+										/>
+									)}
 								</div>
 							)}
 						</div>
