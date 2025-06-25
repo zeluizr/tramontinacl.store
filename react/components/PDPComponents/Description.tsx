@@ -1,15 +1,20 @@
 import classNames from "classnames";
 import { useEffect, useState } from "react";
+
 import { useCssHandles } from "vtex.css-handles";
 import { useProduct } from "vtex.product-context";
 import { Toggle } from "vtex.styleguide";
+
 import { formatMeasure } from "../../utils/_formatMeasure";
 import { formatWeight } from "../../utils/_formatWeight";
+
+import GenericModal from "./_generic-modal";
 import Icon from "./_icon";
 import ModalContent from "./_modal-content";
-import GenericModal from "./GenericModal";
+
 import "./style.css";
 
+const MAX_CHARACTERS = 300;
 const CSS_HANDLES = [
 	"ProductDescriptionContent",
 	"ProductDetalle",
@@ -26,9 +31,10 @@ const CSS_HANDLES = [
 	"ProductModalContenidoAdditionalBox",
 ] as const;
 
-const MAX_CHARACTERS = 300;
-
 function ProductDescription() {
+	const [showTechnical, setShowTechnical] = useState(false);
+	const [showWarranty, setShowWarranty] = useState(false);
+	const [showCert, setShowCert] = useState(false);
 	const { handles } = useCssHandles(CSS_HANDLES);
 	const productContext = useProduct();
 
@@ -39,11 +45,19 @@ function ProductDescription() {
 	const [showModal, setShowModal] = useState(false);
 	const [sizes, setSizes] = useState<SizeProps>();
 	const product: ProductPDP = productContext?.product || {};
+	const properties = product?.properties;
+
 	const warranty =
-		product?.properties.find((property: any) => property.name === "warranty")
+		properties.find((property: any) => property.name === "warranty")
+			?.values?.[0] ?? null;
+	const certification =
+		properties.find((property: any) => property.name === "certification")
+			?.values?.[0] ?? null;
+	const tecnicalImage =
+		properties.find((property: any) => property.name === "Imagem")
 			?.values?.[0] ?? null;
 	const contenidoRaw =
-		product?.properties.find((property: any) => property.name === "Contenido")
+		properties.find((property: any) => property.name === "Contenido")
 			?.values?.[0] ?? null;
 
 	let contenido: Array<any> = [];
@@ -55,6 +69,8 @@ function ProductDescription() {
 		console.error("Error parsing contenido JSON", e);
 		contenido = [];
 	}
+
+	console.log(properties);
 
 	useEffect(() => {
 		const fetchSizes = async () => {
@@ -85,12 +101,12 @@ function ProductDescription() {
 		};
 	}, [showModal]);
 
-	const productInfo = product.properties.find(
-		(property: any) => property.name === "productInfo"
+	const productInfo = properties.find(
+		(prop: any) => prop.name === "productInfo"
 	);
 
-	const productDescriptionSales = product.properties.find(
-		(property: any) => property.name === "productDescriptionSales"
+	const productDescriptionSales = properties.find(
+		(prop: any) => prop.name === "productDescriptionSales"
 	);
 
 	const [productUse] = productInfo?.values || [""];
@@ -131,7 +147,7 @@ function ProductDescription() {
 								)}
 								onClick={() => setShowModal(true)}
 							>
-								<span className={classNames("t-small")}>Contenido</span>
+								<span className={classNames("t-small b")}>Contenido</span>
 								<Icon size={24} id="icon-box-check" />
 							</button>
 						)}
@@ -269,9 +285,36 @@ function ProductDescription() {
 								"pa5 br3"
 							)}
 						>
+							{tecnicalImage && (
+								<div className={classNames("bg-base pa4 br2")}>
+									<div
+										className="flex items-center justify-between cursor-pointer"
+										onClick={() => setShowTechnical(!showTechnical)}
+									>
+										<div className="flex items-center">
+											<Icon
+												id="icon-seal-check"
+												size={18}
+												activeClassName="c-action-primary"
+											/>
+											<span className="t-small black ml3">Diseño técnico</span>
+										</div>
+										<Icon
+											id={showTechnical ? "mpa-minus--line" : "mpa-plus--line"}
+											size={12}
+										/>
+									</div>
+									{showTechnical && (
+										<img src={tecnicalImage} alt="" width={500} height={500} />
+									)}
+								</div>
+							)}
 							{warranty && (
-								<div className={classNames("bg-base pa4")}>
-									<div className="flex items-center justify-between">
+								<div className={classNames("bg-base pa4 br2")}>
+									<div
+										className="flex items-center justify-between cursor-pointer"
+										onClick={() => setShowWarranty(!showWarranty)}
+									>
 										<div className="flex items-center">
 											<Icon
 												id="icon-seal-check"
@@ -280,9 +323,34 @@ function ProductDescription() {
 											/>
 											<span className="t-small black ml3">Garantía</span>
 										</div>
-										<Icon id="mpa-plus--line" size={12} />
+										<Icon
+											id={showWarranty ? "mpa-minus--line" : "mpa-plus--line"}
+											size={12}
+										/>
 									</div>
-									<p className="t-small mb2">{warranty}</p>
+									{showWarranty && <p className="t-small mb2">{warranty}</p>}
+								</div>
+							)}
+							{certification && (
+								<div className={classNames("bg-base pa4 br2")}>
+									<div
+										className="flex items-center justify-between cursor-pointer"
+										onClick={() => setShowCert(!showCert)}
+									>
+										<div className="flex items-center">
+											<Icon
+												id="icon-certificate"
+												size={18}
+												activeClassName="c-action-primary"
+											/>
+											<span className="t-small black ml3">Certificación</span>
+										</div>
+										<Icon
+											id={showCert ? "mpa-minus--line" : "mpa-plus--line"}
+											size={12}
+										/>
+									</div>
+									{showCert && <p className="t-small mb2">{certification}</p>}
 								</div>
 							)}
 						</div>

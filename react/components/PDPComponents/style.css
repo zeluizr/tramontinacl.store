@@ -56,7 +56,7 @@ label[for="toggle-pdp"] span {
 .ProductButtonContenido {
 	width: 100% !important;
 	max-width: 180px;
-	border: 1px solid #ececec;
+	border: 2px solid #ececec;
 	gap: 0.5rem;
 	cursor: pointer;
 }
@@ -114,6 +114,9 @@ label[for="toggle-pdp"] span {
 .ProductModalContenidoAdditionalInfo {
 	background-color: #ececec;
 	border-radius: 0.5rem;
+	gap: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 @media (max-width: 768px) {
