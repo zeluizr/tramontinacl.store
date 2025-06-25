@@ -6,6 +6,7 @@ import { Toggle } from "vtex.styleguide";
 import { formatMeasure } from "../../utils/_formatMeasure";
 import { formatWeight } from "../../utils/_formatWeight";
 import Icon from "./_icon";
+import ModalContent from "./_modal-content";
 import GenericModal from "./GenericModal";
 import "./style.css";
 
@@ -17,39 +18,30 @@ const CSS_HANDLES = [
 	"ProductGridSizes",
 	"ProductButtonContenido",
 	"ProductModalContenido",
-	"ProductModalContenidoContent",
+	"ProductModalContenidoBase",
 	"ProductModalContenidoGrid",
 	"ProductModalContenidoGridProductName",
 	"ProductModalContenidoGridProductImage",
 	"ProductModalContenidoAdditionalInfo",
+	"ProductModalContenidoAdditionalBox",
 ] as const;
 
 const MAX_CHARACTERS = 300;
 
 function ProductDescription() {
+	const { handles } = useCssHandles(CSS_HANDLES);
+	const productContext = useProduct();
+
 	const [medida, setMedida] = useState(true);
 	const [showFullDescription, setShowFullDescription] = useState(false);
 	const [showFullInfoTecnica, setShowFullInfoTecnica] = useState(false);
 	const [showFullProductUse, setShowFullProductUse] = useState(false);
 	const [showModal, setShowModal] = useState(false);
-	const [sizes, setSizes] = useState<{
-		PackagedHeight?: number;
-		PackagedLength?: number;
-		PackagedWidth?: number;
-		PackagedWeightKg?: number;
-		Height?: number;
-		Length?: number;
-		Width?: number;
-		WeightKg?: number;
-	}>();
-	const { handles } = useCssHandles(CSS_HANDLES);
-	const productContext = useProduct();
+	const [sizes, setSizes] = useState<SizeProps>();
 	const product: ProductPDP = productContext?.product || {};
-
 	const warranty =
 		product?.properties.find((property: any) => property.name === "warranty")
 			?.values?.[0] ?? null;
-
 	const contenidoRaw =
 		product?.properties.find((property: any) => property.name === "Contenido")
 			?.values?.[0] ?? null;
@@ -70,16 +62,7 @@ function ProductDescription() {
 
 			try {
 				const res = await fetch(`/_v/infoclient/${product.productId}`);
-				const data: {
-					PackagedHeight?: number;
-					PackagedLength?: number;
-					PackagedWidth?: number;
-					PackagedWeightKg?: number;
-					Height?: number;
-					Length?: number;
-					Width?: number;
-					WeightKg?: number;
-				} = await res.json();
+				const data: SizeProps = await res.json();
 
 				setSizes(data);
 			} catch (error) {
@@ -89,6 +72,18 @@ function ProductDescription() {
 
 		fetchSizes();
 	}, [product]);
+
+	useEffect(() => {
+		if (showModal) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "";
+		}
+
+		return () => {
+			document.body.style.overflow = "";
+		};
+	}, [showModal]);
 
 	const productInfo = product.properties.find(
 		(property: any) => property.name === "productInfo"
@@ -128,7 +123,7 @@ function ProductDescription() {
 					</button>
 
 					<div>
-						{contenido && (
+						{contenido.length !== 0 && (
 							<button
 								className={classNames(
 									handles.ProductButtonContenido,
@@ -256,7 +251,7 @@ function ProductDescription() {
 							/>
 						</figure>
 					</section>
-					<div className={classNames("pl5 pr5 mt3")}>
+					<div className={classNames("mt3")}>
 						<p className={classNames("t-mini mb2 mt0 black")}>
 							*Para produto unitário, estas especificações são referentes ao
 							produto.
@@ -266,18 +261,29 @@ function ProductDescription() {
 							embalagem.
 						</p>
 					</div>
-					<div className={classNames("")}>
+					<div>
 						<h3>Información adicional</h3>
 						<div
 							className={classNames(
-								handles.ProductModalContenidoAdditionalInfo
+								handles.ProductModalContenidoAdditionalInfo,
+								"pa5 br3"
 							)}
 						>
 							{warranty && (
-								<p className="t-small mb2">
-									<strong>Garantía: </strong>
-									{warranty}
-								</p>
+								<div className={classNames("bg-base pa4")}>
+									<div className="flex items-center justify-between">
+										<div className="flex items-center">
+											<Icon
+												id="icon-seal-check"
+												size={18}
+												activeClassName="c-action-primary"
+											/>
+											<span className="t-small black ml3">Garantía</span>
+										</div>
+										<Icon id="mpa-plus--line" size={12} />
+									</div>
+									<p className="t-small mb2">{warranty}</p>
+								</div>
 							)}
 						</div>
 					</div>
@@ -289,33 +295,7 @@ function ProductDescription() {
 					onClose={() => setShowModal(false)}
 					handles={handles}
 				>
-					<div className={classNames(handles.ProductModalContenidoGrid)}>
-						{contenido.map((content, idx) => (
-							<div
-								key={idx}
-								className="flex flex-column items-center bg-black-05 pa4 br2"
-							>
-								<span className="t-mini">{content.Quantity} Unidad(s)</span>
-								<figure
-									className={classNames(
-										"flex ma0",
-										handles.ProductModalContenidoGridProductImage
-									)}
-								>
-									<img src={content.FileURL} alt={content.ProductName} />
-								</figure>
-								<span
-									className={classNames(
-										"t-mini flex justify-center items-center",
-										handles.ProductModalContenidoGridProductName
-									)}
-								>
-									{content.ProductName}
-								</span>
-								<span className="t-mini">Ref: {content.ProductCode}</span>
-							</div>
-						))}
-					</div>
+					<ModalContent contenido={contenido} handles={handles} />
 				</GenericModal>
 			)}
 		</>

@@ -4,24 +4,33 @@ import { Icon } from "vtex.store-icons";
 const GenericModal = ({
 	title,
 	onClose,
-	children,
 	handles,
+	children,
 }: PropsGenericModal) => {
 	return (
 		<div
 			className={classNames(
 				handles.ProductModalContenido,
-				"fixed top-0 left-0 right-0 bottom-0 z-999 flex justify-center items-center bg-black-80 pa4"
+				"fixed top-0 w-100 h-100 flex items-center justify-center z-999 bg-black-20 pa5"
 			)}
+			onClick={onClose}
 		>
-			<div className={classNames("bg-white w-100 mw7 pa4 br3")}>
-				<div className={classNames("flex justify-between items-center")}>
-					{title && <h2 className="t-heading-4 mb4">{title}</h2>}
+			<div
+				className={classNames(
+					handles.ProductModalContenidoBase,
+					"bg-base w-100 h-100 h-75-ns mw8 br3 overflow-hidden pr5 pl5 pb5"
+				)}
+				onClick={(e) => e.stopPropagation()}
+			>
+				<div
+					className={classNames("flex justify-between items-center mt6 mb6")}
+				>
+					{title && <h2 className={classNames("mt0 mb0")}>{title}</h2>}
 					<span className="pointer" onClick={onClose}>
 						<Icon id="icon-xmark" size={16} />
 					</span>
 				</div>
-				<div>{children}</div>
+				{children}
 			</div>
 		</div>
 	);

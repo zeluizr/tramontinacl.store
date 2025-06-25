@@ -62,27 +62,39 @@ label[for="toggle-pdp"] span {
 }
 
 .ProductModalContenido {
-	width: 100vh;
-	height: 100vh;
 	backdrop-filter: blur(5px);
 }
 
-.ProductModalContenidoContent {
-	overflow: hidden;
-	overflow-y: scroll;
-	width: 100%;
-	max-width: 90vh;
-	height: fit-content;
-	max-height: 60vh;
-	padding: 1rem;
-	margin: 0 1rem;
-	border-radius: 0.5rem;
+.ProductModalContenidoBase {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
 }
 
 .ProductModalContenidoGrid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 1rem;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+.ProductModalContenidoGrid::-webkit-scrollbar {
+	width: 6px;
+}
+
+.ProductModalContenidoGrid::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.ProductModalContenidoGrid::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.ProductModalContenidoAdditionalBox {
+	height: fit-content;
 }
 
 .ProductModalContenidoGridProductName {

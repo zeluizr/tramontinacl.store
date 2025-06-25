@@ -51,6 +51,23 @@ declare global {
 		children: React.ReactNode;
 		handles?: any;
 	};
+
+	type StoreIconProps = {
+		id: string;
+		size: number;
+		activeClassName?: string;
+	};
+
+	type SizeProps = {
+		PackagedHeight?: number;
+		PackagedLength?: number;
+		PackagedWidth?: number;
+		PackagedWeightKg?: number;
+		Height?: number;
+		Length?: number;
+		Width?: number;
+		WeightKg?: number;
+	};
 }
 
 export {};
