@@ -9,24 +9,24 @@
 	font-weight: bold;
 }
 
-.paginationDotsContainer {
+.departamentListContainer .paginationDotsContainer {
 	bottom: -2.5rem;
 	align-items: center;
 }
 
-.paginationDot {
+.departamentListContainer .paginationDot {
 	background-color: #d1d3d4;
 	height: 0.6rem !important;
 	width: 0.6rem !important;
 }
 
-.paginationDot--isActive {
+.departamentListContainer .paginationDot--isActive {
 	background-color: #003087;
 	height: 0.7rem !important;
 	width: 0.7rem !important;
 }
 
-.sliderArrows {
+.departamentListContainer .sliderArrows {
 	background-color: #ffffff !important;
 	margin: 0;
 	padding: 0.5rem;

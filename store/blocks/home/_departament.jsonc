@@ -129,6 +129,7 @@
 				}
 			],
 			"slider": {
+				"blockClass": ["deparmentos"],
 				"arrowSize": 16,
 				"infinite": true,
 				"showNavigationArrows": "desktopOnly",
