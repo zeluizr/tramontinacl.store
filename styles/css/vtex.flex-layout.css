@@ -142,3 +142,38 @@
 .flexColChild--product-main-left {
 	height: initial !important;
 }
+
+.flexCol--product-info-right {
+	background-color: #f5f7f9;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	height: fit-content;
+}
+
+.flexRowContent--row-product-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexRowContent--row-product-right
+	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	width: 100% !important;
+	padding-right: 0 !important;
+}
+
+.flexCol--product-right-price {
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.flexCol--shipping-simulator {
+	background-color: white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+.flexRowContent--product-main {
+	gap: 2rem;
+}
