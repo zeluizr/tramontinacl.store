@@ -1,0 +1,22 @@
+{
+	"store.custom#custom-product-page": {
+		"blocks": ["flex-layout.row#custom-product-page-title"]
+	},
+	"flex-layout.row#custom-product-page-title": {
+		"children": ["search-result-layout.customQuery#custom-product-page"]
+	},
+	"search-result-layout.customQuery#custom-product-page": {
+		"props": {
+			"querySchema": {
+				"orderByField": "OrderByBestDiscountDESC",
+				"hideUnavailableItems": false,
+				"maxItemsPerPage": 24
+			}
+		},
+		"blocks": [
+			"search-result-layout.desktop",
+			"search-result-layout.mobile",
+			"search-not-found-layout"
+		]
+	}
+}
