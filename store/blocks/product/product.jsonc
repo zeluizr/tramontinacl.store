@@ -92,7 +92,7 @@
 	"flex-layout.col#product-right-price": {
 		"children": [
 			"flex-layout.row#selling-price",
-			"flex-layout.row#list-price-savings",
+			// "flex-layout.row#list-price-savings",
 			"flex-layout.row#saveprice",
 			"flex-layout.row#product-installments"
 		],
