@@ -3,11 +3,8 @@ import { useCssHandles } from "vtex.css-handles";
 import { useProduct } from "vtex.product-context";
 import { truncateText } from "../../utils/_truncateText";
 
-const CSS_HANDLES = [
-	"ProductShortDescriptionContent",
-	"ProductShortDescriptionLink",
-] as const;
-const MAX_CHARACTERS = 250;
+const CSS_HANDLES = ["ProductShortDescriptionContent", "ProductShortDescriptionLink"] as const;
+const MAX_CHARACTERS = 200;
 
 function ProductShortDescription() {
 	const { handles } = useCssHandles(CSS_HANDLES);
@@ -23,21 +20,12 @@ function ProductShortDescription() {
 	};
 
 	return (
-		<p
-			className={classNames(
-				handles.ProductShortDescriptionContent,
-				"c-on-muted-3 hover-c-on-muted-3 active-c-on-muted-3 lh-copy",
-				"mt0 mb0"
-			)}
-		>
-			{truncateText(product?.description || "", MAX_CHARACTERS)}{" "}
-			<span
-				className={classNames("underline", handles.ProductShortDescriptionLink)}
-				onClick={handleScroll}
-			>
+		<div className={classNames(handles.ProductShortDescriptionContent)}>
+			<p className="lh-copy black-60 mt0 mb0">{truncateText(product?.description || "", MAX_CHARACTERS)}</p>
+			<a className={classNames("underline t-small", handles.ProductShortDescriptionLink)} onClick={handleScroll}>
 				Ver más detalles
-			</span>
-		</p>
+			</a>
+		</div>
 	);
 }
 

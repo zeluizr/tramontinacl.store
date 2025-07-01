@@ -41,7 +41,7 @@ function PDPPrice() {
 						handles.PDPPriceDiscount
 					)}
 				>
-					<em className={classNames(handles.PDPPriceDiscountIcon)}></em>{" "}
+					<em className={classNames(handles.PDPPriceDiscountIcon, "mr2")}></em>{" "}
 					{discount} OFF
 				</span>
 			)}

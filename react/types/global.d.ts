@@ -43,6 +43,9 @@ declare global {
 		}>;
 		properties?: any;
 		description?: string;
+		productClusters?: Array<{
+			id: string;
+		}>;
 	};
 
 	type PropsGenericModal = {

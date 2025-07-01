@@ -19,6 +19,9 @@
 	"product-summary-badges": {
 		"component": "_PLPBadges"
 	},
+	"product-compra-por-mayor": {
+		"component": "_PDPCompraPorMayor"
+	},
 	"product-summary-list-badges": {
 		"component": "_PLPListBadges"
 	},

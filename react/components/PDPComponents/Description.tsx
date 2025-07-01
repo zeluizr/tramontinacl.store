@@ -47,18 +47,10 @@ function ProductDescription() {
 	const product: ProductPDP = productContext?.product || {};
 	const properties = product?.properties;
 
-	const warranty =
-		properties.find((property: any) => property.name === "warranty")
-			?.values?.[0] ?? null;
-	const certification =
-		properties.find((property: any) => property.name === "certification")
-			?.values?.[0] ?? null;
-	const tecnicalImage =
-		properties.find((property: any) => property.name === "Imagem")
-			?.values?.[0] ?? null;
-	const contenidoRaw =
-		properties.find((property: any) => property.name === "Contenido")
-			?.values?.[0] ?? null;
+	const warranty = properties.find((property: any) => property.name === "warranty")?.values?.[0] ?? null;
+	const certification = properties.find((property: any) => property.name === "certification")?.values?.[0] ?? null;
+	const tecnicalImage = properties.find((property: any) => property.name === "Imagem")?.values?.[0] ?? null;
+	const contenidoRaw = properties.find((property: any) => property.name === "Contenido")?.values?.[0] ?? null;
 
 	let contenido: Array<any> = [];
 	try {
@@ -101,23 +93,16 @@ function ProductDescription() {
 		};
 	}, [showModal]);
 
-	const productInfo = properties.find(
-		(prop: any) => prop.name === "productInfo"
-	);
+	const productInfo = properties.find((prop: any) => prop.name === "productInfo");
 
-	const productDescriptionSales = properties.find(
-		(prop: any) => prop.name === "productDescriptionSales"
-	);
+	const productDescriptionSales = properties.find((prop: any) => prop.name === "productDescriptionSales");
 
 	const [productUse] = productInfo?.values || [""];
 	const [infoTecnica] = productDescriptionSales?.values || [""];
 
 	return (
 		<>
-			<section
-				className={classNames(handles.ProductDescriptionContent)}
-				id="productShortDescription"
-			>
+			<section className={classNames(handles.ProductDescriptionContent)} id="productShortDescription">
 				<div className={classNames(handles.ProductDetalle)}>
 					<h3>Detalle del producto</h3>
 					<p
@@ -127,10 +112,7 @@ function ProductDescription() {
 								? product.description || ""
 								: (product.description || "").length <= MAX_CHARACTERS
 								? product.description || ""
-								: `${(product.description || "").substring(
-										0,
-										MAX_CHARACTERS
-								  )}...`,
+								: `${(product.description || "").substring(0, MAX_CHARACTERS)}...`,
 						}}
 					/>
 					{(product.description || "").length > MAX_CHARACTERS && (
@@ -192,10 +174,7 @@ function ProductDescription() {
 							/>
 							{productUse.length > MAX_CHARACTERS && (
 								<button
-									className={classNames(
-										handles.ProductDetalleButton,
-										"t-small"
-									)}
+									className={classNames(handles.ProductDetalleButton, "t-small")}
 									onClick={() => setShowFullProductUse(!showFullProductUse)}
 								>
 									{showFullProductUse ? "Ver menos" : "Ver mais"}
@@ -212,94 +191,43 @@ function ProductDescription() {
 							label={medida ? "Medidas con embalaje" : "Medidas sin embalaje"}
 							checked={medida}
 							id="toggle-pdp"
-							onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-								setMedida(e.target.checked)
-							}
+							onChange={(e: React.ChangeEvent<HTMLInputElement>) => setMedida(e.target.checked)}
 						/>
 					</span>
-					<section
-						className={classNames(
-							"flex flex-column mt5 pa5",
-							handles.ProductSizes
-						)}
-					>
+					<section className={classNames("flex flex-column mt5 pa5", handles.ProductSizes)}>
 						<div className={classNames("flex w-100", handles.ProductGridSizes)}>
-							<div
-								className={classNames(
-									"bg-white black pa4 flex items-center justify-between br3"
-								)}
-							>
+							<div className={classNames("bg-white black pa4 flex items-center justify-between br3")}>
 								<span className="t-small">Alto</span>
-								<strong>
-									{medida
-										? formatMeasure(sizes?.PackagedHeight)
-										: formatMeasure(sizes?.Height)}
-								</strong>
+								<strong>{medida ? formatMeasure(sizes?.PackagedHeight) : formatMeasure(sizes?.Height)}</strong>
 							</div>
-							<div
-								className={classNames(
-									"bg-white black pa4 flex items-center justify-between br3"
-								)}
-							>
+							<div className={classNames("bg-white black pa4 flex items-center justify-between br3")}>
 								<span className="t-small">Ancho</span>
-								<strong>
-									{medida
-										? formatMeasure(sizes?.PackagedWidth)
-										: formatMeasure(sizes?.Width)}
-								</strong>
+								<strong>{medida ? formatMeasure(sizes?.PackagedWidth) : formatMeasure(sizes?.Width)}</strong>
 							</div>
-							<div
-								className={classNames(
-									"bg-white black pa4 flex items-center justify-between br3"
-								)}
-							>
+							<div className={classNames("bg-white black pa4 flex items-center justify-between br3")}>
 								<span className="t-small">Largo</span>
-								<strong>
-									{medida
-										? formatMeasure(sizes?.PackagedLength)
-										: formatMeasure(sizes?.Length)}
-								</strong>
+								<strong>{medida ? formatMeasure(sizes?.PackagedLength) : formatMeasure(sizes?.Length)}</strong>
 							</div>
-							<div
-								className={classNames(
-									"bg-white black pa4 flex items-center justify-between br3"
-								)}
-							>
+							<div className={classNames("bg-white black pa4 flex items-center justify-between br3")}>
 								<span className="t-small">Peso</span>
-								<strong>
-									{medida
-										? formatWeight(sizes?.PackagedWeightKg)
-										: formatWeight(sizes?.WeightKg)}
-								</strong>
+								<strong>{medida ? formatWeight(sizes?.PackagedWeightKg) : formatWeight(sizes?.WeightKg)}</strong>
 							</div>
 						</div>
 						<figure className="flex justify-center items-center bg-white w-100 br3 ma0 mt4">
-							<img
-								src={product.items?.[0]?.images?.[0]?.imageUrl || ""}
-								alt=""
-								height={200}
-								width={200}
-							/>
+							<img src={product.items?.[0]?.images?.[0]?.imageUrl || ""} alt="" height={200} width={200} />
 						</figure>
 					</section>
 					<div className={classNames("mt3")}>
 						<p className={classNames("t-mini mb2 mt0 black")}>
-							*Para produto unitário, estas especificações são referentes ao
-							produto.
+							*Para producto unitario, estas especificaciones se refieren al producto.
 						</p>
 						<p className={classNames("t-mini mt0 mb0 black")}>
-							*Para conjunto, kit ou jogo, estas especificações são referentes à
-							embalagem.
+							*Para conjunto, kit o juego, estas especificaciones se refieren al embalaje.
 						</p>
 					</div>
 					<div>
 						<h3>Información adicional</h3>
-						<div
-							className={classNames(
-								handles.ProductModalContenidoAdditionalInfo,
-								"pa5 br3"
-							)}
-						>
+						<div className={classNames(handles.ProductModalContenidoAdditionalInfo, "pa5 br3")}>
 							{tecnicalImage && (
 								<div className={classNames("bg-base pa4 br2")}>
 									<div
@@ -307,21 +235,14 @@ function ProductDescription() {
 										onClick={() => setShowTechnical(!showTechnical)}
 									>
 										<div className="flex items-center">
-											<Icon
-												id="icon-seal-check"
-												size={18}
-												activeClassName="c-action-primary"
-											/>
+											<Icon id="icon-diseno-tecnico" size={18} activeClassName="c-action-primary" />
 											<span className="t-small black ml3">Diseño técnico</span>
 										</div>
-										<Icon
-											id={showTechnical ? "mpa-minus--line" : "mpa-plus--line"}
-											size={12}
-										/>
+										<Icon id={showTechnical ? "mpa-minus--line" : "mpa-plus--line"} size={12} />
 									</div>
-									{showTechnical && (
-										<img src={tecnicalImage} alt="" width={500} height={500} />
-									)}
+									<div className={classNames("flex justify-center items-center")}>
+										{showTechnical && <img src={tecnicalImage} alt="" width={500} height={500} />}
+									</div>
 								</div>
 							)}
 							{warranty && (
@@ -331,24 +252,12 @@ function ProductDescription() {
 										onClick={() => setShowWarranty(!showWarranty)}
 									>
 										<div className="flex items-center">
-											<Icon
-												id="icon-seal-check"
-												size={18}
-												activeClassName="c-action-primary"
-											/>
+											<Icon id="icon-seal-check" size={18} activeClassName="c-action-primary" />
 											<span className="t-small black ml3">Garantía</span>
 										</div>
-										<Icon
-											id={showWarranty ? "mpa-minus--line" : "mpa-plus--line"}
-											size={12}
-										/>
+										<Icon id={showWarranty ? "mpa-minus--line" : "mpa-plus--line"} size={12} />
 									</div>
-									{showWarranty && (
-										<div
-											className="t-small"
-											dangerouslySetInnerHTML={{ __html: warranty }}
-										/>
-									)}
+									{showWarranty && <div className="t-small mt4" dangerouslySetInnerHTML={{ __html: warranty }} />}
 								</div>
 							)}
 							{certification && (
@@ -358,24 +267,12 @@ function ProductDescription() {
 										onClick={() => setShowCert(!showCert)}
 									>
 										<div className="flex items-center">
-											<Icon
-												id="icon-certificate"
-												size={18}
-												activeClassName="c-action-primary"
-											/>
+											<Icon id="icon-certificate" size={18} activeClassName="c-action-primary" />
 											<span className="t-small black ml3">Certificación</span>
 										</div>
-										<Icon
-											id={showCert ? "mpa-minus--line" : "mpa-plus--line"}
-											size={12}
-										/>
+										<Icon id={showCert ? "mpa-minus--line" : "mpa-plus--line"} size={12} />
 									</div>
-									{showCert && (
-										<div
-											className="t-small"
-											dangerouslySetInnerHTML={{ __html: certification }}
-										/>
-									)}
+									{showCert && <div className="t-small mt4" dangerouslySetInnerHTML={{ __html: certification }} />}
 								</div>
 							)}
 						</div>
@@ -383,11 +280,7 @@ function ProductDescription() {
 				</div>
 			</section>
 			{showModal && (
-				<GenericModal
-					title="Contenido"
-					onClose={() => setShowModal(false)}
-					handles={handles}
-				>
+				<GenericModal title="Contenido" onClose={() => setShowModal(false)} handles={handles}>
 					<ModalContent contenido={contenido} handles={handles} />
 				</GenericModal>
 			)}

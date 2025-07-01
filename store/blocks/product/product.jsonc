@@ -20,11 +20,7 @@
 		}
 	},
 	"flex-layout.col#product-main-left": {
-		"children": [
-			"product-identifier.product",
-			"vtex.store-components:product-name",
-			"product-short-description"
-		],
+		"children": ["product-identifier.product", "vtex.store-components:product-name", "product-short-description"],
 		"props": {
 			"blockClass": ["product-main-left"]
 		}
@@ -83,18 +79,24 @@
 			"flex-layout.col#product-right-price",
 			"flex-layout.col#shipping-simulator",
 			"flex-layout.col#add-to-cart",
-			"flex-layout.col#add-to-cart-one-click-buy"
+			"flex-layout.col#add-to-cart-one-click-buy",
+			"flex-layout.col#venta-por-mayor"
 		],
 		"props": {
 			"blockClass": "row-product-right"
 		}
 	},
+	"flex-layout.col#venta-por-mayor": {
+		"children": ["product-compra-por-mayor"]
+	},
+	"product-compra-por-mayor": {
+		"props": {
+			"idCollection": 200,
+			"textoButton": "Comprar por mayor"
+		}
+	},
 	"flex-layout.col#product-right-price": {
-		"children": [
-			"product-price",
-			"flex-layout.row#saveprice",
-			"container#product-installments"
-		],
+		"children": ["product-price", "flex-layout.row#saveprice", "container#product-installments"],
 		"props": {
 			"blockClass": "product-right-price"
 		}
