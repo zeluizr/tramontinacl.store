@@ -119,6 +119,22 @@ label[for="toggle-pdp"] span {
 	flex-direction: column;
 }
 
+.PDPPriceDiscount {
+	width: fit-content;
+}
+
+.PDPPriceDiscountIcon {
+	font-family: "Font Awesome 6 Pro";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.PDPPriceContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
 @media (max-width: 768px) {
 	.ProductDescriptionContent {
 		grid-template-columns: 1fr;

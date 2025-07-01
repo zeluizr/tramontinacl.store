@@ -35,3 +35,18 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
+
+.shippingTableLabel {
+	display: flex;
+	align-items: center;
+}
+
+.shippingTableCell {
+	font-size: 0.75rem;
+	color: #414042;
+	padding: 0.5rem;
+}
+
+.shippingTableRadioBtn {
+	margin-right: 0.5rem;
+}

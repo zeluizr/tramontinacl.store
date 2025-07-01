@@ -14,7 +14,7 @@ import ModalContent from "./_modal-content";
 
 import "./style.css";
 
-const MAX_CHARACTERS = 300;
+const MAX_CHARACTERS = 320;
 const CSS_HANDLES = [
 	"ProductDescriptionContent",
 	"ProductDetalle",
@@ -125,18 +125,22 @@ function ProductDescription() {
 						dangerouslySetInnerHTML={{
 							__html: showFullDescription
 								? product.description || ""
+								: (product.description || "").length <= MAX_CHARACTERS
+								? product.description || ""
 								: `${(product.description || "").substring(
 										0,
 										MAX_CHARACTERS
 								  )}...`,
 						}}
 					/>
-					<button
-						className={classNames(handles.ProductDetalleButton, "t-small")}
-						onClick={() => setShowFullDescription(!showFullDescription)}
-					>
-						{showFullDescription ? "Ver menos" : "Ver mais"}
-					</button>
+					{(product.description || "").length > MAX_CHARACTERS && (
+						<button
+							className={classNames(handles.ProductDetalleButton, "t-small")}
+							onClick={() => setShowFullDescription(!showFullDescription)}
+						>
+							{showFullDescription ? "Ver menos" : "Ver mais"}
+						</button>
+					)}
 
 					<div>
 						{contenido.length !== 0 && (
@@ -159,15 +163,19 @@ function ProductDescription() {
 						dangerouslySetInnerHTML={{
 							__html: showFullInfoTecnica
 								? infoTecnica
+								: infoTecnica.length <= MAX_CHARACTERS
+								? infoTecnica
 								: `${infoTecnica.substring(0, MAX_CHARACTERS)}...`,
 						}}
 					/>
-					<button
-						className={classNames(handles.ProductDetalleButton, "t-small")}
-						onClick={() => setShowFullInfoTecnica(!showFullInfoTecnica)}
-					>
-						{showFullInfoTecnica ? "Ver menos" : "Ver mais"}
-					</button>
+					{infoTecnica.length > MAX_CHARACTERS && (
+						<button
+							className={classNames(handles.ProductDetalleButton, "t-small")}
+							onClick={() => setShowFullInfoTecnica(!showFullInfoTecnica)}
+						>
+							{showFullInfoTecnica ? "Ver menos" : "Ver mais"}
+						</button>
+					)}
 
 					{productUse && (
 						<>
@@ -177,15 +185,22 @@ function ProductDescription() {
 								dangerouslySetInnerHTML={{
 									__html: showFullProductUse
 										? productUse
+										: productUse.length <= MAX_CHARACTERS
+										? productUse
 										: `${productUse.substring(0, MAX_CHARACTERS)}...`,
 								}}
 							/>
-							<button
-								className={classNames(handles.ProductDetalleButton, "t-small")}
-								onClick={() => setShowFullProductUse(!showFullProductUse)}
-							>
-								{showFullProductUse ? "Ver menos" : "Ver mais"}
-							</button>
+							{productUse.length > MAX_CHARACTERS && (
+								<button
+									className={classNames(
+										handles.ProductDetalleButton,
+										"t-small"
+									)}
+									onClick={() => setShowFullProductUse(!showFullProductUse)}
+								>
+									{showFullProductUse ? "Ver menos" : "Ver mais"}
+								</button>
+							)}
 						</>
 					)}
 				</div>

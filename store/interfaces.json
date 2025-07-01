@@ -13,6 +13,9 @@
 	"product-summary-price": {
 		"component": "_PLPPrice"
 	},
+	"product-price": {
+		"component": "_PDPPrice"
+	},
 	"product-summary-badges": {
 		"component": "_PLPBadges"
 	},

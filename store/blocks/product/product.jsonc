@@ -91,13 +91,19 @@
 	},
 	"flex-layout.col#product-right-price": {
 		"children": [
-			"flex-layout.row#selling-price",
-			// "flex-layout.row#list-price-savings",
+			"product-price",
 			"flex-layout.row#saveprice",
-			"flex-layout.row#product-installments"
+			"container#product-installments"
 		],
 		"props": {
 			"blockClass": "product-right-price"
+		}
+	},
+	"container#product-installments": {
+		"title": "Cuotas",
+		"children": ["flex-layout.row#product-installments"],
+		"props": {
+			"isActive": true
 		}
 	},
 	"flex-layout.col#add-to-cart": {
@@ -115,6 +121,7 @@
 	"add-to-cart-button#oneclick": {
 		"title": "Comprar con un clic",
 		"props": {
+			"blockClass": "one-click-buy",
 			"text": "Comprar ahora",
 			"isOneClickBuy": true
 		}
@@ -136,8 +143,7 @@
 		"props": {
 			"blockClass": "saveprice",
 			"preventVerticalStretch": true,
-			"preventHorizontalStretch": true,
-			"marginBottom": 4
+			"preventHorizontalStretch": true
 		}
 	},
 	"product-price-savings#ahorro": {
@@ -147,46 +153,17 @@
 			"message": "Estás ahorrando {savingsValue}"
 		}
 	},
-	"flex-layout.row#selling-price": {
-		"props": {
-			"colGap": 2,
-			"preserveLayoutOnMobile": true,
-			"preventHorizontalStretch": true,
-			"marginBottom": 4
-		},
-		"children": ["product-list-price#pdp"]
-	},
-	"product-list-price#pdp": {
-		"props": {
-			"blockClass": "productListPrice"
-		}
-	},
-	"product-selling-price#pdp": {
-		"props": {
-			"blockClass": "productSellingPrice"
-		}
-	},
-	"flex-layout.row#list-price-savings": {
-		"children": ["product-selling-price#pdp"],
-		"props": {
-			"blockClass": "list-price-savings",
-			"colGap": 2,
-			"preserveLayoutOnMobile": true,
-			"preventHorizontalStretch": true,
-			"marginBottom": 4
-		}
-	},
+
 	"flex-layout.row#product-installments": {
 		"children": ["product-installments#pdp"],
 		"props": {
-			"blockClass": "product-installments-pdp",
-			"marginBottom": 4
+			"blockClass": "product-installments-pdp"
 		}
 	},
 	"product-installments#pdp": {
 		"props": {
 			"blockClass": "productInstallmentsPdP",
-			"message": "en hasta {installmentsNumber} cuotas {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}"
+			"message": "en hasta {installmentsNumber} cuotas de {installmentValue}"
 		}
 	}
 }
