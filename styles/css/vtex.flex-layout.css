@@ -1,12 +1,7 @@
 /* Gradient Dash */
 .flexRow--header-info-strip::after,
 .flexRow--order-and-total::after {
-	background: linear-gradient(
-		90deg,
-		hsla(0, 0%, 92%, 0),
-		#ebebeb 50%,
-		hsla(0, 0%, 92%, 0)
-	);
+	background: linear-gradient(90deg, hsla(0, 0%, 92%, 0), #ebebeb 50%, hsla(0, 0%, 92%, 0));
 	content: "";
 	display: block;
 	height: 1px;
@@ -50,8 +45,7 @@
 	gap: 1rem;
 }
 
-.flexRowContent--half-banner
-	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--half-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
 }
 
@@ -61,8 +55,7 @@
 		flex-direction: row;
 	}
 
-	.flexRowContent--half-banner
-		:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+	.flexRowContent--half-banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 		width: 50% !important;
 	}
 }
@@ -87,8 +80,7 @@
 	gap: 1rem;
 }
 
-.flexRowContent--search-content
-	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--search-content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: initial !important;
 }
 
@@ -97,8 +89,7 @@
 	grid-template-columns: 220px 1fr;
 }
 
-.flexRowContent--product-summary-list
-	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--product-summary-list :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
 }
 
@@ -127,8 +118,7 @@
 }
 
 /* Product Summary */
-.flexRowContent--add-to-cart-button
-	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--add-to-cart-button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
 }
 
@@ -153,11 +143,9 @@
 .flexRowContent--row-product-right {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
 }
 
-.flexRowContent--row-product-right
-	:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--row-product-right :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	width: 100% !important;
 	padding-right: 0 !important;
 }
@@ -169,11 +157,16 @@
 	gap: 0.5rem;
 }
 
+.flexCol--product-right-price,
+.flexCol--shipping-simulator,
+.flexCol--add-to-cart-buy {
+	margin-bottom: 1rem;
+}
+
 .flexCol--shipping-simulator {
 	background-color: white;
 	border-radius: 0.5rem;
 	padding: 1rem;
-	margin: 0;
 }
 
 .flexRowContent--product-main {

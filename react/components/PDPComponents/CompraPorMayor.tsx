@@ -15,11 +15,11 @@ const BuyButton = ({ idCollection, textoButton }: { idCollection: number; textoB
 	const { productClusters = [] } = product;
 	const existCollection = productClusters.some((item) => Number(item.id) === idCollection);
 
-	if (!idCollection || !textoButton) return <div className={classNames("w-100 flex flex-1 mt-10 mb-10")} />;
-	if (!existCollection) return <div className={classNames("w-100 flex flex-1 mt-10 mb-10")} />;
+	if (!idCollection || !textoButton) return null;
+	if (!existCollection) return null;
 
 	return (
-		<div className={classNames("flex", handles.containerBuyButtonMayo)}>
+		<div className={classNames("flex mt5", handles.containerBuyButtonMayo)}>
 			<Button block href={`/checkout/cart/add?sku=${product.productId}&qty=6&seller=1&redirect=true&sc=1`}>
 				<span>{textoButton}</span>
 				<Icon id="icon-compra-por-mayor" size={20} />
