@@ -1,4 +1,8 @@
 export const getTimeRemaining = (endDate: string | number | Date): TimeRemaining => {
+	if (!endDate || endDate === "") {
+		return { total: 0, days: 0, hours: 0, minutes: 0, seconds: 0 };
+	}
+
 	const total = Date.parse(endDate as string) - Date.parse(new Date().toString());
 
 	const seconds = Math.floor((total / 1000) % 60);

@@ -2,10 +2,10 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { defineMessages } from "react-intl";
 import { useCssHandles } from "vtex.css-handles";
+import { CountDownBox } from "../../utils/_boxCountDown";
 import { getTimeRemaining } from "../../utils/_getTimeRemaining";
-import { CountDownBox } from "./_box";
 
-const CountDown = ({ endDate, isActive }: CountDownProps) => {
+const CountDown = ({ endDate }: CountDownProps) => {
 	const CSS_HANDLES = ["containerCountDown", "picture", "countdown", "boxcountdown", "imageTitleContDown"];
 	const { handles } = useCssHandles(CSS_HANDLES);
 
@@ -26,7 +26,7 @@ const CountDown = ({ endDate, isActive }: CountDownProps) => {
 		return () => clearInterval(interval);
 	}, [endDate]);
 
-	if (!timeRemaining || !isActive || hideCountdown) return null;
+	if (!timeRemaining || hideCountdown) return null;
 
 	return (
 		<div className={classNames(handles.containerCountDown, "flex")}>

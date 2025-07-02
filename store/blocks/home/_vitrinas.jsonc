@@ -17,9 +17,7 @@
 	"vitrina#shelf-01": {
 		"children": ["list-context.product-list#shelf-01"],
 		"props": {
-			"title": "Garanta já 5% OFF",
-			"subTitle": "APLIQUE O CUPOM: LIBEROU5",
-			"backgroundImage": "https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dwe9cf632e/Banner_home/descont-mais-5.png"
+			"title": "Garanta já **5% OFF**"
 		}
 	},
 	"list-context.product-list#shelf-01": {
@@ -94,8 +92,7 @@
 	"vitrina#shelf-03": {
 		"children": ["list-context.product-list#shelf-03"],
 		"props": {
-			"title": "Renueva tus espacios con calidad",
-			"subTitle": "Diseños exclusivos TRAMONTINA"
+			"title": "Renueva tus espacios con **calidad**"
 		}
 	},
 	"list-context.product-list#shelf-03": {

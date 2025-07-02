@@ -27,6 +27,9 @@ declare global {
 		backgroundImage: string;
 		subTitle: string;
 		children: React.ReactNode;
+		isCountDownActive?: boolean;
+		endDate?: string;
+		titleColor?: string;
 	};
 
 	interface PLPListBadgesProps {
@@ -74,7 +77,12 @@ declare global {
 
 	type CountDownProps = {
 		endDate: string;
-		isActive: boolean;
+		title?: string;
+		backgroundImage?: string;
+		subTitle?: string;
+		children?: React.ReactNode;
+		endDate?: string;
+		titleColor?: string;
 	};
 
 	type TimeRemaining = {
@@ -85,7 +93,11 @@ declare global {
 		seconds: number;
 	};
 
-	type CountDownBoxProps = { timeRemaining: number; stringText?: string };
+	type CountDownBoxProps = {
+		timeRemaining: number;
+		stringText?: string;
+		titleColor?: string;
+	};
 
 	interface TimeRemaining {
 		total: number;
