@@ -2,11 +2,28 @@
 	"store.product": {
 		"blocks": [
 			"container#top-banner-product",
+			"flex-layout.row#breadcrumb",
 			"flex-layout.row#product-main",
 			"flex-layout.row#description",
 			"flex-layout.row#favoritos",
 			"container#departament"
 		]
+	},
+	"flex-layout.row#breadcrumb": {
+		"children": ["breadcrumb"],
+		"props": {
+			"blockClass": ["breadcrumb", "breadcrumb-product"],
+			"marginBottom": 5,
+			"marginTop": 5
+		}
+	},
+	"breadcrumb": {
+		"title": "Breadcrumb",
+		"props": {
+			"caretIconSize": 5,
+			"homeIconSize": 12,
+			"showOnMobile": false
+		}
 	},
 	"flex-layout.row#product-main": {
 		"children": [
@@ -35,11 +52,8 @@
 		"props": {
 			"aspectRatio": "1:1",
 			"thumbnailAspectRatio": "1:1",
-			"contentType": "all",
-			"contentOrder": "videos-first",
-			"displayThumbnailsArrows": true,
-			"thumbnailsOrientation": "horizontal",
-			"showPaginationDots": false
+			"displayThumbnailsArrows": false,
+			"thumbnailsOrientation": "horizontal"
 		}
 	},
 	"flex-layout.col#product-main-right": {

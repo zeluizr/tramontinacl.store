@@ -10,8 +10,7 @@
 		"title": "Configuración",
 		"children": ["list-context.image-list#top-banner-producto"],
 		"props": {
-			"blockClass": ["top-banner"],
-			"marginBottom": 5
+			"blockClass": ["top-banner"]
 		}
 	},
 	"list-context.image-list#top-banner-producto": {

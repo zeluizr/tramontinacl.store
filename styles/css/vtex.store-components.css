@@ -50,3 +50,19 @@
 .shippingTableRadioBtn {
 	margin-right: 0.5rem;
 }
+
+.productImagesThumb {
+	display: inline-flex;
+	height: fit-content !important;
+	margin-bottom: 0 !important;
+}
+
+.productImagesThumbActive {
+	border: 1px solid #d1d3d4;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.figure {
+	display: flex;
+}

@@ -628,14 +628,21 @@
 				fill="currentColor"
 			/>
 		</g>
-		<g id="nav-caret--left">
+		<g id="nav-caret--left" transform="translate(-1135 -1021)">
+			<rect width="16" height="16" transform="translate(1135 1021)" fill="#fff" opacity="0" />
 			<path
-				d="M2.80524 8.73746C2.37243 8.34108 2.37243 7.65892 2.80525 7.26254L10.7353 0L13 2.07407L6.52941 8L13 13.9259L10.7353 16L2.80524 8.73746Z"
+				d="M32.415,70.984a1.335,1.335,0,0,0,0,1.887l6.664,6.664a1.334,1.334,0,0,0,1.887-1.887l-5.723-5.723L40.962,66.2a1.334,1.334,0,0,0-1.887-1.887L32.411,70.98Z"
+				transform="translate(1106.309 957.075)"
 				fill="currentColor"
 			/>
 		</g>
-		<g id="nav-caret--right">
-			<path d="M8,16A8,8,0,1,0,0,8,8,8,0,0,0,8,16Z" fill="currentColor" />
+		<g id="nav-caret--right" transform="translate(-1151 -1021)">
+			<rect width="16" height="16" transform="translate(1151 1021)" fill="#fff" opacity="0" />
+			<path
+				d="M72.866,70.984a1.335,1.335,0,0,1,0,1.887L66.2,79.535a1.334,1.334,0,0,1-1.887-1.887l5.723-5.723L64.32,66.2a1.334,1.334,0,0,1,1.887-1.887L72.87,70.98Z"
+				transform="translate(1090.409 957.075)"
+				fill="currentColor"
+			/>
 		</g>
 		<g id="nav-caret--up" transform="translate(-2099 -503)">
 			<rect width="16" height="16" transform="translate(2099 503)" fill="currentColor" opacity="0" />

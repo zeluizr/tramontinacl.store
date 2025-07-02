@@ -7,10 +7,7 @@
 		}
 	},
 	"flex-layout.row#half-banner-01": {
-		"children": [
-			"flex-layout.col#half-banner-left-01",
-			"flex-layout.col#half-banner-right-01"
-		],
+		"children": ["flex-layout.col#half-banner-left-01", "flex-layout.col#half-banner-right-01"],
 		"props": {
 			"blockClass": ["half-banner"],
 			"marginBottom": 5
@@ -40,7 +37,7 @@
 			"link": {
 				"openNewTab": false,
 				"title": "Conheça a Tramontina",
-				"url": "/"
+				"url": "/200?map=productClusterIds"
 			}
 		}
 	},
@@ -54,7 +51,7 @@
 			"link": {
 				"openNewTab": false,
 				"title": "Conheça a Tramontina",
-				"url": "/"
+				"url": "/tramontina?map=b"
 			}
 		}
 	},
@@ -66,10 +63,7 @@
 		}
 	},
 	"flex-layout.row#half-banner-02": {
-		"children": [
-			"flex-layout.col#half-banner-left-02",
-			"flex-layout.col#half-banner-right-02"
-		],
+		"children": ["flex-layout.col#half-banner-left-02", "flex-layout.col#half-banner-right-02"],
 		"props": {
 			"blockClass": ["half-banner"],
 			"marginTop": 5,
