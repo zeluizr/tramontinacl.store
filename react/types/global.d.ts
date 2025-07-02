@@ -75,9 +75,6 @@ declare global {
 	type CountDownProps = {
 		endDate: string;
 		isActive: boolean;
-		title?: string;
-		subtitle?: string;
-		children?: React.ReactNode;
 	};
 
 	type TimeRemaining = {

@@ -3,6 +3,7 @@ import marked from "marked";
 import { useMemo } from "react";
 import { useCssHandles } from "vtex.css-handles";
 import { renderer } from "../../utils/_renderer";
+import CountDown from "../CountDown";
 import SCHEMA from "./_schema";
 import "./styles.css";
 
@@ -46,6 +47,7 @@ function Vitrina({ title, backgroundImage, subTitle, children }: VitrinaProps) {
 						}}
 					/>
 				)}
+				<CountDown endDate="2025-10-10" isActive={true} />
 			</div>
 			<div className={classNames(handles.vitrinaShelfContainer, "mt5")}>{children}</div>
 		</section>

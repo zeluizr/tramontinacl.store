@@ -1,8 +1,9 @@
 import { useCssHandles } from "vtex.css-handles";
-import { formatTime } from "../../utils/_formatTime";
+import { formatTime } from "../../../utils/_formatTime";
+
+const CSS_HANDLES = ["countDownBox", "countDownTimer", "countDownText"];
 
 export const CountDownBox = ({ timeRemaining, stringText }: CountDownBoxProps) => {
-	const CSS_HANDLES = ["countDownBox", "countDownTimer", "countDownText"];
 	const { handles } = useCssHandles(CSS_HANDLES);
 
 	return (

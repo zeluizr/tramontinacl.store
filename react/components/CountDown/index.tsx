@@ -2,10 +2,10 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { defineMessages } from "react-intl";
 import { useCssHandles } from "vtex.css-handles";
-import { getTimeRemaining } from "../../utils/getTimeRemaining";
+import { getTimeRemaining } from "../../utils/_getTimeRemaining";
 import { CountDownBox } from "./_box";
 
-const CountDown = ({ endDate, isActive, title, subtitle, children }: CountDownProps) => {
+const CountDown = ({ endDate, isActive }: CountDownProps) => {
 	const CSS_HANDLES = ["containerCountDown", "picture", "countdown", "boxcountdown", "imageTitleContDown"];
 	const { handles } = useCssHandles(CSS_HANDLES);
 
@@ -31,10 +31,6 @@ const CountDown = ({ endDate, isActive, title, subtitle, children }: CountDownPr
 	return (
 		<div className={classNames(handles.containerCountDown, "flex")}>
 			<div>
-				<div className={classNames(handles.imageTitleContDown)}>
-					{title && <h2>{title}</h2>}
-					{subtitle && <h3>{subtitle}</h3>}
-				</div>
 				<div className={classNames(handles.boxcountdown, "flex")}>
 					<section className={classNames(handles.countdown)}>
 						<div className="">
@@ -49,7 +45,6 @@ const CountDown = ({ endDate, isActive, title, subtitle, children }: CountDownPr
 					</section>
 				</div>
 			</div>
-			<section style={{ width: 500 }}>{children}</section>
 		</div>
 	);
 };
