@@ -19,6 +19,28 @@
 	max-width: 100% !important;
 }
 
+.filterTemplateOverflow {
+	padding-bottom: 0;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar {
+	width: 6px;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 3px;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 3px;
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
 .filter__container {
 	border: none;
 	background-color: #ffffff;
@@ -37,14 +59,6 @@
 .filter {
 	padding-top: 0;
 	padding-bottom: 0;
-}
-
-.filterTemplateOverflow {
-	padding-bottom: 0;
-	height: fit-content;
-	scrollbar-width: none;
-	scrollbar-color: #003087 #e0e0e0;
-	max-height: initial !important;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar {
