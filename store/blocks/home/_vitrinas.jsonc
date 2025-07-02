@@ -7,14 +7,14 @@
 		}
 	},
 	"flex-layout.row#shelf-01": {
-		"children": ["vitrina#shelf-01"],
+		"children": ["vitrina#shelf-first"],
 		"props": {
 			"blockClass": ["shelf"],
 			"marginTop": 8,
 			"marginBottom": 8
 		}
 	},
-	"vitrina#shelf-01": {
+	"vitrina#shelf-first": {
 		"children": ["list-context.product-list#shelf-01"],
 		"props": {
 			"title": "Garanta já **5% OFF**"

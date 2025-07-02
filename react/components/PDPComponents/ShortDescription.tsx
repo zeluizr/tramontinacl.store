@@ -21,7 +21,12 @@ function ProductShortDescription() {
 
 	return (
 		<div className={classNames(handles.ProductShortDescriptionContent)}>
-			<p className="lh-copy black-60 mt0 mb0">{truncateText(product?.description || "", MAX_CHARACTERS)}</p>
+			<div
+				className="lh-copy black-60 mt0 mb0"
+				dangerouslySetInnerHTML={{
+					__html: truncateText(product?.description || "", MAX_CHARACTERS),
+				}}
+			/>
 			<a className={classNames("underline t-small", handles.ProductShortDescriptionLink)} onClick={handleScroll}>
 				Ver más detalles
 			</a>
