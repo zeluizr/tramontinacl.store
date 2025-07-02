@@ -71,6 +71,36 @@ declare global {
 		Width?: number;
 		WeightKg?: number;
 	};
+
+	type CountDownProps = {
+		endDate: string;
+		isActive: boolean;
+		title?: string;
+		subtitle?: string;
+		children?: React.ReactNode;
+	};
+
+	type TimeRemaining = {
+		total: number;
+		days: number;
+		hours: number;
+		minutes: number;
+		seconds: number;
+	};
+
+	type CountDownBoxProps = { timeRemaining: number; stringText?: string };
+
+	interface TimeRemaining {
+		total: number;
+		days: number;
+		hours: number;
+		minutes: number;
+		seconds: number;
+	}
+
+	interface FormatTime {
+		(time: number): string;
+	}
 }
 
 export {};
