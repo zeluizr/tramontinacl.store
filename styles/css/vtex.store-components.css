@@ -55,6 +55,7 @@
 	display: inline-flex;
 	height: fit-content !important;
 	margin-bottom: 0 !important;
+	padding: 0.3rem;
 }
 
 .productImagesThumbActive {
