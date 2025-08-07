@@ -9,7 +9,7 @@
 		}
 	},
 	"flex-layout.col#welcome": {
-		"children": ["rich-text#welcome", "logo#tramontina-logo"],
+		"children": ["rich-text#welcome"],
 		"props": {
 			"blockClass": "welcome",
 			"horizontalAlign": "left",
@@ -82,10 +82,7 @@
 	},
 	// Header mobile
 	"flex-layout.row#top-header-mobile": {
-		"children": [
-			"flex-layout.col#welcome-text-mobile",
-			"flex-layout.col#logo-mobile"
-		],
+		"children": ["flex-layout.col#welcome-text-mobile"],
 		"props": {
 			"blockClass": ["top-header", "top-header-mobile"],
 			"paddingTop": 4,
@@ -96,12 +93,6 @@
 		"children": ["rich-text#welcome"],
 		"props": {
 			"horizontalAlign": "right"
-		}
-	},
-	"flex-layout.col#logo-mobile": {
-		"children": ["logo#tramontina-logo"],
-		"props": {
-			"horizontalAlign": "left"
 		}
 	}
 }
