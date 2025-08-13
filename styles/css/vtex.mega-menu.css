@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
-	background: #003087;
+	background: #0000b7;
 	font-family: Tramontina Textos, sans-serif;
 	font-weight: 500;
 	padding: 1rem;
@@ -67,7 +67,7 @@
 }
 
 .styledLinkContent:hover {
-	color: #003087;
+	color: #0000b7;
 }
 
 .departmentsTitle {
@@ -92,7 +92,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #003087;
+	color: #0000b7;
 }
 
 .seeAllLinkContainer {
