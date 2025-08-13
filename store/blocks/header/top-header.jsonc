@@ -9,7 +9,7 @@
 		}
 	},
 	"flex-layout.col#welcome": {
-		"children": ["rich-text#welcome"],
+		"children": ["rich-text#welcome", "logo#tramontina-logo"],
 		"props": {
 			"blockClass": "welcome",
 			"horizontalAlign": "left",
