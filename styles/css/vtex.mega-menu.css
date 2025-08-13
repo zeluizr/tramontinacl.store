@@ -8,13 +8,13 @@
 	font-family: Tramontina Textos, sans-serif;
 	font-weight: 500;
 	padding: 1rem;
-	color: #000;
+	color: #ffffff;
 	border-radius: 0.5rem;
 }
 
 .triggerContainer::after {
 	content: "Departamentos";
-	color: #000;
+	color: #ffffff;
 	font-size: 1rem;
 	font-weight: 500;
 }
@@ -32,7 +32,7 @@
 	top: -25px;
 	border: none;
 	border-radius: 0.5rem;
-	background-color: #f9f9ef;
+	background-color: #efefef;
 }
 
 .menuContainer {
