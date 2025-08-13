@@ -8,13 +8,13 @@
 	font-family: Tramontina Textos, sans-serif;
 	font-weight: 500;
 	padding: 1rem;
-	color: #fff;
+	color: #000;
 	border-radius: 0.5rem;
 }
 
 .triggerContainer::after {
 	content: "Departamentos";
-	color: #fff;
+	color: #000;
 	font-size: 1rem;
 	font-weight: 500;
 }
