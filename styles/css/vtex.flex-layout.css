@@ -146,7 +146,7 @@
 }
 
 .flexRow--notification-bar {
-	background-color: #f8f8f8;
+	background-color: #f9f9ef;
 }
 
 .flexRow--drawer-header {
@@ -170,12 +170,12 @@
 }
 
 .flexColChild--one-click-buy :global(.vtex-button) {
-	background-color: #45a8f4;
-	border-color: #45a8f4;
+	background-color: #a5c4f3;
+	border-color: #a5c4f3;
 }
 
 .flexCol--product-info-right {
-	background-color: #f5f7f9;
+	background-color: #f9f9ef;
 	border-radius: 0.5rem;
 	padding: 1rem;
 	height: fit-content;
@@ -213,7 +213,7 @@
 	.flexRow--footer-menu,
 	.flexRow--seo-footer,
 	.flexRow--top-rrss {
-		background-color: #f8f8f8;
+		background-color: #f9f9ef;
 	}
 
 	.flexRowContent--top-header
@@ -228,7 +228,7 @@
 	}
 
 	.flexCol--filter-navigator-sidebar {
-		background-color: #f8f8f8;
+		background-color: #f9f9ef;
 		padding: 1rem;
 		border-radius: 0.5rem;
 	}

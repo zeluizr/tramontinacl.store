@@ -33,7 +33,7 @@
 }
 
 :global(.swiper-container-thumbs) :global(.swiper-slide-active) {
-	border: 1px solid #e6e8ea;
+	border: 1px solid #f9f9ef;
 	border-radius: 0.5rem;
 	overflow: hidden;
 }
