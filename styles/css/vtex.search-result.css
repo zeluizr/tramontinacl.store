@@ -36,10 +36,6 @@
 	padding: 1rem;
 }
 
-/* .filterTemplateOverflow {
-	max-height: fit-content !important;
-} */
-
 .filterTemplateOverflow::-webkit-scrollbar {
 	width: 6px;
 }
