@@ -50,7 +50,7 @@
 
 .strong--departamento-title,
 .strong--title {
-	color: #003087;
+	color: #0000b7;
 }
 
 .headingLevel2--slider-banner-title,
@@ -64,7 +64,7 @@
 }
 
 .container--title-blue {
-	background-color: #003087;
+	background-color: #0000b7;
 	color: white;
 	border-radius: 1rem;
 	margin-bottom: 1.5rem;
@@ -78,7 +78,7 @@
 }
 
 .strong--notification {
-	color: #003087;
+	color: #0000b7;
 }
 
 .paragraph--to-top {
@@ -125,7 +125,7 @@
 .headingLevel5--custom-page,
 .headingLevel6--custom-page {
 	margin-bottom: 1rem;
-	color: #003087;
+	color: #0000b7;
 }
 
 .headingLevel2--custom-page {
@@ -150,7 +150,7 @@
 
 .link--custom-page {
 	text-decoration: none;
-	color: #003087;
+	color: #0000b7;
 	font-weight: 500;
 }
 
