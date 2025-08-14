@@ -1,15 +1,4 @@
 {
-	"my-account-link.wishlist-link": {
-		"props": {
-			"label": "Mis Favoritos"
-		}
-	},
-	"my-account-page.wishlist-page": {
-		"props": {
-			"title": "Mis Favoritos"
-		},
-		"children": ["list-context.wishlist"]
-	},
 	"store.wishlist": {
 		"blocks": ["flex-layout.row#top", "list-context.wishlist"]
 	},
