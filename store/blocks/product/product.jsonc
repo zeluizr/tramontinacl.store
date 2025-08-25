@@ -92,6 +92,7 @@
 		"children": [
 			"flex-layout.col#product-right-price",
 			"flex-layout.col#shipping-simulator",
+			"flex-layout.col#cuchillo-personalizado",
 			"flex-layout.col#add-to-cart",
 			"flex-layout.col#add-to-cart-one-click-buy",
 			"product-compra-por-mayor"
@@ -123,6 +124,12 @@
 		"children": ["add-to-cart-button"],
 		"props": {
 			"blockClass": "add-to-cart-buy"
+		}
+	},
+	"flex-layout.col#cuchillo-personalizado": {
+		"children": ["cuchillo-personalizado"],
+		"props": {
+			"blockClass": "cuchillo-personalizado"
 		}
 	},
 	"flex-layout.col#add-to-cart-one-click-buy": {

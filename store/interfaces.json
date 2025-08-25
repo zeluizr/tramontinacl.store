@@ -1,4 +1,7 @@
 {
+	"cuchillo-personalizado": {
+		"component": "_PDPCuchilloPersonalizado"
+	},
 	"container": {
 		"component": "_Container",
 		"composition": "children",
