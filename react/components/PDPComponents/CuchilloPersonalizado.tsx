@@ -8,19 +8,19 @@ import "./style.css";
 
 const CSS_HANDLES = [
 	"containerCuchilloPersonalizado",
-	"modalOverlay",
-	"modalContent",
-	"modalHeader",
-	"modalBody",
-	"modalFooter",
-	"knifeImage",
-	"formGrid",
-	"inputGroup",
-	"sizeButtons",
-	"sizeButton",
-	"sizeButtonActive",
-	"termsSection",
-	"importantNote",
+	"modalOverlayCuchilloPersonalizado",
+	"modalContentCuchilloPersonalizado",
+	"modalHeaderCuchilloPersonalizado",
+	"modalBodyCuchilloPersonalizado",
+	"modalFooterCuchilloPersonalizado",
+	"knifeImageCuchilloPersonalizado",
+	"formGridCuchilloPersonalizado",
+	"inputGroupCuchilloPersonalizado",
+	"sizeButtonsCuchilloPersonalizado",
+	"sizeButtonCuchilloPersonalizado",
+	"sizeButtonActiveCuchilloPersonalizado",
+	"termsSectionCuchilloPersonalizado",
+	"importantNoteCuchilloPersonalizado",
 ] as const;
 
 const CuchilloPersonalizado = () => {
@@ -148,13 +148,22 @@ const CuchilloPersonalizado = () => {
 				<div
 					className={classNames(
 						"fixed top-0 left-0 w-100 h-100 bg-black-50 z-999 flex items-center justify-center",
-						handles.modalOverlay
+						handles.modalOverlayCuchilloPersonalizado
 					)}
 					onClick={handleOverlayClick}
 				>
-					<div className={classNames("bg-white br3 shadow-4 w-95 w-80-ns mw7 relative pa0 ma3", handles.modalContent)}>
-						{/* Header del Modal */}
-						<div className={classNames("pa4 bb b--light-gray flex items-center justify-between", handles.modalHeader)}>
+					<div
+						className={classNames(
+							"bg-white br3 shadow-4 w-95 w-80-ns mw7 relative pa0 ma3",
+							handles.modalContentCuchilloPersonalizado
+						)}
+					>
+						<div
+							className={classNames(
+								"pa4 bb b--light-gray flex items-center justify-between",
+								handles.modalHeaderCuchilloPersonalizado
+							)}
+						>
 							<h2 className="ma0 f3 fw6 dark-gray">Personaliza tu cuchillo</h2>
 							<Button variation="tertiary" size="small" onClick={closeModal} testId="close-modal-btn">
 								×
@@ -162,9 +171,8 @@ const CuchilloPersonalizado = () => {
 						</div>
 
 						{/* Body del Modal */}
-						<div className={classNames("pa4", handles.modalBody)}>
-							{/* Imagen del cuchillo */}
-							<div className={classNames("tc mb4", handles.knifeImage)}>
+						<div className={classNames("pa4", handles.modalBodyCuchilloPersonalizado)}>
+							<div className={classNames("tc mb4", handles.knifeImageCuchilloPersonalizado)}>
 								<div className="relative">
 									{/* Cuchillo SVG */}
 									<svg
@@ -230,9 +238,9 @@ const CuchilloPersonalizado = () => {
 							</div>
 
 							{/* Grid del formulario */}
-							<div className={classNames("grid", handles.formGrid)}>
+							<div className={classNames("grid", handles.formGridCuchilloPersonalizado)}>
 								{/* Texto Principal */}
-								<div className={classNames("mb3", handles.inputGroup)}>
+								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Texto principal</label>
 									<input
 										type="text"
@@ -246,7 +254,7 @@ const CuchilloPersonalizado = () => {
 								</div>
 
 								{/* Texto Secundario */}
-								<div className={classNames("mb3", handles.inputGroup)}>
+								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Texto secundario (opcional)</label>
 									<input
 										type="text"
@@ -260,7 +268,7 @@ const CuchilloPersonalizado = () => {
 								</div>
 
 								{/* Fuente */}
-								<div className={classNames("mb3", handles.inputGroup)}>
+								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Fuente</label>
 									<select
 										value={fonte}
@@ -275,9 +283,9 @@ const CuchilloPersonalizado = () => {
 								</div>
 
 								{/* Tamaño del texto principal */}
-								<div className={classNames("mb3", handles.inputGroup)}>
+								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Tamaño del texto principal</label>
-									<div className={classNames("flex gap2", handles.sizeButtons)}>
+									<div className={classNames("flex gap2", handles.sizeButtonsCuchilloPersonalizado)}>
 										{["P", "M", "G"].map((size) => (
 											<button
 												key={size}
@@ -287,8 +295,8 @@ const CuchilloPersonalizado = () => {
 													tamanhoTextoPrincipal === size
 														? "bg-blue white b--blue"
 														: "bg-white dark-gray b--light-gray hover-bg-light-gray",
-													handles.sizeButton,
-													tamanhoTextoPrincipal === size && handles.sizeButtonActive
+													handles.sizeButtonCuchilloPersonalizado,
+													tamanhoTextoPrincipal === size && handles.sizeButtonActiveCuchilloPersonalizado
 												)}
 											>
 												{size}
@@ -298,9 +306,9 @@ const CuchilloPersonalizado = () => {
 								</div>
 
 								{/* Tamaño del texto secundario */}
-								<div className={classNames("mb3", handles.inputGroup)}>
+								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Tamaño del texto secundario</label>
-									<div className={classNames("flex gap2", handles.sizeButtons)}>
+									<div className={classNames("flex gap2", handles.sizeButtonsCuchilloPersonalizado)}>
 										{["P", "M", "G"].map((size) => (
 											<button
 												key={size}
@@ -310,8 +318,8 @@ const CuchilloPersonalizado = () => {
 													tamanhoTextoSecundario === size
 														? "bg-blue white b--blue"
 														: "bg-white dark-gray b--light-gray hover-bg-light-gray",
-													handles.sizeButton,
-													tamanhoTextoSecundario === size && handles.sizeButtonActive
+													handles.sizeButtonCuchilloPersonalizado,
+													tamanhoTextoSecundario === size && handles.sizeButtonActiveCuchilloPersonalizado
 												)}
 											>
 												{size}
@@ -321,7 +329,7 @@ const CuchilloPersonalizado = () => {
 								</div>
 
 								{/* Nota importante */}
-								<div className={classNames("mb3 pa3 bg-light-yellow br2", handles.importantNote)}>
+								<div className={classNames("mb3 pa3 bg-light-yellow br2", handles.importantNoteCuchilloPersonalizado)}>
 									<h4 className="ma0 mb2 f6 fw6">Importante:</h4>
 									<p className="ma0 f7 lh-copy">
 										Los patrones de color en el grabado pueden variar según el producto y su uso
@@ -330,7 +338,7 @@ const CuchilloPersonalizado = () => {
 							</div>
 
 							{/* Termos e Condições */}
-							<div className={classNames("mt4", handles.termsSection)}>
+							<div className={classNames("mt4", handles.termsSectionCuchilloPersonalizado)}>
 								<h4 className="ma0 mb3 f5 fw6 dark-gray">Términos y Condiciones</h4>
 								<p className="ma0 mb3 f6 lh-copy gray">
 									El producto y la personalización (fuente y texto) serán elegidos únicamente por el consumidor,
@@ -351,7 +359,7 @@ const CuchilloPersonalizado = () => {
 						</div>
 
 						{/* Footer del Modal */}
-						<div className={classNames("pa4 bt b--light-gray", handles.modalFooter)}>
+						<div className={classNames("pa4 bt b--light-gray", handles.modalFooterCuchilloPersonalizado)}>
 							<Button
 								variation="primary"
 								size="large"
