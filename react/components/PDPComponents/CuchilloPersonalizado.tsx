@@ -21,7 +21,7 @@ const CSS_HANDLES = [
 	"sizeButtonActive",
 	"termsSection",
 	"importantNote",
-];
+] as const;
 
 const CuchilloPersonalizado = () => {
 	const { handles } = useCssHandles(CSS_HANDLES);
