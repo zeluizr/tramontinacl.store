@@ -32,10 +32,10 @@ const CuchilloPersonalizado = () => {
 	// Estados para el formulario de personalización
 	const [textoPrincipal, setTextoPrincipal] = useState("");
 	const [textoSecundario, setTextoSecundario] = useState("");
-	const [fonte, setFonte] = useState("");
-	const [tamanhoTextoPrincipal, setTamanhoTextoPrincipal] = useState("P");
-	const [tamanhoTextoSecundario, setTamanhoTextoSecundario] = useState("P");
-	const [aceiteiTermos, setAceiteiTermos] = useState(false);
+	const [fuente, setFuente] = useState("");
+	const [tamanoTextoPrincipal, setTamanoTextoPrincipal] = useState("P");
+	const [tamanoTextoSecundario, setTamanoTextoSecundario] = useState("P");
+	const [acepteTerminos, setAcepteTerminos] = useState(false);
 
 	// Función para cerrar el modal
 	const closeModal = () => {
@@ -43,10 +43,10 @@ const CuchilloPersonalizado = () => {
 		// Reset form
 		setTextoPrincipal("");
 		setTextoSecundario("");
-		setFonte("");
-		setTamanhoTextoPrincipal("P");
-		setTamanhoTextoSecundario("P");
-		setAceiteiTermos(false);
+		setFuente("");
+		setTamanoTextoPrincipal("P");
+		setTamanoTextoSecundario("P");
+		setAcepteTerminos(false);
 	};
 
 	// Effect para cerrar modal con tecla ESC
@@ -136,7 +136,7 @@ const CuchilloPersonalizado = () => {
 						})
 					}
 				>
-					<span className={classNames("c-action-primary")}>Personalizar</span>
+					<span className={classNames("c-action-primary")}>Personaliza gratis</span>
 					<span className={classNames("c-action-primary")}>
 						<Icon id="icon-cuchillo-personalizado" size={20} />
 					</span>
@@ -154,7 +154,7 @@ const CuchilloPersonalizado = () => {
 				>
 					<div
 						className={classNames(
-							"bg-white br3 shadow-4 w-95 w-80-ns mw7 relative pa0 ma3",
+							"bg-white br3 shadow-4 w-95 w-80-ns mw8 relative pa0 ma3",
 							handles.modalContentCuchilloPersonalizado
 						)}
 					>
@@ -211,7 +211,7 @@ const CuchilloPersonalizado = () => {
 													top: "20px",
 													left: "180px",
 													fontSize:
-														tamanhoTextoPrincipal === "P" ? "8px" : tamanhoTextoPrincipal === "M" ? "12px" : "16px",
+														tamanoTextoPrincipal === "P" ? "8px" : tamanoTextoPrincipal === "M" ? "12px" : "16px",
 													color: "#666",
 													fontWeight: "bold",
 												}}
@@ -226,7 +226,7 @@ const CuchilloPersonalizado = () => {
 													top: "35px",
 													left: "180px",
 													fontSize:
-														tamanhoTextoSecundario === "P" ? "6px" : tamanhoTextoSecundario === "M" ? "10px" : "14px",
+														tamanoTextoSecundario === "P" ? "6px" : tamanoTextoSecundario === "M" ? "10px" : "14px",
 													color: "#666",
 												}}
 											>
@@ -271,8 +271,8 @@ const CuchilloPersonalizado = () => {
 								<div className={classNames("mb3", handles.inputGroupCuchilloPersonalizado)}>
 									<label className="db mb2 fw6 dark-gray f6">Fuente</label>
 									<select
-										value={fonte}
-										onChange={(e) => setFonte(e.target.value)}
+										value={fuente}
+										onChange={(e) => setFuente(e.target.value)}
 										className="w-100 pa3 ba b--light-gray br2 f6"
 									>
 										<option value="">Seleccionar</option>
@@ -289,14 +289,14 @@ const CuchilloPersonalizado = () => {
 										{["P", "M", "G"].map((size) => (
 											<button
 												key={size}
-												onClick={() => setTamanhoTextoPrincipal(size)}
+												onClick={() => setTamanoTextoPrincipal(size)}
 												className={classNames(
 													"pa2 ba br2 f6 fw6 pointer",
-													tamanhoTextoPrincipal === size
+													tamanoTextoPrincipal === size
 														? "bg-blue white b--blue"
 														: "bg-white dark-gray b--light-gray hover-bg-light-gray",
 													handles.sizeButtonCuchilloPersonalizado,
-													tamanhoTextoPrincipal === size && handles.sizeButtonActiveCuchilloPersonalizado
+													tamanoTextoPrincipal === size && handles.sizeButtonActiveCuchilloPersonalizado
 												)}
 											>
 												{size}
@@ -312,14 +312,14 @@ const CuchilloPersonalizado = () => {
 										{["P", "M", "G"].map((size) => (
 											<button
 												key={size}
-												onClick={() => setTamanhoTextoSecundario(size)}
+												onClick={() => setTamanoTextoSecundario(size)}
 												className={classNames(
 													"pa2 ba br2 f6 fw6 pointer",
-													tamanhoTextoSecundario === size
+													tamanoTextoSecundario === size
 														? "bg-blue white b--blue"
 														: "bg-white dark-gray b--light-gray hover-bg-light-gray",
 													handles.sizeButtonCuchilloPersonalizado,
-													tamanhoTextoSecundario === size && handles.sizeButtonActiveCuchilloPersonalizado
+													tamanoTextoSecundario === size && handles.sizeButtonActiveCuchilloPersonalizado
 												)}
 											>
 												{size}
@@ -337,23 +337,37 @@ const CuchilloPersonalizado = () => {
 								</div>
 							</div>
 
-							{/* Termos e Condições */}
+							{/* Términos y Condiciones */}
 							<div className={classNames("mt4", handles.termsSectionCuchilloPersonalizado)}>
 								<h4 className="ma0 mb3 f5 fw6 dark-gray">Términos y Condiciones</h4>
-								<p className="ma0 mb3 f6 lh-copy gray">
-									El producto y la personalización (fuente y texto) serán elegidos únicamente por el consumidor,
-									quedando consciente de que no habrá posibilidad de cambio o arrepentimiento por tratarse de un
-									producto personalizado.
-								</p>
+								<div
+									className={classNames("ma0 mb3 t-small lh-copy gray pa2 ba b--light-gray br2", "overflow-y-auto h3")}
+								>
+									<p className="ma0">
+										Términos y Condiciones: El producto y la personalización (fuente y texto) serán elegidos únicamente
+										por el consumidor, quien es consciente de que no habrá posibilidad de cambio o devolución por
+										tratarse de un producto personalizado. El consumidor autoriza a Tramontina a retirar el producto de
+										su embalaje original para realizar la personalización elegida. El embalaje, a su vez, puede resultar
+										dañado. Tras la elección de la personalización, la imagen del producto quedará archivada en nuestro
+										sistema (captura de pantalla), por si surgen dudas por parte del Consumidor sobre la fuente y el
+										texto elegidos. Puede haber una mínima variación en el espaciado y la posición del grabado elegido.
+										El cambio del producto solo se realizará en los términos previstos por la ley, respetando sus plazos
+										y, únicamente en caso de presentar problemas de fabricación y/o materia prima. Los patrones de color
+										del grabado pueden variar según el producto. El consumidor es totalmente responsable del contenido
+										del texto elegido. Sin embargo, Tramontina podrá cancelar inmediatamente el pedido realizado si se
+										constatan frases o expresiones consideradas racistas, prejuiciosas o que den lugar a cualquier tipo
+										de discriminación.
+									</p>
+								</div>
 
 								<label className="flex items-start mb3 pointer">
 									<input
 										type="checkbox"
-										checked={aceiteiTermos}
-										onChange={(e) => setAceiteiTermos(e.target.checked)}
+										checked={acepteTerminos}
+										onChange={(e) => setAcepteTerminos(e.target.checked)}
 										className="mr2 mt1"
 									/>
-									<span className="f6 lh-copy">Leí y estoy consciente de toda la información</span>
+									<span className="f6 lh-copy">He leído y soy consciente de toda la información</span>
 								</label>
 							</div>
 						</div>
@@ -364,15 +378,15 @@ const CuchilloPersonalizado = () => {
 								variation="primary"
 								size="large"
 								block
-								disabled={!aceiteiTermos || !textoPrincipal.trim()}
+								disabled={!acepteTerminos || !textoPrincipal.trim()}
 								onClick={() => {
 									// Lógica para comprar ahora
 									console.log("Personalización:", {
 										textoPrincipal,
 										textoSecundario,
-										fonte,
-										tamanhoTextoPrincipal,
-										tamanhoTextoSecundario,
+										fuente,
+										tamanoTextoPrincipal,
+										tamanoTextoSecundario,
 									});
 									closeModal();
 								}}
